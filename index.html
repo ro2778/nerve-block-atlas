@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Nerve Block Atlas</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body {
+    width: 100%; height: 100%;
+    background: #000; color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* ── Title bar ── */
+.title-bar {
+    display: flex; align-items: center;
+    padding: 6px 12px;
+    background: #111; border-bottom: 1px solid #222;
+    flex-shrink: 0; z-index: 20;
+}
+.menu-btn {
+    width: 32px; height: 32px; border: none;
+    background: none; color: #999; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 6px; margin-right: 8px; flex-shrink: 0;
+    touch-action: manipulation;
+}
+.menu-btn:active { background: #222; }
+.menu-btn svg { width: 20px; height: 20px; }
+.title-bar h1 {
+    font-size: 14px; font-weight: 600; flex: 1;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.title-bar .sub { font-size: 11px; color: #555; font-weight: 400; margin-left: 8px; display: none; }
+
+/* ── Navigation overlay ── */
+.nav-overlay {
+    position: fixed; inset: 0; z-index: 100;
+    background: rgba(0,0,0,0.7);
+    opacity: 0; pointer-events: none;
+    transition: opacity 0.25s ease;
+}
+.nav-overlay.open { opacity: 1; pointer-events: auto; }
+
+.nav-panel {
+    position: absolute; top: 0; left: 0; bottom: 0;
+    width: min(320px, 85vw);
+    background: #111;
+    transform: translateX(-100%);
+    transition: transform 0.25s ease;
+    display: flex; flex-direction: column;
+    overflow: hidden;
+}
+.nav-overlay.open .nav-panel { transform: translateX(0); }
+
+.nav-header {
+    display: flex; align-items: center;
+    padding: 12px 16px;
+    background: #0a0a0a; border-bottom: 1px solid #222;
+    flex-shrink: 0;
+}
+.nav-back {
+    width: 32px; height: 32px; border: none;
+    background: none; color: #888; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 6px; margin-right: 8px; flex-shrink: 0;
+}
+.nav-back:active { background: #222; }
+.nav-back svg { width: 18px; height: 18px; }
+.nav-back.hidden { visibility: hidden; }
+.nav-title {
+    font-size: 15px; font-weight: 600; flex: 1;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+.nav-list {
+    flex: 1; overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.nav-item {
+    display: flex; align-items: center;
+    padding: 14px 16px;
+    border-bottom: 1px solid #1a1a1a;
+    cursor: pointer; transition: background 0.15s;
+    touch-action: manipulation;
+}
+.nav-item:active { background: #1a1a1a; }
+.nav-item.disabled { opacity: 0.35; cursor: default; }
+.nav-item.disabled:active { background: transparent; }
+.nav-item-text {
+    flex: 1; font-size: 15px; color: #ddd;
+}
+.nav-item.disabled .nav-item-text { color: #555; }
+.nav-item-arrow {
+    color: #444; font-size: 18px; margin-left: 8px;
+}
+.nav-item.active-block .nav-item-text { color: #7ab5e8; }
+
+/* ── Main layout ── */
+.main {
+    display: flex; flex-direction: column;
+    flex: 1; overflow: hidden; min-height: 0;
+}
+
+/* ── Icon bar (portrait = horizontal top strip) ── */
+.icon-bar {
+    display: flex; flex-direction: row;
+    align-items: center; justify-content: center;
+    gap: 2px;
+    padding: 4px 8px;
+    background: #0a0a0a;
+    border-bottom: 1px solid #1a1a1a;
+    flex-shrink: 0;
+}
+
+.icon-btn {
+    width: 44px; height: 44px;
+    border-radius: 8px; border: none;
+    background: #1a1a1a; color: #666;
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer; position: relative;
+    transition: all 0.2s;
+    -webkit-user-select: none; user-select: none;
+    touch-action: manipulation;
+    flex-shrink: 0;
+}
+.icon-btn:active { transform: scale(0.92); }
+.icon-btn.active { background: #fff; color: #111; }
+.icon-btn svg { width: 26px; height: 26px; }
+.icon-btn .badge {
+    position: absolute; bottom: 2px; right: 2px;
+    font-size: 9px; font-weight: 700;
+    color: inherit; line-height: 1;
+}
+
+/* ── Content area (image + controls) ── */
+.content {
+    display: flex; flex-direction: column;
+    flex: 1; overflow: hidden; min-height: 0;
+}
+
+/* ── Image area ── */
+.image-wrap {
+    position: relative; flex: 1; min-height: 0;
+    background: #000;
+    display: flex; align-items: center; justify-content: center;
+}
+.image-wrap img.base-img {
+    max-width: 100%; max-height: 100%;
+    width: auto; height: auto;
+    display: block; object-fit: contain;
+}
+.layer-overlay {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    display: flex; align-items: center; justify-content: center;
+    opacity: 0; transition: opacity 0.15s ease;
+    pointer-events: none;
+}
+.layer-overlay.visible { opacity: 1; }
+.layer-overlay img {
+    max-width: 100%; max-height: 100%;
+    width: auto; height: auto; object-fit: contain;
+}
+
+/* ── Controls panel (portrait = bottom) ── */
+.controls {
+    flex-shrink: 0; max-height: 40vh;
+    overflow-y: auto; -webkit-overflow-scrolling: touch;
+    background: #0a0a0a; border-top: 1px solid #222;
+}
+.controls.hidden { display: none; }
+.controls::-webkit-scrollbar { width: 4px; }
+.controls::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
+
+/* Toggle-all / Colour All / Labels button */
+.toggle-all-btn {
+    display: flex; align-items: center; justify-content: center;
+    gap: 6px; width: 100%; padding: 7px 12px;
+    background: #161616; border: none;
+    border-bottom: 1px solid #1a1a1a;
+    color: #bbb; font-size: 11px; font-weight: 700;
+    letter-spacing: 0.8px; text-transform: uppercase;
+    cursor: pointer; touch-action: manipulation;
+}
+.toggle-all-btn.active { color: #7ab5e8; background: #0d1f30; }
+.toggle-all-btn .icon {
+    width: 14px; height: 14px; border-radius: 50%;
+    background: linear-gradient(135deg, #ffd700, #ff4444, #44ccff);
+    opacity: 0.7;
+}
+.toggle-all-btn.active .icon { opacity: 1; }
+
+/* Layer items */
+.layer-item {
+    display: flex; align-items: center;
+    padding: 0 12px; min-height: 34px;
+    border-bottom: 1px solid #111;
+    cursor: pointer; transition: background 0.15s;
+    touch-action: manipulation;
+    -webkit-user-select: none; user-select: none;
+    border-left: 3px solid transparent;
+}
+.layer-item:active { background: rgba(255,255,255,0.05); }
+.layer-item.active { background: rgba(26,58,92,0.25); border-left-color: #2a5a8c; }
+
+.layer-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    margin-right: 10px; flex-shrink: 0;
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+.layer-item.active .layer-dot {
+    transform: scale(1.3);
+    box-shadow: 0 0 6px var(--dot-color, #fff);
+}
+
+.layer-name {
+    flex: 1; font-size: 13px; color: #999;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.layer-item.active .layer-name { color: #e0e0e0; font-weight: 500; }
+
+.toggle-pip {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: #333; margin-left: 8px; flex-shrink: 0;
+    transition: all 0.15s;
+}
+.layer-item.active .toggle-pip { background: #4a9ade; box-shadow: 0 0 4px #4a9ade; }
+
+/* Static view message */
+.static-msg {
+    padding: 16px; text-align: center;
+    color: #555; font-size: 13px; font-style: italic;
+}
+
+/* ══════════════════════════════════════
+   LANDSCAPE
+   ══════════════════════════════════════ */
+@media (orientation: landscape), (min-width: 768px) {
+    .title-bar h1 { font-size: 15px; }
+    .title-bar .sub { display: inline; }
+
+    .main { flex-direction: row; }
+
+    .icon-bar {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 8px 4px; gap: 4px;
+        border-bottom: none;
+        border-right: 1px solid #1a1a1a;
+        width: 54px; overflow-y: auto;
+    }
+    .icon-btn { width: 42px; height: 42px; }
+
+    .content { flex-direction: row; flex: 1; }
+    .image-wrap { flex: 1; }
+    .controls {
+        width: 220px; max-height: none;
+        border-top: none; border-left: 1px solid #222;
+        flex-shrink: 0;
+    }
+}
+
+@media (orientation: landscape) and (min-height: 500px), (min-width: 1024px) {
+    .controls { width: 260px; }
+}
+
+@media (min-width: 1200px) {
+    .icon-bar { width: 60px; }
+    .icon-btn { width: 48px; height: 48px; }
+    .icon-btn svg { width: 30px; height: 30px; }
+    .controls { width: 300px; }
+    .title-bar h1 { font-size: 18px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
+}
+</style>
+</head>
+<body>
+
+<div class="title-bar">
+    <button class="menu-btn" id="menuBtn" title="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+    </button>
+    <h1 id="blockTitle">Nerve Block Atlas</h1>
+    <span class="sub" id="blockSub"></span>
+</div>
+
+<!-- Navigation drawer -->
+<div class="nav-overlay" id="navOverlay">
+    <div class="nav-panel">
+        <div class="nav-header">
+            <button class="nav-back hidden" id="navBack">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="15 18 9 12 15 6"/>
+                </svg>
+            </button>
+            <div class="nav-title" id="navTitle">Main Menu</div>
+        </div>
+        <div class="nav-list" id="navList"></div>
+    </div>
+</div>
+
+<div class="main" id="mainArea">
+    <div class="icon-bar" id="iconBar"></div>
+    <div class="content">
+        <div class="image-wrap" id="imageWrap"></div>
+        <div class="controls" id="controls"></div>
+    </div>
+</div>
+
+<script>
+// ── Block data (only processed blocks) ──
+const BLOCKS = [{"block_id":"brachial_plexus_interscalene","block_name":"Brachial Plexus Interscalene","source_folder":"/sessions/wizardly-hopeful-goodall/mnt/AnSo capture/ScreenCaptures/2","views":[{"name":"Sonoanatomy 1","type":"layers","base":"processed/brachial_plexus_interscalene/sonoanatomy_1/base.webp","layers":[{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_01_colour_all.webp","name":"Colour All","coverage_pct":75.06,"source_image":"capture_0007.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_02_needle_path.webp","name":"Needle Path","coverage_pct":0.35,"source_image":"capture_0008.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_03_la.webp","name":"LA","coverage_pct":2.1,"source_image":"capture_0009.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_04_c5_nerve_root.webp","name":"C5 Nerve Root","coverage_pct":0.4,"source_image":"capture_0010.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_05_c6_nerve_root.webp","name":"C6 Nerve Root","coverage_pct":1.36,"source_image":"capture_0011.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_06_c7_nerve_root.webp","name":"C7 Nerve Root","coverage_pct":0.9,"source_image":"capture_0012.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_07_carotid_artery.webp","name":"Carotid Artery","coverage_pct":1.98,"source_image":"capture_0013.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_08_internal_jugular_vein.webp","name":"Internal Jugular Vein","coverage_pct":6.84,"source_image":"capture_0014.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_09_anterior_scalene.webp","name":"Anterior Scalene","coverage_pct":7.97,"source_image":"capture_0015.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_10_middle_scalene.webp","name":"Middle Scalene","coverage_pct":9.14,"source_image":"capture_0016.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_11_sternocleidomastoid.webp","name":"Sternocleidomastoid","coverage_pct":9.62,"source_image":"capture_0017.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_12_c7_vertebrae.webp","name":"C7 Vertebrae","coverage_pct":14.79,"source_image":"capture_0018.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_13_vertebral_artery.webp","name":"Vertebral Artery","coverage_pct":1.34,"source_image":"capture_0019.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_14_vertebral_vein.webp","name":"Vertebral Vein","coverage_pct":1.4,"source_image":"capture_0020.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_15_phrenic_nerve.webp","name":"Phrenic Nerve","coverage_pct":0.49,"source_image":"capture_0021.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_16_transverse_cervical_artery.webp","name":"Transverse Cervical Artery","coverage_pct":0.23,"source_image":"capture_0022.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_17_vagus_nerve.webp","name":"Vagus Nerve","coverage_pct":0.13,"source_image":"capture_0023.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_18_longus_colli.webp","name":"Longus Colli","coverage_pct":5.94,"source_image":"capture_0024.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_19_platysma.webp","name":"Platysma","coverage_pct":1.17,"source_image":"capture_0025.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_20_omohyoid.webp","name":"Omohyoid","coverage_pct":1.66,"source_image":"capture_0026.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_21_longissimus_cervicis.webp","name":"Longissimus Cervicis","coverage_pct":2.13,"source_image":"capture_0027.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_22_posterior_scalene.webp","name":"Posterior Scalene","coverage_pct":2.23,"source_image":"capture_0028.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_23_cervical_sympathetic_chain.webp","name":"Cervical Sympathetic Chain","coverage_pct":0.59,"source_image":"capture_0029.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_24_thyroid.webp","name":"Thyroid","coverage_pct":3.48,"source_image":"capture_0030.png"}]},{"name":"Sonoanatomy 2","type":"layers","base":"processed/brachial_plexus_interscalene/sonoanatomy_2/base.webp","layers":[{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_01_colour_all.webp","name":"Colour All","coverage_pct":68.36,"source_image":"capture_0032.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_02_needle_path.webp","name":"Needle Path","coverage_pct":0.55,"source_image":"capture_0033.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_03_la.webp","name":"LA","coverage_pct":2.11,"source_image":"capture_0034.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_04_c5_nerve_root.webp","name":"C5 Nerve Root","coverage_pct":0.5,"source_image":"capture_0035.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_05_c6_nerve_root_divided.webp","name":"C6 Nerve Root Divided","coverage_pct":0.87,"source_image":"capture_0036.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_06_c7_nerve_root.webp","name":"C7 Nerve Root","coverage_pct":1.25,"source_image":"capture_0037.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_07_anterior_scalene.webp","name":"Anterior Scalene","coverage_pct":10.26,"source_image":"capture_0038.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_08_middle_scalene.webp","name":"Middle Scalene","coverage_pct":12.85,"source_image":"capture_0039.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_09_carotid_artery.webp","name":"Carotid Artery","coverage_pct":2.68,"source_image":"capture_0040.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_10_internal_jugular_vein.webp","name":"Internal Jugular Vein","coverage_pct":3.77,"source_image":"capture_0041.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_11_c7_transverse_process.webp","name":"C7 Transverse Process","coverage_pct":9.25,"source_image":"capture_0042.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_12_vertebral_artery_and_vein.webp","name":"Vertebral Artery and Vein","coverage_pct":2.81,"source_image":"capture_0043.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_13_phrenic_nerve.webp","name":"Phrenic Nerve","coverage_pct":0.31,"source_image":"capture_0044.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_14_sternocleidomastoid.webp","name":"Sternocleidomastoid","coverage_pct":4.16,"source_image":"capture_0045.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_15_platysma.webp","name":"Platysma","coverage_pct":1.31,"source_image":"capture_0046.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_16_longus_colli.webp","name":"Longus Colli","coverage_pct":6.96,"source_image":"capture_0047.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_17_vagus_nerve.webp","name":"Vagus Nerve","coverage_pct":0.26,"source_image":"capture_0048.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_18_cervical_sympathetics.webp","name":"Cervical Sympathetics","coverage_pct":1.14,"source_image":"capture_0049.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_19_deep_cervical_muscles.webp","name":"Deep Cervical Muscles","coverage_pct":6.69,"source_image":"capture_0050.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_20_levator_scapulae.webp","name":"Levator Scapulae","coverage_pct":2.33,"source_image":"capture_0051.png"}]},{"name":"Sonoanatomy 3","type":"layers","base":"processed/brachial_plexus_interscalene/sonoanatomy_3/base.webp","layers":[{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_01_colour_all.webp","name":"Colour All","coverage_pct":67.86,"source_image":"capture_0053.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_02_needle_path.webp","name":"Needle Path","coverage_pct":0.24,"source_image":"capture_0054.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_03_la.webp","name":"LA","coverage_pct":1.49,"source_image":"capture_0055.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_04_c5_nerve_root.webp","name":"C5 Nerve Root","coverage_pct":0.47,"source_image":"capture_0056.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_05_c6_nerve_root.webp","name":"C6 Nerve Root","coverage_pct":0.67,"source_image":"capture_0057.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_06_c7_nerve_root.webp","name":"C7 Nerve Root","coverage_pct":0.82,"source_image":"capture_0058.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_07_anterior_scalene.webp","name":"Anterior Scalene","coverage_pct":8.7,"source_image":"capture_0059.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_08_middle_scalene.webp","name":"Middle Scalene","coverage_pct":6.84,"source_image":"capture_0060.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_09_carotid_artery.webp","name":"Carotid Artery","coverage_pct":2.29,"source_image":"capture_0061.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_10_internal_jugular_vein.webp","name":"Internal Jugular Vein","coverage_pct":2.38,"source_image":"capture_0062.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_11_c7_vertebrae.webp","name":"C7 Vertebrae","coverage_pct":21.64,"source_image":"capture_0063.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_12_vertebral_artery_and_vein.webp","name":"Vertebral Artery and Vein","coverage_pct":1.8,"source_image":"capture_0064.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_13_phrenic_nerve.webp","name":"Phrenic Nerve","coverage_pct":0.35,"source_image":"capture_0065.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_14_sternocleidomastoid.webp","name":"Sternocleidomastoid","coverage_pct":10.92,"source_image":"capture_0066.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_15_platysma.webp","name":"Platysma","coverage_pct":0.88,"source_image":"capture_0067.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_16_longus_colli.webp","name":"Longus Colli","coverage_pct":6.09,"source_image":"capture_0068.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_17_vagus_nerve.webp","name":"Vagus Nerve","coverage_pct":0.13,"source_image":"capture_0069.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_18_longissimus_cervicis.webp","name":"Longissimus Cervicis","coverage_pct":3.71,"source_image":"capture_0070.png"}]},{"name":"Diagram","type":"layers","base":"processed/brachial_plexus_interscalene/diagram/base.webp","layers":[{"filename":"processed/brachial_plexus_interscalene/diagram/layer_01_labels.webp","name":"Labels","coverage_pct":5.25,"source_image":"capture_0072.png"}]},{"name":"Probe Position","type":"static","base":"processed/brachial_plexus_interscalene/probe_position/base.webp","layers":[]}]},{"block_id":"ll_cutaneous_sensory","block_name":"Lower Limb Cutaneous Sensory Innervation","source_folder":"ScreenCaptures/1","views":[{"name":"Reference","type":"static","base":"processed/ll_cutaneous_sensory/reference/base.webp","layers":[]}]},{"block_id":"ll_muscular_sensory","block_name":"Lower Limb Muscular Sensory Innervation","source_folder":"ScreenCaptures/1","views":[{"name":"Reference","type":"static","base":"processed/ll_muscular_sensory/reference/base.webp","layers":[]}]},{"block_id":"ll_osseous_sensory","block_name":"Lower Limb Osseous Sensory Innervation","source_folder":"ScreenCaptures/1","views":[{"name":"Reference","type":"static","base":"processed/ll_osseous_sensory/reference/base.webp","layers":[]}]},{"block_id":"ul_cutaneous_sensory","block_name":"Upper Limb Cutaneous Sensory Innervation","source_folder":"ScreenCaptures/1","views":[{"name":"Reference","type":"static","base":"processed/ul_cutaneous_sensory/reference/base.webp","layers":[]}]},{"block_id":"ul_muscular_sensory","block_name":"Upper Limb Muscular Sensory Innervation","source_folder":"ScreenCaptures/1","views":[{"name":"Reference","type":"static","base":"processed/ul_muscular_sensory/reference/base.webp","layers":[]}]},{"block_id":"ul_osseous_sensory","block_name":"Upper Limb Osseous Sensory Innervation","source_folder":"ScreenCaptures/1","views":[{"name":"Reference","type":"static","base":"processed/ul_osseous_sensory/reference/base.webp","layers":[]}]}];
+
+// ── Menu structure ──
+const MENU = [
+    { name: "Upper and Lower Limb Sensory Innervation", items: [
+        { name: "Upper Limb Cutaneous Sensory Innervation", block_id: "ul_cutaneous_sensory" },
+        { name: "Upper Limb Muscular Sensory Innervation", block_id: "ul_muscular_sensory" },
+        { name: "Upper Limb Osseous Sensory Innervation", block_id: "ul_osseous_sensory" },
+        { name: "Lower Limb Cutaneous Sensory Innervation", block_id: "ll_cutaneous_sensory" },
+        { name: "Lower Limb Muscular Sensory Innervation", block_id: "ll_muscular_sensory" },
+        { name: "Lower Limb Osseous Sensory Innervation", block_id: "ll_osseous_sensory" }
+    ]},
+    { name: "Upper Limb Nerves", items: [
+        { name: "Brachial Plexus Interscalene", block_id: "brachial_plexus_interscalene" },
+        { name: "Brachial Plexus Supraclavicular", block_id: null },
+        { name: "Brachial Plexus Costoclavicular", block_id: null },
+        { name: "Brachial Plexus Infraclavicular", block_id: null },
+        { name: "Brachial Plexus Axillary", block_id: null },
+        { name: "Suprascapular Nerve Posterior", block_id: null },
+        { name: "Suprascapular Nerve Anterior", block_id: null },
+        { name: "Axillary Nerve", block_id: null },
+        { name: "Median & Ulnar Nerves Mid Arm", block_id: null },
+        { name: "Radial Nerve Distal Arm", block_id: null },
+        { name: "Medial Cutaneous Nerve of Forearm", block_id: null },
+        { name: "Lateral Cutaneous Nerve of Forearm", block_id: null },
+        { name: "Posterior Cutaneous Nerve of Forearm", block_id: null },
+        { name: "Median Nerve Antecubital Fossa", block_id: null },
+        { name: "Radial Nerve Antecubital Fossa", block_id: null },
+        { name: "Radial Nerve Superficial Branch", block_id: null },
+        { name: "Ulnar Nerve Forearm", block_id: null },
+        { name: "Median Nerve Forearm", block_id: null }
+    ]},
+    { name: "Lower Limb Nerves", items: [] },
+    { name: "Head, Neck and Trunk Nerves", items: [] },
+    { name: "Vascular Access", items: [] },
+    { name: "Airway and Gastric Antrum", items: [] },
+    { name: "Lumbar Spine", items: [] },
+    { name: "Transthoracic Echo", items: [] }
+];
+
+// Index processed blocks for quick lookup
+const blockIndex = {};
+BLOCKS.forEach((b, i) => { blockIndex[b.block_id] = i; });
+
+// ── SVG icons ──
+const VIEW_ICONS = {
+    'sonoanatomy': `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2L8 8h8l-4-6z"/><rect x="9" y="8" width="6" height="10" rx="1"/>
+        <path d="M9 18l-1 4h8l-1-4"/>
+        <path d="M6 7c-2 2-3 5-3 8" opacity="0.5"/><path d="M4 5c-3 3-4.5 7-4.5 11" opacity="0.3"/>
+        <path d="M18 7c2 2 3 5 3 8" opacity="0.5"/><path d="M20 5c3 3 4.5 7 4.5 11" opacity="0.3"/>
+    </svg>`,
+    'diagram': `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="3" width="20" height="15" rx="1"/><path d="M6 13l4-4 3 3 5-5"/>
+        <line x1="12" y1="18" x2="12" y2="22"/><line x1="8" y1="22" x2="16" y2="22"/>
+    </svg>`,
+    'probe_position': `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="4" r="2.5"/><path d="M12 7v6"/>
+        <path d="M8 10l4 1 4-1"/><path d="M12 13l-4 8"/><path d="M12 13l4 8"/>
+    </svg>`,
+    'reference': `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="3" width="18" height="18" rx="2"/>
+        <circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/>
+    </svg>`
+};
+
+function getViewIcon(name) {
+    const n = name.toLowerCase();
+    if (n.includes('sono')) return VIEW_ICONS['sonoanatomy'];
+    if (n.includes('diagram')) return VIEW_ICONS['diagram'];
+    if (n.includes('probe')) return VIEW_ICONS['probe_position'];
+    if (n.includes('reference')) return VIEW_ICONS['reference'];
+    return VIEW_ICONS['sonoanatomy'];
+}
+function getViewBadge(name) {
+    const m = name.match(/(\d+)$/);
+    return m ? m[1] : '';
+}
+
+// ── Dot colours ──
+function dotColor(name) {
+    const n = name.toLowerCase();
+    if (n.includes('colour all')) return 'linear-gradient(135deg, #ffd700, #ff4444, #44ccff)';
+    if (n.includes('needle') || n === 'labels') return '#ffffff';
+    if (n === 'la') return '#44dd88';
+    if (n.includes('nerve') || n.includes('sympathe') || n.includes('vagus') || n.includes('phrenic'))
+        return '#ffd700';
+    if (n.includes('artery') || n.includes('scalene') || n.includes('muscle') || n.includes('longus')
+        || n.includes('longissimus') || n.includes('scapulae') || n.includes('sternocleid')
+        || n.includes('platysma') || n.includes('omohyoid') || n.includes('thyroid')
+        || n.includes('cervical'))
+        return '#ff4444';
+    if (n.includes('vein') || n.includes('jugular')) return '#44aaff';
+    if (n.includes('vertebra') || n.includes('transverse')) return '#999';
+    return '#ff8844';
+}
+
+// Determine the "primary" first layer that the toggle-all button replaces
+// Returns { skipIndex: number, buttonLabel: string } or null if no match
+function getFirstLayerInfo(view) {
+    if (!view.layers || view.layers.length === 0 || view.type === 'static') return null;
+    const firstName = view.layers[0].name.toLowerCase();
+    if (firstName === 'colour all') return { skipIndex: 0, buttonLabel: 'Colour All' };
+    if (firstName === 'labels') return { skipIndex: 0, buttonLabel: 'Labels' };
+    return null; // No duplicate to skip
+}
+
+// ── State ──
+let blockIdx = 0;
+let viewIdx = 0;
+const layerOn = {};
+
+// ── Navigation state ──
+let navLevel = 'main'; // 'main' or 'sub'
+let navCatIdx = -1;
+
+function openNav() {
+    navLevel = 'main';
+    renderNav();
+    document.getElementById('navOverlay').classList.add('open');
+}
+function closeNav() {
+    document.getElementById('navOverlay').classList.remove('open');
+}
+function renderNav() {
+    const list = document.getElementById('navList');
+    const title = document.getElementById('navTitle');
+    const back = document.getElementById('navBack');
+    list.innerHTML = '';
+
+    if (navLevel === 'main') {
+        title.textContent = 'Main Menu';
+        back.classList.add('hidden');
+        MENU.forEach((cat, ci) => {
+            const row = document.createElement('div');
+            row.className = 'nav-item';
+            if (cat.items.length === 0) row.classList.add('disabled');
+            row.innerHTML = `<span class="nav-item-text">${cat.name}</span><span class="nav-item-arrow">\u203A</span>`;
+            if (cat.items.length > 0) {
+                row.onclick = () => { navCatIdx = ci; navLevel = 'sub'; renderNav(); };
+            }
+            list.appendChild(row);
+        });
+    } else {
+        const cat = MENU[navCatIdx];
+        title.textContent = cat.name;
+        back.classList.remove('hidden');
+        back.onclick = () => { navLevel = 'main'; renderNav(); };
+        cat.items.forEach(item => {
+            const row = document.createElement('div');
+            const isAvailable = item.block_id && (item.block_id in blockIndex);
+            const isCurrent = isAvailable && blockIndex[item.block_id] === blockIdx;
+            row.className = 'nav-item' + (isAvailable ? '' : ' disabled') + (isCurrent ? ' active-block' : '');
+            row.innerHTML = `<span class="nav-item-text">${item.name}</span>` +
+                (isAvailable ? `<span class="nav-item-arrow">\u203A</span>` : '');
+            if (isAvailable) {
+                row.onclick = () => { loadBlock(blockIndex[item.block_id]); closeNav(); };
+            }
+            list.appendChild(row);
+        });
+    }
+}
+
+// Hamburger menu
+document.getElementById('menuBtn').onclick = openNav;
+document.getElementById('navOverlay').onclick = (e) => {
+    if (e.target === document.getElementById('navOverlay')) closeNav();
+};
+
+// ── Load block ──
+function loadBlock(idx) {
+    blockIdx = idx;
+    viewIdx = 0;
+    Object.keys(layerOn).forEach(k => delete layerOn[k]);
+    const block = BLOCKS[blockIdx];
+    document.getElementById('blockTitle').textContent = block.block_name || 'Nerve Block Atlas';
+    document.getElementById('blockSub').textContent = 'Nerve Block Atlas';
+    renderIcons();
+    switchView(0);
+}
+
+// ── Init ──
+function init() {
+    loadBlock(0);
+}
+
+// ── Icon bar ──
+function renderIcons() {
+    const el = document.getElementById('iconBar');
+    el.innerHTML = '';
+    const views = BLOCKS[blockIdx].views;
+    views.forEach((v, i) => {
+        const btn = document.createElement('button');
+        btn.className = 'icon-btn' + (i === viewIdx ? ' active' : '');
+        btn.title = v.name;
+        btn.innerHTML = getViewIcon(v.name);
+        const badge = getViewBadge(v.name);
+        if (badge) {
+            const b = document.createElement('span');
+            b.className = 'badge';
+            b.textContent = badge;
+            btn.appendChild(b);
+        }
+        btn.onclick = () => switchView(i);
+        el.appendChild(btn);
+    });
+}
+
+// ── Switch view ──
+function switchView(i) {
+    viewIdx = i;
+    Object.keys(layerOn).forEach(k => delete layerOn[k]);
+    renderIcons();
+    renderImage();
+    renderControls();
+}
+
+// ── Render image + overlays ──
+function renderImage() {
+    const wrap = document.getElementById('imageWrap');
+    const view = BLOCKS[blockIdx].views[viewIdx];
+    wrap.innerHTML = '';
+
+    const base = document.createElement('img');
+    base.className = 'base-img';
+    base.src = view.base;
+    base.alt = view.name;
+    wrap.appendChild(base);
+
+    if (view.type !== 'static' && view.layers) {
+        view.layers.forEach((layer, li) => {
+            const div = document.createElement('div');
+            div.className = 'layer-overlay';
+            div.id = 'lo-' + li;
+            const img = document.createElement('img');
+            img.src = layer.filename;
+            img.alt = layer.name;
+            img.loading = 'lazy';
+            div.appendChild(img);
+            wrap.appendChild(div);
+        });
+    }
+}
+
+// ── Render controls ──
+function renderControls() {
+    const el = document.getElementById('controls');
+    const view = BLOCKS[blockIdx].views[viewIdx];
+    el.innerHTML = '';
+
+    if (view.type === 'static' || !view.layers || view.layers.length === 0) {
+        el.classList.add('hidden');
+        return;
+    }
+    el.classList.remove('hidden');
+
+    const info = getFirstLayerInfo(view);
+
+    // Toggle-all / Colour All / Labels button
+    const allBtn = document.createElement('button');
+    allBtn.className = 'toggle-all-btn';
+    const btnLabel = info ? info.buttonLabel : 'Show All';
+    allBtn.innerHTML = '<span class="icon"></span> ' + btnLabel;
+    allBtn.onclick = toggleAll;
+    allBtn.id = 'toggleAllBtn';
+    el.appendChild(allBtn);
+
+    // Layer list (skip the first if it's the duplicate)
+    view.layers.forEach((layer, li) => {
+        if (info && li === info.skipIndex) return; // skip duplicate
+
+        const row = document.createElement('div');
+        row.className = 'layer-item';
+        row.id = 'ctrl-' + li;
+
+        const dot = document.createElement('div');
+        dot.className = 'layer-dot';
+        const c = dotColor(layer.name);
+        dot.style.setProperty('--dot-color', c);
+        dot.style.background = c;
+        row.appendChild(dot);
+
+        const name = document.createElement('div');
+        name.className = 'layer-name';
+        name.textContent = layer.name;
+        row.appendChild(name);
+
+        const pip = document.createElement('div');
+        pip.className = 'toggle-pip';
+        row.appendChild(pip);
+
+        row.onclick = () => toggleLayer(li);
+        el.appendChild(row);
+    });
+}
+
+// ── Toggle layer ──
+function toggleLayer(li) {
+    layerOn[li] = !layerOn[li];
+    syncUI();
+}
+
+// ── Toggle all ──
+function toggleAll() {
+    const view = BLOCKS[blockIdx].views[viewIdx];
+    const count = view.layers ? view.layers.length : 0;
+    const allOn = Object.keys(layerOn).filter(k => layerOn[k]).length === count;
+    for (let i = 0; i < count; i++) layerOn[i] = !allOn;
+    syncUI();
+}
+
+// ── Sync UI state ──
+function syncUI() {
+    const view = BLOCKS[blockIdx].views[viewIdx];
+    if (!view.layers) return;
+    const count = view.layers.length;
+    const info = getFirstLayerInfo(view);
+    let onCount = 0;
+
+    view.layers.forEach((_, li) => {
+        const on = !!layerOn[li];
+        if (on) onCount++;
+        const overlay = document.getElementById('lo-' + li);
+        if (overlay) overlay.classList.toggle('visible', on);
+        const ctrl = document.getElementById('ctrl-' + li);
+        if (ctrl) ctrl.classList.toggle('active', on);
+    });
+
+    const allBtn = document.getElementById('toggleAllBtn');
+    if (allBtn) {
+        const allOn = onCount === count;
+        allBtn.classList.toggle('active', allOn);
+        const btnLabel = info ? info.buttonLabel : (allOn ? 'Hide All' : 'Show All');
+        allBtn.innerHTML = '<span class="icon"></span> ' + btnLabel;
+    }
+}
+
+init();
+</script>
+</body>
+</html>

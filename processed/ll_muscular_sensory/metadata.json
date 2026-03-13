@@ -1,0 +1,13 @@
+{
+  "block_id": "ll_muscular_sensory",
+  "block_name": "Lower Limb Muscular Sensory Innervation",
+  "source_folder": "ScreenCaptures/1",
+  "views": [
+    {
+      "name": "Reference",
+      "type": "static",
+      "base": "base.webp",
+      "layers": []
+    }
+  ]
+}

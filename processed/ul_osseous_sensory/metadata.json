@@ -1,0 +1,13 @@
+{
+  "block_id": "ul_osseous_sensory",
+  "block_name": "Upper Limb Osseous Sensory Innervation",
+  "source_folder": "ScreenCaptures/1",
+  "views": [
+    {
+      "name": "Reference",
+      "type": "static",
+      "base": "base.webp",
+      "layers": []
+    }
+  ]
+}

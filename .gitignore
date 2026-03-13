@@ -1,0 +1,15 @@
+# Raw screenshots (too large for git)
+ScreenCaptures/
+
+# Temporary/preview files
+*.png
+!processed/**/*.png
+crop_*.png
+test_*.png
+
+# macOS
+.DS_Store
+
+# Old files
+handover_iphone_screenshot_project.md
+__pycache__/
