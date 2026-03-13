@@ -156,11 +156,22 @@ body {
     position: relative; flex: 1; min-height: 0;
     background: #000;
     display: flex; align-items: center; justify-content: center;
+    overflow: hidden;
 }
 .image-wrap img.base-img {
     max-width: 100%; max-height: 100%;
     width: auto; height: auto;
     display: block; object-fit: contain;
+}
+/* For static/reference views, let the image fill width and scroll vertically if needed */
+.image-wrap.static-view {
+    align-items: flex-start;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.image-wrap.static-view img.base-img {
+    width: 100%; max-height: none;
+    height: auto;
 }
 .layer-overlay {
     position: absolute; top: 0; left: 0; width: 100%; height: 100%;
@@ -265,6 +276,14 @@ body {
 
     .content { flex-direction: row; flex: 1; }
     .image-wrap { flex: 1; }
+    /* In landscape, reference images should contain within the panel, not fill width */
+    .image-wrap.static-view {
+        align-items: center;
+        overflow-y: hidden;
+    }
+    .image-wrap.static-view img.base-img {
+        width: auto; max-width: 100%; max-height: 100%;
+    }
     .controls {
         width: 220px; max-height: none;
         border-top: none; border-left: 1px solid #222;
@@ -519,6 +538,12 @@ function renderIcons() {
     const el = document.getElementById('iconBar');
     el.innerHTML = '';
     const views = BLOCKS[blockIdx].views;
+    // Hide icon bar if only one view (e.g. single reference image)
+    if (views.length <= 1) {
+        el.style.display = 'none';
+    } else {
+        el.style.display = '';
+    }
     views.forEach((v, i) => {
         const btn = document.createElement('button');
         btn.className = 'icon-btn' + (i === viewIdx ? ' active' : '');
@@ -550,6 +575,10 @@ function renderImage() {
     const wrap = document.getElementById('imageWrap');
     const view = BLOCKS[blockIdx].views[viewIdx];
     wrap.innerHTML = '';
+
+    // Add static-view class for reference images (fills width, scrollable)
+    const isStatic = view.type === 'static' || (!view.layers || view.layers.length === 0);
+    wrap.classList.toggle('static-view', isStatic);
 
     const base = document.createElement('img');
     base.className = 'base-img';
