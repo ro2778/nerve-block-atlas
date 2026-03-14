@@ -48,6 +48,22 @@ body {
 }
 .title-bar .sub { font-size: 11px; color: #555; font-weight: 400; margin-left: 8px; display: none; }
 
+.title-bar-buttons {
+    display: flex; align-items: center; gap: 4px; flex-shrink: 0;
+}
+.title-bar-btn {
+    width: 32px; height: 32px; border: none;
+    background: none; color: #999; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 6px; flex-shrink: 0;
+    touch-action: manipulation;
+    transition: color 0.2s;
+}
+.title-bar-btn:active { background: #222; }
+.title-bar-btn.active { color: #7ab5e8; }
+.title-bar-btn svg { width: 20px; height: 20px; }
+.title-bar-btn.hidden { display: none; }
+
 /* ── Navigation overlay ── */
 .nav-overlay {
     position: fixed; inset: 0; z-index: 100;
@@ -110,6 +126,29 @@ body {
     color: #444; font-size: 18px; margin-left: 8px;
 }
 .nav-item.active-block .nav-item-text { color: #7ab5e8; }
+.nav-section-label {
+    font-size: 11px; font-weight: 700; color: #555;
+    text-transform: uppercase; letter-spacing: 0.5px;
+    padding: 12px 16px 8px; margin-top: 4px;
+    border-bottom: 1px solid #1a1a1a;
+}
+.nav-item-star {
+    width: 24px; height: 24px; border: none;
+    background: none; color: #666; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    margin-left: 8px; flex-shrink: 0; padding: 0;
+    transition: color 0.2s;
+    touch-action: manipulation;
+}
+.nav-item-star:active { background: rgba(255,255,255,0.05); }
+.nav-item-star.filled { color: #ffd700; }
+.nav-item-star svg { width: 16px; height: 16px; }
+
+.nav-item-no-favs {
+    padding: 14px 16px; text-align: center;
+    font-size: 13px; color: #555; font-style: italic;
+    border-bottom: 1px solid #1a1a1a;
+}
 
 /* ── Main layout ── */
 .main {
@@ -147,6 +186,7 @@ body {
     font-size: 9px; font-weight: 700;
     color: inherit; line-height: 1;
 }
+.icon-btn.hidden { display: none; }
 
 /* ── Content area (image + controls) ── */
 .content {
@@ -165,6 +205,9 @@ body {
     max-width: 100%; max-height: 100%;
     width: auto; height: auto;
     display: block; object-fit: contain;
+}
+.image-wrap.sono-view img.base-img {
+    object-fit: cover;
 }
 /* Static/reference views use same contain fit as other views */
 .layer-overlay {
@@ -249,6 +292,111 @@ body {
     color: #555; font-size: 13px; font-style: italic;
 }
 
+/* ── Notes panel ── */
+.notes-panel {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    background: #0a0a0a; overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    display: none;
+}
+.notes-panel.visible { display: block; }
+.notes-panel::-webkit-scrollbar { width: 4px; }
+.notes-panel::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
+.notes-section {
+    padding: 16px; border-bottom: 1px solid #1a1a1a;
+}
+.notes-section-title {
+    font-size: 12px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.5px; margin-bottom: 8px; padding-bottom: 8px;
+    border-bottom: 2px solid;
+}
+.notes-section-title.indication { border-color: #ddd; color: #ddd; }
+.notes-section-title.positioning { border-color: #44aaff; color: #44aaff; }
+.notes-section-title.volume { border-color: #44aaff; color: #44aaff; }
+.notes-section-title.side-effects { border-color: #ff4444; color: #ff4444; }
+.notes-section-title.complications { border-color: #ff4444; color: #ff4444; }
+.notes-section-text {
+    font-size: 13px; color: #999; line-height: 1.5;
+}
+.notes-unavailable {
+    padding: 16px; text-align: center;
+    font-size: 13px; color: #555; font-style: italic;
+}
+
+/* ── Innervation grid ── */
+.innervation-grid {
+    display: grid; grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px; padding: 16px;
+    overflow-y: auto; -webkit-overflow-scrolling: touch;
+}
+.innervation-item {
+    aspect-ratio: 1;
+    background: #1a1a1a; border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    text-align: center; padding: 12px;
+    border: 1px solid #222;
+}
+.innervation-item.placeholder {
+    color: #666; font-size: 12px;
+}
+.innervation-placeholder {
+    padding: 16px; text-align: center;
+    font-size: 13px; color: #555; font-style: italic;
+}
+.innervation-related {
+    flex-shrink: 0; max-height: 40vh;
+    overflow-y: auto; -webkit-overflow-scrolling: touch;
+    background: #0a0a0a; border-top: 1px solid #222;
+}
+.innervation-related-label {
+    padding: 12px 16px;
+    background: #161616; border-bottom: 1px solid #1a1a1a;
+    font-size: 11px; font-weight: 700; color: #bbb;
+    letter-spacing: 0.8px; text-transform: uppercase;
+}
+.innervation-related-item {
+    padding: 12px 16px; border-bottom: 1px solid #1a1a1a;
+    font-size: 13px; color: #ddd; cursor: pointer;
+    transition: background 0.15s;
+}
+.innervation-related-item:active { background: rgba(255,255,255,0.05); }
+
+/* ── Search UI ── */
+.search-panel {
+    display: flex; flex-direction: column;
+    height: 100%;
+}
+.search-input-wrap {
+    padding: 16px; border-bottom: 1px solid #1a1a1a;
+    flex-shrink: 0;
+}
+.search-input-wrap input {
+    width: 100%; padding: 10px 12px;
+    background: #161616; border: 1px solid #222;
+    color: #ddd; font-size: 14px; border-radius: 6px;
+    font-family: inherit;
+}
+.search-input-wrap input::placeholder { color: #666; }
+.search-results {
+    flex: 1; overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.search-results::-webkit-scrollbar { width: 4px; }
+.search-results::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
+.search-result-item {
+    padding: 12px 16px; border-bottom: 1px solid #1a1a1a;
+    cursor: pointer; transition: background 0.15s;
+    touch-action: manipulation;
+}
+.search-result-item:active { background: rgba(255,255,255,0.05); }
+.search-result-title {
+    font-size: 14px; color: #ddd; font-weight: 500;
+    margin-bottom: 4px;
+}
+.search-result-indication {
+    font-size: 12px; color: #999;
+}
+
 /* ══════════════════════════════════════
    LANDSCAPE
    ══════════════════════════════════════ */
@@ -270,6 +418,9 @@ body {
 
     .content { flex-direction: row; flex: 1; }
     .image-wrap { flex: 1; }
+    .image-wrap.sono-view img.base-img {
+        transform: scale(1.05);
+    }
     .controls {
         width: 220px; max-height: none;
         border-top: none; border-left: 1px solid #222;
@@ -306,6 +457,20 @@ body {
     </button>
     <h1 id="blockTitle">Nerve Block Atlas</h1>
     <span class="sub" id="blockSub"></span>
+    <div class="title-bar-buttons">
+        <button class="title-bar-btn hidden" id="favBtn" title="Add to favourites">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 10.26 24 10.5 18 16.9 20.29 25.5 12 20.73 3.71 25.5 6 16.9 0 10.5 8.91 10.26 12 2"/>
+            </svg>
+        </button>
+        <button class="title-bar-btn hidden" id="mirrorBtn" title="Mirror">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="3" x2="12" y2="21"/>
+                <polyline points="2 12 6 8 6 16 2 12"/>
+                <polyline points="22 12 18 8 18 16 22 12"/>
+            </svg>
+        </button>
+    </div>
 </div>
 
 <!-- Navigation drawer -->
@@ -333,10 +498,11 @@ body {
 
 <script>
 // ── Block data (only processed blocks) ──
-const BLOCKS = [{"block_id":"brachial_plexus_interscalene","block_name":"Brachial Plexus Interscalene","source_folder":"/sessions/wizardly-hopeful-goodall/mnt/AnSo capture/ScreenCaptures/2","views":[{"name":"Sonoanatomy 1","type":"layers","base":"processed/brachial_plexus_interscalene/sonoanatomy_1/base.webp","layers":[{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_01_colour_all.webp","name":"Colour All","coverage_pct":75.06,"source_image":"capture_0007.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_02_needle_path.webp","name":"Needle Path","coverage_pct":0.35,"source_image":"capture_0008.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_03_la.webp","name":"LA","coverage_pct":2.1,"source_image":"capture_0009.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_04_c5_nerve_root.webp","name":"C5 Nerve Root","coverage_pct":0.4,"source_image":"capture_0010.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_05_c6_nerve_root.webp","name":"C6 Nerve Root","coverage_pct":1.36,"source_image":"capture_0011.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_06_c7_nerve_root.webp","name":"C7 Nerve Root","coverage_pct":0.9,"source_image":"capture_0012.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_07_carotid_artery.webp","name":"Carotid Artery","coverage_pct":1.98,"source_image":"capture_0013.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_08_internal_jugular_vein.webp","name":"Internal Jugular Vein","coverage_pct":6.84,"source_image":"capture_0014.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_09_anterior_scalene.webp","name":"Anterior Scalene","coverage_pct":7.97,"source_image":"capture_0015.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_10_middle_scalene.webp","name":"Middle Scalene","coverage_pct":9.14,"source_image":"capture_0016.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_11_sternocleidomastoid.webp","name":"Sternocleidomastoid","coverage_pct":9.62,"source_image":"capture_0017.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_12_c7_vertebrae.webp","name":"C7 Vertebrae","coverage_pct":14.79,"source_image":"capture_0018.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_13_vertebral_artery.webp","name":"Vertebral Artery","coverage_pct":1.34,"source_image":"capture_0019.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_14_vertebral_vein.webp","name":"Vertebral Vein","coverage_pct":1.4,"source_image":"capture_0020.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_15_phrenic_nerve.webp","name":"Phrenic Nerve","coverage_pct":0.49,"source_image":"capture_0021.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_16_transverse_cervical_artery.webp","name":"Transverse Cervical Artery","coverage_pct":0.23,"source_image":"capture_0022.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_17_vagus_nerve.webp","name":"Vagus Nerve","coverage_pct":0.13,"source_image":"capture_0023.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_18_longus_colli.webp","name":"Longus Colli","coverage_pct":5.94,"source_image":"capture_0024.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_19_platysma.webp","name":"Platysma","coverage_pct":1.17,"source_image":"capture_0025.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_20_omohyoid.webp","name":"Omohyoid","coverage_pct":1.66,"source_image":"capture_0026.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_21_longissimus_cervicis.webp","name":"Longissimus Cervicis","coverage_pct":2.13,"source_image":"capture_0027.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_22_posterior_scalene.webp","name":"Posterior Scalene","coverage_pct":2.23,"source_image":"capture_0028.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_23_cervical_sympathetic_chain.webp","name":"Cervical Sympathetic Chain","coverage_pct":0.59,"source_image":"capture_0029.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_24_thyroid.webp","name":"Thyroid","coverage_pct":3.48,"source_image":"capture_0030.png"}]},{"name":"Sonoanatomy 2","type":"layers","base":"processed/brachial_plexus_interscalene/sonoanatomy_2/base.webp","layers":[{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_01_colour_all.webp","name":"Colour All","coverage_pct":68.36,"source_image":"capture_0032.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_02_needle_path.webp","name":"Needle Path","coverage_pct":0.55,"source_image":"capture_0033.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_03_la.webp","name":"LA","coverage_pct":2.11,"source_image":"capture_0034.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_04_c5_nerve_root.webp","name":"C5 Nerve Root","coverage_pct":0.5,"source_image":"capture_0035.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_05_c6_nerve_root_divided.webp","name":"C6 Nerve Root Divided","coverage_pct":0.87,"source_image":"capture_0036.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_06_c7_nerve_root.webp","name":"C7 Nerve Root","coverage_pct":1.25,"source_image":"capture_0037.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_07_anterior_scalene.webp","name":"Anterior Scalene","coverage_pct":10.26,"source_image":"capture_0038.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_08_middle_scalene.webp","name":"Middle Scalene","coverage_pct":12.85,"source_image":"capture_0039.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_09_carotid_artery.webp","name":"Carotid Artery","coverage_pct":2.68,"source_image":"capture_0040.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_10_internal_jugular_vein.webp","name":"Internal Jugular Vein","coverage_pct":3.77,"source_image":"capture_0041.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_11_c7_transverse_process.webp","name":"C7 Transverse Process","coverage_pct":9.25,"source_image":"capture_0042.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_12_vertebral_artery_and_vein.webp","name":"Vertebral Artery and Vein","coverage_pct":2.81,"source_image":"capture_0043.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_13_phrenic_nerve.webp","name":"Phrenic Nerve","coverage_pct":0.31,"source_image":"capture_0044.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_14_sternocleidomastoid.webp","name":"Sternocleidomastoid","coverage_pct":4.16,"source_image":"capture_0045.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_15_platysma.webp","name":"Platysma","coverage_pct":1.31,"source_image":"capture_0046.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_16_longus_colli.webp","name":"Longus Colli","coverage_pct":6.96,"source_image":"capture_0047.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_17_vagus_nerve.webp","name":"Vagus Nerve","coverage_pct":0.26,"source_image":"capture_0048.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_18_cervical_sympathetics.webp","name":"Cervical Sympathetics","coverage_pct":1.14,"source_image":"capture_0049.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_19_deep_cervical_muscles.webp","name":"Deep Cervical Muscles","coverage_pct":6.69,"source_image":"capture_0050.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_20_levator_scapulae.webp","name":"Levator Scapulae","coverage_pct":2.33,"source_image":"capture_0051.png"}]},{"name":"Sonoanatomy 3","type":"layers","base":"processed/brachial_plexus_interscalene/sonoanatomy_3/base.webp","layers":[{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_01_colour_all.webp","name":"Colour All","coverage_pct":67.86,"source_image":"capture_0053.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_02_needle_path.webp","name":"Needle Path","coverage_pct":0.24,"source_image":"capture_0054.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_03_la.webp","name":"LA","coverage_pct":1.49,"source_image":"capture_0055.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_04_c5_nerve_root.webp","name":"C5 Nerve Root","coverage_pct":0.47,"source_image":"capture_0056.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_05_c6_nerve_root.webp","name":"C6 Nerve Root","coverage_pct":0.67,"source_image":"capture_0057.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_06_c7_nerve_root.webp","name":"C7 Nerve Root","coverage_pct":0.82,"source_image":"capture_0058.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_07_anterior_scalene.webp","name":"Anterior Scalene","coverage_pct":8.7,"source_image":"capture_0059.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_08_middle_scalene.webp","name":"Middle Scalene","coverage_pct":6.84,"source_image":"capture_0060.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_09_carotid_artery.webp","name":"Carotid Artery","coverage_pct":2.29,"source_image":"capture_0061.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_10_internal_jugular_vein.webp","name":"Internal Jugular Vein","coverage_pct":2.38,"source_image":"capture_0062.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_11_c7_vertebrae.webp","name":"C7 Vertebrae","coverage_pct":21.64,"source_image":"capture_0063.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_12_vertebral_artery_and_vein.webp","name":"Vertebral Artery and Vein","coverage_pct":1.8,"source_image":"capture_0064.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_13_phrenic_nerve.webp","name":"Phrenic Nerve","coverage_pct":0.35,"source_image":"capture_0065.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_14_sternocleidomastoid.webp","name":"Sternocleidomastoid","coverage_pct":10.92,"source_image":"capture_0066.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_15_platysma.webp","name":"Platysma","coverage_pct":0.88,"source_image":"capture_0067.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_16_longus_colli.webp","name":"Longus Colli","coverage_pct":6.09,"source_image":"capture_0068.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_17_vagus_nerve.webp","name":"Vagus Nerve","coverage_pct":0.13,"source_image":"capture_0069.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_18_longissimus_cervicis.webp","name":"Longissimus Cervicis","coverage_pct":3.71,"source_image":"capture_0070.png"}]},{"name":"Diagram","type":"layers","base":"processed/brachial_plexus_interscalene/diagram/base.webp","layers":[{"filename":"processed/brachial_plexus_interscalene/diagram/layer_01_labels.webp","name":"Labels","coverage_pct":5.25,"source_image":"capture_0072.png"}]},{"name":"Probe Position","type":"static","base":"processed/brachial_plexus_interscalene/probe_position/base.webp","layers":[]}]},{"block_id":"ll_cutaneous_sensory","block_name":"Lower Limb Cutaneous Sensory Innervation","source_folder":"ScreenCaptures/1","views":[{"name":"Reference","type":"static","base":"processed/ll_cutaneous_sensory/reference/base.webp","layers":[]}]},{"block_id":"ll_muscular_sensory","block_name":"Lower Limb Muscular Sensory Innervation","source_folder":"ScreenCaptures/1","views":[{"name":"Reference","type":"static","base":"processed/ll_muscular_sensory/reference/base.webp","layers":[]}]},{"block_id":"ll_osseous_sensory","block_name":"Lower Limb Osseous Sensory Innervation","source_folder":"ScreenCaptures/1","views":[{"name":"Reference","type":"static","base":"processed/ll_osseous_sensory/reference/base.webp","layers":[]}]},{"block_id":"ul_cutaneous_sensory","block_name":"Upper Limb Cutaneous Sensory Innervation","source_folder":"ScreenCaptures/1","views":[{"name":"Reference","type":"static","base":"processed/ul_cutaneous_sensory/reference/base.webp","layers":[]}]},{"block_id":"ul_muscular_sensory","block_name":"Upper Limb Muscular Sensory Innervation","source_folder":"ScreenCaptures/1","views":[{"name":"Reference","type":"static","base":"processed/ul_muscular_sensory/reference/base.webp","layers":[]}]},{"block_id":"ul_osseous_sensory","block_name":"Upper Limb Osseous Sensory Innervation","source_folder":"ScreenCaptures/1","views":[{"name":"Reference","type":"static","base":"processed/ul_osseous_sensory/reference/base.webp","layers":[]}]}];
+const BLOCKS = [{"block_id":"brachial_plexus_interscalene","block_name":"Brachial Plexus Interscalene","source_folder":"/sessions/wizardly-hopeful-goodall/mnt/AnSo capture/ScreenCaptures/2","notes":{"indication":"Shoulder anaesthesia and analgesia","positioning":"Lateral, or supine with head turned to contralateral side and pillow behind thoracic spine","volume":"7-15 mL","side_effects":"Subjective dyspnoea (phrenic nerve block results in 20-30% reduction in respiratory function), hoarse voice (recurrent laryngeal nerve block), Horner's syndrome (sympathetic chain block). Muscle weakness of shoulder and arm.","complications":"Respiratory failure secondary to phrenic nerve block. Brachial plexus root injection, epidural or subarachnoid spread, vertebral artery puncture, pneumothorax (rare with ultrasound guidance)."},"innervation":{"related_blocks":["Supraclavicular nerves","Superior trunk","Supraclavicular brachial plexus","Infraclavicular brachial plexus (costoclavicular)","Suprascapular nerve"],"images":null},"views":[{"name":"Sonoanatomy 1","type":"layers","base":"processed/brachial_plexus_interscalene/sonoanatomy_1/base.webp","layers":[{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_01_colour_all.webp","name":"Colour All","coverage_pct":75.06,"source_image":"capture_0007.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_02_needle_path.webp","name":"Needle Path","coverage_pct":0.35,"source_image":"capture_0008.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_03_la.webp","name":"LA","coverage_pct":2.1,"source_image":"capture_0009.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_04_c5_nerve_root.webp","name":"C5 Nerve Root","coverage_pct":0.4,"source_image":"capture_0010.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_05_c6_nerve_root.webp","name":"C6 Nerve Root","coverage_pct":1.36,"source_image":"capture_0011.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_06_c7_nerve_root.webp","name":"C7 Nerve Root","coverage_pct":0.9,"source_image":"capture_0012.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_07_carotid_artery.webp","name":"Carotid Artery","coverage_pct":1.98,"source_image":"capture_0013.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_08_internal_jugular_vein.webp","name":"Internal Jugular Vein","coverage_pct":6.84,"source_image":"capture_0014.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_09_anterior_scalene.webp","name":"Anterior Scalene","coverage_pct":7.97,"source_image":"capture_0015.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_10_middle_scalene.webp","name":"Middle Scalene","coverage_pct":9.14,"source_image":"capture_0016.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_11_sternocleidomastoid.webp","name":"Sternocleidomastoid","coverage_pct":9.62,"source_image":"capture_0017.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_12_c7_vertebrae.webp","name":"C7 Vertebrae","coverage_pct":14.79,"source_image":"capture_0018.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_13_vertebral_artery.webp","name":"Vertebral Artery","coverage_pct":1.34,"source_image":"capture_0019.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_14_vertebral_vein.webp","name":"Vertebral Vein","coverage_pct":1.4,"source_image":"capture_0020.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_15_phrenic_nerve.webp","name":"Phrenic Nerve","coverage_pct":0.49,"source_image":"capture_0021.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_16_transverse_cervical_artery.webp","name":"Transverse Cervical Artery","coverage_pct":0.23,"source_image":"capture_0022.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_17_vagus_nerve.webp","name":"Vagus Nerve","coverage_pct":0.13,"source_image":"capture_0023.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_18_longus_colli.webp","name":"Longus Colli","coverage_pct":5.94,"source_image":"capture_0024.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_19_platysma.webp","name":"Platysma","coverage_pct":1.17,"source_image":"capture_0025.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_20_omohyoid.webp","name":"Omohyoid","coverage_pct":1.66,"source_image":"capture_0026.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_21_longissimus_cervicis.webp","name":"Longissimus Cervicis","coverage_pct":2.13,"source_image":"capture_0027.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_22_posterior_scalene.webp","name":"Posterior Scalene","coverage_pct":2.23,"source_image":"capture_0028.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_23_cervical_sympathetic_chain.webp","name":"Cervical Sympathetic Chain","coverage_pct":0.59,"source_image":"capture_0029.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_1/layer_24_thyroid.webp","name":"Thyroid","coverage_pct":3.48,"source_image":"capture_0030.png"}]},{"name":"Sonoanatomy 2","type":"layers","base":"processed/brachial_plexus_interscalene/sonoanatomy_2/base.webp","layers":[{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_01_colour_all.webp","name":"Colour All","coverage_pct":68.36,"source_image":"capture_0032.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_02_needle_path.webp","name":"Needle Path","coverage_pct":0.55,"source_image":"capture_0033.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_03_la.webp","name":"LA","coverage_pct":2.11,"source_image":"capture_0034.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_04_c5_nerve_root.webp","name":"C5 Nerve Root","coverage_pct":0.5,"source_image":"capture_0035.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_05_c6_nerve_root_divided.webp","name":"C6 Nerve Root Divided","coverage_pct":0.87,"source_image":"capture_0036.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_06_c7_nerve_root.webp","name":"C7 Nerve Root","coverage_pct":1.25,"source_image":"capture_0037.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_07_anterior_scalene.webp","name":"Anterior Scalene","coverage_pct":10.26,"source_image":"capture_0038.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_08_middle_scalene.webp","name":"Middle Scalene","coverage_pct":12.85,"source_image":"capture_0039.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_09_carotid_artery.webp","name":"Carotid Artery","coverage_pct":2.68,"source_image":"capture_0040.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_10_internal_jugular_vein.webp","name":"Internal Jugular Vein","coverage_pct":3.77,"source_image":"capture_0041.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_11_c7_transverse_process.webp","name":"C7 Transverse Process","coverage_pct":9.25,"source_image":"capture_0042.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_12_vertebral_artery_and_vein.webp","name":"Vertebral Artery and Vein","coverage_pct":2.81,"source_image":"capture_0043.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_13_phrenic_nerve.webp","name":"Phrenic Nerve","coverage_pct":0.31,"source_image":"capture_0044.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_14_sternocleidomastoid.webp","name":"Sternocleidomastoid","coverage_pct":4.16,"source_image":"capture_0045.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_15_platysma.webp","name":"Platysma","coverage_pct":1.31,"source_image":"capture_0046.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_16_longus_colli.webp","name":"Longus Colli","coverage_pct":6.96,"source_image":"capture_0047.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_17_vagus_nerve.webp","name":"Vagus Nerve","coverage_pct":0.26,"source_image":"capture_0048.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_18_cervical_sympathetics.webp","name":"Cervical Sympathetics","coverage_pct":1.14,"source_image":"capture_0049.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_19_deep_cervical_muscles.webp","name":"Deep Cervical Muscles","coverage_pct":6.69,"source_image":"capture_0050.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_2/layer_20_levator_scapulae.webp","name":"Levator Scapulae","coverage_pct":2.33,"source_image":"capture_0051.png"}]},{"name":"Sonoanatomy 3","type":"layers","base":"processed/brachial_plexus_interscalene/sonoanatomy_3/base.webp","layers":[{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_01_colour_all.webp","name":"Colour All","coverage_pct":67.86,"source_image":"capture_0053.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_02_needle_path.webp","name":"Needle Path","coverage_pct":0.24,"source_image":"capture_0054.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_03_la.webp","name":"LA","coverage_pct":1.49,"source_image":"capture_0055.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_04_c5_nerve_root.webp","name":"C5 Nerve Root","coverage_pct":0.47,"source_image":"capture_0056.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_05_c6_nerve_root.webp","name":"C6 Nerve Root","coverage_pct":0.67,"source_image":"capture_0057.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_06_c7_nerve_root.webp","name":"C7 Nerve Root","coverage_pct":0.82,"source_image":"capture_0058.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_07_anterior_scalene.webp","name":"Anterior Scalene","coverage_pct":8.7,"source_image":"capture_0059.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_08_middle_scalene.webp","name":"Middle Scalene","coverage_pct":6.84,"source_image":"capture_0060.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_09_carotid_artery.webp","name":"Carotid Artery","coverage_pct":2.29,"source_image":"capture_0061.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_10_internal_jugular_vein.webp","name":"Internal Jugular Vein","coverage_pct":2.38,"source_image":"capture_0062.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_11_c7_vertebrae.webp","name":"C7 Vertebrae","coverage_pct":21.64,"source_image":"capture_0063.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_12_vertebral_artery_and_vein.webp","name":"Vertebral Artery and Vein","coverage_pct":1.8,"source_image":"capture_0064.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_13_phrenic_nerve.webp","name":"Phrenic Nerve","coverage_pct":0.35,"source_image":"capture_0065.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_14_sternocleidomastoid.webp","name":"Sternocleidomastoid","coverage_pct":10.92,"source_image":"capture_0066.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_15_platysma.webp","name":"Platysma","coverage_pct":0.88,"source_image":"capture_0067.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_16_longus_colli.webp","name":"Longus Colli","coverage_pct":6.09,"source_image":"capture_0068.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_17_vagus_nerve.webp","name":"Vagus Nerve","coverage_pct":0.13,"source_image":"capture_0069.png"},{"filename":"processed/brachial_plexus_interscalene/sonoanatomy_3/layer_18_longissimus_cervicis.webp","name":"Longissimus Cervicis","coverage_pct":3.71,"source_image":"capture_0070.png"}]},{"name":"Diagram","type":"layers","base":"processed/brachial_plexus_interscalene/diagram/base.webp","layers":[{"filename":"processed/brachial_plexus_interscalene/diagram/layer_01_labels.webp","name":"Labels","coverage_pct":5.25,"source_image":"capture_0072.png"}]},{"name":"Probe Position","type":"static","base":"processed/brachial_plexus_interscalene/probe_position/base.webp","layers":[]}]},{"block_id":"ll_cutaneous_sensory","block_name":"Lower Limb Cutaneous Sensory Innervation","source_folder":"ScreenCaptures/1","views":[{"name":"Reference","type":"static","base":"processed/ll_cutaneous_sensory/reference/base.webp","layers":[]}]},{"block_id":"ll_muscular_sensory","block_name":"Lower Limb Muscular Sensory Innervation","source_folder":"ScreenCaptures/1","views":[{"name":"Reference","type":"static","base":"processed/ll_muscular_sensory/reference/base.webp","layers":[]}]},{"block_id":"ll_osseous_sensory","block_name":"Lower Limb Osseous Sensory Innervation","source_folder":"ScreenCaptures/1","views":[{"name":"Reference","type":"static","base":"processed/ll_osseous_sensory/reference/base.webp","layers":[]}]},{"block_id":"ul_cutaneous_sensory","block_name":"Upper Limb Cutaneous Sensory Innervation","source_folder":"ScreenCaptures/1","views":[{"name":"Reference","type":"static","base":"processed/ul_cutaneous_sensory/reference/base.webp","layers":[]}]},{"block_id":"ul_muscular_sensory","block_name":"Upper Limb Muscular Sensory Innervation","source_folder":"ScreenCaptures/1","views":[{"name":"Reference","type":"static","base":"processed/ul_muscular_sensory/reference/base.webp","layers":[]}]},{"block_id":"ul_osseous_sensory","block_name":"Upper Limb Osseous Sensory Innervation","source_folder":"ScreenCaptures/1","views":[{"name":"Reference","type":"static","base":"processed/ul_osseous_sensory/reference/base.webp","layers":[]}]}];
 
 // ── Menu structure ──
 const MENU = [
+    { name: "Favourites", items: [] },
     { name: "Upper and Lower Limb Sensory Innervation", items: [
         { name: "Upper Limb Cutaneous Sensory Innervation", block_id: "ul_cutaneous_sensory" },
         { name: "Upper Limb Muscular Sensory Innervation", block_id: "ul_muscular_sensory" },
@@ -370,7 +536,12 @@ const MENU = [
     { name: "Vascular Access", items: [] },
     { name: "Airway and Gastric Antrum", items: [] },
     { name: "Lumbar Spine", items: [] },
-    { name: "Transthoracic Echo", items: [] }
+    { name: "Transthoracic Echo", items: [] },
+    { name: "Learning Tools", items: [
+        { name: "Find Block by Surgery", block_id: "search_surgery" },
+        { name: "Quick Quiz", block_id: "quiz_coming_soon" },
+        { name: "Consent & Risks", block_id: "consent_coming_soon" }
+    ]}
 ];
 
 // Index processed blocks for quick lookup
@@ -396,6 +567,14 @@ const VIEW_ICONS = {
     'reference': `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
         <rect x="3" y="3" width="18" height="18" rx="2"/>
         <circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/>
+    </svg>`,
+    'notes': `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
+        <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
+    </svg>`,
+    'innervation': `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="5" r="1"/><path d="M12 6v6"/><path d="M8 9l4-2 4 2"/>
+        <path d="M7 15h10M8 15l1 5h6l1-5M10 20h4"/>
     </svg>`
 };
 
@@ -431,22 +610,53 @@ function dotColor(name) {
 }
 
 // Determine the "primary" first layer that the toggle-all button replaces
-// Returns { skipIndex: number, buttonLabel: string } or null if no match
 function getFirstLayerInfo(view) {
     if (!view.layers || view.layers.length === 0 || view.type === 'static') return null;
     const firstName = view.layers[0].name.toLowerCase();
     if (firstName === 'colour all') return { skipIndex: 0, buttonLabel: 'Colour All' };
     if (firstName === 'labels') return { skipIndex: 0, buttonLabel: 'Labels' };
-    return null; // No duplicate to skip
+    return null;
+}
+
+// ── Favourites management ──
+function getFavourites() {
+    try {
+        return JSON.parse(localStorage.getItem('nba-favourites') || '[]');
+    } catch {
+        return [];
+    }
+}
+
+function saveFavourites(favs) {
+    localStorage.setItem('nba-favourites', JSON.stringify(favs));
+}
+
+function isFavourite(block_id) {
+    return getFavourites().includes(block_id);
+}
+
+function toggleFavourite(block_id) {
+    const favs = getFavourites();
+    const idx = favs.indexOf(block_id);
+    if (idx >= 0) {
+        favs.splice(idx, 1);
+    } else {
+        favs.push(block_id);
+    }
+    saveFavourites(favs);
+    updateFavouriteButtons();
+    updateNavFavourites();
 }
 
 // ── State ──
 let blockIdx = 0;
 let viewIdx = 0;
 const layerOn = {};
+let isMirrored = false;
+let currentView = null; // 'image', 'notes', 'innervation', or 'search'
 
 // ── Navigation state ──
-let navLevel = 'main'; // 'main' or 'sub'
+let navLevel = 'main';
 let navCatIdx = -1;
 
 function openNav() {
@@ -457,6 +667,7 @@ function openNav() {
 function closeNav() {
     document.getElementById('navOverlay').classList.remove('open');
 }
+
 function renderNav() {
     const list = document.getElementById('navList');
     const title = document.getElementById('navTitle');
@@ -467,6 +678,35 @@ function renderNav() {
         title.textContent = 'Main Menu';
         back.classList.add('hidden');
         MENU.forEach((cat, ci) => {
+            // Special handling for Favourites
+            if (cat.name === 'Favourites') {
+                const label = document.createElement('div');
+                label.className = 'nav-section-label';
+                label.textContent = 'Favourites';
+                list.appendChild(label);
+
+                const favs = getFavourites();
+                if (favs.length === 0) {
+                    const noFavs = document.createElement('div');
+                    noFavs.className = 'nav-item-no-favs';
+                    noFavs.textContent = 'No favourites yet';
+                    list.appendChild(noFavs);
+                } else {
+                    favs.forEach(block_id => {
+                        const block = BLOCKS.find(b => b.block_id === block_id);
+                        if (block) {
+                            const row = document.createElement('div');
+                            row.className = 'nav-item' + (blockIndex[block_id] === blockIdx ? ' active-block' : '');
+                            row.innerHTML = `<span class="nav-item-text">${block.block_name}</span><span class="nav-item-arrow">\u203A</span>`;
+                            row.onclick = () => { loadBlock(blockIndex[block_id]); closeNav(); };
+                            list.appendChild(row);
+                        }
+                    });
+                }
+                return;
+            }
+
+            // Regular menu items
             const row = document.createElement('div');
             row.className = 'nav-item';
             if (cat.items.length === 0) row.classList.add('disabled');
@@ -484,15 +724,54 @@ function renderNav() {
         cat.items.forEach(item => {
             const row = document.createElement('div');
             const isAvailable = item.block_id && (item.block_id in blockIndex);
+            const isSpecial = item.block_id && (item.block_id === 'search_surgery' || item.block_id === 'quiz_coming_soon' || item.block_id === 'consent_coming_soon');
             const isCurrent = isAvailable && blockIndex[item.block_id] === blockIdx;
-            row.className = 'nav-item' + (isAvailable ? '' : ' disabled') + (isCurrent ? ' active-block' : '');
-            row.innerHTML = `<span class="nav-item-text">${item.name}</span>` +
-                (isAvailable ? `<span class="nav-item-arrow">\u203A</span>` : '');
-            if (isAvailable) {
-                row.onclick = () => { loadBlock(blockIndex[item.block_id]); closeNav(); };
+            row.className = 'nav-item' + (isAvailable || isSpecial ? '' : ' disabled') + (isCurrent ? ' active-block' : '');
+
+            const textSpan = document.createElement('span');
+            textSpan.className = 'nav-item-text';
+            textSpan.textContent = item.name;
+            row.appendChild(textSpan);
+
+            if (isAvailable || isSpecial) {
+                const isFav = isAvailable && isFavourite(item.block_id);
+                const starBtn = document.createElement('button');
+                starBtn.className = 'nav-item-star' + (isFav ? ' filled' : '');
+                starBtn.innerHTML = `<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="0.5">
+                    <polygon points="12 2 15.09 10.26 24 10.5 18 16.9 20.29 25.5 12 20.73 3.71 25.5 6 16.9 0 10.5 8.91 10.26 12 2"/>
+                </svg>`;
+                starBtn.onclick = (e) => {
+                    e.stopPropagation();
+                    if (isAvailable) {
+                        toggleFavourite(item.block_id);
+                        const isFavNow = isFavourite(item.block_id);
+                        starBtn.classList.toggle('filled', isFavNow);
+                    }
+                };
+                row.appendChild(starBtn);
+
+                row.appendChild(document.createElement('span')).className = 'nav-item-arrow';
+                row.lastChild.textContent = '\u203A';
+                if (isAvailable) {
+                    row.onclick = () => { loadBlock(blockIndex[item.block_id]); closeNav(); };
+                } else if (isSpecial) {
+                    row.onclick = () => { loadSpecialView(item.block_id); closeNav(); };
+                }
             }
             list.appendChild(row);
         });
+    }
+}
+
+function updateNavFavourites() {
+    if (navLevel === 'main') renderNav();
+}
+
+function updateFavouriteButtons() {
+    const block = BLOCKS[blockIdx];
+    const favBtn = document.getElementById('favBtn');
+    if (favBtn && !favBtn.classList.contains('hidden')) {
+        favBtn.classList.toggle('active', isFavourite(block.block_id));
     }
 }
 
@@ -506,12 +785,36 @@ document.getElementById('navOverlay').onclick = (e) => {
 function loadBlock(idx) {
     blockIdx = idx;
     viewIdx = 0;
+    isMirrored = false;
+    currentView = 'image';
     Object.keys(layerOn).forEach(k => delete layerOn[k]);
     const block = BLOCKS[blockIdx];
     document.getElementById('blockTitle').textContent = block.block_name || 'Nerve Block Atlas';
     document.getElementById('blockSub').textContent = 'Nerve Block Atlas';
+    renderTitleBarButtons();
     renderIcons();
     switchView(0);
+}
+
+function loadSpecialView(viewId) {
+    if (viewId === 'search_surgery') {
+        blockIdx = 0; // Dummy - we'll show search UI
+        currentView = 'search';
+        viewIdx = 0;
+        document.getElementById('blockTitle').textContent = 'Find Block by Surgery';
+        renderTitleBarButtons();
+        renderSearchUI();
+    } else if (viewId === 'quiz_coming_soon') {
+        currentView = 'placeholder';
+        document.getElementById('blockTitle').textContent = 'Quick Quiz';
+        renderTitleBarButtons();
+        renderPlaceholder('Quick Quiz coming soon');
+    } else if (viewId === 'consent_coming_soon') {
+        currentView = 'placeholder';
+        document.getElementById('blockTitle').textContent = 'Consent & Risks';
+        renderTitleBarButtons();
+        renderPlaceholder('Consent & Risks coming soon');
+    }
 }
 
 // ── Init ──
@@ -519,20 +822,71 @@ function init() {
     loadBlock(0);
 }
 
+// ── Title bar buttons ──
+function renderTitleBarButtons() {
+    const block = BLOCKS[blockIdx];
+    const favBtn = document.getElementById('favBtn');
+    const mirrorBtn = document.getElementById('mirrorBtn');
+
+    // Show favourite button for all blocks
+    if (currentView === 'image' && block) {
+        favBtn.classList.remove('hidden');
+        favBtn.classList.toggle('active', isFavourite(block.block_id));
+        favBtn.onclick = () => {
+            toggleFavourite(block.block_id);
+        };
+    } else {
+        favBtn.classList.add('hidden');
+    }
+
+    // Show mirror button only for sono views
+    if (currentView === 'image' && viewIdx < BLOCKS[blockIdx].views.length) {
+        const view = BLOCKS[blockIdx].views[viewIdx];
+        const isSono = view.name.toLowerCase().includes('sono');
+        if (isSono) {
+            mirrorBtn.classList.remove('hidden');
+            mirrorBtn.classList.toggle('active', isMirrored);
+            mirrorBtn.onclick = () => {
+                isMirrored = !isMirrored;
+                mirrorBtn.classList.toggle('active', isMirrored);
+                applyMirrorTransform();
+            };
+        } else {
+            mirrorBtn.classList.add('hidden');
+        }
+    } else {
+        mirrorBtn.classList.add('hidden');
+    }
+}
+
+function applyMirrorTransform() {
+    const imageWrap = document.getElementById('imageWrap');
+    if (isMirrored) {
+        imageWrap.style.transform = 'scaleX(-1)';
+    } else {
+        imageWrap.style.transform = '';
+    }
+}
+
 // ── Icon bar ──
 function renderIcons() {
     const el = document.getElementById('iconBar');
     el.innerHTML = '';
     const views = BLOCKS[blockIdx].views;
-    // Hide icon bar if only one view (e.g. single reference image)
-    if (views.length <= 1) {
+    const block = BLOCKS[blockIdx];
+
+    // Hide icon bar if only one view
+    if (views.length <= 1 && !block.notes && !block.innervation) {
         el.style.display = 'none';
+        return;
     } else {
         el.style.display = '';
     }
+
+    // View icons
     views.forEach((v, i) => {
         const btn = document.createElement('button');
-        btn.className = 'icon-btn' + (i === viewIdx ? ' active' : '');
+        btn.className = 'icon-btn' + (i === viewIdx && currentView === 'image' ? ' active' : '');
         btn.title = v.name;
         btn.innerHTML = getViewIcon(v.name);
         const badge = getViewBadge(v.name);
@@ -545,12 +899,53 @@ function renderIcons() {
         btn.onclick = () => switchView(i);
         el.appendChild(btn);
     });
+
+    // Notes icon
+    if (block.notes) {
+        const notesBtn = document.createElement('button');
+        notesBtn.className = 'icon-btn' + (currentView === 'notes' ? ' active' : '');
+        notesBtn.title = 'Notes';
+        notesBtn.innerHTML = VIEW_ICONS['notes'];
+        notesBtn.onclick = () => switchToNotes();
+        el.appendChild(notesBtn);
+    }
+
+    // Innervation icon
+    if (block.innervation) {
+        const innervBtn = document.createElement('button');
+        innervBtn.className = 'icon-btn' + (currentView === 'innervation' ? ' active' : '');
+        innervBtn.title = 'Innervation';
+        innervBtn.innerHTML = VIEW_ICONS['innervation'];
+        innervBtn.onclick = () => switchToInnervation();
+        el.appendChild(innervBtn);
+    }
 }
 
 // ── Switch view ──
 function switchView(i) {
     viewIdx = i;
+    isMirrored = false;
+    currentView = 'image';
     Object.keys(layerOn).forEach(k => delete layerOn[k]);
+    renderTitleBarButtons();
+    renderIcons();
+    renderImage();
+    renderControls();
+}
+
+function switchToNotes() {
+    currentView = 'notes';
+    isMirrored = false;
+    renderTitleBarButtons();
+    renderIcons();
+    renderImage();
+    renderControls();
+}
+
+function switchToInnervation() {
+    currentView = 'innervation';
+    isMirrored = false;
+    renderTitleBarButtons();
     renderIcons();
     renderImage();
     renderControls();
@@ -559,12 +954,73 @@ function switchView(i) {
 // ── Render image + overlays ──
 function renderImage() {
     const wrap = document.getElementById('imageWrap');
-    const view = BLOCKS[blockIdx].views[viewIdx];
     wrap.innerHTML = '';
+    wrap.style.transform = '';
 
-    // Add static-view class for reference images (fills width, scrollable)
+    if (currentView === 'notes') {
+        const block = BLOCKS[blockIdx];
+        const panel = document.createElement('div');
+        panel.className = 'notes-panel visible';
+
+        if (!block.notes) {
+            panel.innerHTML = '<div class="notes-unavailable">Notes not yet available</div>';
+        } else {
+            const notes = block.notes;
+            ['indication', 'positioning', 'volume', 'side_effects', 'complications'].forEach(key => {
+                if (notes[key]) {
+                    const section = document.createElement('div');
+                    section.className = 'notes-section';
+                    const title = document.createElement('div');
+                    title.className = 'notes-section-title ' + key;
+                    title.textContent = key.replace(/_/g, ' ').toUpperCase();
+                    section.appendChild(title);
+                    const text = document.createElement('div');
+                    text.className = 'notes-section-text';
+                    text.textContent = notes[key];
+                    section.appendChild(text);
+                    panel.appendChild(section);
+                }
+            });
+        }
+        wrap.appendChild(panel);
+        return;
+    }
+
+    if (currentView === 'innervation') {
+        const block = BLOCKS[blockIdx];
+        if (!block.innervation || !block.innervation.images) {
+            const placeholder = document.createElement('div');
+            placeholder.className = 'innervation-placeholder';
+            placeholder.textContent = 'Innervation images coming soon';
+            wrap.appendChild(placeholder);
+        } else {
+            const grid = document.createElement('div');
+            grid.className = 'innervation-grid';
+            const items = ['Cutaneous (Anterior)', 'Motor (Anterior)', 'Osseous (Anterior)',
+                          'Cutaneous (Posterior)', 'Motor (Posterior)', 'Osseous (Posterior)'];
+            items.forEach(item => {
+                const div = document.createElement('div');
+                div.className = 'innervation-item placeholder';
+                div.textContent = item;
+                grid.appendChild(div);
+            });
+            wrap.appendChild(grid);
+        }
+        return;
+    }
+
+    if (currentView === 'search') {
+        // Search UI is rendered separately
+        return;
+    }
+
+    // Image view (default)
+    const view = BLOCKS[blockIdx].views[viewIdx];
     const isStatic = view.type === 'static' || (!view.layers || view.layers.length === 0);
+    const isSono = view.name.toLowerCase().includes('sono');
+
     wrap.classList.toggle('static-view', isStatic);
+    wrap.classList.toggle('sono-view', isSono && !isStatic);
 
     const base = document.createElement('img');
     base.className = 'base-img';
@@ -585,14 +1041,47 @@ function renderImage() {
             wrap.appendChild(div);
         });
     }
+
+    applyMirrorTransform();
 }
 
 // ── Render controls ──
 function renderControls() {
     const el = document.getElementById('controls');
-    const view = BLOCKS[blockIdx].views[viewIdx];
     el.innerHTML = '';
 
+    if (currentView === 'notes') {
+        el.classList.add('hidden');
+        return;
+    }
+
+    if (currentView === 'innervation') {
+        const block = BLOCKS[blockIdx];
+        if (block.innervation && block.innervation.related_blocks && block.innervation.related_blocks.length > 0) {
+            el.classList.remove('hidden');
+            const label = document.createElement('div');
+            label.className = 'innervation-related-label';
+            label.textContent = 'Related Blocks';
+            el.appendChild(label);
+
+            block.innervation.related_blocks.forEach(blockName => {
+                const item = document.createElement('div');
+                item.className = 'innervation-related-item';
+                item.textContent = blockName;
+                el.appendChild(item);
+            });
+        } else {
+            el.classList.add('hidden');
+        }
+        return;
+    }
+
+    if (currentView === 'search') {
+        el.classList.add('hidden');
+        return;
+    }
+
+    const view = BLOCKS[blockIdx].views[viewIdx];
     if (view.type === 'static' || !view.layers || view.layers.length === 0) {
         el.classList.add('hidden');
         return;
@@ -600,8 +1089,6 @@ function renderControls() {
     el.classList.remove('hidden');
 
     const info = getFirstLayerInfo(view);
-
-    // Toggle-all / Colour All / Labels button
     const allBtn = document.createElement('button');
     allBtn.className = 'toggle-all-btn';
     const btnLabel = info ? info.buttonLabel : 'Show All';
@@ -610,9 +1097,8 @@ function renderControls() {
     allBtn.id = 'toggleAllBtn';
     el.appendChild(allBtn);
 
-    // Layer list (skip the first if it's the duplicate)
     view.layers.forEach((layer, li) => {
-        if (info && li === info.skipIndex) return; // skip duplicate
+        if (info && li === info.skipIndex) return;
 
         const row = document.createElement('div');
         row.className = 'layer-item';
@@ -678,6 +1164,82 @@ function syncUI() {
         const btnLabel = info ? info.buttonLabel : (allOn ? 'Hide All' : 'Show All');
         allBtn.innerHTML = '<span class="icon"></span> ' + btnLabel;
     }
+}
+
+// ── Search UI ──
+function renderSearchUI() {
+    const wrap = document.getElementById('imageWrap');
+    wrap.innerHTML = '';
+    wrap.style.transform = '';
+
+    const panel = document.createElement('div');
+    panel.className = 'search-panel';
+
+    const inputWrap = document.createElement('div');
+    inputWrap.className = 'search-input-wrap';
+    const input = document.createElement('input');
+    input.type = 'text';
+    input.placeholder = 'Search surgery or indication...';
+    inputWrap.appendChild(input);
+    panel.appendChild(inputWrap);
+
+    const resultsDiv = document.createElement('div');
+    resultsDiv.className = 'search-results';
+    panel.appendChild(resultsDiv);
+
+    function updateResults(query) {
+        resultsDiv.innerHTML = '';
+        if (!query.trim()) {
+            resultsDiv.innerHTML = '<div style="padding:16px; text-align:center; color:#555; font-size:13px;">Type to search...</div>';
+            return;
+        }
+
+        const q = query.toLowerCase();
+        const results = BLOCKS.filter(block => {
+            if (!block.notes || !block.notes.indication) return false;
+            return block.notes.indication.toLowerCase().includes(q) ||
+                   block.block_name.toLowerCase().includes(q);
+        });
+
+        if (results.length === 0) {
+            resultsDiv.innerHTML = '<div style="padding:16px; text-align:center; color:#555; font-size:13px;">No blocks found</div>';
+            return;
+        }
+
+        results.forEach(block => {
+            const item = document.createElement('div');
+            item.className = 'search-result-item';
+            const title = document.createElement('div');
+            title.className = 'search-result-title';
+            title.textContent = block.block_name;
+            item.appendChild(title);
+            const indication = document.createElement('div');
+            indication.className = 'search-result-indication';
+            indication.textContent = block.notes.indication;
+            item.appendChild(indication);
+            item.onclick = () => {
+                loadBlock(blockIndex[block.block_id]);
+                closeNav();
+            };
+            resultsDiv.appendChild(item);
+        });
+    }
+
+    input.oninput = () => updateResults(input.value);
+    updateResults('');
+
+    wrap.appendChild(panel);
+}
+
+function renderPlaceholder(message) {
+    const wrap = document.getElementById('imageWrap');
+    wrap.innerHTML = '';
+    wrap.style.transform = '';
+    const placeholder = document.createElement('div');
+    placeholder.className = 'notes-unavailable';
+    placeholder.style.cssText = 'position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80%; text-align: center;';
+    placeholder.textContent = message;
+    wrap.appendChild(placeholder);
 }
 
 init();
