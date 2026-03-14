@@ -43,25 +43,22 @@ body {
 .menu-btn:active { background: #222; }
 .menu-btn svg { width: 20px; height: 20px; }
 .title-bar h1 {
-    font-size: 14px; font-weight: 600; flex: 1;
+    font-size: 14px; font-weight: 600; flex-shrink: 1; min-width: 0;
     white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
-.title-bar .sub { font-size: 11px; color: #555; font-weight: 400; margin-left: 8px; display: none; }
-
-.title-bar-buttons {
-    display: flex; align-items: center; gap: 4px; flex-shrink: 0;
-}
+.title-bar .sub { font-size: 11px; color: #555; font-weight: 400; margin-left: 8px; display: none; flex: 1; }
 .title-bar-btn {
-    width: 32px; height: 32px; border: none;
+    width: 28px; height: 28px; border: none;
     background: none; color: #999; cursor: pointer;
     display: flex; align-items: center; justify-content: center;
     border-radius: 6px; flex-shrink: 0;
     touch-action: manipulation;
     transition: color 0.2s;
+    margin-left: 2px;
 }
+.title-bar-btn svg { width: 18px; height: 18px; }
 .title-bar-btn:active { background: #222; }
 .title-bar-btn.active { color: #7ab5e8; }
-.title-bar-btn svg { width: 20px; height: 20px; }
 .title-bar-btn.hidden { display: none; }
 
 /* ── Navigation overlay ── */
@@ -456,21 +453,19 @@ body {
         </svg>
     </button>
     <h1 id="blockTitle">Nerve Block Atlas</h1>
+    <button class="title-bar-btn hidden" id="favBtn" title="Add to favourites">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 15.09 10.26 24 10.5 18 16.9 20.29 25.5 12 20.73 3.71 25.5 6 16.9 0 10.5 8.91 10.26 12 2"/>
+        </svg>
+    </button>
+    <button class="title-bar-btn hidden" id="mirrorBtn" title="Mirror">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="3" x2="12" y2="21"/>
+            <polyline points="2 12 6 8 6 16 2 12"/>
+            <polyline points="22 12 18 8 18 16 22 12"/>
+        </svg>
+    </button>
     <span class="sub" id="blockSub"></span>
-    <div class="title-bar-buttons">
-        <button class="title-bar-btn hidden" id="favBtn" title="Add to favourites">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <polygon points="12 2 15.09 10.26 24 10.5 18 16.9 20.29 25.5 12 20.73 3.71 25.5 6 16.9 0 10.5 8.91 10.26 12 2"/>
-            </svg>
-        </button>
-        <button class="title-bar-btn hidden" id="mirrorBtn" title="Mirror">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <line x1="12" y1="3" x2="12" y2="21"/>
-                <polyline points="2 12 6 8 6 16 2 12"/>
-                <polyline points="22 12 18 8 18 16 22 12"/>
-            </svg>
-        </button>
-    </div>
 </div>
 
 <!-- Navigation drawer -->
