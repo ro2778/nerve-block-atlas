@@ -678,31 +678,18 @@ function renderNav() {
         title.textContent = 'Main Menu';
         back.classList.add('hidden');
         MENU.forEach((cat, ci) => {
-            // Special handling for Favourites
+            // Favourites treated as a submenu like everything else
             if (cat.name === 'Favourites') {
-                const label = document.createElement('div');
-                label.className = 'nav-section-label';
-                label.textContent = 'Favourites';
-                list.appendChild(label);
-
                 const favs = getFavourites();
-                if (favs.length === 0) {
-                    const noFavs = document.createElement('div');
-                    noFavs.className = 'nav-item-no-favs';
-                    noFavs.textContent = 'No favourites yet';
-                    list.appendChild(noFavs);
-                } else {
-                    favs.forEach(block_id => {
-                        const block = BLOCKS.find(b => b.block_id === block_id);
-                        if (block) {
-                            const row = document.createElement('div');
-                            row.className = 'nav-item' + (blockIndex[block_id] === blockIdx ? ' active-block' : '');
-                            row.innerHTML = `<span class="nav-item-text">${block.block_name}</span><span class="nav-item-arrow">\u203A</span>`;
-                            row.onclick = () => { loadBlock(blockIndex[block_id]); closeNav(); };
-                            list.appendChild(row);
-                        }
-                    });
+                const row = document.createElement('div');
+                row.className = 'nav-item';
+                const favCount = favs.filter(id => id in blockIndex).length;
+                if (favCount === 0) row.classList.add('disabled');
+                row.innerHTML = `<span class="nav-item-text">\u2605 Favourites</span><span class="nav-item-arrow">\u203A</span>`;
+                if (favCount > 0) {
+                    row.onclick = () => { navCatIdx = ci; navLevel = 'sub'; renderNav(); };
                 }
+                list.appendChild(row);
                 return;
             }
 
@@ -721,6 +708,52 @@ function renderNav() {
         title.textContent = cat.name;
         back.classList.remove('hidden');
         back.onclick = () => { navLevel = 'main'; renderNav(); };
+
+        // Favourites submenu: dynamic items from localStorage
+        if (cat.name === 'Favourites') {
+            const favs = getFavourites();
+            const favBlocks = favs.map(id => BLOCKS.find(b => b.block_id === id)).filter(Boolean);
+            if (favBlocks.length === 0) {
+                const noFavs = document.createElement('div');
+                noFavs.className = 'nav-item-no-favs';
+                noFavs.textContent = 'No favourites yet';
+                list.appendChild(noFavs);
+            } else {
+                favBlocks.forEach(block => {
+                    const row = document.createElement('div');
+                    const isCurrent = blockIndex[block.block_id] === blockIdx;
+                    row.className = 'nav-item' + (isCurrent ? ' active-block' : '');
+
+                    const textSpan = document.createElement('span');
+                    textSpan.className = 'nav-item-text';
+                    textSpan.textContent = block.block_name;
+                    row.appendChild(textSpan);
+
+                    // Star to remove from favourites
+                    const starBtn = document.createElement('button');
+                    starBtn.className = 'nav-item-star filled';
+                    starBtn.innerHTML = `<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="0.5">
+                        <polygon points="12 2 15.09 10.26 24 10.5 18 16.9 20.29 25.5 12 20.73 3.71 25.5 6 16.9 0 10.5 8.91 10.26 12 2"/>
+                    </svg>`;
+                    starBtn.onclick = (e) => {
+                        e.stopPropagation();
+                        toggleFavourite(block.block_id);
+                        renderNav(); // re-render to remove item
+                    };
+                    row.appendChild(starBtn);
+
+                    const arrow = document.createElement('span');
+                    arrow.className = 'nav-item-arrow';
+                    arrow.textContent = '\u203A';
+                    row.appendChild(arrow);
+
+                    row.onclick = () => { loadBlock(blockIndex[block.block_id]); closeNav(); };
+                    list.appendChild(row);
+                });
+            }
+            return;
+        }
+
         cat.items.forEach(item => {
             const row = document.createElement('div');
             const isAvailable = item.block_id && (item.block_id in blockIndex);
@@ -797,20 +830,20 @@ function loadBlock(idx) {
 }
 
 function loadSpecialView(viewId) {
+    currentView = 'special';
+    // Hide icon bar and controls for special views
+    document.getElementById('iconBar').style.display = 'none';
+    document.getElementById('controls').classList.add('hidden');
+
     if (viewId === 'search_surgery') {
-        blockIdx = 0; // Dummy - we'll show search UI
-        currentView = 'search';
-        viewIdx = 0;
         document.getElementById('blockTitle').textContent = 'Find Block by Surgery';
         renderTitleBarButtons();
         renderSearchUI();
     } else if (viewId === 'quiz_coming_soon') {
-        currentView = 'placeholder';
         document.getElementById('blockTitle').textContent = 'Quick Quiz';
         renderTitleBarButtons();
         renderPlaceholder('Quick Quiz coming soon');
     } else if (viewId === 'consent_coming_soon') {
-        currentView = 'placeholder';
         document.getElementById('blockTitle').textContent = 'Consent & Risks';
         renderTitleBarButtons();
         renderPlaceholder('Consent & Risks coming soon');
@@ -828,8 +861,8 @@ function renderTitleBarButtons() {
     const favBtn = document.getElementById('favBtn');
     const mirrorBtn = document.getElementById('mirrorBtn');
 
-    // Show favourite button for all blocks
-    if (currentView === 'image' && block) {
+    // Show favourite button for all block views (image, notes, innervation)
+    if ((currentView === 'image' || currentView === 'notes' || currentView === 'innervation') && block) {
         favBtn.classList.remove('hidden');
         favBtn.classList.toggle('active', isFavourite(block.block_id));
         favBtn.onclick = () => {
@@ -1009,8 +1042,8 @@ function renderImage() {
         return;
     }
 
-    if (currentView === 'search') {
-        // Search UI is rendered separately
+    if (currentView === 'search' || currentView === 'special') {
+        // Search/placeholder UI is rendered separately
         return;
     }
 
@@ -1076,7 +1109,7 @@ function renderControls() {
         return;
     }
 
-    if (currentView === 'search') {
+    if (currentView === 'search' || currentView === 'special') {
         el.classList.add('hidden');
         return;
     }
@@ -1171,6 +1204,7 @@ function renderSearchUI() {
     const wrap = document.getElementById('imageWrap');
     wrap.innerHTML = '';
     wrap.style.transform = '';
+    wrap.classList.remove('sono-view', 'static-view');
 
     const panel = document.createElement('div');
     panel.className = 'search-panel';
@@ -1235,6 +1269,7 @@ function renderPlaceholder(message) {
     const wrap = document.getElementById('imageWrap');
     wrap.innerHTML = '';
     wrap.style.transform = '';
+    wrap.classList.remove('sono-view', 'static-view');
     const placeholder = document.createElement('div');
     placeholder.className = 'notes-unavailable';
     placeholder.style.cssText = 'position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80%; text-align: center;';
