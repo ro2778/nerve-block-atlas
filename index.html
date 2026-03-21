@@ -1067,6 +1067,7 @@ img {
   <button class="splash-enter-btn" id="btnEnter" style="display:none">Open Atlas</button>
   <button class="splash-install-btn" id="btnInstall">Install Atlas</button>
   <div class="splash-ios-hint" id="iosHint" style="display:none">To install: tap <svg viewBox="0 0 24 24" style="width:18px;height:18px;vertical-align:middle;fill:var(--accent)"><path d="M16 5l-1.42 1.42-1.59-1.59V16h-1.98V4.83L9.42 6.42 8 5l4-4 4 4zm4 5v11c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V10c0-1.1.9-2 2-2h3v2H6v11h12V10h-3V8h3c1.1 0 2 .9 2 2z"/></svg> then "Add to Home Screen"</div>
+  <div class="splash-ios-hint" id="androidHint" style="display:none">To install: tap <svg viewBox="0 0 24 24" style="width:18px;height:18px;vertical-align:middle;fill:var(--accent)"><circle cx="12" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="19" r="2"/></svg> then "Add to Home screen"</div>
   <div class="spinner" id="splashSpinner"></div>
   <div class="loading-text" id="splashLoadingText">Loading...</div>
 </div>
@@ -1343,10 +1344,16 @@ img {
 
   /* iOS detection — show hint since beforeinstallprompt doesn't fire */
   var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-  var isStandalone = window.navigator.standalone === true;
-  if (isIOS && !isStandalone) {
-    var iosHint = document.getElementById('iosHint');
-    if (iosHint) iosHint.style.display = '';
+  var isAndroid = /Android/.test(navigator.userAgent);
+  var isStandalone = window.navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches;
+  if (!isStandalone) {
+    if (isIOS) {
+      var iosHint = document.getElementById('iosHint');
+      if (iosHint) iosHint.style.display = '';
+    } else if (isAndroid) {
+      var androidHint = document.getElementById('androidHint');
+      if (androidHint) androidHint.style.display = '';
+    }
   }
 
   function init() {
