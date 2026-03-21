@@ -864,16 +864,76 @@ img {
   align-items: center;
   justify-content: center;
   z-index: 200;
-  gap: 20px;
+  gap: 16px;
+}
+
+.splash-logo {
+  width: 160px;
+  height: 240px;
+  object-fit: contain;
+  border-radius: 16px;
+  margin-bottom: 8px;
+}
+
+.splash-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.splash-subtitle {
+  font-size: 13px;
+  color: var(--text-dim);
+  margin-top: -8px;
+}
+
+.splash-install-btn {
+  margin-top: 16px;
+  padding: 12px 32px;
+  background: var(--accent);
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  display: none;
+}
+
+.splash-enter-btn {
+  margin-top: 8px;
+  padding: 12px 32px;
+  background: rgba(255,255,255,0.12);
+  color: var(--text);
+  border: 1px solid var(--border-light);
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.splash-enter-btn:active, .splash-install-btn:active {
+  opacity: 0.7;
+}
+
+.splash-ios-hint {
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--text-dim);
+  text-align: center;
+  line-height: 1.6;
 }
 
 .spinner {
-  width: 36px;
-  height: 36px;
-  border: 3px solid var(--border-light);
+  width: 24px;
+  height: 24px;
+  border: 2px solid var(--border-light);
   border-top-color: var(--accent);
   border-radius: 50%;
   animation: spin 0.7s linear infinite;
+  margin-top: 12px;
 }
 
 @keyframes spin {
@@ -881,7 +941,7 @@ img {
 }
 
 .loading-text {
-  font-size: 14px;
+  font-size: 13px;
   color: var(--text-dim);
   letter-spacing: 0.02em;
 }
@@ -999,10 +1059,16 @@ img {
 </head>
 <body>
 
-<!-- Loading screen -->
+<!-- Splash / Loading screen -->
 <div class="loading-screen" id="loadingScreen">
-  <div class="spinner"></div>
-  <div class="loading-text">Loading Nerve Block Atlas...</div>
+  <img class="splash-logo" src="nerve block atlas icon.jpg" alt="Logo">
+  <div class="splash-title">Regional Anaesthesia Atlas</div>
+  <div class="splash-subtitle">Ultrasound-Guided Nerve Blocks</div>
+  <button class="splash-enter-btn" id="btnEnter" style="display:none">Open Atlas</button>
+  <button class="splash-install-btn" id="btnInstall">Install Atlas</button>
+  <div class="splash-ios-hint" id="iosHint" style="display:none">To install: tap <svg viewBox="0 0 24 24" style="width:18px;height:18px;vertical-align:middle;fill:var(--accent)"><path d="M16 5l-1.42 1.42-1.59-1.59V16h-1.98V4.83L9.42 6.42 8 5l4-4 4 4zm4 5v11c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V10c0-1.1.9-2 2-2h3v2H6v11h12V10h-3V8h3c1.1 0 2 .9 2 2z"/></svg> then "Add to Home Screen"</div>
+  <div class="spinner" id="splashSpinner"></div>
+  <div class="loading-text" id="splashLoadingText">Loading...</div>
 </div>
 
 <!-- Error screen -->
@@ -1265,11 +1331,56 @@ img {
   /* ──────────────────────────────────────────────────────────
      Manifest loading & processing
      ────────────────────────────────────────────────────────── */
+  /* PWA install prompt */
+  var deferredInstallPrompt = null;
+
+  window.addEventListener('beforeinstallprompt', function (e) {
+    e.preventDefault();
+    deferredInstallPrompt = e;
+    var btn = document.getElementById('btnInstall');
+    if (btn) btn.style.display = '';
+  });
+
+  /* iOS detection — show hint since beforeinstallprompt doesn't fire */
+  var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+  var isStandalone = window.navigator.standalone === true;
+  if (isIOS && !isStandalone) {
+    var iosHint = document.getElementById('iosHint');
+    if (iosHint) iosHint.style.display = '';
+  }
+
   function init() {
     cacheDom();
     loadFavourites();
     bindEvents();
     fetchManifest();
+
+    /* Install button */
+    var btnInstall = document.getElementById('btnInstall');
+    if (btnInstall) {
+      btnInstall.addEventListener('click', function () {
+        if (deferredInstallPrompt) {
+          deferredInstallPrompt.prompt();
+          deferredInstallPrompt.userChoice.then(function () {
+            deferredInstallPrompt = null;
+            btnInstall.style.display = 'none';
+          });
+        }
+      });
+    }
+
+    /* Enter button — opens app with nav drawer visible */
+    var btnEnter = document.getElementById('btnEnter');
+    if (btnEnter) {
+      btnEnter.addEventListener('click', function () {
+        dom.loadingScreen.style.display = 'none';
+        dom.app.style.display = '';
+        /* Load first block in background so the viewer has content */
+        if (BLOCKS.length > 0) loadBlock(0);
+        /* Then immediately open the navigation menu */
+        setTimeout(function () { openNav(); }, 100);
+      });
+    }
   }
 
   function fetchManifest() {
@@ -1280,9 +1391,13 @@ img {
       })
       .then(function (data) {
         processManifest(data);
-        dom.loadingScreen.style.display = 'none';
-        dom.app.style.display = '';
-        restoreLastBlock();
+        /* Hide spinner, show enter button */
+        var spinner = document.getElementById('splashSpinner');
+        var loadText = document.getElementById('splashLoadingText');
+        var btnEnter = document.getElementById('btnEnter');
+        if (spinner) spinner.style.display = 'none';
+        if (loadText) loadText.style.display = 'none';
+        if (btnEnter) btnEnter.style.display = '';
       })
       .catch(function (err) {
         dom.loadingScreen.style.display = 'none';
