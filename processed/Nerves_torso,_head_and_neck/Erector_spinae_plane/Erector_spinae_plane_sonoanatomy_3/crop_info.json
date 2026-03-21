@@ -1,0 +1,75 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Erector_spinae_plane/Erector_spinae_plane_sonoanatomy_3",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    517,
+    110,
+    1786,
+    1080
+  ],
+  "crop_size": [
+    1269,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 79.5
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 5.8
+    },
+    {
+      "name": "04_Erector_spinae_plane",
+      "file": "overlay_04_Erector_spinae_plane.webp",
+      "coverage_pct": 2.4
+    },
+    {
+      "name": "05_Transverse_processes_T3,_T4,_T5_cortex",
+      "file": "overlay_05_Transverse_processes_T3,_T4,_T5_cortex.webp",
+      "coverage_pct": 1.9
+    },
+    {
+      "name": "06_Acoustic_shadows_from_bone_cortex_with_reverberation_artefacts",
+      "file": "overlay_06_Acoustic_shadows_from_bone_cortex_with_reverberation_artefacts.webp",
+      "coverage_pct": 19.9
+    },
+    {
+      "name": "07_Subcutaneous_fat",
+      "file": "overlay_07_Subcutaneous_fat.webp",
+      "coverage_pct": 8.3
+    },
+    {
+      "name": "08_Trapezius",
+      "file": "overlay_08_Trapezius.webp",
+      "coverage_pct": 9.0
+    },
+    {
+      "name": "09_Rhomboid_major",
+      "file": "overlay_09_Rhomboid_major.webp",
+      "coverage_pct": 7.2
+    },
+    {
+      "name": "10_Erector_spinae",
+      "file": "overlay_10_Erector_spinae.webp",
+      "coverage_pct": 16.1
+    },
+    {
+      "name": "11_Intertransverse_tissue_complex",
+      "file": "overlay_11_Intertransverse_tissue_complex.webp",
+      "coverage_pct": 13.8
+    }
+  ]
+}

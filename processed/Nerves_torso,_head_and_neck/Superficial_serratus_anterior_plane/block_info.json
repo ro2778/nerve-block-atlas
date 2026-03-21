@@ -1,0 +1,359 @@
+{
+  "block": "Superficial serratus anterior plane ",
+  "category": "Nerves_torso,_head_and_neck",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Superficial_serratus_anterior_plane/Superficial_serratus_anterior_plane_ergonomics_1",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        511,
+        110,
+        2238,
+        1080
+      ],
+      "crop_size": [
+        1727,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Superficial_serratus_anterior_plane/Superficial_serratus_anterior_plane_ergonomics_2",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        511,
+        110,
+        2238,
+        1080
+      ],
+      "crop_size": [
+        1727,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Superficial_serratus_anterior_plane/Superficial_serratus_anterior_plane_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        491,
+        114,
+        1811,
+        1080
+      ],
+      "crop_size": [
+        1320,
+        966
+      ],
+      "layers": [
+        {
+          "name": "01_Superficial_parasternal_intercostal_plane",
+          "file": "overlay_01_Superficial_parasternal_intercostal_plane.webp",
+          "coverage_pct": 3.1
+        },
+        {
+          "name": "02_Superficial_serratus_anterior_plane",
+          "file": "overlay_02_Superficial_serratus_anterior_plane.webp",
+          "coverage_pct": 18.1
+        },
+        {
+          "name": "03_Interpectoral_plane",
+          "file": "overlay_03_Interpectoral_plane.webp",
+          "coverage_pct": 1.5
+        },
+        {
+          "name": "04_Pectoserratus_and_interpectoral_planes",
+          "file": "overlay_04_Pectoserratus_and_interpectoral_planes.webp",
+          "coverage_pct": 11.9
+        },
+        {
+          "name": "05_Erector_spinae_plane_T4",
+          "file": "overlay_05_Erector_spinae_plane_T4.webp",
+          "coverage_pct": 8.8
+        },
+        {
+          "name": "06_Paravertebral_T4",
+          "file": "overlay_06_Paravertebral_T4.webp",
+          "coverage_pct": 11.8
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Superficial_serratus_anterior_plane/Superficial_serratus_anterior_plane_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 2.0
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Superficial_serratus_anterior_plane/Superficial_serratus_anterior_plane_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        368,
+        110,
+        1935,
+        1076
+      ],
+      "crop_size": [
+        1567,
+        966
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 85.3
+        },
+        {
+          "name": "02_Block_view",
+          "file": "overlay_02_Block_view.webp",
+          "coverage_pct": 37.4
+        },
+        {
+          "name": "03_Needle_path",
+          "file": "overlay_03_Needle_path.webp",
+          "coverage_pct": 0.7
+        },
+        {
+          "name": "04_LA",
+          "file": "overlay_04_LA.webp",
+          "coverage_pct": 4.6
+        },
+        {
+          "name": "05_Serratus_anterior",
+          "file": "overlay_05_Serratus_anterior.webp",
+          "coverage_pct": 20.1
+        },
+        {
+          "name": "06_Latissimus_dorsi",
+          "file": "overlay_06_Latissimus_dorsi.webp",
+          "coverage_pct": 3.3
+        },
+        {
+          "name": "07_Thoracodorsal_artery",
+          "file": "overlay_07_Thoracodorsal_artery.webp",
+          "coverage_pct": 0.3
+        },
+        {
+          "name": "08_Ribs_cortex",
+          "file": "overlay_08_Ribs_cortex.webp",
+          "coverage_pct": 2.8
+        },
+        {
+          "name": "09_Acoustic_shadows_from_bone_cortex_with_reverberation_artefacts",
+          "file": "overlay_09_Acoustic_shadows_from_bone_cortex_with_reverberation_artefacts.webp",
+          "coverage_pct": 31.3
+        },
+        {
+          "name": "10_Pleura-air_interface_and_lung_artefact",
+          "file": "overlay_10_Pleura-air_interface_and_lung_artefact.webp",
+          "coverage_pct": 14.3
+        },
+        {
+          "name": "11_Intercostals",
+          "file": "overlay_11_Intercostals.webp",
+          "coverage_pct": 4.7
+        },
+        {
+          "name": "12_Subcutaneous_fat",
+          "file": "overlay_12_Subcutaneous_fat.webp",
+          "coverage_pct": 5.3
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Superficial_serratus_anterior_plane/Superficial_serratus_anterior_plane_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        518,
+        110,
+        1785,
+        1080
+      ],
+      "crop_size": [
+        1267,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 84.6
+        },
+        {
+          "name": "02_Block_view",
+          "file": "overlay_02_Block_view.webp",
+          "coverage_pct": 43.9
+        },
+        {
+          "name": "03_Needle_path",
+          "file": "overlay_03_Needle_path.webp",
+          "coverage_pct": 0.3
+        },
+        {
+          "name": "04_LA",
+          "file": "overlay_04_LA.webp",
+          "coverage_pct": 6.7
+        },
+        {
+          "name": "05_Latissimus_dorsi",
+          "file": "overlay_05_Latissimus_dorsi.webp",
+          "coverage_pct": 7.6
+        },
+        {
+          "name": "06_Serratus_anterior",
+          "file": "overlay_06_Serratus_anterior.webp",
+          "coverage_pct": 31.5
+        },
+        {
+          "name": "07_Thoracodorsal_artery_and_vein",
+          "file": "overlay_07_Thoracodorsal_artery_and_vein.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "08_Ribs_cortex",
+          "file": "overlay_08_Ribs_cortex.webp",
+          "coverage_pct": 2.2
+        },
+        {
+          "name": "09_Acoustic_shadows_from_bone_cortex_with_reverberation_artefacts",
+          "file": "overlay_09_Acoustic_shadows_from_bone_cortex_with_reverberation_artefacts.webp",
+          "coverage_pct": 21.7
+        },
+        {
+          "name": "10_Intercostals",
+          "file": "overlay_10_Intercostals.webp",
+          "coverage_pct": 6.4
+        },
+        {
+          "name": "11_Pleura-air_interface_and_lung_artefact",
+          "file": "overlay_11_Pleura-air_interface_and_lung_artefact.webp",
+          "coverage_pct": 10.0
+        },
+        {
+          "name": "12_Subcutaneous_fat",
+          "file": "overlay_12_Subcutaneous_fat.webp",
+          "coverage_pct": 2.2
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Superficial_serratus_anterior_plane/Superficial_serratus_anterior_plane_sonoanatomy_3",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        383,
+        110,
+        1920,
+        1080
+      ],
+      "crop_size": [
+        1537,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 86.7
+        },
+        {
+          "name": "02_Block_view",
+          "file": "overlay_02_Block_view.webp",
+          "coverage_pct": 39.2
+        },
+        {
+          "name": "03_Needle_path",
+          "file": "overlay_03_Needle_path.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "04_LA",
+          "file": "overlay_04_LA.webp",
+          "coverage_pct": 10.2
+        },
+        {
+          "name": "05_Latissimus_dorsi",
+          "file": "overlay_05_Latissimus_dorsi.webp",
+          "coverage_pct": 12.5
+        },
+        {
+          "name": "06_Thoracodorsal_vessels",
+          "file": "overlay_06_Thoracodorsal_vessels.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "07_Serratus_anterior",
+          "file": "overlay_07_Serratus_anterior.webp",
+          "coverage_pct": 26.9
+        },
+        {
+          "name": "08_Ribs_cortex",
+          "file": "overlay_08_Ribs_cortex.webp",
+          "coverage_pct": 3.0
+        },
+        {
+          "name": "09_Acoustic_shadows_from_bone_cortex_with_reverberation_artefacts",
+          "file": "overlay_09_Acoustic_shadows_from_bone_cortex_with_reverberation_artefacts.webp",
+          "coverage_pct": 19.5
+        },
+        {
+          "name": "10_Pleura-air_interface_and_lung_artefact",
+          "file": "overlay_10_Pleura-air_interface_and_lung_artefact.webp",
+          "coverage_pct": 9.3
+        },
+        {
+          "name": "11_Intercostals",
+          "file": "overlay_11_Intercostals.webp",
+          "coverage_pct": 6.3
+        },
+        {
+          "name": "12_Subcutaneous_fat",
+          "file": "overlay_12_Subcutaneous_fat.webp",
+          "coverage_pct": 2.4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Cervical_spine/Cervical_spine_levels/Cervical_spine_levels_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    332,
+    1963,
+    858
+  ],
+  "crop_size": [
+    1638,
+    526
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 9.0
+    },
+    {
+      "name": "02_C7_TP_cortex",
+      "file": "overlay_02_C7_TP_cortex.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "03_C7_acoustic_shadow",
+      "file": "overlay_03_C7_acoustic_shadow.webp",
+      "coverage_pct": 1.3
+    },
+    {
+      "name": "04_C6_TP_cortex",
+      "file": "overlay_04_C6_TP_cortex.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "05_C6_acoustic_shadow",
+      "file": "overlay_05_C6_acoustic_shadow.webp",
+      "coverage_pct": 1.6
+    },
+    {
+      "name": "06_C5_TP_cortex",
+      "file": "overlay_06_C5_TP_cortex.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "07_C5_acoustic_shadow",
+      "file": "overlay_07_C5_acoustic_shadow.webp",
+      "coverage_pct": 1.5
+    },
+    {
+      "name": "08_C4_TP_cortex",
+      "file": "overlay_08_C4_TP_cortex.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "09_C4_acoustic_shadow",
+      "file": "overlay_09_C4_acoustic_shadow.webp",
+      "coverage_pct": 1.6
+    },
+    {
+      "name": "10_Vertebral_artery_and_vein",
+      "file": "overlay_10_Vertebral_artery_and_vein.webp",
+      "coverage_pct": 0.1
+    },
+    {
+      "name": "11_Common_carotid_artery",
+      "file": "overlay_11_Common_carotid_artery.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "12_Carotid_artery_bulb",
+      "file": "overlay_12_Carotid_artery_bulb.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "13_Internal_and_external_carotid_arteries",
+      "file": "overlay_13_Internal_and_external_carotid_arteries.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "14_C7_nerve_root",
+      "file": "overlay_14_C7_nerve_root.webp",
+      "coverage_pct": 0.1
+    },
+    {
+      "name": "15_C6_nerve_root",
+      "file": "overlay_15_C6_nerve_root.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "16_C5_nerve_root",
+      "file": "overlay_16_C5_nerve_root.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "17_C4_nerve_root",
+      "file": "overlay_17_C4_nerve_root.webp",
+      "coverage_pct": 0.3
+    }
+  ]
+}

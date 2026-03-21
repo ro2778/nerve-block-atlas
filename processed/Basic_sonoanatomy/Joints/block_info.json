@@ -1,0 +1,151 @@
+{
+  "block": "Joints",
+  "category": "Basic sonoanatomy",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Joints/Joints_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.4
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Joints/Joints_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        262,
+        1977,
+        928
+      ],
+      "crop_size": [
+        1652,
+        666
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 68.6
+        },
+        {
+          "name": "02_Bone_cortex",
+          "file": "overlay_02_Bone_cortex.webp",
+          "coverage_pct": 5.7
+        },
+        {
+          "name": "03_Acoustic_shadow_with_reverberation_artefacts",
+          "file": "overlay_03_Acoustic_shadow_with_reverberation_artefacts.webp",
+          "coverage_pct": 57.3
+        },
+        {
+          "name": "04_Joint_space",
+          "file": "overlay_04_Joint_space.webp",
+          "coverage_pct": 5.8
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Joints/Joints_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        478,
+        110,
+        1825,
+        1080
+      ],
+      "crop_size": [
+        1347,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 47.6
+        },
+        {
+          "name": "02_Bone_cortex",
+          "file": "overlay_02_Bone_cortex.webp",
+          "coverage_pct": 4.8
+        },
+        {
+          "name": "03_Acoustic_shadow_with_reverberation_artefacts",
+          "file": "overlay_03_Acoustic_shadow_with_reverberation_artefacts.webp",
+          "coverage_pct": 41.8
+        },
+        {
+          "name": "04_Cartilage_and_synovial_joint_space",
+          "file": "overlay_04_Cartilage_and_synovial_joint_space.webp",
+          "coverage_pct": 2.8
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Joints/Joints_sonoanatomy_3",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        710,
+        110,
+        1593,
+        1080
+      ],
+      "crop_size": [
+        883,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 41.2
+        },
+        {
+          "name": "02_Bone_cortex",
+          "file": "overlay_02_Bone_cortex.webp",
+          "coverage_pct": 3.7
+        },
+        {
+          "name": "03_Acoustic_shadow",
+          "file": "overlay_03_Acoustic_shadow.webp",
+          "coverage_pct": 37.1
+        },
+        {
+          "name": "04_Cartilage",
+          "file": "overlay_04_Cartilage.webp",
+          "coverage_pct": 1.1
+        }
+      ]
+    }
+  ]
+}

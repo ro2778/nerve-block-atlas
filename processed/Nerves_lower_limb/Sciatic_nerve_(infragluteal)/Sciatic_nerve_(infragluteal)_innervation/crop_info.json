@@ -1,0 +1,55 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sciatic_nerve_(infragluteal)/Sciatic_nerve_(infragluteal)_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    459,
+    114,
+    1844,
+    1080
+  ],
+  "crop_size": [
+    1385,
+    966
+  ],
+  "layers": [
+    {
+      "name": "01_Fascia_iliaca",
+      "file": "overlay_01_Fascia_iliaca.webp",
+      "coverage_pct": 8.8
+    },
+    {
+      "name": "02_Femoral_nerve",
+      "file": "overlay_02_Femoral_nerve.webp",
+      "coverage_pct": 6.8
+    },
+    {
+      "name": "03_Lumbar_plexus",
+      "file": "overlay_03_Lumbar_plexus.webp",
+      "coverage_pct": 11.6
+    },
+    {
+      "name": "04_Posterior_cutaneous_nerve_of_thigh",
+      "file": "overlay_04_Posterior_cutaneous_nerve_of_thigh.webp",
+      "coverage_pct": 2.2
+    },
+    {
+      "name": "05_Sciatic_nerve_(infragluteal)",
+      "file": "overlay_05_Sciatic_nerve_(infragluteal).webp",
+      "coverage_pct": 9.9
+    },
+    {
+      "name": "06_Sciatic_nerve_(popliteal_fossa)",
+      "file": "overlay_06_Sciatic_nerve_(popliteal_fossa).webp",
+      "coverage_pct": 8.0
+    },
+    {
+      "name": "07_Sacral_plexus",
+      "file": "overlay_07_Sacral_plexus.webp",
+      "coverage_pct": 13.5
+    }
+  ]
+}

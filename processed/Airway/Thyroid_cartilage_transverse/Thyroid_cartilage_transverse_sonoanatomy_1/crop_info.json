@@ -1,0 +1,40 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Airway/Thyroid_cartilage_transverse/Thyroid_cartilage_transverse_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    332,
+    110,
+    1970,
+    1068
+  ],
+  "crop_size": [
+    1638,
+    958
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 65.1
+    },
+    {
+      "name": "02_Sternohyoid",
+      "file": "overlay_02_Sternohyoid.webp",
+      "coverage_pct": 13.6
+    },
+    {
+      "name": "03_Thyroid_cartilage",
+      "file": "overlay_03_Thyroid_cartilage.webp",
+      "coverage_pct": 5.4
+    },
+    {
+      "name": "04_Acoustic_shadow",
+      "file": "overlay_04_Acoustic_shadow.webp",
+      "coverage_pct": 46.9
+    }
+  ]
+}

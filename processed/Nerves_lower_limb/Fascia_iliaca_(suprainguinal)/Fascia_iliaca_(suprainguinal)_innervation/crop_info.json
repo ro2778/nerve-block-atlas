@@ -1,0 +1,55 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Fascia_iliaca_(suprainguinal)/Fascia_iliaca_(suprainguinal)_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    343,
+    115,
+    1960,
+    1080
+  ],
+  "crop_size": [
+    1617,
+    965
+  ],
+  "layers": [
+    {
+      "name": "01_Obturator_nerve",
+      "file": "overlay_01_Obturator_nerve.webp",
+      "coverage_pct": 4.4
+    },
+    {
+      "name": "02_Sacral_plexus",
+      "file": "overlay_02_Sacral_plexus.webp",
+      "coverage_pct": 18.5
+    },
+    {
+      "name": "03_Fascia_iliaca",
+      "file": "overlay_03_Fascia_iliaca.webp",
+      "coverage_pct": 10.9
+    },
+    {
+      "name": "04_Femoral_nerve",
+      "file": "overlay_04_Femoral_nerve.webp",
+      "coverage_pct": 8.6
+    },
+    {
+      "name": "05_Lumbar_plexus",
+      "file": "overlay_05_Lumbar_plexus.webp",
+      "coverage_pct": 15.6
+    },
+    {
+      "name": "06_Lateral_femoral_cutaneous_nerve",
+      "file": "overlay_06_Lateral_femoral_cutaneous_nerve.webp",
+      "coverage_pct": 1.2
+    },
+    {
+      "name": "07_Pericapsular_nerve_group_(PENG)",
+      "file": "overlay_07_Pericapsular_nerve_group_(PENG).webp",
+      "coverage_pct": 2.7
+    }
+  ]
+}

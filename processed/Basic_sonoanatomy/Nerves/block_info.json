@@ -1,0 +1,181 @@
+{
+  "block": "Nerves",
+  "category": "Basic sonoanatomy",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Nerves/Nerves_landmark_pattern_1",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.3
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Nerves/Nerves_landmark_pattern_2",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.2
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Nerves/Nerves_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        207,
+        1977,
+        983
+      ],
+      "crop_size": [
+        1652,
+        776
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 0.9
+        },
+        {
+          "name": "02_Nerve_short_axis",
+          "file": "overlay_02_Nerve_short_axis.webp",
+          "coverage_pct": 0.9
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Nerves/Nerves_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        214,
+        1977,
+        968
+      ],
+      "crop_size": [
+        1652,
+        754
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 12.4
+        },
+        {
+          "name": "02_Nerve_short_axis_fascicular_appearance",
+          "file": "overlay_02_Nerve_short_axis_fascicular_appearance.webp",
+          "coverage_pct": 2.1
+        },
+        {
+          "name": "03_Tendons_short_axis_fibrillar_appearance",
+          "file": "overlay_03_Tendons_short_axis_fibrillar_appearance.webp",
+          "coverage_pct": 10.3
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Nerves/Nerves_sonoanatomy_3",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        455,
+        110,
+        1847,
+        1080
+      ],
+      "crop_size": [
+        1392,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 9.7
+        },
+        {
+          "name": "02_Nerve_long_axis",
+          "file": "overlay_02_Nerve_long_axis.webp",
+          "coverage_pct": 9.7
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Nerves/Nerves_sonoanatomy_4",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        276,
+        1977,
+        914
+      ],
+      "crop_size": [
+        1652,
+        638
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 22.1
+        },
+        {
+          "name": "02_Nerve_long_axis",
+          "file": "overlay_02_Nerve_long_axis.webp",
+          "coverage_pct": 22.1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Anterior_quadratus_lumborum/Anterior_quadratus_lumborum_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    607,
+    114,
+    1695,
+    1080
+  ],
+  "crop_size": [
+    1088,
+    966
+  ],
+  "layers": [
+    {
+      "name": "01_Contralateral_anterior_quadratus_lumborum",
+      "file": "overlay_01_Contralateral_anterior_quadratus_lumborum.webp",
+      "coverage_pct": 5.3
+    },
+    {
+      "name": "02_Anterior_quadratus_lumborum",
+      "file": "overlay_02_Anterior_quadratus_lumborum.webp",
+      "coverage_pct": 11.6
+    },
+    {
+      "name": "03_Midaxillary_TAP",
+      "file": "overlay_03_Midaxillary_TAP.webp",
+      "coverage_pct": 1.2
+    },
+    {
+      "name": "04_Subcostal_TAP_(lower)",
+      "file": "overlay_04_Subcostal_TAP_(lower).webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "05_Paravertebral_T11",
+      "file": "overlay_05_Paravertebral_T11.webp",
+      "coverage_pct": 4.9
+    },
+    {
+      "name": "06_Epidural_T9-L2",
+      "file": "overlay_06_Epidural_T9-L2.webp",
+      "coverage_pct": 11.3
+    }
+  ]
+}

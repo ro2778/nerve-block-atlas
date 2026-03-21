@@ -1,0 +1,365 @@
+{
+  "block": "Fascia iliaca (suprainguinal)",
+  "category": "Nerves: lower limb",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Fascia_iliaca_(suprainguinal)/Fascia_iliaca_(suprainguinal)_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        870,
+        110,
+        1893,
+        1080
+      ],
+      "crop_size": [
+        1023,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Fascia_iliaca_(suprainguinal)/Fascia_iliaca_(suprainguinal)_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        343,
+        115,
+        1960,
+        1080
+      ],
+      "crop_size": [
+        1617,
+        965
+      ],
+      "layers": [
+        {
+          "name": "01_Obturator_nerve",
+          "file": "overlay_01_Obturator_nerve.webp",
+          "coverage_pct": 4.4
+        },
+        {
+          "name": "02_Sacral_plexus",
+          "file": "overlay_02_Sacral_plexus.webp",
+          "coverage_pct": 18.5
+        },
+        {
+          "name": "03_Fascia_iliaca",
+          "file": "overlay_03_Fascia_iliaca.webp",
+          "coverage_pct": 10.9
+        },
+        {
+          "name": "04_Femoral_nerve",
+          "file": "overlay_04_Femoral_nerve.webp",
+          "coverage_pct": 8.6
+        },
+        {
+          "name": "05_Lumbar_plexus",
+          "file": "overlay_05_Lumbar_plexus.webp",
+          "coverage_pct": 15.6
+        },
+        {
+          "name": "06_Lateral_femoral_cutaneous_nerve",
+          "file": "overlay_06_Lateral_femoral_cutaneous_nerve.webp",
+          "coverage_pct": 1.2
+        },
+        {
+          "name": "07_Pericapsular_nerve_group_(PENG)",
+          "file": "overlay_07_Pericapsular_nerve_group_(PENG).webp",
+          "coverage_pct": 2.7
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Fascia_iliaca_(suprainguinal)/Fascia_iliaca_(suprainguinal)_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.9
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Fascia_iliaca_(suprainguinal)/Fascia_iliaca_(suprainguinal)_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        462,
+        110,
+        1841,
+        1080
+      ],
+      "crop_size": [
+        1379,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 87.5
+        },
+        {
+          "name": "02_Block_view",
+          "file": "overlay_02_Block_view.webp",
+          "coverage_pct": 56.0
+        },
+        {
+          "name": "03_Needle_path",
+          "file": "overlay_03_Needle_path.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "04_LA",
+          "file": "overlay_04_LA.webp",
+          "coverage_pct": 7.4
+        },
+        {
+          "name": "05_Fascia_iliaca",
+          "file": "overlay_05_Fascia_iliaca.webp",
+          "coverage_pct": 5.8
+        },
+        {
+          "name": "06_Iliacus",
+          "file": "overlay_06_Iliacus.webp",
+          "coverage_pct": 50.5
+        },
+        {
+          "name": "07_Deep_circumflex_iliac_vessels",
+          "file": "overlay_07_Deep_circumflex_iliac_vessels.webp",
+          "coverage_pct": 0.7
+        },
+        {
+          "name": "08_Internal_oblique",
+          "file": "overlay_08_Internal_oblique.webp",
+          "coverage_pct": 8.0
+        },
+        {
+          "name": "09_Sartorius",
+          "file": "overlay_09_Sartorius.webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "10_Transversus_abdominus",
+          "file": "overlay_10_Transversus_abdominus.webp",
+          "coverage_pct": 2.1
+        },
+        {
+          "name": "11_Peritoneum_and_bowel",
+          "file": "overlay_11_Peritoneum_and_bowel.webp",
+          "coverage_pct": 4.4
+        },
+        {
+          "name": "12_Anterior_inferior_iliac_spine_cortex",
+          "file": "overlay_12_Anterior_inferior_iliac_spine_cortex.webp",
+          "coverage_pct": 2.9
+        },
+        {
+          "name": "13_Acoustic_shadow_from_bone",
+          "file": "overlay_13_Acoustic_shadow_from_bone.webp",
+          "coverage_pct": 5.2
+        },
+        {
+          "name": "14_Rectus_femoris_insertion",
+          "file": "overlay_14_Rectus_femoris_insertion.webp",
+          "coverage_pct": 2.3
+        },
+        {
+          "name": "15_Subcutaneous_fat",
+          "file": "overlay_15_Subcutaneous_fat.webp",
+          "coverage_pct": 5.9
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Fascia_iliaca_(suprainguinal)/Fascia_iliaca_(suprainguinal)_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        459,
+        110,
+        1843,
+        1080
+      ],
+      "crop_size": [
+        1384,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 84.5
+        },
+        {
+          "name": "02_Block_view",
+          "file": "overlay_02_Block_view.webp",
+          "coverage_pct": 49.5
+        },
+        {
+          "name": "03_Needle_path",
+          "file": "overlay_03_Needle_path.webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "04_LA",
+          "file": "overlay_04_LA.webp",
+          "coverage_pct": 3.4
+        },
+        {
+          "name": "05_Fascia_iliaca",
+          "file": "overlay_05_Fascia_iliaca.webp",
+          "coverage_pct": 5.9
+        },
+        {
+          "name": "06_Deep_circumflex_iliac_artery_and_vein",
+          "file": "overlay_06_Deep_circumflex_iliac_artery_and_vein.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "07_Iliacus",
+          "file": "overlay_07_Iliacus.webp",
+          "coverage_pct": 43.4
+        },
+        {
+          "name": "08_Sartorius",
+          "file": "overlay_08_Sartorius.webp",
+          "coverage_pct": 2.7
+        },
+        {
+          "name": "09_Internal_oblique",
+          "file": "overlay_09_Internal_oblique.webp",
+          "coverage_pct": 4.7
+        },
+        {
+          "name": "10_Anterior_inferior_iliac_spine_cortex",
+          "file": "overlay_10_Anterior_inferior_iliac_spine_cortex.webp",
+          "coverage_pct": 3.5
+        },
+        {
+          "name": "11_Acoustic_shadow_from_bone",
+          "file": "overlay_11_Acoustic_shadow_from_bone.webp",
+          "coverage_pct": 7.8
+        },
+        {
+          "name": "12_Rectus_femoris_insertion",
+          "file": "overlay_12_Rectus_femoris_insertion.webp",
+          "coverage_pct": 9.3
+        },
+        {
+          "name": "13_Subcutaneous_fat",
+          "file": "overlay_13_Subcutaneous_fat.webp",
+          "coverage_pct": 7.1
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Fascia_iliaca_(suprainguinal)/Fascia_iliaca_(suprainguinal)_sonoanatomy_3",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        531,
+        110,
+        1772,
+        1080
+      ],
+      "crop_size": [
+        1241,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 85.1
+        },
+        {
+          "name": "02_Block_view",
+          "file": "overlay_02_Block_view.webp",
+          "coverage_pct": 49.5
+        },
+        {
+          "name": "03_Needle_path",
+          "file": "overlay_03_Needle_path.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "04_LA",
+          "file": "overlay_04_LA.webp",
+          "coverage_pct": 3.5
+        },
+        {
+          "name": "05_Anterior_inferior_iliac_spine_cortex",
+          "file": "overlay_05_Anterior_inferior_iliac_spine_cortex.webp",
+          "coverage_pct": 3.9
+        },
+        {
+          "name": "06_Acoustic_shadow_from_bone_cortex",
+          "file": "overlay_06_Acoustic_shadow_from_bone_cortex.webp",
+          "coverage_pct": 17.4
+        },
+        {
+          "name": "07_Deep_circumflex_iliac_artery",
+          "file": "overlay_07_Deep_circumflex_iliac_artery.webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "08_Fascia_iliaca",
+          "file": "overlay_08_Fascia_iliaca.webp",
+          "coverage_pct": 3.1
+        },
+        {
+          "name": "09_Iliacus",
+          "file": "overlay_09_Iliacus.webp",
+          "coverage_pct": 46.2
+        },
+        {
+          "name": "10_Internal_oblique",
+          "file": "overlay_10_Internal_oblique.webp",
+          "coverage_pct": 5.4
+        },
+        {
+          "name": "11_Rectus_femoris_insertion",
+          "file": "overlay_11_Rectus_femoris_insertion.webp",
+          "coverage_pct": 3.8
+        },
+        {
+          "name": "12_Subcutaneous_fat",
+          "file": "overlay_12_Subcutaneous_fat.webp",
+          "coverage_pct": 5.3
+        }
+      ]
+    }
+  ]
+}

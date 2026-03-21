@@ -1,0 +1,115 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Lumbar_plexus_(shamrock)/Lumbar_plexus_(shamrock)_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    450,
+    110,
+    1852,
+    1080
+  ],
+  "crop_size": [
+    1402,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 58.9
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 1.2
+    },
+    {
+      "name": "04_Lumbar_plexus_location",
+      "file": "overlay_04_Lumbar_plexus_location.webp",
+      "coverage_pct": 1.0
+    },
+    {
+      "name": "05_Vertebra_cortex_between_transverse_processes",
+      "file": "overlay_05_Vertebra_cortex_between_transverse_processes.webp",
+      "coverage_pct": 1.3
+    },
+    {
+      "name": "06_Acoustic_shadow_from_bone_cortex",
+      "file": "overlay_06_Acoustic_shadow_from_bone_cortex.webp",
+      "coverage_pct": 9.0
+    },
+    {
+      "name": "07_Psoas",
+      "file": "overlay_07_Psoas.webp",
+      "coverage_pct": 8.4
+    },
+    {
+      "name": "08_Quadratus_lumborum",
+      "file": "overlay_08_Quadratus_lumborum.webp",
+      "coverage_pct": 2.5
+    },
+    {
+      "name": "09_External_oblique",
+      "file": "overlay_09_External_oblique.webp",
+      "coverage_pct": 3.5
+    },
+    {
+      "name": "10_Internal_oblique",
+      "file": "overlay_10_Internal_oblique.webp",
+      "coverage_pct": 1.7
+    },
+    {
+      "name": "11_Transversus_abdominus",
+      "file": "overlay_11_Transversus_abdominus.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "12_Paranephric_fat",
+      "file": "overlay_12_Paranephric_fat.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "13_Perinephric_fat",
+      "file": "overlay_13_Perinephric_fat.webp",
+      "coverage_pct": 4.3
+    },
+    {
+      "name": "14_Peritoneum_and_bowel",
+      "file": "overlay_14_Peritoneum_and_bowel.webp",
+      "coverage_pct": 4.4
+    },
+    {
+      "name": "15_Acoustic_shadow_from_bowel_air_and_solids",
+      "file": "overlay_15_Acoustic_shadow_from_bowel_air_and_solids.webp",
+      "coverage_pct": 8.5
+    },
+    {
+      "name": "16_Latissimus_dorsi",
+      "file": "overlay_16_Latissimus_dorsi.webp",
+      "coverage_pct": 1.4
+    },
+    {
+      "name": "17_Erector_spinae",
+      "file": "overlay_17_Erector_spinae.webp",
+      "coverage_pct": 8.1
+    },
+    {
+      "name": "18_IVC",
+      "file": "overlay_18_IVC.webp",
+      "coverage_pct": 1.9
+    },
+    {
+      "name": "19_Subcutaneous_fat",
+      "file": "overlay_19_Subcutaneous_fat.webp",
+      "coverage_pct": 1.2
+    }
+  ]
+}

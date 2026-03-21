@@ -1,0 +1,115 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Median_nerve_mid_forearm/Median_nerve_mid_forearm_sonoanatomy_3",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    246,
+    1977,
+    934
+  ],
+  "crop_size": [
+    1652,
+    688
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 83.1
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 2.9
+    },
+    {
+      "name": "04_Median_nerve",
+      "file": "overlay_04_Median_nerve.webp",
+      "coverage_pct": 1.5
+    },
+    {
+      "name": "05_Radial_artery",
+      "file": "overlay_05_Radial_artery.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "06_Superficial_branch_of_radial_nerve",
+      "file": "overlay_06_Superficial_branch_of_radial_nerve.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "07_Ulnar_artery",
+      "file": "overlay_07_Ulnar_artery.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "08_Ulnar_nerve",
+      "file": "overlay_08_Ulnar_nerve.webp",
+      "coverage_pct": 1.0
+    },
+    {
+      "name": "09_Superficial_flexor_digitorum",
+      "file": "overlay_09_Superficial_flexor_digitorum.webp",
+      "coverage_pct": 16.3
+    },
+    {
+      "name": "10_Deep_flexor_digitorum",
+      "file": "overlay_10_Deep_flexor_digitorum.webp",
+      "coverage_pct": 21.4
+    },
+    {
+      "name": "11_Radius_cortex",
+      "file": "overlay_11_Radius_cortex.webp",
+      "coverage_pct": 1.8
+    },
+    {
+      "name": "12_Ulnar_cortex",
+      "file": "overlay_12_Ulnar_cortex.webp",
+      "coverage_pct": 2.5
+    },
+    {
+      "name": "13_Acoustic_shadows_from_bones",
+      "file": "overlay_13_Acoustic_shadows_from_bones.webp",
+      "coverage_pct": 10.3
+    },
+    {
+      "name": "14_Interosseous_membrane",
+      "file": "overlay_14_Interosseous_membrane.webp",
+      "coverage_pct": 1.4
+    },
+    {
+      "name": "15_Brachioradialis",
+      "file": "overlay_15_Brachioradialis.webp",
+      "coverage_pct": 2.3
+    },
+    {
+      "name": "16_Flexor_carpi_radialis",
+      "file": "overlay_16_Flexor_carpi_radialis.webp",
+      "coverage_pct": 4.2
+    },
+    {
+      "name": "17_Flexor_carpi_ulnaris",
+      "file": "overlay_17_Flexor_carpi_ulnaris.webp",
+      "coverage_pct": 4.3
+    },
+    {
+      "name": "18_Flexor_policis_longus",
+      "file": "overlay_18_Flexor_policis_longus.webp",
+      "coverage_pct": 8.0
+    },
+    {
+      "name": "19_Subcutaneous_fat",
+      "file": "overlay_19_Subcutaneous_fat.webp",
+      "coverage_pct": 5.8
+    }
+  ]
+}

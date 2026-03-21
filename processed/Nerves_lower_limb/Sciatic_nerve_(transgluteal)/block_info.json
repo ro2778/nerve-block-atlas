@@ -1,0 +1,360 @@
+{
+  "block": "Sciatic nerve (transgluteal)",
+  "category": "Nerves: lower limb",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sciatic_nerve_(transgluteal)/Sciatic_nerve_(transgluteal)_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        648,
+        110,
+        2238,
+        1080
+      ],
+      "crop_size": [
+        1590,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sciatic_nerve_(transgluteal)/Sciatic_nerve_(transgluteal)_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        459,
+        114,
+        1844,
+        1080
+      ],
+      "crop_size": [
+        1385,
+        966
+      ],
+      "layers": [
+        {
+          "name": "01_Femoral_nerve",
+          "file": "overlay_01_Femoral_nerve.webp",
+          "coverage_pct": 6.8
+        },
+        {
+          "name": "02_Obturator_nerve",
+          "file": "overlay_02_Obturator_nerve.webp",
+          "coverage_pct": 2.0
+        },
+        {
+          "name": "03_Femoral_triangle_distal",
+          "file": "overlay_03_Femoral_triangle_distal.webp",
+          "coverage_pct": 2.9
+        },
+        {
+          "name": "04_Fascia_iliaca",
+          "file": "overlay_04_Fascia_iliaca.webp",
+          "coverage_pct": 8.8
+        },
+        {
+          "name": "05_Sciatic_nerve_(transgluteal)",
+          "file": "overlay_05_Sciatic_nerve_(transgluteal).webp",
+          "coverage_pct": 9.9
+        },
+        {
+          "name": "06_Sciatic_nerve_(popliteal_fossa)",
+          "file": "overlay_06_Sciatic_nerve_(popliteal_fossa).webp",
+          "coverage_pct": 8.0
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sciatic_nerve_(transgluteal)/Sciatic_nerve_(transgluteal)_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.7
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sciatic_nerve_(transgluteal)/Sciatic_nerve_(transgluteal)_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        358,
+        110,
+        1945,
+        1076
+      ],
+      "crop_size": [
+        1587,
+        966
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 52.9
+        },
+        {
+          "name": "02_Block_view",
+          "file": "overlay_02_Block_view.webp",
+          "coverage_pct": 15.9
+        },
+        {
+          "name": "03_Needle_path",
+          "file": "overlay_03_Needle_path.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "04_LA",
+          "file": "overlay_04_LA.webp",
+          "coverage_pct": 1.9
+        },
+        {
+          "name": "05_Sciatic_nerve",
+          "file": "overlay_05_Sciatic_nerve.webp",
+          "coverage_pct": 1.0
+        },
+        {
+          "name": "06_Inferior_gluteal_artery",
+          "file": "overlay_06_Inferior_gluteal_artery.webp",
+          "coverage_pct": 0.1
+        },
+        {
+          "name": "07_Pudendal_artery",
+          "file": "overlay_07_Pudendal_artery.webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "08_Gluteus_maximus",
+          "file": "overlay_08_Gluteus_maximus.webp",
+          "coverage_pct": 14.8
+        },
+        {
+          "name": "09_Superior_gemellus",
+          "file": "overlay_09_Superior_gemellus.webp",
+          "coverage_pct": 6.3
+        },
+        {
+          "name": "10_Femoral_head_cortex",
+          "file": "overlay_10_Femoral_head_cortex.webp",
+          "coverage_pct": 1.9
+        },
+        {
+          "name": "11_Ischium_cortex",
+          "file": "overlay_11_Ischium_cortex.webp",
+          "coverage_pct": 1.8
+        },
+        {
+          "name": "12_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+          "file": "overlay_12_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+          "coverage_pct": 22.8
+        },
+        {
+          "name": "13_Subcutaneous_fat",
+          "file": "overlay_13_Subcutaneous_fat.webp",
+          "coverage_pct": 4.4
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sciatic_nerve_(transgluteal)/Sciatic_nerve_(transgluteal)_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        385,
+        110,
+        1917,
+        1067
+      ],
+      "crop_size": [
+        1532,
+        957
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 60.0
+        },
+        {
+          "name": "02_Block_view",
+          "file": "overlay_02_Block_view.webp",
+          "coverage_pct": 17.9
+        },
+        {
+          "name": "03_Needle_path",
+          "file": "overlay_03_Needle_path.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "04_LA",
+          "file": "overlay_04_LA.webp",
+          "coverage_pct": 1.7
+        },
+        {
+          "name": "05_Sciatic_nerve",
+          "file": "overlay_05_Sciatic_nerve.webp",
+          "coverage_pct": 0.7
+        },
+        {
+          "name": "06_Inferior_gluteal_artery",
+          "file": "overlay_06_Inferior_gluteal_artery.webp",
+          "coverage_pct": 0.1
+        },
+        {
+          "name": "07_Pudendal_vessels",
+          "file": "overlay_07_Pudendal_vessels.webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "08_Gluteus_maximus",
+          "file": "overlay_08_Gluteus_maximus.webp",
+          "coverage_pct": 17.1
+        },
+        {
+          "name": "09_Superior_gemellus",
+          "file": "overlay_09_Superior_gemellus.webp",
+          "coverage_pct": 5.5
+        },
+        {
+          "name": "10_Femoral_head_cortex",
+          "file": "overlay_10_Femoral_head_cortex.webp",
+          "coverage_pct": 1.8
+        },
+        {
+          "name": "11_Ischium_cortex",
+          "file": "overlay_11_Ischium_cortex.webp",
+          "coverage_pct": 1.2
+        },
+        {
+          "name": "12_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+          "file": "overlay_12_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+          "coverage_pct": 24.5
+        },
+        {
+          "name": "13_Obturator_internus",
+          "file": "overlay_13_Obturator_internus.webp",
+          "coverage_pct": 5.6
+        },
+        {
+          "name": "14_Subcutaneous_fat",
+          "file": "overlay_14_Subcutaneous_fat.webp",
+          "coverage_pct": 2.6
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sciatic_nerve_(transgluteal)/Sciatic_nerve_(transgluteal)_sonoanatomy_3",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        355,
+        110,
+        1948,
+        1080
+      ],
+      "crop_size": [
+        1593,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 50.3
+        },
+        {
+          "name": "02_Block_view",
+          "file": "overlay_02_Block_view.webp",
+          "coverage_pct": 12.4
+        },
+        {
+          "name": "03_Needle_path",
+          "file": "overlay_03_Needle_path.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "04_LA",
+          "file": "overlay_04_LA.webp",
+          "coverage_pct": 2.2
+        },
+        {
+          "name": "05_Sciatic_nerve",
+          "file": "overlay_05_Sciatic_nerve.webp",
+          "coverage_pct": 1.0
+        },
+        {
+          "name": "06_Gluteus_maximus",
+          "file": "overlay_06_Gluteus_maximus.webp",
+          "coverage_pct": 11.4
+        },
+        {
+          "name": "07_Superior_gemellus",
+          "file": "overlay_07_Superior_gemellus.webp",
+          "coverage_pct": 4.7
+        },
+        {
+          "name": "08_Pudendal_artery",
+          "file": "overlay_08_Pudendal_artery.webp",
+          "coverage_pct": 0.1
+        },
+        {
+          "name": "09_Femoral_head_cortex",
+          "file": "overlay_09_Femoral_head_cortex.webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "10_Ischium_cortex",
+          "file": "overlay_10_Ischium_cortex.webp",
+          "coverage_pct": 1.1
+        },
+        {
+          "name": "11_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+          "file": "overlay_11_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+          "coverage_pct": 18.0
+        },
+        {
+          "name": "12_Obturator_internus",
+          "file": "overlay_12_Obturator_internus.webp",
+          "coverage_pct": 3.3
+        },
+        {
+          "name": "13_Subcutaneous_fat",
+          "file": "overlay_13_Subcutaneous_fat.webp",
+          "coverage_pct": 10.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "block": "Nerves Vs Tendons",
+  "category": "Basic sonoanatomy",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Nerves_Vs_Tendons/Nerves_Vs_Tendons_landmark_pattern_1",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.2
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Nerves_Vs_Tendons/Nerves_Vs_Tendons_landmark_pattern_2",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.4
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Nerves_Vs_Tendons/Nerves_Vs_Tendons_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        280,
+        1977,
+        902
+      ],
+      "crop_size": [
+        1652,
+        622
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 7.3
+        },
+        {
+          "name": "02_Nerve_short_axis_fascicular_appearance",
+          "file": "overlay_02_Nerve_short_axis_fascicular_appearance.webp",
+          "coverage_pct": 4.6
+        },
+        {
+          "name": "03_Tendon_short_axis_fibrillar_appearance",
+          "file": "overlay_03_Tendon_short_axis_fibrillar_appearance.webp",
+          "coverage_pct": 2.7
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Nerves_Vs_Tendons/Nerves_Vs_Tendons_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        214,
+        1977,
+        968
+      ],
+      "crop_size": [
+        1652,
+        754
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 12.4
+        },
+        {
+          "name": "02_Nerve_short_axis_fascicular_appearance",
+          "file": "overlay_02_Nerve_short_axis_fascicular_appearance.webp",
+          "coverage_pct": 2.1
+        },
+        {
+          "name": "03_Tendons_short_axis_fibrillar_appearance",
+          "file": "overlay_03_Tendons_short_axis_fibrillar_appearance.webp",
+          "coverage_pct": 10.3
+        }
+      ]
+    }
+  ]
+}

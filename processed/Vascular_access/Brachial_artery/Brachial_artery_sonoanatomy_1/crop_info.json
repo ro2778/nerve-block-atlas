@@ -1,0 +1,70 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Vascular_access/Brachial_artery/Brachial_artery_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    362,
+    110,
+    1941,
+    1080
+  ],
+  "crop_size": [
+    1579,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 82.1
+    },
+    {
+      "name": "02_Needle_path_OOP",
+      "file": "overlay_02_Needle_path_OOP.webp",
+      "coverage_pct": 0.1
+    },
+    {
+      "name": "03_Brachial_artery",
+      "file": "overlay_03_Brachial_artery.webp",
+      "coverage_pct": 2.2
+    },
+    {
+      "name": "04_Brachial_vein_compressed",
+      "file": "overlay_04_Brachial_vein_compressed.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "05_Median_nerve",
+      "file": "overlay_05_Median_nerve.webp",
+      "coverage_pct": 1.4
+    },
+    {
+      "name": "06_Biceps_tendon",
+      "file": "overlay_06_Biceps_tendon.webp",
+      "coverage_pct": 3.2
+    },
+    {
+      "name": "07_Brachialis",
+      "file": "overlay_07_Brachialis.webp",
+      "coverage_pct": 38.3
+    },
+    {
+      "name": "08_Pronator_teres",
+      "file": "overlay_08_Pronator_teres.webp",
+      "coverage_pct": 16.2
+    },
+    {
+      "name": "09_Subcutaneous_fat",
+      "file": "overlay_09_Subcutaneous_fat.webp",
+      "coverage_pct": 9.8
+    },
+    {
+      "name": "10_Humerus_cortex_with_acoustic_shadow_deep",
+      "file": "overlay_10_Humerus_cortex_with_acoustic_shadow_deep.webp",
+      "coverage_pct": 10.4
+    }
+  ]
+}

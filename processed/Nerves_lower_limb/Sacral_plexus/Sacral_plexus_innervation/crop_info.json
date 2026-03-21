@@ -1,0 +1,45 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sacral_plexus/Sacral_plexus_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    343,
+    115,
+    1960,
+    1080
+  ],
+  "crop_size": [
+    1617,
+    965
+  ],
+  "layers": [
+    {
+      "name": "01_Lumbar_plexus",
+      "file": "overlay_01_Lumbar_plexus.webp",
+      "coverage_pct": 17.8
+    },
+    {
+      "name": "02_Fascia_iliaca",
+      "file": "overlay_02_Fascia_iliaca.webp",
+      "coverage_pct": 9.6
+    },
+    {
+      "name": "03_Femoral_nerve",
+      "file": "overlay_03_Femoral_nerve.webp",
+      "coverage_pct": 8.7
+    },
+    {
+      "name": "04_Lateral_femoral_cutaneous_nerve",
+      "file": "overlay_04_Lateral_femoral_cutaneous_nerve.webp",
+      "coverage_pct": 1.2
+    },
+    {
+      "name": "05_Sacral_plexus",
+      "file": "overlay_05_Sacral_plexus.webp",
+      "coverage_pct": 16.4
+    }
+  ]
+}

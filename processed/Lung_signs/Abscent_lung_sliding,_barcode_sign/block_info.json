@@ -1,0 +1,185 @@
+{
+  "block": "Abscent lung sliding, barcode sign",
+  "category": "Lung_signs",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lung_signs/Abscent_lung_sliding,_barcode_sign/Abscent_lung_sliding,_barcode_sign_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        513,
+        110,
+        2236,
+        1080
+      ],
+      "crop_size": [
+        1723,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lung_signs/Abscent_lung_sliding,_barcode_sign/Abscent_lung_sliding,_barcode_sign_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        505,
+        110,
+        1798,
+        1080
+      ],
+      "crop_size": [
+        1293,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 1.4
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lung_signs/Abscent_lung_sliding,_barcode_sign/Abscent_lung_sliding,_barcode_sign_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        494,
+        110,
+        1809,
+        1080
+      ],
+      "crop_size": [
+        1315,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 83.5
+        },
+        {
+          "name": "02_Pleura_and_lung",
+          "file": "overlay_02_Pleura_and_lung.webp",
+          "coverage_pct": 73.9
+        },
+        {
+          "name": "03_Intercostal_muscles",
+          "file": "overlay_03_Intercostal_muscles.webp",
+          "coverage_pct": 3.2
+        },
+        {
+          "name": "04_Pectoral_muscles",
+          "file": "overlay_04_Pectoral_muscles.webp",
+          "coverage_pct": 6.5
+        },
+        {
+          "name": "05_Ribs",
+          "file": "overlay_05_Ribs.webp",
+          "coverage_pct": 1.7
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lung_signs/Abscent_lung_sliding,_barcode_sign/Abscent_lung_sliding,_barcode_sign_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        506,
+        115,
+        1797,
+        1080
+      ],
+      "crop_size": [
+        1291,
+        965
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 81.6
+        },
+        {
+          "name": "02_Pleura_and_lung",
+          "file": "overlay_02_Pleura_and_lung.webp",
+          "coverage_pct": 70.8
+        },
+        {
+          "name": "03_Intercostal_muscles",
+          "file": "overlay_03_Intercostal_muscles.webp",
+          "coverage_pct": 5.6
+        },
+        {
+          "name": "04_Pectoral_muscles",
+          "file": "overlay_04_Pectoral_muscles.webp",
+          "coverage_pct": 3.9
+        },
+        {
+          "name": "05_Ribs",
+          "file": "overlay_05_Ribs.webp",
+          "coverage_pct": 1.1
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lung_signs/Abscent_lung_sliding,_barcode_sign/Abscent_lung_sliding,_barcode_sign_sonoanatomy_3",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        149,
+        1977,
+        1042
+      ],
+      "crop_size": [
+        1652,
+        893
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 80.6
+        },
+        {
+          "name": "02_Pleura_and_lung",
+          "file": "overlay_02_Pleura_and_lung.webp",
+          "coverage_pct": 71.2
+        },
+        {
+          "name": "03_Intercostal_muscles",
+          "file": "overlay_03_Intercostal_muscles.webp",
+          "coverage_pct": 3.4
+        },
+        {
+          "name": "04_Pectoral_muscles",
+          "file": "overlay_04_Pectoral_muscles.webp",
+          "coverage_pct": 5.3
+        },
+        {
+          "name": "05_Ribs",
+          "file": "overlay_05_Ribs.webp",
+          "coverage_pct": 0.7
+        }
+      ]
+    }
+  ]
+}

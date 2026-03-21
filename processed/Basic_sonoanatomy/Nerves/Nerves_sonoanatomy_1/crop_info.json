@@ -1,0 +1,30 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Nerves/Nerves_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    207,
+    1977,
+    983
+  ],
+  "crop_size": [
+    1652,
+    776
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 0.9
+    },
+    {
+      "name": "02_Nerve_short_axis",
+      "file": "overlay_02_Nerve_short_axis.webp",
+      "coverage_pct": 0.9
+    }
+  ]
+}

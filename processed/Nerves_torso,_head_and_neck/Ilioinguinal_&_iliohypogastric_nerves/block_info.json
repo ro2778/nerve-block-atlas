@@ -1,0 +1,345 @@
+{
+  "block": "Ilioinguinal & iliohypogastric nerves",
+  "category": "Nerves_torso,_head_and_neck",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Ilioinguinal_&_iliohypogastric_nerves/Ilioinguinal_&_iliohypogastric_nerves_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        995,
+        110,
+        1756,
+        1080
+      ],
+      "crop_size": [
+        761,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Ilioinguinal_&_iliohypogastric_nerves/Ilioinguinal_&_iliohypogastric_nerves_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        607,
+        114,
+        1695,
+        1080
+      ],
+      "crop_size": [
+        1088,
+        966
+      ],
+      "layers": [
+        {
+          "name": "01_Contralateral_ilioinguinal_and_iliohypogastric_nerves",
+          "file": "overlay_01_Contralateral_ilioinguinal_and_iliohypogastric_nerves.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "02_Ilioinguinal_&_iliohypogastric_nerves",
+          "file": "overlay_02_Ilioinguinal_&_iliohypogastric_nerves.webp",
+          "coverage_pct": 7.6
+        },
+        {
+          "name": "03_Midaxillary_TAP",
+          "file": "overlay_03_Midaxillary_TAP.webp",
+          "coverage_pct": 1.2
+        },
+        {
+          "name": "04_Transversalis_fascia",
+          "file": "overlay_04_Transversalis_fascia.webp",
+          "coverage_pct": 0.7
+        },
+        {
+          "name": "05_Anterior_quadratus_lumborum",
+          "file": "overlay_05_Anterior_quadratus_lumborum.webp",
+          "coverage_pct": 5.2
+        },
+        {
+          "name": "06_Paravertebral_T10",
+          "file": "overlay_06_Paravertebral_T10.webp",
+          "coverage_pct": 5.0
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Ilioinguinal_&_iliohypogastric_nerves/Ilioinguinal_&_iliohypogastric_nerves_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 1.0
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Ilioinguinal_&_iliohypogastric_nerves/Ilioinguinal_&_iliohypogastric_nerves_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        153,
+        1977,
+        1037
+      ],
+      "crop_size": [
+        1652,
+        884
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 68.5
+        },
+        {
+          "name": "02_Needle_paths",
+          "file": "overlay_02_Needle_paths.webp",
+          "coverage_pct": 1.2
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 4.8
+        },
+        {
+          "name": "04_Ilioinguinal_and_iliohypogastric_nerves",
+          "file": "overlay_04_Ilioinguinal_and_iliohypogastric_nerves.webp",
+          "coverage_pct": 1.1
+        },
+        {
+          "name": "05_External_oblique",
+          "file": "overlay_05_External_oblique.webp",
+          "coverage_pct": 3.6
+        },
+        {
+          "name": "06_Internal_oblique",
+          "file": "overlay_06_Internal_oblique.webp",
+          "coverage_pct": 26.0
+        },
+        {
+          "name": "07_Transversus_abdominus",
+          "file": "overlay_07_Transversus_abdominus.webp",
+          "coverage_pct": 9.9
+        },
+        {
+          "name": "08_Peritoneum_and_bowel",
+          "file": "overlay_08_Peritoneum_and_bowel.webp",
+          "coverage_pct": 2.6
+        },
+        {
+          "name": "09_Iliacus",
+          "file": "overlay_09_Iliacus.webp",
+          "coverage_pct": 12.8
+        },
+        {
+          "name": "10_Ilium_cortex",
+          "file": "overlay_10_Ilium_cortex.webp",
+          "coverage_pct": 2.2
+        },
+        {
+          "name": "11_Acoustic_shadow_from_bone_cortex",
+          "file": "overlay_11_Acoustic_shadow_from_bone_cortex.webp",
+          "coverage_pct": 4.5
+        },
+        {
+          "name": "12_Subcutaneous_fat",
+          "file": "overlay_12_Subcutaneous_fat.webp",
+          "coverage_pct": 3.6
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Ilioinguinal_&_iliohypogastric_nerves/Ilioinguinal_&_iliohypogastric_nerves_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        362,
+        110,
+        1941,
+        1080
+      ],
+      "crop_size": [
+        1579,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 69.2
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 3.9
+        },
+        {
+          "name": "04_Ilioinguinal_and_iliohypogastric_nerves",
+          "file": "overlay_04_Ilioinguinal_and_iliohypogastric_nerves.webp",
+          "coverage_pct": 0.9
+        },
+        {
+          "name": "05_Internal_oblique",
+          "file": "overlay_05_Internal_oblique.webp",
+          "coverage_pct": 20.7
+        },
+        {
+          "name": "06_Transversus_abdominus",
+          "file": "overlay_06_Transversus_abdominus.webp",
+          "coverage_pct": 10.6
+        },
+        {
+          "name": "07_Ilium_ASIS_cortex",
+          "file": "overlay_07_Ilium_ASIS_cortex.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "08_Acoustic_shadow_from_bone_cortex",
+          "file": "overlay_08_Acoustic_shadow_from_bone_cortex.webp",
+          "coverage_pct": 6.6
+        },
+        {
+          "name": "09_Iliacus",
+          "file": "overlay_09_Iliacus.webp",
+          "coverage_pct": 6.6
+        },
+        {
+          "name": "10_Peritoneum_and_bowel",
+          "file": "overlay_10_Peritoneum_and_bowel.webp",
+          "coverage_pct": 1.4
+        },
+        {
+          "name": "11_Subcutaneous_fat",
+          "file": "overlay_11_Subcutaneous_fat.webp",
+          "coverage_pct": 19.7
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Ilioinguinal_&_iliohypogastric_nerves/Ilioinguinal_&_iliohypogastric_nerves_sonoanatomy_3",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        262,
+        1977,
+        928
+      ],
+      "crop_size": [
+        1652,
+        666
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 77.1
+        },
+        {
+          "name": "02_Needle_paths",
+          "file": "overlay_02_Needle_paths.webp",
+          "coverage_pct": 1.5
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 2.6
+        },
+        {
+          "name": "04_Ilioinguinal_nerve",
+          "file": "overlay_04_Ilioinguinal_nerve.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "05_Iliohypogastric_nerve",
+          "file": "overlay_05_Iliohypogastric_nerve.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "06_External_oblique_becoming_fascial_plane",
+          "file": "overlay_06_External_oblique_becoming_fascial_plane.webp",
+          "coverage_pct": 2.8
+        },
+        {
+          "name": "07_Internal_oblique",
+          "file": "overlay_07_Internal_oblique.webp",
+          "coverage_pct": 9.3
+        },
+        {
+          "name": "08_Transversus_abdominus",
+          "file": "overlay_08_Transversus_abdominus.webp",
+          "coverage_pct": 5.8
+        },
+        {
+          "name": "09_Deep_circumflex_iliac_artery",
+          "file": "overlay_09_Deep_circumflex_iliac_artery.webp",
+          "coverage_pct": 0.3
+        },
+        {
+          "name": "10_Iliacus",
+          "file": "overlay_10_Iliacus.webp",
+          "coverage_pct": 28.0
+        },
+        {
+          "name": "11_Ilium_cortex",
+          "file": "overlay_11_Ilium_cortex.webp",
+          "coverage_pct": 3.9
+        },
+        {
+          "name": "12_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+          "file": "overlay_12_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+          "coverage_pct": 13.8
+        },
+        {
+          "name": "13_Peritoneal_cavity",
+          "file": "overlay_13_Peritoneal_cavity.webp",
+          "coverage_pct": 3.1
+        },
+        {
+          "name": "14_Subcutaneous_fat",
+          "file": "overlay_14_Subcutaneous_fat.webp",
+          "coverage_pct": 8.2
+        }
+      ]
+    }
+  ]
+}

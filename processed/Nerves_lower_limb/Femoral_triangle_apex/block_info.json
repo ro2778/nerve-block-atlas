@@ -1,0 +1,270 @@
+{
+  "block": "Femoral triangle apex",
+  "category": "Nerves: lower limb",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Femoral_triangle_apex/Femoral_triangle_apex_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        1007,
+        110,
+        1728,
+        1080
+      ],
+      "crop_size": [
+        721,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Femoral_triangle_apex/Femoral_triangle_apex_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        389,
+        115,
+        1914,
+        1080
+      ],
+      "crop_size": [
+        1525,
+        965
+      ],
+      "layers": [
+        {
+          "name": "01_iPACK",
+          "file": "overlay_01_iPACK.webp",
+          "coverage_pct": 2.5
+        },
+        {
+          "name": "02_Intermediate_femoral_cutaneous_nerve",
+          "file": "overlay_02_Intermediate_femoral_cutaneous_nerve.webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "03_Medial_femoral_cutaneous_nerve",
+          "file": "overlay_03_Medial_femoral_cutaneous_nerve.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "04_Obturator_nerve",
+          "file": "overlay_04_Obturator_nerve.webp",
+          "coverage_pct": 2.3
+        },
+        {
+          "name": "05_Femoral_triangle_distal",
+          "file": "overlay_05_Femoral_triangle_distal.webp",
+          "coverage_pct": 3.8
+        },
+        {
+          "name": "06_Femoral_nerve",
+          "file": "overlay_06_Femoral_nerve.webp",
+          "coverage_pct": 9.1
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Femoral_triangle_apex/Femoral_triangle_apex_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.7
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Femoral_triangle_apex/Femoral_triangle_apex_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        574,
+        110,
+        1730,
+        1080
+      ],
+      "crop_size": [
+        1156,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 78.8
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 2.4
+        },
+        {
+          "name": "04_Saphenous_nerve",
+          "file": "overlay_04_Saphenous_nerve.webp",
+          "coverage_pct": 0.7
+        },
+        {
+          "name": "05_Nerve_to_vastus_medialis",
+          "file": "overlay_05_Nerve_to_vastus_medialis.webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "06_Femoral_artery_and_vein",
+          "file": "overlay_06_Femoral_artery_and_vein.webp",
+          "coverage_pct": 1.6
+        },
+        {
+          "name": "07_Acoustic_enhancement_from_vessels",
+          "file": "overlay_07_Acoustic_enhancement_from_vessels.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "08_Sartorius",
+          "file": "overlay_08_Sartorius.webp",
+          "coverage_pct": 9.5
+        },
+        {
+          "name": "09_Adductor_longus",
+          "file": "overlay_09_Adductor_longus.webp",
+          "coverage_pct": 12.4
+        },
+        {
+          "name": "10_Adductor_magnus",
+          "file": "overlay_10_Adductor_magnus.webp",
+          "coverage_pct": 17.4
+        },
+        {
+          "name": "11_Vastus_medialis",
+          "file": "overlay_11_Vastus_medialis.webp",
+          "coverage_pct": 24.7
+        },
+        {
+          "name": "12_Femur_cortex",
+          "file": "overlay_12_Femur_cortex.webp",
+          "coverage_pct": 2.6
+        },
+        {
+          "name": "13_Acoustic_shadow_from_bone_cortex",
+          "file": "overlay_13_Acoustic_shadow_from_bone_cortex.webp",
+          "coverage_pct": 3.1
+        },
+        {
+          "name": "14_Subcutaneous_fat",
+          "file": "overlay_14_Subcutaneous_fat.webp",
+          "coverage_pct": 5.1
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Femoral_triangle_apex/Femoral_triangle_apex_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        528,
+        110,
+        1776,
+        1080
+      ],
+      "crop_size": [
+        1248,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 78.4
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 2.9
+        },
+        {
+          "name": "04_Saphenous_nerve",
+          "file": "overlay_04_Saphenous_nerve.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "05_Nerve_to_vastus_medialis",
+          "file": "overlay_05_Nerve_to_vastus_medialis.webp",
+          "coverage_pct": 0.3
+        },
+        {
+          "name": "06_Sartorius",
+          "file": "overlay_06_Sartorius.webp",
+          "coverage_pct": 14.5
+        },
+        {
+          "name": "07_Adductor_longus",
+          "file": "overlay_07_Adductor_longus.webp",
+          "coverage_pct": 13.3
+        },
+        {
+          "name": "08_Femoral_artery_and_vein",
+          "file": "overlay_08_Femoral_artery_and_vein.webp",
+          "coverage_pct": 4.0
+        },
+        {
+          "name": "09_Acoustic_enhancement_from_vessels",
+          "file": "overlay_09_Acoustic_enhancement_from_vessels.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "10_Adductor_magnus",
+          "file": "overlay_10_Adductor_magnus.webp",
+          "coverage_pct": 13.3
+        },
+        {
+          "name": "11_Vastus_medialis",
+          "file": "overlay_11_Vastus_medialis.webp",
+          "coverage_pct": 21.0
+        },
+        {
+          "name": "12_Subcutaneous_fat",
+          "file": "overlay_12_Subcutaneous_fat.webp",
+          "coverage_pct": 9.0
+        }
+      ]
+    }
+  ]
+}

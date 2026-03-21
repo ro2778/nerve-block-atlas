@@ -1,0 +1,100 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Lumbar_plexus_(shamrock)/Lumbar_plexus_(shamrock)_sonoanatomy_3",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    528,
+    110,
+    1776,
+    1080
+  ],
+  "crop_size": [
+    1248,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 54.3
+    },
+    {
+      "name": "02_Lumbar_plexus_location",
+      "file": "overlay_02_Lumbar_plexus_location.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "03_Vertebra_cortex_with_transverse_processes",
+      "file": "overlay_03_Vertebra_cortex_with_transverse_processes.webp",
+      "coverage_pct": 3.3
+    },
+    {
+      "name": "04_Acoustic_shadow_from_bone_cortex_with_artefacts",
+      "file": "overlay_04_Acoustic_shadow_from_bone_cortex_with_artefacts.webp",
+      "coverage_pct": 14.6
+    },
+    {
+      "name": "05_Psoas",
+      "file": "overlay_05_Psoas.webp",
+      "coverage_pct": 5.3
+    },
+    {
+      "name": "06_Quadratus_lumborum",
+      "file": "overlay_06_Quadratus_lumborum.webp",
+      "coverage_pct": 2.4
+    },
+    {
+      "name": "07_Paranephric_fat",
+      "file": "overlay_07_Paranephric_fat.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "08_Perinephric_fat",
+      "file": "overlay_08_Perinephric_fat.webp",
+      "coverage_pct": 1.7
+    },
+    {
+      "name": "09_Peritoneum_and_bowel",
+      "file": "overlay_09_Peritoneum_and_bowel.webp",
+      "coverage_pct": 3.3
+    },
+    {
+      "name": "10_Transversus_abdominus",
+      "file": "overlay_10_Transversus_abdominus.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "11_Internal_oblique",
+      "file": "overlay_11_Internal_oblique.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "12_External_oblique",
+      "file": "overlay_12_External_oblique.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "13_Erector_spinae",
+      "file": "overlay_13_Erector_spinae.webp",
+      "coverage_pct": 13.0
+    },
+    {
+      "name": "14_IVC",
+      "file": "overlay_14_IVC.webp",
+      "coverage_pct": 1.6
+    },
+    {
+      "name": "15_Latissimus_dorsi",
+      "file": "overlay_15_Latissimus_dorsi.webp",
+      "coverage_pct": 5.2
+    },
+    {
+      "name": "16_Subcutaneous_fat",
+      "file": "overlay_16_Subcutaneous_fat.webp",
+      "coverage_pct": 3.9
+    }
+  ]
+}

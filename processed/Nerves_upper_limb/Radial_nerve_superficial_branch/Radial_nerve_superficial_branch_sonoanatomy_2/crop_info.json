@@ -1,0 +1,100 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Radial_nerve_superficial_branch/Radial_nerve_superficial_branch_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    205,
+    1977,
+    973
+  ],
+  "crop_size": [
+    1652,
+    768
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 79.3
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 1.0
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "04_Radial_nerve_superficial_branch",
+      "file": "overlay_04_Radial_nerve_superficial_branch.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "05_Radial_artery_and_vein",
+      "file": "overlay_05_Radial_artery_and_vein.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "06_Brachioradialis",
+      "file": "overlay_06_Brachioradialis.webp",
+      "coverage_pct": 4.7
+    },
+    {
+      "name": "07_Median_nerve",
+      "file": "overlay_07_Median_nerve.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "08_Extensor_carpi_radialis",
+      "file": "overlay_08_Extensor_carpi_radialis.webp",
+      "coverage_pct": 16.2
+    },
+    {
+      "name": "09_Radius_cortex",
+      "file": "overlay_09_Radius_cortex.webp",
+      "coverage_pct": 2.9
+    },
+    {
+      "name": "10_Acoustic_shadow_from_bone",
+      "file": "overlay_10_Acoustic_shadow_from_bone.webp",
+      "coverage_pct": 10.6
+    },
+    {
+      "name": "11_Reverberation_artefacts",
+      "file": "overlay_11_Reverberation_artefacts.webp",
+      "coverage_pct": 2.3
+    },
+    {
+      "name": "12_Superficial_flexor_digitorum",
+      "file": "overlay_12_Superficial_flexor_digitorum.webp",
+      "coverage_pct": 5.6
+    },
+    {
+      "name": "13_Supinator",
+      "file": "overlay_13_Supinator.webp",
+      "coverage_pct": 1.1
+    },
+    {
+      "name": "14_Pronator_teres",
+      "file": "overlay_14_Pronator_teres.webp",
+      "coverage_pct": 18.8
+    },
+    {
+      "name": "15_Flexor_carpi_radialis",
+      "file": "overlay_15_Flexor_carpi_radialis.webp",
+      "coverage_pct": 9.1
+    },
+    {
+      "name": "16_Subcutaneous_fat",
+      "file": "overlay_16_Subcutaneous_fat.webp",
+      "coverage_pct": 7.5
+    }
+  ]
+}

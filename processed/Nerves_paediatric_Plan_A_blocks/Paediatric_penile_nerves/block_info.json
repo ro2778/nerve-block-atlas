@@ -1,0 +1,628 @@
+{
+  "block": "Paediatric penile nerves",
+  "category": "Nerves_paediatric_Plan_A_blocks",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_penile_nerves/Paediatric_penile_nerves_ergonomics_1",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        1038,
+        110,
+        1711,
+        1080
+      ],
+      "crop_size": [
+        673,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_penile_nerves/Paediatric_penile_nerves_ergonomics_2",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        1069,
+        110,
+        1680,
+        1080
+      ],
+      "crop_size": [
+        611,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_penile_nerves/Paediatric_penile_nerves_ergonomics_3",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        760,
+        110,
+        1990,
+        1080
+      ],
+      "crop_size": [
+        1230,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_penile_nerves/Paediatric_penile_nerves_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        238,
+        1977,
+        952
+      ],
+      "crop_size": [
+        1652,
+        714
+      ],
+      "layers": [
+        {
+          "name": "01_perineal_nerve",
+          "file": "overlay_01_perineal_nerve.webp",
+          "coverage_pct": 3.7
+        },
+        {
+          "name": "02_Dorsal_penile_nerves",
+          "file": "overlay_02_Dorsal_penile_nerves.webp",
+          "coverage_pct": 10.8
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_penile_nerves/Paediatric_penile_nerves_landmark_pattern_1",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        144,
+        1977,
+        1047
+      ],
+      "crop_size": [
+        1652,
+        903
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 1.1
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_penile_nerves/Paediatric_penile_nerves_landmark_pattern_2",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        355,
+        110,
+        1948,
+        1080
+      ],
+      "crop_size": [
+        1593,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 1.0
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_penile_nerves/Paediatric_penile_nerves_landmark_pattern_3",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        237,
+        1977,
+        953
+      ],
+      "crop_size": [
+        1652,
+        716
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 1.8
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_penile_nerves/Paediatric_penile_nerves_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        116,
+        1977,
+        1074
+      ],
+      "crop_size": [
+        1652,
+        958
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 34.3
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 4.3
+        },
+        {
+          "name": "04_Corpus_cavernosum_with_central_arteries",
+          "file": "overlay_04_Corpus_cavernosum_with_central_arteries.webp",
+          "coverage_pct": 8.8
+        },
+        {
+          "name": "05_Tunica_albuginea_and_penile_septum",
+          "file": "overlay_05_Tunica_albuginea_and_penile_septum.webp",
+          "coverage_pct": 3.7
+        },
+        {
+          "name": "06_Corpus_spongiosum",
+          "file": "overlay_06_Corpus_spongiosum.webp",
+          "coverage_pct": 3.5
+        },
+        {
+          "name": "07_Dorsal_arteries",
+          "file": "overlay_07_Dorsal_arteries.webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "08_Deep_dorsal_vein",
+          "file": "overlay_08_Deep_dorsal_vein.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "09_Dorsal_nerves_location",
+          "file": "overlay_09_Dorsal_nerves_location.webp",
+          "coverage_pct": 0.3
+        },
+        {
+          "name": "10_Deep_fascia",
+          "file": "overlay_10_Deep_fascia.webp",
+          "coverage_pct": 3.0
+        },
+        {
+          "name": "11_Superficial_fascia",
+          "file": "overlay_11_Superficial_fascia.webp",
+          "coverage_pct": 3.6
+        },
+        {
+          "name": "12_Spermatic_cords",
+          "file": "overlay_12_Spermatic_cords.webp",
+          "coverage_pct": 2.5
+        },
+        {
+          "name": "13_Subcutaneous_fat",
+          "file": "overlay_13_Subcutaneous_fat.webp",
+          "coverage_pct": 9.0
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_penile_nerves/Paediatric_penile_nerves_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        193,
+        1977,
+        997
+      ],
+      "crop_size": [
+        1652,
+        804
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 43.9
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.7
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 5.0
+        },
+        {
+          "name": "04_Corpus_cavernosum",
+          "file": "overlay_04_Corpus_cavernosum.webp",
+          "coverage_pct": 9.8
+        },
+        {
+          "name": "05_Central_arteries",
+          "file": "overlay_05_Central_arteries.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "06_Tunica_albuginea_and_penile_septum",
+          "file": "overlay_06_Tunica_albuginea_and_penile_septum.webp",
+          "coverage_pct": 4.6
+        },
+        {
+          "name": "07_Corpus_spongiosum",
+          "file": "overlay_07_Corpus_spongiosum.webp",
+          "coverage_pct": 2.5
+        },
+        {
+          "name": "08_Dorsal_arteries",
+          "file": "overlay_08_Dorsal_arteries.webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "09_Deep_dorsal_vein",
+          "file": "overlay_09_Deep_dorsal_vein.webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "10_Dorsal_penile_nerves_location",
+          "file": "overlay_10_Dorsal_penile_nerves_location.webp",
+          "coverage_pct": 0.3
+        },
+        {
+          "name": "11_Deep_fascia",
+          "file": "overlay_11_Deep_fascia.webp",
+          "coverage_pct": 5.1
+        },
+        {
+          "name": "12_Superficial_fascia",
+          "file": "overlay_12_Superficial_fascia.webp",
+          "coverage_pct": 5.0
+        },
+        {
+          "name": "13_Spermatic_cords",
+          "file": "overlay_13_Spermatic_cords.webp",
+          "coverage_pct": 3.7
+        },
+        {
+          "name": "14_Subcutaneous_fat",
+          "file": "overlay_14_Subcutaneous_fat.webp",
+          "coverage_pct": 13.6
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_penile_nerves/Paediatric_penile_nerves_sonoanatomy_3",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        123,
+        1977,
+        1067
+      ],
+      "crop_size": [
+        1652,
+        944
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 48.8
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 6.1
+        },
+        {
+          "name": "04_Corpus_cavernosum",
+          "file": "overlay_04_Corpus_cavernosum.webp",
+          "coverage_pct": 8.3
+        },
+        {
+          "name": "05_Central_arteries",
+          "file": "overlay_05_Central_arteries.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "06_Tunica_albuginea_and_penile_septum",
+          "file": "overlay_06_Tunica_albuginea_and_penile_septum.webp",
+          "coverage_pct": 3.7
+        },
+        {
+          "name": "07_Corpus_spongiosum_compressed",
+          "file": "overlay_07_Corpus_spongiosum_compressed.webp",
+          "coverage_pct": 2.2
+        },
+        {
+          "name": "08_Deep_fascia",
+          "file": "overlay_08_Deep_fascia.webp",
+          "coverage_pct": 4.9
+        },
+        {
+          "name": "09_Deep_dorsal_vein",
+          "file": "overlay_09_Deep_dorsal_vein.webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "10_Dorsal_arteries",
+          "file": "overlay_10_Dorsal_arteries.webp",
+          "coverage_pct": 0.1
+        },
+        {
+          "name": "11_Dorsal_penile_nerves_location",
+          "file": "overlay_11_Dorsal_penile_nerves_location.webp",
+          "coverage_pct": 0.1
+        },
+        {
+          "name": "12_Fundiform_ligament",
+          "file": "overlay_12_Fundiform_ligament.webp",
+          "coverage_pct": 3.1
+        },
+        {
+          "name": "13_Superficial_dorsal_vein",
+          "file": "overlay_13_Superficial_dorsal_vein.webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "14_Superficial_fascia",
+          "file": "overlay_14_Superficial_fascia.webp",
+          "coverage_pct": 6.0
+        },
+        {
+          "name": "15_Spermatic_cords",
+          "file": "overlay_15_Spermatic_cords.webp",
+          "coverage_pct": 1.9
+        },
+        {
+          "name": "16_Subcutaneous_fat",
+          "file": "overlay_16_Subcutaneous_fat.webp",
+          "coverage_pct": 9.1
+        },
+        {
+          "name": "17_Ultrasound_gel",
+          "file": "overlay_17_Ultrasound_gel.webp",
+          "coverage_pct": 10.6
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_penile_nerves/Paediatric_penile_nerves_sonoanatomy_4",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        124,
+        1977,
+        1066
+      ],
+      "crop_size": [
+        1652,
+        942
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 70.3
+        },
+        {
+          "name": "02_Needle_path_OOP",
+          "file": "overlay_02_Needle_path_OOP.webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 4.7
+        },
+        {
+          "name": "04_Corpus_cavernosum_with_central_artery",
+          "file": "overlay_04_Corpus_cavernosum_with_central_artery.webp",
+          "coverage_pct": 13.4
+        },
+        {
+          "name": "05_Tunica_albuginea",
+          "file": "overlay_05_Tunica_albuginea.webp",
+          "coverage_pct": 2.3
+        },
+        {
+          "name": "06_Corpus_spongiosum",
+          "file": "overlay_06_Corpus_spongiosum.webp",
+          "coverage_pct": 6.1
+        },
+        {
+          "name": "07_Superficial_fascia",
+          "file": "overlay_07_Superficial_fascia.webp",
+          "coverage_pct": 4.0
+        },
+        {
+          "name": "08_Deep_fascia_of_penis",
+          "file": "overlay_08_Deep_fascia_of_penis.webp",
+          "coverage_pct": 1.8
+        },
+        {
+          "name": "09_Fundiform_ligament,_cephalad_medial_portion",
+          "file": "overlay_09_Fundiform_ligament,_cephalad_medial_portion.webp",
+          "coverage_pct": 4.7
+        },
+        {
+          "name": "10_Linea_alba_and_rectus_abdominus",
+          "file": "overlay_10_Linea_alba_and_rectus_abdominus.webp",
+          "coverage_pct": 3.7
+        },
+        {
+          "name": "11_Pubis_cortex",
+          "file": "overlay_11_Pubis_cortex.webp",
+          "coverage_pct": 0.9
+        },
+        {
+          "name": "12_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+          "file": "overlay_12_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+          "coverage_pct": 11.3
+        },
+        {
+          "name": "13_Scrotal_structures",
+          "file": "overlay_13_Scrotal_structures.webp",
+          "coverage_pct": 11.5
+        },
+        {
+          "name": "14_Subcutaneous_fat",
+          "file": "overlay_14_Subcutaneous_fat.webp",
+          "coverage_pct": 8.5
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_penile_nerves/Paediatric_penile_nerves_sonoanatomy_5",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        202,
+        1977,
+        987
+      ],
+      "crop_size": [
+        1652,
+        785
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 59.9
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.9
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 5.8
+        },
+        {
+          "name": "04_Corpus_cavernosum",
+          "file": "overlay_04_Corpus_cavernosum.webp",
+          "coverage_pct": 8.2
+        },
+        {
+          "name": "05_Tunica_albuginea",
+          "file": "overlay_05_Tunica_albuginea.webp",
+          "coverage_pct": 1.7
+        },
+        {
+          "name": "06_Corpus_spongiosum",
+          "file": "overlay_06_Corpus_spongiosum.webp",
+          "coverage_pct": 4.4
+        },
+        {
+          "name": "07_Deep_fascia_of_penis",
+          "file": "overlay_07_Deep_fascia_of_penis.webp",
+          "coverage_pct": 1.7
+        },
+        {
+          "name": "08_Superficial_fascia",
+          "file": "overlay_08_Superficial_fascia.webp",
+          "coverage_pct": 3.0
+        },
+        {
+          "name": "09_Fundiform_ligament,_cephalad_medial_portion",
+          "file": "overlay_09_Fundiform_ligament,_cephalad_medial_portion.webp",
+          "coverage_pct": 6.9
+        },
+        {
+          "name": "10_Rectus_abdominus_and_linea_alba",
+          "file": "overlay_10_Rectus_abdominus_and_linea_alba.webp",
+          "coverage_pct": 4.3
+        },
+        {
+          "name": "11_Pubic_symphysis",
+          "file": "overlay_11_Pubic_symphysis.webp",
+          "coverage_pct": 1.5
+        },
+        {
+          "name": "12_Acoustic_shadow_from_bone_cortex_and_reverberation_artefacts",
+          "file": "overlay_12_Acoustic_shadow_from_bone_cortex_and_reverberation_artefacts.webp",
+          "coverage_pct": 4.9
+        },
+        {
+          "name": "13_Subcutaneous_fat",
+          "file": "overlay_13_Subcutaneous_fat.webp",
+          "coverage_pct": 10.0
+        },
+        {
+          "name": "14_Scrotal_structures",
+          "file": "overlay_14_Scrotal_structures.webp",
+          "coverage_pct": 8.7
+        }
+      ]
+    }
+  ]
+}

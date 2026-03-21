@@ -1,0 +1,95 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Femoral_nerve/Femoral_nerve_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    518,
+    110,
+    1786,
+    1080
+  ],
+  "crop_size": [
+    1268,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 88.9
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 63.3
+    },
+    {
+      "name": "03_Needle_path",
+      "file": "overlay_03_Needle_path.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "04_LA",
+      "file": "overlay_04_LA.webp",
+      "coverage_pct": 3.2
+    },
+    {
+      "name": "05_Femoral_nerve",
+      "file": "overlay_05_Femoral_nerve.webp",
+      "coverage_pct": 3.2
+    },
+    {
+      "name": "06_Common_femoral_artery",
+      "file": "overlay_06_Common_femoral_artery.webp",
+      "coverage_pct": 3.3
+    },
+    {
+      "name": "07_Femoral_vein",
+      "file": "overlay_07_Femoral_vein.webp",
+      "coverage_pct": 5.3
+    },
+    {
+      "name": "08_Fascia_iliaca",
+      "file": "overlay_08_Fascia_iliaca.webp",
+      "coverage_pct": 9.2
+    },
+    {
+      "name": "09_Iliopsoas",
+      "file": "overlay_09_Iliopsoas.webp",
+      "coverage_pct": 36.8
+    },
+    {
+      "name": "10_Pectineus",
+      "file": "overlay_10_Pectineus.webp",
+      "coverage_pct": 3.2
+    },
+    {
+      "name": "11_Fascia_lata",
+      "file": "overlay_11_Fascia_lata.webp",
+      "coverage_pct": 8.1
+    },
+    {
+      "name": "12_Subcutaneous_fat",
+      "file": "overlay_12_Subcutaneous_fat.webp",
+      "coverage_pct": 21.2
+    },
+    {
+      "name": "13_Femur_cortex",
+      "file": "overlay_13_Femur_cortex.webp",
+      "coverage_pct": 1.5
+    },
+    {
+      "name": "14_Acoustic_shadow_from_bone",
+      "file": "overlay_14_Acoustic_shadow_from_bone.webp",
+      "coverage_pct": 1.8
+    },
+    {
+      "name": "15_Femoral_branch_of_genitofemoral_nerve",
+      "file": "overlay_15_Femoral_branch_of_genitofemoral_nerve.webp",
+      "coverage_pct": 0.4
+    }
+  ]
+}

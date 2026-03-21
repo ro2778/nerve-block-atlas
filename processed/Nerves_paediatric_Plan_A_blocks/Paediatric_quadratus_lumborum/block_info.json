@@ -1,0 +1,170 @@
+{
+  "block": "Paediatric quadratus lumborum",
+  "category": "Nerves_paediatric_Plan_A_blocks",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_quadratus_lumborum/Paediatric_quadratus_lumborum_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        796,
+        110,
+        1954,
+        1080
+      ],
+      "crop_size": [
+        1158,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_quadratus_lumborum/Paediatric_quadratus_lumborum_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        607,
+        110,
+        1696,
+        1070
+      ],
+      "crop_size": [
+        1089,
+        960
+      ],
+      "layers": [
+        {
+          "name": "01_Contralateral_quadratus_lumborum",
+          "file": "overlay_01_Contralateral_quadratus_lumborum.webp",
+          "coverage_pct": 1.9
+        },
+        {
+          "name": "02_Quadratus_lumborum_lateral",
+          "file": "overlay_02_Quadratus_lumborum_lateral.webp",
+          "coverage_pct": 1.9
+        },
+        {
+          "name": "03_Midaxillary_TAP",
+          "file": "overlay_03_Midaxillary_TAP.webp",
+          "coverage_pct": 0.9
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_quadratus_lumborum/Paediatric_quadratus_lumborum_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 1.7
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_quadratus_lumborum/Paediatric_quadratus_lumborum_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        449,
+        110,
+        1854,
+        1080
+      ],
+      "crop_size": [
+        1405,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 78.2
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 2.6
+        },
+        {
+          "name": "04_External_oblique",
+          "file": "overlay_04_External_oblique.webp",
+          "coverage_pct": 3.4
+        },
+        {
+          "name": "05_Internal_oblique",
+          "file": "overlay_05_Internal_oblique.webp",
+          "coverage_pct": 2.4
+        },
+        {
+          "name": "06_Transversus_abdominus",
+          "file": "overlay_06_Transversus_abdominus.webp",
+          "coverage_pct": 0.9
+        },
+        {
+          "name": "07_Quadratus_lumborum",
+          "file": "overlay_07_Quadratus_lumborum.webp",
+          "coverage_pct": 8.5
+        },
+        {
+          "name": "08_Psoas",
+          "file": "overlay_08_Psoas.webp",
+          "coverage_pct": 18.6
+        },
+        {
+          "name": "09_Erector_spinae",
+          "file": "overlay_09_Erector_spinae.webp",
+          "coverage_pct": 1.5
+        },
+        {
+          "name": "10_Latissimus_dorsi",
+          "file": "overlay_10_Latissimus_dorsi.webp",
+          "coverage_pct": 4.4
+        },
+        {
+          "name": "11_Paranephric_fat_compartment",
+          "file": "overlay_11_Paranephric_fat_compartment.webp",
+          "coverage_pct": 3.9
+        },
+        {
+          "name": "12_Peritoneal_cavity_with_bowel",
+          "file": "overlay_12_Peritoneal_cavity_with_bowel.webp",
+          "coverage_pct": 25.5
+        },
+        {
+          "name": "13_Subcutaneous_fat",
+          "file": "overlay_13_Subcutaneous_fat.webp",
+          "coverage_pct": 7.8
+        }
+      ]
+    }
+  ]
+}

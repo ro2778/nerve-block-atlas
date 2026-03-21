@@ -1,0 +1,75 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/iPACK_(supine)/iPACK_(supine)_sonoanatomy_3",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    389,
+    110,
+    1914,
+    1049
+  ],
+  "crop_size": [
+    1525,
+    939
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 41.7
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 4.6
+    },
+    {
+      "name": "03_Needle_path",
+      "file": "overlay_03_Needle_path.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "04_LA",
+      "file": "overlay_04_LA.webp",
+      "coverage_pct": 4.6
+    },
+    {
+      "name": "05_Popliteal_artery_and_vein",
+      "file": "overlay_05_Popliteal_artery_and_vein.webp",
+      "coverage_pct": 1.6
+    },
+    {
+      "name": "06_Femur_cortex",
+      "file": "overlay_06_Femur_cortex.webp",
+      "coverage_pct": 3.0
+    },
+    {
+      "name": "07_Acoustic_shadow_from_bone_cortex",
+      "file": "overlay_07_Acoustic_shadow_from_bone_cortex.webp",
+      "coverage_pct": 22.4
+    },
+    {
+      "name": "08_Semimembranosis",
+      "file": "overlay_08_Semimembranosis.webp",
+      "coverage_pct": 3.6
+    },
+    {
+      "name": "09_Sartorius",
+      "file": "overlay_09_Sartorius.webp",
+      "coverage_pct": 2.1
+    },
+    {
+      "name": "10_Biceps_femoris",
+      "file": "overlay_10_Biceps_femoris.webp",
+      "coverage_pct": 1.8
+    },
+    {
+      "name": "11_Subcutaneous_fat",
+      "file": "overlay_11_Subcutaneous_fat.webp",
+      "coverage_pct": 2.8
+    }
+  ]
+}

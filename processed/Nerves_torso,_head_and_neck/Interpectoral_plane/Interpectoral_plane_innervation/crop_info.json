@@ -1,0 +1,50 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Interpectoral_plane/Interpectoral_plane_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    491,
+    114,
+    1811,
+    1080
+  ],
+  "crop_size": [
+    1320,
+    966
+  ],
+  "layers": [
+    {
+      "name": "01_Superficial_parasternal_intercostal_plane",
+      "file": "overlay_01_Superficial_parasternal_intercostal_plane.webp",
+      "coverage_pct": 3.3
+    },
+    {
+      "name": "02_Interpectoral_plane",
+      "file": "overlay_02_Interpectoral_plane.webp",
+      "coverage_pct": 9.6
+    },
+    {
+      "name": "03_Interpectoral_and_pectoserratus_planes",
+      "file": "overlay_03_Interpectoral_and_pectoserratus_planes.webp",
+      "coverage_pct": 11.9
+    },
+    {
+      "name": "04_Superficial_serratus_anterior_plane",
+      "file": "overlay_04_Superficial_serratus_anterior_plane.webp",
+      "coverage_pct": 10.7
+    },
+    {
+      "name": "05_Erector_spinae_T4",
+      "file": "overlay_05_Erector_spinae_T4.webp",
+      "coverage_pct": 8.9
+    },
+    {
+      "name": "06_Paravertebral_T4",
+      "file": "overlay_06_Paravertebral_T4.webp",
+      "coverage_pct": 11.8
+    }
+  ]
+}

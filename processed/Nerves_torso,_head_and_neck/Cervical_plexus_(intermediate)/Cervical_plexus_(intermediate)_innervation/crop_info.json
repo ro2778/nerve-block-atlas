@@ -1,0 +1,25 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Cervical_plexus_(intermediate)/Cervical_plexus_(intermediate)_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    547,
+    114,
+    1755,
+    1080
+  ],
+  "crop_size": [
+    1208,
+    966
+  ],
+  "layers": [
+    {
+      "name": "01_Superficial_cervical_plexus",
+      "file": "overlay_01_Superficial_cervical_plexus.webp",
+      "coverage_pct": 12.5
+    }
+  ]
+}

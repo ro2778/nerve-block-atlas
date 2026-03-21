@@ -1,0 +1,70 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Fascia_iliaca_(infrainguinal)/Fascia_iliaca_(infrainguinal)_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    160,
+    1977,
+    1030
+  ],
+  "crop_size": [
+    1652,
+    870
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 85.0
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 4.9
+    },
+    {
+      "name": "04_Femoral_artery",
+      "file": "overlay_04_Femoral_artery.webp",
+      "coverage_pct": 5.7
+    },
+    {
+      "name": "05_Femoral_vein",
+      "file": "overlay_05_Femoral_vein.webp",
+      "coverage_pct": 4.3
+    },
+    {
+      "name": "06_Iliopsoas",
+      "file": "overlay_06_Iliopsoas.webp",
+      "coverage_pct": 46.7
+    },
+    {
+      "name": "07_Fascia_iliaca",
+      "file": "overlay_07_Fascia_iliaca.webp",
+      "coverage_pct": 8.4
+    },
+    {
+      "name": "08_Femoral_nerve",
+      "file": "overlay_08_Femoral_nerve.webp",
+      "coverage_pct": 2.0
+    },
+    {
+      "name": "09_Fascia_lata",
+      "file": "overlay_09_Fascia_lata.webp",
+      "coverage_pct": 7.6
+    },
+    {
+      "name": "10_Subcutaneous_fat",
+      "file": "overlay_10_Subcutaneous_fat.webp",
+      "coverage_pct": 11.5
+    }
+  ]
+}

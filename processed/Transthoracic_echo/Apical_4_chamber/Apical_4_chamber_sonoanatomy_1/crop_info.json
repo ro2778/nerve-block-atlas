@@ -1,0 +1,75 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Apical_4_chamber/Apical_4_chamber_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    677,
+    121,
+    1626,
+    1080
+  ],
+  "crop_size": [
+    949,
+    959
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 40.5
+    },
+    {
+      "name": "02_Left_ventricle",
+      "file": "overlay_02_Left_ventricle.webp",
+      "coverage_pct": 11.0
+    },
+    {
+      "name": "03_Right_ventricle",
+      "file": "overlay_03_Right_ventricle.webp",
+      "coverage_pct": 6.8
+    },
+    {
+      "name": "04_LA_and_pulmonary_veins",
+      "file": "overlay_04_LA_and_pulmonary_veins.webp",
+      "coverage_pct": 6.6
+    },
+    {
+      "name": "05_Right_atrium",
+      "file": "overlay_05_Right_atrium.webp",
+      "coverage_pct": 3.2
+    },
+    {
+      "name": "06_Tricuspid_valve",
+      "file": "overlay_06_Tricuspid_valve.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "07_Anterior_mitral_leaflet",
+      "file": "overlay_07_Anterior_mitral_leaflet.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "08_Posterior_mitral_leaflet",
+      "file": "overlay_08_Posterior_mitral_leaflet.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "09_LV_inferoseptal_wall",
+      "file": "overlay_09_LV_inferoseptal_wall.webp",
+      "coverage_pct": 3.1
+    },
+    {
+      "name": "10_LV_anterolateral_wall",
+      "file": "overlay_10_LV_anterolateral_wall.webp",
+      "coverage_pct": 3.5
+    },
+    {
+      "name": "11_Other_chamber_walls",
+      "file": "overlay_11_Other_chamber_walls.webp",
+      "coverage_pct": 9.3
+    }
+  ]
+}

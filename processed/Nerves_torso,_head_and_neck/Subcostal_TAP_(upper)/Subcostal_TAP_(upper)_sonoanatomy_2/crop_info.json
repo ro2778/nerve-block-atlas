@@ -1,0 +1,70 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Subcostal_TAP_(upper)/Subcostal_TAP_(upper)_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    361,
+    110,
+    1941,
+    1074
+  ],
+  "crop_size": [
+    1580,
+    964
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 90.4
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.9
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 8.4
+    },
+    {
+      "name": "04_Rectus_abdominus",
+      "file": "overlay_04_Rectus_abdominus.webp",
+      "coverage_pct": 4.7
+    },
+    {
+      "name": "05_External_oblique",
+      "file": "overlay_05_External_oblique.webp",
+      "coverage_pct": 5.7
+    },
+    {
+      "name": "06_Internal_oblique",
+      "file": "overlay_06_Internal_oblique.webp",
+      "coverage_pct": 6.1
+    },
+    {
+      "name": "07_Transversus_abdominus",
+      "file": "overlay_07_Transversus_abdominus.webp",
+      "coverage_pct": 11.8
+    },
+    {
+      "name": "08_Linear_semilunaris",
+      "file": "overlay_08_Linear_semilunaris.webp",
+      "coverage_pct": 8.7
+    },
+    {
+      "name": "09_Peritoneum_and_intraperitoneal",
+      "file": "overlay_09_Peritoneum_and_intraperitoneal.webp",
+      "coverage_pct": 32.1
+    },
+    {
+      "name": "10_Subcutaneous_fat",
+      "file": "overlay_10_Subcutaneous_fat.webp",
+      "coverage_pct": 19.6
+    }
+  ]
+}

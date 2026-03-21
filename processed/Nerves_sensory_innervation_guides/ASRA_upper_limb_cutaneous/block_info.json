@@ -1,0 +1,25 @@
+{
+  "block": "ASRA_upper_limb_cutaneous_",
+  "category": "Nerves_sensory_innervation_guides",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_sensory_innervation_guides/ASRA_upper_limb_cutaneous_/ASRA_upper_limb_cutaneous__innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        580,
+        110,
+        1977,
+        1080
+      ],
+      "crop_size": [
+        1397,
+        970
+      ],
+      "layers": []
+    }
+  ]
+}

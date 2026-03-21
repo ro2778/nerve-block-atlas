@@ -1,0 +1,60 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Vascular_access/Femoral_vein/Femoral_vein_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    497,
+    110,
+    1806,
+    1080
+  ],
+  "crop_size": [
+    1309,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 75.8
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "03_Femoral_vein",
+      "file": "overlay_03_Femoral_vein.webp",
+      "coverage_pct": 6.6
+    },
+    {
+      "name": "04_Femoral_artery",
+      "file": "overlay_04_Femoral_artery.webp",
+      "coverage_pct": 3.7
+    },
+    {
+      "name": "05_Femoral_nerve",
+      "file": "overlay_05_Femoral_nerve.webp",
+      "coverage_pct": 2.0
+    },
+    {
+      "name": "06_Iliopsoas",
+      "file": "overlay_06_Iliopsoas.webp",
+      "coverage_pct": 28.0
+    },
+    {
+      "name": "07_Pectineus",
+      "file": "overlay_07_Pectineus.webp",
+      "coverage_pct": 9.3
+    },
+    {
+      "name": "08_Subcutaneous_fat",
+      "file": "overlay_08_Subcutaneous_fat.webp",
+      "coverage_pct": 26.2
+    }
+  ]
+}

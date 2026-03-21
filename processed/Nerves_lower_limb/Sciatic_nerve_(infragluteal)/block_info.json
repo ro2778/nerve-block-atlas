@@ -1,0 +1,285 @@
+{
+  "block": "Sciatic nerve (infragluteal)",
+  "category": "Nerves_lower_limb",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sciatic_nerve_(infragluteal)/Sciatic_nerve_(infragluteal)_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        732,
+        110,
+        2236,
+        1080
+      ],
+      "crop_size": [
+        1504,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sciatic_nerve_(infragluteal)/Sciatic_nerve_(infragluteal)_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        459,
+        114,
+        1844,
+        1080
+      ],
+      "crop_size": [
+        1385,
+        966
+      ],
+      "layers": [
+        {
+          "name": "01_Fascia_iliaca",
+          "file": "overlay_01_Fascia_iliaca.webp",
+          "coverage_pct": 8.8
+        },
+        {
+          "name": "02_Femoral_nerve",
+          "file": "overlay_02_Femoral_nerve.webp",
+          "coverage_pct": 6.8
+        },
+        {
+          "name": "03_Lumbar_plexus",
+          "file": "overlay_03_Lumbar_plexus.webp",
+          "coverage_pct": 11.6
+        },
+        {
+          "name": "04_Posterior_cutaneous_nerve_of_thigh",
+          "file": "overlay_04_Posterior_cutaneous_nerve_of_thigh.webp",
+          "coverage_pct": 2.2
+        },
+        {
+          "name": "05_Sciatic_nerve_(infragluteal)",
+          "file": "overlay_05_Sciatic_nerve_(infragluteal).webp",
+          "coverage_pct": 9.9
+        },
+        {
+          "name": "06_Sciatic_nerve_(popliteal_fossa)",
+          "file": "overlay_06_Sciatic_nerve_(popliteal_fossa).webp",
+          "coverage_pct": 8.0
+        },
+        {
+          "name": "07_Sacral_plexus",
+          "file": "overlay_07_Sacral_plexus.webp",
+          "coverage_pct": 13.5
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sciatic_nerve_(infragluteal)/Sciatic_nerve_(infragluteal)_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.9
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sciatic_nerve_(infragluteal)/Sciatic_nerve_(infragluteal)_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        435,
+        110,
+        1868,
+        1080
+      ],
+      "crop_size": [
+        1433,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 60.3
+        },
+        {
+          "name": "02_Block_view",
+          "file": "overlay_02_Block_view.webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "03_Needle_path",
+          "file": "overlay_03_Needle_path.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "04_LA",
+          "file": "overlay_04_LA.webp",
+          "coverage_pct": 2.1
+        },
+        {
+          "name": "05_Sciatic_nerve",
+          "file": "overlay_05_Sciatic_nerve.webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "06_Gluteus_maximus",
+          "file": "overlay_06_Gluteus_maximus.webp",
+          "coverage_pct": 11.6
+        },
+        {
+          "name": "07_Quadratus_femoris",
+          "file": "overlay_07_Quadratus_femoris.webp",
+          "coverage_pct": 7.9
+        },
+        {
+          "name": "08_Posterior_cutaneous_nerve_of_the_thigh",
+          "file": "overlay_08_Posterior_cutaneous_nerve_of_the_thigh.webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "09_Biceps_femoris",
+          "file": "overlay_09_Biceps_femoris.webp",
+          "coverage_pct": 2.3
+        },
+        {
+          "name": "10_Semimembranosis_tendon",
+          "file": "overlay_10_Semimembranosis_tendon.webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "11_Obturator_externus",
+          "file": "overlay_11_Obturator_externus.webp",
+          "coverage_pct": 10.0
+        },
+        {
+          "name": "12_Femur_cortex",
+          "file": "overlay_12_Femur_cortex.webp",
+          "coverage_pct": 1.4
+        },
+        {
+          "name": "13_Ischial_tuberosity_cortex",
+          "file": "overlay_13_Ischial_tuberosity_cortex.webp",
+          "coverage_pct": 2.4
+        },
+        {
+          "name": "14_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+          "file": "overlay_14_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+          "coverage_pct": 18.0
+        },
+        {
+          "name": "15_Subcutaneous_fat",
+          "file": "overlay_15_Subcutaneous_fat.webp",
+          "coverage_pct": 5.3
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sciatic_nerve_(infragluteal)/Sciatic_nerve_(infragluteal)_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        621,
+        110,
+        1682,
+        1080
+      ],
+      "crop_size": [
+        1061,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 77.1
+        },
+        {
+          "name": "02_Block_view",
+          "file": "overlay_02_Block_view.webp",
+          "coverage_pct": 3.3
+        },
+        {
+          "name": "03_Needle_path",
+          "file": "overlay_03_Needle_path.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "04_LA",
+          "file": "overlay_04_LA.webp",
+          "coverage_pct": 5.3
+        },
+        {
+          "name": "05_Sciatic_nerve",
+          "file": "overlay_05_Sciatic_nerve.webp",
+          "coverage_pct": 3.3
+        },
+        {
+          "name": "06_Gluteus_maximus",
+          "file": "overlay_06_Gluteus_maximus.webp",
+          "coverage_pct": 20.0
+        },
+        {
+          "name": "07_Semimembranosis_tendon",
+          "file": "overlay_07_Semimembranosis_tendon.webp",
+          "coverage_pct": 1.3
+        },
+        {
+          "name": "08_Biceps_femoris",
+          "file": "overlay_08_Biceps_femoris.webp",
+          "coverage_pct": 4.0
+        },
+        {
+          "name": "09_Quadratus_femoris",
+          "file": "overlay_09_Quadratus_femoris.webp",
+          "coverage_pct": 19.5
+        },
+        {
+          "name": "10_Femur_cortex",
+          "file": "overlay_10_Femur_cortex.webp",
+          "coverage_pct": 1.7
+        },
+        {
+          "name": "11_Ischium_cortex",
+          "file": "overlay_11_Ischium_cortex.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "12_Acoustic_shadow_from_bone_cortex",
+          "file": "overlay_12_Acoustic_shadow_from_bone_cortex.webp",
+          "coverage_pct": 8.8
+        },
+        {
+          "name": "13_Subcutaneous_fat",
+          "file": "overlay_13_Subcutaneous_fat.webp",
+          "coverage_pct": 16.3
+        }
+      ]
+    }
+  ]
+}

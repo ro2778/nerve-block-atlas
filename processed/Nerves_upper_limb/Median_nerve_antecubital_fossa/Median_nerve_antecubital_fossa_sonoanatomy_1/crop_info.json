@@ -1,0 +1,75 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Median_nerve_antecubital_fossa/Median_nerve_antecubital_fossa_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    141,
+    1977,
+    1031
+  ],
+  "crop_size": [
+    1652,
+    890
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 78.5
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 2.3
+    },
+    {
+      "name": "04_Median_nerve",
+      "file": "overlay_04_Median_nerve.webp",
+      "coverage_pct": 1.5
+    },
+    {
+      "name": "05_Brachial_artery",
+      "file": "overlay_05_Brachial_artery.webp",
+      "coverage_pct": 1.4
+    },
+    {
+      "name": "06_Brachialis",
+      "file": "overlay_06_Brachialis.webp",
+      "coverage_pct": 48.4
+    },
+    {
+      "name": "07_Pronator_teres",
+      "file": "overlay_07_Pronator_teres.webp",
+      "coverage_pct": 12.3
+    },
+    {
+      "name": "08_Biceps",
+      "file": "overlay_08_Biceps.webp",
+      "coverage_pct": 2.7
+    },
+    {
+      "name": "09_Humerus_cortex",
+      "file": "overlay_09_Humerus_cortex.webp",
+      "coverage_pct": 2.0
+    },
+    {
+      "name": "10_Acoustic_shadow_from_bone",
+      "file": "overlay_10_Acoustic_shadow_from_bone.webp",
+      "coverage_pct": 2.5
+    },
+    {
+      "name": "11_Subcutaneous_fat",
+      "file": "overlay_11_Subcutaneous_fat.webp",
+      "coverage_pct": 6.6
+    }
+  ]
+}

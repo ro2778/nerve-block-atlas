@@ -1,0 +1,65 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Sagittal_oblique_interlaminar/Sagittal_oblique_interlaminar_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    397,
+    110,
+    1905,
+    1052
+  ],
+  "crop_size": [
+    1508,
+    942
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 61.5
+    },
+    {
+      "name": "02_Laminae_cortices",
+      "file": "overlay_02_Laminae_cortices.webp",
+      "coverage_pct": 2.3
+    },
+    {
+      "name": "03_Acoustic_shadows_from_laminae_cortices",
+      "file": "overlay_03_Acoustic_shadows_from_laminae_cortices.webp",
+      "coverage_pct": 24.9
+    },
+    {
+      "name": "04_Posterior_complex",
+      "file": "overlay_04_Posterior_complex.webp",
+      "coverage_pct": 1.5
+    },
+    {
+      "name": "05_Anterior_complex",
+      "file": "overlay_05_Anterior_complex.webp",
+      "coverage_pct": 1.1
+    },
+    {
+      "name": "06_Acoustic_shadows_from_vertebrae_cortices_with_reverberation_artefacts",
+      "file": "overlay_06_Acoustic_shadows_from_vertebrae_cortices_with_reverberation_artefacts.webp",
+      "coverage_pct": 9.6
+    },
+    {
+      "name": "07_Intrathecal_space_and_cauda_equina",
+      "file": "overlay_07_Intrathecal_space_and_cauda_equina.webp",
+      "coverage_pct": 3.9
+    },
+    {
+      "name": "08_Erector_spinae",
+      "file": "overlay_08_Erector_spinae.webp",
+      "coverage_pct": 18.3
+    },
+    {
+      "name": "09_Subcutaneous_fat",
+      "file": "overlay_09_Subcutaneous_fat.webp",
+      "coverage_pct": 2.0
+    }
+  ]
+}

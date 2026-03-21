@@ -1,0 +1,45 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Superior_medial_geniculate_nerves/Superior_medial_geniculate_nerves_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    388,
+    116,
+    1915,
+    1080
+  ],
+  "crop_size": [
+    1527,
+    964
+  ],
+  "layers": [
+    {
+      "name": "01_IL_geniculate_nerves",
+      "file": "overlay_01_IL_geniculate_nerves.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "02_IM_geniculate_nerves",
+      "file": "overlay_02_IM_geniculate_nerves.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "03_SL_geniculate_nerves",
+      "file": "overlay_03_SL_geniculate_nerves.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "04_Femoral_triangle_apex",
+      "file": "overlay_04_Femoral_triangle_apex.webp",
+      "coverage_pct": 2.4
+    },
+    {
+      "name": "05_SM_geniculate_nerves",
+      "file": "overlay_05_SM_geniculate_nerves.webp",
+      "coverage_pct": 0.9
+    }
+  ]
+}

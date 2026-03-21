@@ -1,0 +1,80 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Parasternal_short_axis_mid-papillary/Parasternal_short_axis_mid-papillary_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    567,
+    122,
+    1707,
+    1080
+  ],
+  "crop_size": [
+    1140,
+    958
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 28.3
+    },
+    {
+      "name": "02_Left_ventricle",
+      "file": "overlay_02_Left_ventricle.webp",
+      "coverage_pct": 5.4
+    },
+    {
+      "name": "03_Posteromedial_papillary_muscle",
+      "file": "overlay_03_Posteromedial_papillary_muscle.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "04_Anterolateral_papillary_muscle",
+      "file": "overlay_04_Anterolateral_papillary_muscle.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "05_LV_anterior_wall",
+      "file": "overlay_05_LV_anterior_wall.webp",
+      "coverage_pct": 2.2
+    },
+    {
+      "name": "06_LV_anterolateral_wall",
+      "file": "overlay_06_LV_anterolateral_wall.webp",
+      "coverage_pct": 2.1
+    },
+    {
+      "name": "07_LV_anteroseptal_wall",
+      "file": "overlay_07_LV_anteroseptal_wall.webp",
+      "coverage_pct": 2.1
+    },
+    {
+      "name": "08_LV_inferior_wall",
+      "file": "overlay_08_LV_inferior_wall.webp",
+      "coverage_pct": 2.3
+    },
+    {
+      "name": "09_LV_inferolateral_wall",
+      "file": "overlay_09_LV_inferolateral_wall.webp",
+      "coverage_pct": 1.7
+    },
+    {
+      "name": "10_LV_inferoseptal_wall",
+      "file": "overlay_10_LV_inferoseptal_wall.webp",
+      "coverage_pct": 2.5
+    },
+    {
+      "name": "11_Right_ventricle",
+      "file": "overlay_11_Right_ventricle.webp",
+      "coverage_pct": 6.6
+    },
+    {
+      "name": "12_RV_wall",
+      "file": "overlay_12_RV_wall.webp",
+      "coverage_pct": 4.0
+    }
+  ]
+}

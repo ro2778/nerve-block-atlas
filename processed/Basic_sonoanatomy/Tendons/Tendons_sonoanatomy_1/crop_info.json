@@ -1,0 +1,40 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Tendons/Tendons_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    377,
+    110,
+    1926,
+    1069
+  ],
+  "crop_size": [
+    1549,
+    959
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 87.4
+    },
+    {
+      "name": "02_Tendon_short_axis",
+      "file": "overlay_02_Tendon_short_axis.webp",
+      "coverage_pct": 10.0
+    },
+    {
+      "name": "03_Muscle",
+      "file": "overlay_03_Muscle.webp",
+      "coverage_pct": 66.0
+    },
+    {
+      "name": "04_Subcutaneous_fat",
+      "file": "overlay_04_Subcutaneous_fat.webp",
+      "coverage_pct": 11.4
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_brachial_plexus_axillary/Paediatric_brachial_plexus_axillary_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    641,
+    116,
+    1662,
+    1080
+  ],
+  "crop_size": [
+    1021,
+    964
+  ],
+  "layers": [
+    {
+      "name": "01_Intercostobrachial_nerve",
+      "file": "overlay_01_Intercostobrachial_nerve.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "02_Brachial_plexus_axillary",
+      "file": "overlay_02_Brachial_plexus_axillary.webp",
+      "coverage_pct": 8.1
+    },
+    {
+      "name": "03_Brachial_plexus_infraclavicular",
+      "file": "overlay_03_Brachial_plexus_infraclavicular.webp",
+      "coverage_pct": 9.4
+    },
+    {
+      "name": "04_Brachial_plexus_costoclavicular",
+      "file": "overlay_04_Brachial_plexus_costoclavicular.webp",
+      "coverage_pct": 10.2
+    },
+    {
+      "name": "05_Brachial_plexus_supraclavicular",
+      "file": "overlay_05_Brachial_plexus_supraclavicular.webp",
+      "coverage_pct": 10.4
+    }
+  ]
+}

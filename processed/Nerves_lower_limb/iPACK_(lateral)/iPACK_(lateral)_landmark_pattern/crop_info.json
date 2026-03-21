@@ -1,0 +1,25 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/iPACK_(lateral)/iPACK_(lateral)_landmark_pattern",
+  "view_type": "diagram",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    444,
+    110,
+    1859,
+    1080
+  ],
+  "crop_size": [
+    1415,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_Labels",
+      "file": "overlay_01_Show_Labels.webp",
+      "coverage_pct": 0.9
+    }
+  ]
+}

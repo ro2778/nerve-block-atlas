@@ -1,0 +1,50 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Midaxillary_TAP/Midaxillary_TAP_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    607,
+    114,
+    1695,
+    1080
+  ],
+  "crop_size": [
+    1088,
+    966
+  ],
+  "layers": [
+    {
+      "name": "01_Midaxillary_TAP_contralateral",
+      "file": "overlay_01_Midaxillary_TAP_contralateral.webp",
+      "coverage_pct": 1.1
+    },
+    {
+      "name": "02_Midaxillary_TAP",
+      "file": "overlay_02_Midaxillary_TAP.webp",
+      "coverage_pct": 8.2
+    },
+    {
+      "name": "03_Subcostal_TAP_(lower)",
+      "file": "overlay_03_Subcostal_TAP_(lower).webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "04_Anterior_quadratus_lumborum",
+      "file": "overlay_04_Anterior_quadratus_lumborum.webp",
+      "coverage_pct": 5.2
+    },
+    {
+      "name": "05_Paravertebral_T10",
+      "file": "overlay_05_Paravertebral_T10.webp",
+      "coverage_pct": 5.0
+    },
+    {
+      "name": "06_Epidural_T11",
+      "file": "overlay_06_Epidural_T11.webp",
+      "coverage_pct": 11.3
+    }
+  ]
+}

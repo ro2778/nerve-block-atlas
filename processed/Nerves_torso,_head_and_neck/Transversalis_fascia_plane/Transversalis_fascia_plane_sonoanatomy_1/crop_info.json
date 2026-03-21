@@ -1,0 +1,95 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Transversalis_fascia_plane/Transversalis_fascia_plane_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    505,
+    110,
+    1798,
+    1080
+  ],
+  "crop_size": [
+    1293,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 81.1
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 7.2
+    },
+    {
+      "name": "04_Nerves_iliohypogastric,_ilioinguinal,_subcostal",
+      "file": "overlay_04_Nerves_iliohypogastric,_ilioinguinal,_subcostal.webp",
+      "coverage_pct": 1.2
+    },
+    {
+      "name": "05_Transversalis_fascia_before_LA_injection",
+      "file": "overlay_05_Transversalis_fascia_before_LA_injection.webp",
+      "coverage_pct": 2.9
+    },
+    {
+      "name": "06_Transversalis_fascia_after_LA_injection",
+      "file": "overlay_06_Transversalis_fascia_after_LA_injection.webp",
+      "coverage_pct": 2.2
+    },
+    {
+      "name": "07_Transversus_abdominus",
+      "file": "overlay_07_Transversus_abdominus.webp",
+      "coverage_pct": 1.4
+    },
+    {
+      "name": "08_Internal_oblique",
+      "file": "overlay_08_Internal_oblique.webp",
+      "coverage_pct": 9.7
+    },
+    {
+      "name": "09_External_oblique",
+      "file": "overlay_09_External_oblique.webp",
+      "coverage_pct": 5.8
+    },
+    {
+      "name": "10_Quadratus_lumborum",
+      "file": "overlay_10_Quadratus_lumborum.webp",
+      "coverage_pct": 19.7
+    },
+    {
+      "name": "11_Psoas",
+      "file": "overlay_11_Psoas.webp",
+      "coverage_pct": 14.8
+    },
+    {
+      "name": "12_Paranephric_fat_compartment",
+      "file": "overlay_12_Paranephric_fat_compartment.webp",
+      "coverage_pct": 5.8
+    },
+    {
+      "name": "13_Perinephric_fat",
+      "file": "overlay_13_Perinephric_fat.webp",
+      "coverage_pct": 6.3
+    },
+    {
+      "name": "14_Bowel",
+      "file": "overlay_14_Bowel.webp",
+      "coverage_pct": 4.0
+    },
+    {
+      "name": "15_Subcutaneous_fat",
+      "file": "overlay_15_Subcutaneous_fat.webp",
+      "coverage_pct": 10.4
+    }
+  ]
+}

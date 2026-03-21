@@ -1,0 +1,19 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Subcostal_TAP_(lower)/Subcostal_TAP_(lower)_ergonomics",
+  "view_type": "ergonomics",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    951,
+    110,
+    1812,
+    1080
+  ],
+  "crop_size": [
+    861,
+    970
+  ],
+  "layers": []
+}

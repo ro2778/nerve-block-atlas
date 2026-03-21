@@ -1,0 +1,45 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Parasternal_short_axis_apex/Parasternal_short_axis_apex_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    604,
+    121,
+    1689,
+    1080
+  ],
+  "crop_size": [
+    1085,
+    959
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 16.2
+    },
+    {
+      "name": "02_Left_ventricle",
+      "file": "overlay_02_Left_ventricle.webp",
+      "coverage_pct": 3.3
+    },
+    {
+      "name": "03_LV_apical_wall",
+      "file": "overlay_03_LV_apical_wall.webp",
+      "coverage_pct": 8.0
+    },
+    {
+      "name": "04_Right_ventricle",
+      "file": "overlay_04_Right_ventricle.webp",
+      "coverage_pct": 2.1
+    },
+    {
+      "name": "05_RV_wall",
+      "file": "overlay_05_RV_wall.webp",
+      "coverage_pct": 3.2
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Lumbar_plexus_(shamrock)/Lumbar_plexus_(shamrock)_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    343,
+    115,
+    1960,
+    1080
+  ],
+  "crop_size": [
+    1617,
+    965
+  ],
+  "layers": [
+    {
+      "name": "01_Sacral_plexus",
+      "file": "overlay_01_Sacral_plexus.webp",
+      "coverage_pct": 18.4
+    },
+    {
+      "name": "02_Lumbar_plexus",
+      "file": "overlay_02_Lumbar_plexus.webp",
+      "coverage_pct": 16.1
+    },
+    {
+      "name": "03_Fascia_iliaca",
+      "file": "overlay_03_Fascia_iliaca.webp",
+      "coverage_pct": 9.6
+    },
+    {
+      "name": "04_Femoral_nerve",
+      "file": "overlay_04_Femoral_nerve.webp",
+      "coverage_pct": 8.6
+    },
+    {
+      "name": "05_Lateral_Femoral_Cutaneous_nerve",
+      "file": "overlay_05_Lateral_Femoral_Cutaneous_nerve.webp",
+      "coverage_pct": 1.2
+    },
+    {
+      "name": "06_Pericapsular_nerve_group_(PENG)",
+      "file": "overlay_06_Pericapsular_nerve_group_(PENG).webp",
+      "coverage_pct": 2.6
+    },
+    {
+      "name": "07_Obturator_nerve",
+      "file": "overlay_07_Obturator_nerve.webp",
+      "coverage_pct": 4.3
+    }
+  ]
+}

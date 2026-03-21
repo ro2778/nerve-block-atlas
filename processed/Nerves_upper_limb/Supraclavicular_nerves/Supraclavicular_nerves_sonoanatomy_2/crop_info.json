@@ -1,0 +1,110 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Supraclavicular_nerves/Supraclavicular_nerves_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    148,
+    1977,
+    1035
+  ],
+  "crop_size": [
+    1652,
+    887
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 58.6
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "04_Supraclavicular_nerve",
+      "file": "overlay_04_Supraclavicular_nerve.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "05_C5_root",
+      "file": "overlay_05_C5_root.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "06_C6_root",
+      "file": "overlay_06_C6_root.webp",
+      "coverage_pct": 1.0
+    },
+    {
+      "name": "07_C7_root",
+      "file": "overlay_07_C7_root.webp",
+      "coverage_pct": 1.0
+    },
+    {
+      "name": "08_Anterior_scalene",
+      "file": "overlay_08_Anterior_scalene.webp",
+      "coverage_pct": 5.2
+    },
+    {
+      "name": "09_Middle_scalene",
+      "file": "overlay_09_Middle_scalene.webp",
+      "coverage_pct": 9.1
+    },
+    {
+      "name": "10_C7_transverse_process_cortex",
+      "file": "overlay_10_C7_transverse_process_cortex.webp",
+      "coverage_pct": 1.6
+    },
+    {
+      "name": "11_Acoustic_shadow_from_bone",
+      "file": "overlay_11_Acoustic_shadow_from_bone.webp",
+      "coverage_pct": 18.7
+    },
+    {
+      "name": "12_Carotid_artery",
+      "file": "overlay_12_Carotid_artery.webp",
+      "coverage_pct": 2.6
+    },
+    {
+      "name": "13_IJV_compressed",
+      "file": "overlay_13_IJV_compressed.webp",
+      "coverage_pct": 1.3
+    },
+    {
+      "name": "14_Vertebral_artery_and_vein",
+      "file": "overlay_14_Vertebral_artery_and_vein.webp",
+      "coverage_pct": 1.3
+    },
+    {
+      "name": "15_Sternocleidomastoid",
+      "file": "overlay_15_Sternocleidomastoid.webp",
+      "coverage_pct": 8.4
+    },
+    {
+      "name": "16_Omohyoid",
+      "file": "overlay_16_Omohyoid.webp",
+      "coverage_pct": 1.0
+    },
+    {
+      "name": "17_Longus_coli",
+      "file": "overlay_17_Longus_coli.webp",
+      "coverage_pct": 5.1
+    },
+    {
+      "name": "18_Platysma",
+      "file": "overlay_18_Platysma.webp",
+      "coverage_pct": 1.2
+    }
+  ]
+}

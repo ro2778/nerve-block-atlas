@@ -1,0 +1,30 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Superficial_parasternal_intercostal_plane/Superficial_parasternal_intercostal_plane_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    491,
+    114,
+    1811,
+    1080
+  ],
+  "crop_size": [
+    1320,
+    966
+  ],
+  "layers": [
+    {
+      "name": "01_Superficial_serratus_anterior_plane",
+      "file": "overlay_01_Superficial_serratus_anterior_plane.webp",
+      "coverage_pct": 10.7
+    },
+    {
+      "name": "02_Superficial_parasternal_intercostal_plane",
+      "file": "overlay_02_Superficial_parasternal_intercostal_plane.webp",
+      "coverage_pct": 11.1
+    }
+  ]
+}

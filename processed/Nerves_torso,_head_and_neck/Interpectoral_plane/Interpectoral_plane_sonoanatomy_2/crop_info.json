@@ -1,0 +1,80 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Interpectoral_plane/Interpectoral_plane_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    598,
+    110,
+    1705,
+    1080
+  ],
+  "crop_size": [
+    1107,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 72.9
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 45.7
+    },
+    {
+      "name": "03_Needle_path",
+      "file": "overlay_03_Needle_path.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "04_LA",
+      "file": "overlay_04_LA.webp",
+      "coverage_pct": 4.8
+    },
+    {
+      "name": "05_Pectoral_nerve_branch",
+      "file": "overlay_05_Pectoral_nerve_branch.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "06_Pectoralis_major",
+      "file": "overlay_06_Pectoralis_major.webp",
+      "coverage_pct": 29.8
+    },
+    {
+      "name": "07_Pectoralis_minor",
+      "file": "overlay_07_Pectoralis_minor.webp",
+      "coverage_pct": 13.4
+    },
+    {
+      "name": "08_Ribs_cortex",
+      "file": "overlay_08_Ribs_cortex.webp",
+      "coverage_pct": 2.3
+    },
+    {
+      "name": "09_Acoustic_shadows_from_bone_cortex_with_reverberation_artefacts",
+      "file": "overlay_09_Acoustic_shadows_from_bone_cortex_with_reverberation_artefacts.webp",
+      "coverage_pct": 13.8
+    },
+    {
+      "name": "10_Pleura-air_interface_and_lung_artefact",
+      "file": "overlay_10_Pleura-air_interface_and_lung_artefact.webp",
+      "coverage_pct": 6.2
+    },
+    {
+      "name": "11_Intercostals",
+      "file": "overlay_11_Intercostals.webp",
+      "coverage_pct": 3.5
+    },
+    {
+      "name": "12_Subcutaneous_fat",
+      "file": "overlay_12_Subcutaneous_fat.webp",
+      "coverage_pct": 1.6
+    }
+  ]
+}

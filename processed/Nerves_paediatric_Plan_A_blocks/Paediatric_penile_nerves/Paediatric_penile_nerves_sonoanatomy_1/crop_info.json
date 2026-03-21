@@ -1,0 +1,85 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_penile_nerves/Paediatric_penile_nerves_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    116,
+    1977,
+    1074
+  ],
+  "crop_size": [
+    1652,
+    958
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 34.3
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 4.3
+    },
+    {
+      "name": "04_Corpus_cavernosum_with_central_arteries",
+      "file": "overlay_04_Corpus_cavernosum_with_central_arteries.webp",
+      "coverage_pct": 8.8
+    },
+    {
+      "name": "05_Tunica_albuginea_and_penile_septum",
+      "file": "overlay_05_Tunica_albuginea_and_penile_septum.webp",
+      "coverage_pct": 3.7
+    },
+    {
+      "name": "06_Corpus_spongiosum",
+      "file": "overlay_06_Corpus_spongiosum.webp",
+      "coverage_pct": 3.5
+    },
+    {
+      "name": "07_Dorsal_arteries",
+      "file": "overlay_07_Dorsal_arteries.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "08_Deep_dorsal_vein",
+      "file": "overlay_08_Deep_dorsal_vein.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "09_Dorsal_nerves_location",
+      "file": "overlay_09_Dorsal_nerves_location.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "10_Deep_fascia",
+      "file": "overlay_10_Deep_fascia.webp",
+      "coverage_pct": 3.0
+    },
+    {
+      "name": "11_Superficial_fascia",
+      "file": "overlay_11_Superficial_fascia.webp",
+      "coverage_pct": 3.6
+    },
+    {
+      "name": "12_Spermatic_cords",
+      "file": "overlay_12_Spermatic_cords.webp",
+      "coverage_pct": 2.5
+    },
+    {
+      "name": "13_Subcutaneous_fat",
+      "file": "overlay_13_Subcutaneous_fat.webp",
+      "coverage_pct": 9.0
+    }
+  ]
+}

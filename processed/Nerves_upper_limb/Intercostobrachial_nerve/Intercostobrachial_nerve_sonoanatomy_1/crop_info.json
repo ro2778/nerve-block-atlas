@@ -1,0 +1,100 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Intercostobrachial_nerve/Intercostobrachial_nerve_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    165,
+    1977,
+    1025
+  ],
+  "crop_size": [
+    1652,
+    860
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 65.0
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 1.6
+    },
+    {
+      "name": "04_Intercostobrachial_nerve",
+      "file": "overlay_04_Intercostobrachial_nerve.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "05_Axillary_artery",
+      "file": "overlay_05_Axillary_artery.webp",
+      "coverage_pct": 1.4
+    },
+    {
+      "name": "06_Median_nerve",
+      "file": "overlay_06_Median_nerve.webp",
+      "coverage_pct": 0.9
+    },
+    {
+      "name": "07_Radial_nerve",
+      "file": "overlay_07_Radial_nerve.webp",
+      "coverage_pct": 1.0
+    },
+    {
+      "name": "08_Ulnar_nerve",
+      "file": "overlay_08_Ulnar_nerve.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "09_Medial_cutaneous_nerve_of_forearm",
+      "file": "overlay_09_Medial_cutaneous_nerve_of_forearm.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "10_Musculocutaneous_nerve",
+      "file": "overlay_10_Musculocutaneous_nerve.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "11_Axillary_veins_compressed",
+      "file": "overlay_11_Axillary_veins_compressed.webp",
+      "coverage_pct": 1.2
+    },
+    {
+      "name": "12_Coracobrachialis",
+      "file": "overlay_12_Coracobrachialis.webp",
+      "coverage_pct": 7.3
+    },
+    {
+      "name": "13_Humerus",
+      "file": "overlay_13_Humerus.webp",
+      "coverage_pct": 3.4
+    },
+    {
+      "name": "14_Latissimus_dorsi",
+      "file": "overlay_14_Latissimus_dorsi.webp",
+      "coverage_pct": 21.5
+    },
+    {
+      "name": "15_Teres_major",
+      "file": "overlay_15_Teres_major.webp",
+      "coverage_pct": 18.3
+    },
+    {
+      "name": "16_Triceps",
+      "file": "overlay_16_Triceps.webp",
+      "coverage_pct": 6.9
+    }
+  ]
+}

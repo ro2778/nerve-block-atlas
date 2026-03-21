@@ -1,0 +1,95 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Cervical_plexus_(intermediate)/Cervical_plexus_(intermediate)_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    156,
+    1977,
+    1034
+  ],
+  "crop_size": [
+    1652,
+    878
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 77.2
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 3.6
+    },
+    {
+      "name": "04_Cervical_plexus",
+      "file": "overlay_04_Cervical_plexus.webp",
+      "coverage_pct": 3.4
+    },
+    {
+      "name": "05_C4_nerve_root",
+      "file": "overlay_05_C4_nerve_root.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "06_C4_transverse_process_cortex",
+      "file": "overlay_06_C4_transverse_process_cortex.webp",
+      "coverage_pct": 6.1
+    },
+    {
+      "name": "07_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+      "file": "overlay_07_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+      "coverage_pct": 12.0
+    },
+    {
+      "name": "08_Carotid_artery_divided",
+      "file": "overlay_08_Carotid_artery_divided.webp",
+      "coverage_pct": 3.0
+    },
+    {
+      "name": "09_Internal_jugular_vein_compressed",
+      "file": "overlay_09_Internal_jugular_vein_compressed.webp",
+      "coverage_pct": 2.9
+    },
+    {
+      "name": "10_Vagus_nerve",
+      "file": "overlay_10_Vagus_nerve.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "11_Sternocleidomastoid",
+      "file": "overlay_11_Sternocleidomastoid.webp",
+      "coverage_pct": 24.4
+    },
+    {
+      "name": "12_Longus_capitis",
+      "file": "overlay_12_Longus_capitis.webp",
+      "coverage_pct": 2.7
+    },
+    {
+      "name": "13_Longus_colli",
+      "file": "overlay_13_Longus_colli.webp",
+      "coverage_pct": 6.1
+    },
+    {
+      "name": "14_Deep_cervical_muscles",
+      "file": "overlay_14_Deep_cervical_muscles.webp",
+      "coverage_pct": 10.5
+    },
+    {
+      "name": "15_Subcutaneous_fat",
+      "file": "overlay_15_Subcutaneous_fat.webp",
+      "coverage_pct": 4.8
+    }
+  ]
+}

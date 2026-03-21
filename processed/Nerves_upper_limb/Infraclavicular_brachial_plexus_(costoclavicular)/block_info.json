@@ -1,0 +1,465 @@
+{
+  "block": "Infraclavicular brachial plexus (costoclavicular)",
+  "category": "Nerves: upper limb",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Infraclavicular_brachial_plexus_(costoclavicular)/Infraclavicular_brachial_plexus_(costoclavicular)_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        513,
+        110,
+        2236,
+        1080
+      ],
+      "crop_size": [
+        1723,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Infraclavicular_brachial_plexus_(costoclavicular)/Infraclavicular_brachial_plexus_(costoclavicular)_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        612,
+        129,
+        1706,
+        1080
+      ],
+      "crop_size": [
+        1094,
+        951
+      ],
+      "layers": [
+        {
+          "name": "01_Intercostobrachial_nerve",
+          "file": "overlay_01_Intercostobrachial_nerve.webp",
+          "coverage_pct": 0.3
+        },
+        {
+          "name": "02_Suprascapular_nerve",
+          "file": "overlay_02_Suprascapular_nerve.webp",
+          "coverage_pct": 3.0
+        },
+        {
+          "name": "03_Supraclavicular_nerves",
+          "file": "overlay_03_Supraclavicular_nerves.webp",
+          "coverage_pct": 0.9
+        },
+        {
+          "name": "04_Infraclavicular_brachial_plexus_(costoclavicular)",
+          "file": "overlay_04_Infraclavicular_brachial_plexus_(costoclavicular).webp",
+          "coverage_pct": 9.5
+        },
+        {
+          "name": "05_Interscalene_brachial_plexus",
+          "file": "overlay_05_Interscalene_brachial_plexus.webp",
+          "coverage_pct": 12.0
+        },
+        {
+          "name": "06_Superior_trunk",
+          "file": "overlay_06_Superior_trunk.webp",
+          "coverage_pct": 10.7
+        },
+        {
+          "name": "07_Supraclavicular_brachial_plexus",
+          "file": "overlay_07_Supraclavicular_brachial_plexus.webp",
+          "coverage_pct": 9.7
+        },
+        {
+          "name": "08_Axillary_nerve",
+          "file": "overlay_08_Axillary_nerve.webp",
+          "coverage_pct": 1.4
+        },
+        {
+          "name": "09_Infraclavicular_brachial_plexus_(coricoid)",
+          "file": "overlay_09_Infraclavicular_brachial_plexus_(coricoid).webp",
+          "coverage_pct": 8.1
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Infraclavicular_brachial_plexus_(costoclavicular)/Infraclavicular_brachial_plexus_(costoclavicular)_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 1.4
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Infraclavicular_brachial_plexus_(costoclavicular)/Infraclavicular_brachial_plexus_(costoclavicular)_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        431,
+        110,
+        1872,
+        1080
+      ],
+      "crop_size": [
+        1441,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 81.4
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 5.7
+        },
+        {
+          "name": "04_Axillary_artery_and_vein",
+          "file": "overlay_04_Axillary_artery_and_vein.webp",
+          "coverage_pct": 6.3
+        },
+        {
+          "name": "05_Lateral_cord",
+          "file": "overlay_05_Lateral_cord.webp",
+          "coverage_pct": 1.3
+        },
+        {
+          "name": "06_Posterior_cord",
+          "file": "overlay_06_Posterior_cord.webp",
+          "coverage_pct": 1.4
+        },
+        {
+          "name": "07_Medial_cord",
+          "file": "overlay_07_Medial_cord.webp",
+          "coverage_pct": 1.3
+        },
+        {
+          "name": "08_Lateral_pectoral_nerve",
+          "file": "overlay_08_Lateral_pectoral_nerve.webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "09_Second_rib_cortex",
+          "file": "overlay_09_Second_rib_cortex.webp",
+          "coverage_pct": 1.0
+        },
+        {
+          "name": "10_Acoustic_shadow_from_rib",
+          "file": "overlay_10_Acoustic_shadow_from_rib.webp",
+          "coverage_pct": 5.1
+        },
+        {
+          "name": "11_Pleura_air_interface",
+          "file": "overlay_11_Pleura_air_interface.webp",
+          "coverage_pct": 2.6
+        },
+        {
+          "name": "12_Acoustic_shadow_and_artefact_from_pleura",
+          "file": "overlay_12_Acoustic_shadow_and_artefact_from_pleura.webp",
+          "coverage_pct": 22.2
+        },
+        {
+          "name": "13_Internal_intercostal",
+          "file": "overlay_13_Internal_intercostal.webp",
+          "coverage_pct": 3.7
+        },
+        {
+          "name": "14_External_intercostal",
+          "file": "overlay_14_External_intercostal.webp",
+          "coverage_pct": 6.1
+        },
+        {
+          "name": "15_Serratus_anterior",
+          "file": "overlay_15_Serratus_anterior.webp",
+          "coverage_pct": 2.4
+        },
+        {
+          "name": "16_Subclavius",
+          "file": "overlay_16_Subclavius.webp",
+          "coverage_pct": 11.9
+        },
+        {
+          "name": "17_Pectoralis_major",
+          "file": "overlay_17_Pectoralis_major.webp",
+          "coverage_pct": 9.9
+        },
+        {
+          "name": "18_Deltoid",
+          "file": "overlay_18_Deltoid.webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "19_Subcutaneous_fat",
+          "file": "overlay_19_Subcutaneous_fat.webp",
+          "coverage_pct": 4.0
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Infraclavicular_brachial_plexus_(costoclavicular)/Infraclavicular_brachial_plexus_(costoclavicular)_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        535,
+        110,
+        1767,
+        1080
+      ],
+      "crop_size": [
+        1232,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 82.1
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 4.6
+        },
+        {
+          "name": "04_Axillary_artery",
+          "file": "overlay_04_Axillary_artery.webp",
+          "coverage_pct": 2.7
+        },
+        {
+          "name": "05_Axillary_vein",
+          "file": "overlay_05_Axillary_vein.webp",
+          "coverage_pct": 4.2
+        },
+        {
+          "name": "06_Posterior_cord",
+          "file": "overlay_06_Posterior_cord.webp",
+          "coverage_pct": 1.3
+        },
+        {
+          "name": "07_Lateral_cord",
+          "file": "overlay_07_Lateral_cord.webp",
+          "coverage_pct": 1.3
+        },
+        {
+          "name": "08_Medial_cord",
+          "file": "overlay_08_Medial_cord.webp",
+          "coverage_pct": 1.6
+        },
+        {
+          "name": "09_Lateral_pectoral_nerve",
+          "file": "overlay_09_Lateral_pectoral_nerve.webp",
+          "coverage_pct": 0.3
+        },
+        {
+          "name": "10_Second_rib_cortex",
+          "file": "overlay_10_Second_rib_cortex.webp",
+          "coverage_pct": 1.5
+        },
+        {
+          "name": "11_Acoustic_shadow_and_artefacts_from_rib",
+          "file": "overlay_11_Acoustic_shadow_and_artefacts_from_rib.webp",
+          "coverage_pct": 17.7
+        },
+        {
+          "name": "12_Pleura_air_interface",
+          "file": "overlay_12_Pleura_air_interface.webp",
+          "coverage_pct": 1.4
+        },
+        {
+          "name": "13_Acoustic_shadow_and_artefacts_from_pleura",
+          "file": "overlay_13_Acoustic_shadow_and_artefacts_from_pleura.webp",
+          "coverage_pct": 11.5
+        },
+        {
+          "name": "14_Intercostal_muscles",
+          "file": "overlay_14_Intercostal_muscles.webp",
+          "coverage_pct": 4.9
+        },
+        {
+          "name": "15_Serratus_anterior",
+          "file": "overlay_15_Serratus_anterior.webp",
+          "coverage_pct": 6.6
+        },
+        {
+          "name": "16_Subclavius",
+          "file": "overlay_16_Subclavius.webp",
+          "coverage_pct": 1.5
+        },
+        {
+          "name": "17_Pectoralis_major",
+          "file": "overlay_17_Pectoralis_major.webp",
+          "coverage_pct": 13.5
+        },
+        {
+          "name": "18_Deltoid",
+          "file": "overlay_18_Deltoid.webp",
+          "coverage_pct": 2.5
+        },
+        {
+          "name": "19_Pectoralis_minor",
+          "file": "overlay_19_Pectoralis_minor.webp",
+          "coverage_pct": 5.7
+        },
+        {
+          "name": "20_Subcutaneous_fat",
+          "file": "overlay_20_Subcutaneous_fat.webp",
+          "coverage_pct": 3.6
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Infraclavicular_brachial_plexus_(costoclavicular)/Infraclavicular_brachial_plexus_(costoclavicular)_sonoanatomy_3",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        432,
+        110,
+        1871,
+        1080
+      ],
+      "crop_size": [
+        1439,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 81.8
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 3.5
+        },
+        {
+          "name": "04_Axillary_artery_and_vein",
+          "file": "overlay_04_Axillary_artery_and_vein.webp",
+          "coverage_pct": 6.3
+        },
+        {
+          "name": "05_Lateral_cord",
+          "file": "overlay_05_Lateral_cord.webp",
+          "coverage_pct": 1.6
+        },
+        {
+          "name": "06_Lateral_pectoral_nerve",
+          "file": "overlay_06_Lateral_pectoral_nerve.webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "07_Posterior_cord",
+          "file": "overlay_07_Posterior_cord.webp",
+          "coverage_pct": 1.4
+        },
+        {
+          "name": "08_Medial_cord",
+          "file": "overlay_08_Medial_cord.webp",
+          "coverage_pct": 1.2
+        },
+        {
+          "name": "09_Second_rib_cortex",
+          "file": "overlay_09_Second_rib_cortex.webp",
+          "coverage_pct": 1.2
+        },
+        {
+          "name": "10_Acoustic_shadow_from_rib",
+          "file": "overlay_10_Acoustic_shadow_from_rib.webp",
+          "coverage_pct": 4.6
+        },
+        {
+          "name": "11_Pleura_air_interface",
+          "file": "overlay_11_Pleura_air_interface.webp",
+          "coverage_pct": 1.8
+        },
+        {
+          "name": "12_Acoustic_shadow_and_artefact_from_pleura",
+          "file": "overlay_12_Acoustic_shadow_and_artefact_from_pleura.webp",
+          "coverage_pct": 8.4
+        },
+        {
+          "name": "13_Intercostal_muscles",
+          "file": "overlay_13_Intercostal_muscles.webp",
+          "coverage_pct": 6.6
+        },
+        {
+          "name": "14_Serratus_anterior",
+          "file": "overlay_14_Serratus_anterior.webp",
+          "coverage_pct": 8.5
+        },
+        {
+          "name": "15_Subclavius",
+          "file": "overlay_15_Subclavius.webp",
+          "coverage_pct": 20.1
+        },
+        {
+          "name": "16_Cephalic_vein",
+          "file": "overlay_16_Cephalic_vein.webp",
+          "coverage_pct": 1.0
+        },
+        {
+          "name": "17_Pectoralis_major",
+          "file": "overlay_17_Pectoralis_major.webp",
+          "coverage_pct": 16.4
+        },
+        {
+          "name": "18_Deltoid",
+          "file": "overlay_18_Deltoid.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "19_Subcutaneous_fat",
+          "file": "overlay_19_Subcutaneous_fat.webp",
+          "coverage_pct": 3.4
+        }
+      ]
+    }
+  ]
+}

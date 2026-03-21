@@ -1,0 +1,25 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Airway/Cricothyroid_membrane_transverse/Cricothyroid_membrane_transverse_landmark_pattern",
+  "view_type": "diagram",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    211,
+    1977,
+    980
+  ],
+  "crop_size": [
+    1652,
+    769
+  ],
+  "layers": [
+    {
+      "name": "01_Show_Labels",
+      "file": "overlay_01_Show_Labels.webp",
+      "coverage_pct": 0.7
+    }
+  ]
+}

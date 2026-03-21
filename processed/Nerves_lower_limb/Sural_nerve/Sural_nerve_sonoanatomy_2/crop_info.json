@@ -1,0 +1,80 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sural_nerve/Sural_nerve_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    264,
+    1977,
+    926
+  ],
+  "crop_size": [
+    1652,
+    662
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 34.5
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 1.2
+    },
+    {
+      "name": "03_Needle_path",
+      "file": "overlay_03_Needle_path.webp",
+      "coverage_pct": 0.9
+    },
+    {
+      "name": "04_LA",
+      "file": "overlay_04_LA.webp",
+      "coverage_pct": 2.6
+    },
+    {
+      "name": "05_Sural_nerve",
+      "file": "overlay_05_Sural_nerve.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "06_Small_saphenous_vein",
+      "file": "overlay_06_Small_saphenous_vein.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "07_Fibula_lateral_malleolus_cortex",
+      "file": "overlay_07_Fibula_lateral_malleolus_cortex.webp",
+      "coverage_pct": 0.9
+    },
+    {
+      "name": "08_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+      "file": "overlay_08_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+      "coverage_pct": 9.2
+    },
+    {
+      "name": "09_Peroneus_brevis",
+      "file": "overlay_09_Peroneus_brevis.webp",
+      "coverage_pct": 6.2
+    },
+    {
+      "name": "10_Peroneus_longus_tendon",
+      "file": "overlay_10_Peroneus_longus_tendon.webp",
+      "coverage_pct": 1.4
+    },
+    {
+      "name": "11_Achilles_tendon",
+      "file": "overlay_11_Achilles_tendon.webp",
+      "coverage_pct": 7.0
+    },
+    {
+      "name": "12_Subcutaneous_fat_and_vein",
+      "file": "overlay_12_Subcutaneous_fat_and_vein.webp",
+      "coverage_pct": 6.8
+    }
+  ]
+}

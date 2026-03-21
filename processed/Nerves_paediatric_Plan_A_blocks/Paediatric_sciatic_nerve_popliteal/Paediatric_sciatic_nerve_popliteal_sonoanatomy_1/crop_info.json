@@ -1,0 +1,85 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_sciatic_nerve_popliteal/Paediatric_sciatic_nerve_popliteal_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    219,
+    1977,
+    971
+  ],
+  "crop_size": [
+    1652,
+    752
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 59.0
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 2.8
+    },
+    {
+      "name": "04_Popliteal_artery",
+      "file": "overlay_04_Popliteal_artery.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "05_Popliteal_vein",
+      "file": "overlay_05_Popliteal_vein.webp",
+      "coverage_pct": 0.9
+    },
+    {
+      "name": "06_Tibial_nerve",
+      "file": "overlay_06_Tibial_nerve.webp",
+      "coverage_pct": 1.5
+    },
+    {
+      "name": "07_Common_peroneal_nerve",
+      "file": "overlay_07_Common_peroneal_nerve.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "08_Biceps_femoris",
+      "file": "overlay_08_Biceps_femoris.webp",
+      "coverage_pct": 16.1
+    },
+    {
+      "name": "09_Semimembranosis",
+      "file": "overlay_09_Semimembranosis.webp",
+      "coverage_pct": 18.3
+    },
+    {
+      "name": "10_Semitendinosis_tendon",
+      "file": "overlay_10_Semitendinosis_tendon.webp",
+      "coverage_pct": 2.0
+    },
+    {
+      "name": "11_Femur_cortex",
+      "file": "overlay_11_Femur_cortex.webp",
+      "coverage_pct": 1.7
+    },
+    {
+      "name": "12_Acoustic_shadow_from_bone_cortex",
+      "file": "overlay_12_Acoustic_shadow_from_bone_cortex.webp",
+      "coverage_pct": 7.8
+    },
+    {
+      "name": "13_Subcutaneous_fat",
+      "file": "overlay_13_Subcutaneous_fat.webp",
+      "coverage_pct": 7.8
+    }
+  ]
+}

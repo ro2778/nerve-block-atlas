@@ -1,0 +1,85 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Pectoserratus_and_interpectoral_planes/Pectoserratus_and_interpectoral_planes_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    379,
+    110,
+    1924,
+    1080
+  ],
+  "crop_size": [
+    1545,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 84.1
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 19.9
+    },
+    {
+      "name": "03_Needle_path",
+      "file": "overlay_03_Needle_path.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "04_LA",
+      "file": "overlay_04_LA.webp",
+      "coverage_pct": 8.2
+    },
+    {
+      "name": "05_Pectoralis_major",
+      "file": "overlay_05_Pectoralis_major.webp",
+      "coverage_pct": 7.6
+    },
+    {
+      "name": "06_Pectoralis_minor",
+      "file": "overlay_06_Pectoralis_minor.webp",
+      "coverage_pct": 8.8
+    },
+    {
+      "name": "07_Serratus_anterior",
+      "file": "overlay_07_Serratus_anterior.webp",
+      "coverage_pct": 9.4
+    },
+    {
+      "name": "08_Ribs_cortex",
+      "file": "overlay_08_Ribs_cortex.webp",
+      "coverage_pct": 3.5
+    },
+    {
+      "name": "09_Acoustic_shadows_from_bone_cortex_with_reverberation_artefacts",
+      "file": "overlay_09_Acoustic_shadows_from_bone_cortex_with_reverberation_artefacts.webp",
+      "coverage_pct": 27.2
+    },
+    {
+      "name": "10_Pleura-air_interface_and_lung_artefact",
+      "file": "overlay_10_Pleura-air_interface_and_lung_artefact.webp",
+      "coverage_pct": 10.3
+    },
+    {
+      "name": "11_Lateral_thoracic_artery",
+      "file": "overlay_11_Lateral_thoracic_artery.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "12_Intercostals",
+      "file": "overlay_12_Intercostals.webp",
+      "coverage_pct": 6.1
+    },
+    {
+      "name": "13_Subcutaneous_fat",
+      "file": "overlay_13_Subcutaneous_fat.webp",
+      "coverage_pct": 7.0
+    }
+  ]
+}

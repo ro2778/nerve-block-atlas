@@ -1,0 +1,55 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Inferior_medial_geniculate_nerves/Inferior_medial_geniculate_nerves_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    211,
+    1977,
+    979
+  ],
+  "crop_size": [
+    1652,
+    768
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 89.5
+    },
+    {
+      "name": "02_Needle_path_OOP",
+      "file": "overlay_02_Needle_path_OOP.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 3.6
+    },
+    {
+      "name": "04_Tibia_metaphysis_cortex",
+      "file": "overlay_04_Tibia_metaphysis_cortex.webp",
+      "coverage_pct": 5.0
+    },
+    {
+      "name": "05_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+      "file": "overlay_05_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+      "coverage_pct": 53.8
+    },
+    {
+      "name": "06_Inferior_medial_geniculate_vessels",
+      "file": "overlay_06_Inferior_medial_geniculate_vessels.webp",
+      "coverage_pct": 0.1
+    },
+    {
+      "name": "07_Subcutaneous_fat",
+      "file": "overlay_07_Subcutaneous_fat.webp",
+      "coverage_pct": 28.5
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Gastric_antrum/Gastric_antrum_with_solids/Gastric_antrum_with_solids_sonoanatomy_3",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    584,
+    110,
+    1719,
+    1080
+  ],
+  "crop_size": [
+    1135,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 18.1
+    },
+    {
+      "name": "02_Liver",
+      "file": "overlay_02_Liver.webp",
+      "coverage_pct": 4.3
+    },
+    {
+      "name": "03_Gastric_antrum_with_solids",
+      "file": "overlay_03_Gastric_antrum_with_solids.webp",
+      "coverage_pct": 11.5
+    },
+    {
+      "name": "04_Rectus_abdominus",
+      "file": "overlay_04_Rectus_abdominus.webp",
+      "coverage_pct": 2.4
+    }
+  ]
+}

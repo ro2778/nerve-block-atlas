@@ -1,0 +1,35 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Bones/Bones_sonoanatomy_3",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    464,
+    110,
+    1838,
+    1080
+  ],
+  "crop_size": [
+    1374,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 48.6
+    },
+    {
+      "name": "02_bone_cortex",
+      "file": "overlay_02_bone_cortex.webp",
+      "coverage_pct": 2.7
+    },
+    {
+      "name": "03_acoustic_shadow",
+      "file": "overlay_03_acoustic_shadow.webp",
+      "coverage_pct": 46.3
+    }
+  ]
+}

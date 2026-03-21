@@ -1,0 +1,85 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Fascia_iliaca_(suprainguinal)/Fascia_iliaca_(suprainguinal)_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    459,
+    110,
+    1843,
+    1080
+  ],
+  "crop_size": [
+    1384,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 84.5
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 49.5
+    },
+    {
+      "name": "03_Needle_path",
+      "file": "overlay_03_Needle_path.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "04_LA",
+      "file": "overlay_04_LA.webp",
+      "coverage_pct": 3.4
+    },
+    {
+      "name": "05_Fascia_iliaca",
+      "file": "overlay_05_Fascia_iliaca.webp",
+      "coverage_pct": 5.9
+    },
+    {
+      "name": "06_Deep_circumflex_iliac_artery_and_vein",
+      "file": "overlay_06_Deep_circumflex_iliac_artery_and_vein.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "07_Iliacus",
+      "file": "overlay_07_Iliacus.webp",
+      "coverage_pct": 43.4
+    },
+    {
+      "name": "08_Sartorius",
+      "file": "overlay_08_Sartorius.webp",
+      "coverage_pct": 2.7
+    },
+    {
+      "name": "09_Internal_oblique",
+      "file": "overlay_09_Internal_oblique.webp",
+      "coverage_pct": 4.7
+    },
+    {
+      "name": "10_Anterior_inferior_iliac_spine_cortex",
+      "file": "overlay_10_Anterior_inferior_iliac_spine_cortex.webp",
+      "coverage_pct": 3.5
+    },
+    {
+      "name": "11_Acoustic_shadow_from_bone",
+      "file": "overlay_11_Acoustic_shadow_from_bone.webp",
+      "coverage_pct": 7.8
+    },
+    {
+      "name": "12_Rectus_femoris_insertion",
+      "file": "overlay_12_Rectus_femoris_insertion.webp",
+      "coverage_pct": 9.3
+    },
+    {
+      "name": "13_Subcutaneous_fat",
+      "file": "overlay_13_Subcutaneous_fat.webp",
+      "coverage_pct": 7.1
+    }
+  ]
+}

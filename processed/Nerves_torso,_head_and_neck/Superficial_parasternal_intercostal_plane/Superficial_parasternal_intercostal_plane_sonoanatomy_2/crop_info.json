@@ -1,0 +1,65 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Superficial_parasternal_intercostal_plane/Superficial_parasternal_intercostal_plane_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    221,
+    1977,
+    970
+  ],
+  "crop_size": [
+    1652,
+    749
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 82.8
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 5.1
+    },
+    {
+      "name": "04_Pectoralis_major",
+      "file": "overlay_04_Pectoralis_major.webp",
+      "coverage_pct": 14.7
+    },
+    {
+      "name": "05_Costal_cartilages",
+      "file": "overlay_05_Costal_cartilages.webp",
+      "coverage_pct": 13.9
+    },
+    {
+      "name": "06_Internal_intercostal",
+      "file": "overlay_06_Internal_intercostal.webp",
+      "coverage_pct": 6.3
+    },
+    {
+      "name": "07_Internal_thoracic_artery",
+      "file": "overlay_07_Internal_thoracic_artery.webp",
+      "coverage_pct": 8.7
+    },
+    {
+      "name": "08_Pleura-air_interface_and_lung_artefact",
+      "file": "overlay_08_Pleura-air_interface_and_lung_artefact.webp",
+      "coverage_pct": 31.7
+    },
+    {
+      "name": "09_Subcutaneous_fat",
+      "file": "overlay_09_Subcutaneous_fat.webp",
+      "coverage_pct": 4.4
+    }
+  ]
+}

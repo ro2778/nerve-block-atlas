@@ -1,0 +1,110 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sciatic_nerve_(anterior)/Sciatic_nerve_(anterior)_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    486,
+    110,
+    1817,
+    1080
+  ],
+  "crop_size": [
+    1331,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 54.1
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 1.0
+    },
+    {
+      "name": "04_Sciatic_nerve",
+      "file": "overlay_04_Sciatic_nerve.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "05_Femur_cortex",
+      "file": "overlay_05_Femur_cortex.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "06_Acoustic_shadow_from_bone_cortex",
+      "file": "overlay_06_Acoustic_shadow_from_bone_cortex.webp",
+      "coverage_pct": 7.5
+    },
+    {
+      "name": "07_Deep_femoral_vessels",
+      "file": "overlay_07_Deep_femoral_vessels.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "08_Superficial_femoral_vessels",
+      "file": "overlay_08_Superficial_femoral_vessels.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "09_Adductor_longus",
+      "file": "overlay_09_Adductor_longus.webp",
+      "coverage_pct": 1.8
+    },
+    {
+      "name": "10_Adductor_brevis",
+      "file": "overlay_10_Adductor_brevis.webp",
+      "coverage_pct": 2.7
+    },
+    {
+      "name": "11_Adductor_magnus",
+      "file": "overlay_11_Adductor_magnus.webp",
+      "coverage_pct": 7.5
+    },
+    {
+      "name": "12_Biceps_femoris",
+      "file": "overlay_12_Biceps_femoris.webp",
+      "coverage_pct": 9.0
+    },
+    {
+      "name": "13_Semitendinosis",
+      "file": "overlay_13_Semitendinosis.webp",
+      "coverage_pct": 2.8
+    },
+    {
+      "name": "14_Vastus_lateralis",
+      "file": "overlay_14_Vastus_lateralis.webp",
+      "coverage_pct": 4.0
+    },
+    {
+      "name": "15_Vastus_intermedius",
+      "file": "overlay_15_Vastus_intermedius.webp",
+      "coverage_pct": 3.1
+    },
+    {
+      "name": "16_Vastus_medialis",
+      "file": "overlay_16_Vastus_medialis.webp",
+      "coverage_pct": 3.8
+    },
+    {
+      "name": "17_Sartorius",
+      "file": "overlay_17_Sartorius.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "18_Subcutaneous_fat",
+      "file": "overlay_18_Subcutaneous_fat.webp",
+      "coverage_pct": 8.2
+    }
+  ]
+}

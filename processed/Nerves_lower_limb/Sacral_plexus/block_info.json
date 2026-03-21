@@ -1,0 +1,360 @@
+{
+  "block": "Sacral plexus",
+  "category": "Nerves: lower limb",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sacral_plexus/Sacral_plexus_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        565,
+        110,
+        2171,
+        1080
+      ],
+      "crop_size": [
+        1606,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sacral_plexus/Sacral_plexus_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        343,
+        115,
+        1960,
+        1080
+      ],
+      "crop_size": [
+        1617,
+        965
+      ],
+      "layers": [
+        {
+          "name": "01_Lumbar_plexus",
+          "file": "overlay_01_Lumbar_plexus.webp",
+          "coverage_pct": 17.8
+        },
+        {
+          "name": "02_Fascia_iliaca",
+          "file": "overlay_02_Fascia_iliaca.webp",
+          "coverage_pct": 9.6
+        },
+        {
+          "name": "03_Femoral_nerve",
+          "file": "overlay_03_Femoral_nerve.webp",
+          "coverage_pct": 8.7
+        },
+        {
+          "name": "04_Lateral_femoral_cutaneous_nerve",
+          "file": "overlay_04_Lateral_femoral_cutaneous_nerve.webp",
+          "coverage_pct": 1.2
+        },
+        {
+          "name": "05_Sacral_plexus",
+          "file": "overlay_05_Sacral_plexus.webp",
+          "coverage_pct": 16.4
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sacral_plexus/Sacral_plexus_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 1.0
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sacral_plexus/Sacral_plexus_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        448,
+        110,
+        1854,
+        1080
+      ],
+      "crop_size": [
+        1406,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 67.3
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 2.1
+        },
+        {
+          "name": "04_Posterior_border_of_ischium_cortex",
+          "file": "overlay_04_Posterior_border_of_ischium_cortex.webp",
+          "coverage_pct": 1.9
+        },
+        {
+          "name": "05_Sacrum_lateral_border_cortex",
+          "file": "overlay_05_Sacrum_lateral_border_cortex.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "06_Acoustic_shadows_from_bone_with_reverberation_artefacts",
+          "file": "overlay_06_Acoustic_shadows_from_bone_with_reverberation_artefacts.webp",
+          "coverage_pct": 23.5
+        },
+        {
+          "name": "07_Gluteus_maximus",
+          "file": "overlay_07_Gluteus_maximus.webp",
+          "coverage_pct": 7.4
+        },
+        {
+          "name": "08_Piriformis",
+          "file": "overlay_08_Piriformis.webp",
+          "coverage_pct": 9.6
+        },
+        {
+          "name": "09_Gluteus_minimus",
+          "file": "overlay_09_Gluteus_minimus.webp",
+          "coverage_pct": 1.8
+        },
+        {
+          "name": "10_Sacral_plexus",
+          "file": "overlay_10_Sacral_plexus.webp",
+          "coverage_pct": 1.1
+        },
+        {
+          "name": "11_Inferior_gluteal_vessels",
+          "file": "overlay_11_Inferior_gluteal_vessels.webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "12_Posterior_sacroiliac_ligaments",
+          "file": "overlay_12_Posterior_sacroiliac_ligaments.webp",
+          "coverage_pct": 3.8
+        },
+        {
+          "name": "13_Retroperitoneal_structures",
+          "file": "overlay_13_Retroperitoneal_structures.webp",
+          "coverage_pct": 11.6
+        },
+        {
+          "name": "14_Subcutaneous_fat",
+          "file": "overlay_14_Subcutaneous_fat.webp",
+          "coverage_pct": 4.7
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sacral_plexus/Sacral_plexus_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        436,
+        110,
+        1867,
+        1080
+      ],
+      "crop_size": [
+        1431,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 76.4
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 3.1
+        },
+        {
+          "name": "04_Sacral_plexus",
+          "file": "overlay_04_Sacral_plexus.webp",
+          "coverage_pct": 1.4
+        },
+        {
+          "name": "05_Inferior_gluteal_vessels",
+          "file": "overlay_05_Inferior_gluteal_vessels.webp",
+          "coverage_pct": 0.3
+        },
+        {
+          "name": "06_Posterior_border_of_ischium_cortex",
+          "file": "overlay_06_Posterior_border_of_ischium_cortex.webp",
+          "coverage_pct": 2.2
+        },
+        {
+          "name": "07_Sacrum_lateral_border_cortex",
+          "file": "overlay_07_Sacrum_lateral_border_cortex.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "08_Acoustic_shadows_from_bone_with_reverberation_artefacts",
+          "file": "overlay_08_Acoustic_shadows_from_bone_with_reverberation_artefacts.webp",
+          "coverage_pct": 29.5
+        },
+        {
+          "name": "09_Subcutaneous_fat",
+          "file": "overlay_09_Subcutaneous_fat.webp",
+          "coverage_pct": 4.1
+        },
+        {
+          "name": "10_Gluteus_maximus",
+          "file": "overlay_10_Gluteus_maximus.webp",
+          "coverage_pct": 10.0
+        },
+        {
+          "name": "11_Piriformis",
+          "file": "overlay_11_Piriformis.webp",
+          "coverage_pct": 11.1
+        },
+        {
+          "name": "12_Posterior_sacroiliac_ligaments",
+          "file": "overlay_12_Posterior_sacroiliac_ligaments.webp",
+          "coverage_pct": 1.0
+        },
+        {
+          "name": "13_Retroperitoneal_structures",
+          "file": "overlay_13_Retroperitoneal_structures.webp",
+          "coverage_pct": 15.0
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sacral_plexus/Sacral_plexus_sonoanatomy_3",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        389,
+        110,
+        1914,
+        1078
+      ],
+      "crop_size": [
+        1525,
+        968
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 56.9
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 1.4
+        },
+        {
+          "name": "04_Sacral_plexus",
+          "file": "overlay_04_Sacral_plexus.webp",
+          "coverage_pct": 0.9
+        },
+        {
+          "name": "05_Inferior_gluteal_vessels",
+          "file": "overlay_05_Inferior_gluteal_vessels.webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "06_Posterior_border_of_ischium_cortex",
+          "file": "overlay_06_Posterior_border_of_ischium_cortex.webp",
+          "coverage_pct": 1.2
+        },
+        {
+          "name": "07_Sacrum_lateral_border_cortex",
+          "file": "overlay_07_Sacrum_lateral_border_cortex.webp",
+          "coverage_pct": 0.3
+        },
+        {
+          "name": "08_Acoustic_shadows_from_bone_with_reverberation_artefacts",
+          "file": "overlay_08_Acoustic_shadows_from_bone_with_reverberation_artefacts.webp",
+          "coverage_pct": 16.8
+        },
+        {
+          "name": "09_Piriformis",
+          "file": "overlay_09_Piriformis.webp",
+          "coverage_pct": 7.0
+        },
+        {
+          "name": "10_Gluteus_maximus",
+          "file": "overlay_10_Gluteus_maximus.webp",
+          "coverage_pct": 9.6
+        },
+        {
+          "name": "11_Gluteus_minimus",
+          "file": "overlay_11_Gluteus_minimus.webp",
+          "coverage_pct": 1.7
+        },
+        {
+          "name": "12_Posterior_sacroiliac_ligaments",
+          "file": "overlay_12_Posterior_sacroiliac_ligaments.webp",
+          "coverage_pct": 2.0
+        },
+        {
+          "name": "13_Retroperitoneal_structures",
+          "file": "overlay_13_Retroperitoneal_structures.webp",
+          "coverage_pct": 14.1
+        },
+        {
+          "name": "14_Subcutaneous_fat",
+          "file": "overlay_14_Subcutaneous_fat.webp",
+          "coverage_pct": 2.7
+        }
+      ]
+    }
+  ]
+}

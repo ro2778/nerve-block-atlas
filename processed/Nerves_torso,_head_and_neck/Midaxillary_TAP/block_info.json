@@ -1,0 +1,280 @@
+{
+  "block": "Midaxillary TAP",
+  "category": "Nerves_torso,_head_and_neck",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Midaxillary_TAP/Midaxillary_TAP_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        925,
+        110,
+        1811,
+        1080
+      ],
+      "crop_size": [
+        886,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Midaxillary_TAP/Midaxillary_TAP_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        607,
+        114,
+        1695,
+        1080
+      ],
+      "crop_size": [
+        1088,
+        966
+      ],
+      "layers": [
+        {
+          "name": "01_Midaxillary_TAP_contralateral",
+          "file": "overlay_01_Midaxillary_TAP_contralateral.webp",
+          "coverage_pct": 1.1
+        },
+        {
+          "name": "02_Midaxillary_TAP",
+          "file": "overlay_02_Midaxillary_TAP.webp",
+          "coverage_pct": 8.2
+        },
+        {
+          "name": "03_Subcostal_TAP_(lower)",
+          "file": "overlay_03_Subcostal_TAP_(lower).webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "04_Anterior_quadratus_lumborum",
+          "file": "overlay_04_Anterior_quadratus_lumborum.webp",
+          "coverage_pct": 5.2
+        },
+        {
+          "name": "05_Paravertebral_T10",
+          "file": "overlay_05_Paravertebral_T10.webp",
+          "coverage_pct": 5.0
+        },
+        {
+          "name": "06_Epidural_T11",
+          "file": "overlay_06_Epidural_T11.webp",
+          "coverage_pct": 11.3
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Midaxillary_TAP/Midaxillary_TAP_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 2.1
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Midaxillary_TAP/Midaxillary_TAP_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        507,
+        110,
+        1796,
+        1080
+      ],
+      "crop_size": [
+        1289,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 75.4
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 6.6
+        },
+        {
+          "name": "04_External_oblique",
+          "file": "overlay_04_External_oblique.webp",
+          "coverage_pct": 11.1
+        },
+        {
+          "name": "05_Internal_oblique",
+          "file": "overlay_05_Internal_oblique.webp",
+          "coverage_pct": 19.2
+        },
+        {
+          "name": "06_Transversus_abdominus",
+          "file": "overlay_06_Transversus_abdominus.webp",
+          "coverage_pct": 9.7
+        },
+        {
+          "name": "07_Peritoneum_and_intraperitoneal",
+          "file": "overlay_07_Peritoneum_and_intraperitoneal.webp",
+          "coverage_pct": 22.9
+        },
+        {
+          "name": "08_Subcutaneous_fat",
+          "file": "overlay_08_Subcutaneous_fat.webp",
+          "coverage_pct": 9.0
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Midaxillary_TAP/Midaxillary_TAP_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        490,
+        110,
+        1813,
+        1080
+      ],
+      "crop_size": [
+        1323,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 55.3
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 5.4
+        },
+        {
+          "name": "04_External_oblique",
+          "file": "overlay_04_External_oblique.webp",
+          "coverage_pct": 11.6
+        },
+        {
+          "name": "05_Internal_oblique",
+          "file": "overlay_05_Internal_oblique.webp",
+          "coverage_pct": 17.0
+        },
+        {
+          "name": "06_Transversus_abdominus",
+          "file": "overlay_06_Transversus_abdominus.webp",
+          "coverage_pct": 7.7
+        },
+        {
+          "name": "07_Peritoneum_and_intraperitoneal",
+          "file": "overlay_07_Peritoneum_and_intraperitoneal.webp",
+          "coverage_pct": 4.7
+        },
+        {
+          "name": "08_Subcutaneous_fat",
+          "file": "overlay_08_Subcutaneous_fat.webp",
+          "coverage_pct": 11.7
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Midaxillary_TAP/Midaxillary_TAP_sonoanatomy_3",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        428,
+        110,
+        1875,
+        1080
+      ],
+      "crop_size": [
+        1447,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 63.8
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 5.2
+        },
+        {
+          "name": "04_External_oblique",
+          "file": "overlay_04_External_oblique.webp",
+          "coverage_pct": 15.9
+        },
+        {
+          "name": "05_Internal_oblique",
+          "file": "overlay_05_Internal_oblique.webp",
+          "coverage_pct": 20.3
+        },
+        {
+          "name": "06_Transversus_abdominus",
+          "file": "overlay_06_Transversus_abdominus.webp",
+          "coverage_pct": 9.3
+        },
+        {
+          "name": "07_Peritoneum_and_intraperitoneal",
+          "file": "overlay_07_Peritoneum_and_intraperitoneal.webp",
+          "coverage_pct": 10.7
+        },
+        {
+          "name": "08_Subcutaneous_fat",
+          "file": "overlay_08_Subcutaneous_fat.webp",
+          "coverage_pct": 5.2
+        }
+      ]
+    }
+  ]
+}

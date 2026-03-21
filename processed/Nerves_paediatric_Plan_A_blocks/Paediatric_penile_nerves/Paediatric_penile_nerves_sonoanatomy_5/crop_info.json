@@ -1,0 +1,90 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_penile_nerves/Paediatric_penile_nerves_sonoanatomy_5",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    202,
+    1977,
+    987
+  ],
+  "crop_size": [
+    1652,
+    785
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 59.9
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.9
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 5.8
+    },
+    {
+      "name": "04_Corpus_cavernosum",
+      "file": "overlay_04_Corpus_cavernosum.webp",
+      "coverage_pct": 8.2
+    },
+    {
+      "name": "05_Tunica_albuginea",
+      "file": "overlay_05_Tunica_albuginea.webp",
+      "coverage_pct": 1.7
+    },
+    {
+      "name": "06_Corpus_spongiosum",
+      "file": "overlay_06_Corpus_spongiosum.webp",
+      "coverage_pct": 4.4
+    },
+    {
+      "name": "07_Deep_fascia_of_penis",
+      "file": "overlay_07_Deep_fascia_of_penis.webp",
+      "coverage_pct": 1.7
+    },
+    {
+      "name": "08_Superficial_fascia",
+      "file": "overlay_08_Superficial_fascia.webp",
+      "coverage_pct": 3.0
+    },
+    {
+      "name": "09_Fundiform_ligament,_cephalad_medial_portion",
+      "file": "overlay_09_Fundiform_ligament,_cephalad_medial_portion.webp",
+      "coverage_pct": 6.9
+    },
+    {
+      "name": "10_Rectus_abdominus_and_linea_alba",
+      "file": "overlay_10_Rectus_abdominus_and_linea_alba.webp",
+      "coverage_pct": 4.3
+    },
+    {
+      "name": "11_Pubic_symphysis",
+      "file": "overlay_11_Pubic_symphysis.webp",
+      "coverage_pct": 1.5
+    },
+    {
+      "name": "12_Acoustic_shadow_from_bone_cortex_and_reverberation_artefacts",
+      "file": "overlay_12_Acoustic_shadow_from_bone_cortex_and_reverberation_artefacts.webp",
+      "coverage_pct": 4.9
+    },
+    {
+      "name": "13_Subcutaneous_fat",
+      "file": "overlay_13_Subcutaneous_fat.webp",
+      "coverage_pct": 10.0
+    },
+    {
+      "name": "14_Scrotal_structures",
+      "file": "overlay_14_Scrotal_structures.webp",
+      "coverage_pct": 8.7
+    }
+  ]
+}

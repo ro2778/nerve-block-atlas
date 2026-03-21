@@ -1,0 +1,121 @@
+{
+  "block": "Fascial planes",
+  "category": "Basic sonoanatomy",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Fascial_planes/Fascial_planes_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 2.5
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Fascial_planes/Fascial_planes_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        262,
+        1977,
+        924
+      ],
+      "crop_size": [
+        1652,
+        662
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 14.0
+        },
+        {
+          "name": "02_Fascial_planes",
+          "file": "overlay_02_Fascial_planes.webp",
+          "coverage_pct": 14.0
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Fascial_planes/Fascial_planes_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        386,
+        110,
+        1916,
+        1080
+      ],
+      "crop_size": [
+        1530,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 4.7
+        },
+        {
+          "name": "02_Fascial_plane",
+          "file": "overlay_02_Fascial_plane.webp",
+          "coverage_pct": 4.7
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Fascial_planes/Fascial_planes_sonoanatomy_3",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        375,
+        116,
+        1928,
+        1080
+      ],
+      "crop_size": [
+        1553,
+        964
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 10.2
+        },
+        {
+          "name": "02_Fascial_plane",
+          "file": "overlay_02_Fascial_plane.webp",
+          "coverage_pct": 10.2
+        }
+      ]
+    }
+  ]
+}

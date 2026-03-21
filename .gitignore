@@ -1,15 +1,26 @@
-# Raw screenshots (too large for git)
+# Raw captures (too large for git, ~3.7GB)
+AnSo_Content/
 ScreenCaptures/
+apk_extract/
 
-# Temporary/preview files
+# Scripts (not needed for the web app)
+scripts/
+
+# Temporary/build files
 *.png
-!processed/**/*.png
 crop_*.png
 test_*.png
+recapture_log.txt
+
+# Icons source (embedded as base64 in index.html)
+icons/
 
 # macOS
 .DS_Store
 
+# Python
+__pycache__/
+
 # Old files
 handover_iphone_screenshot_project.md
-__pycache__/
+pwa-manifest.json

@@ -1,0 +1,50 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Small_bowel/Small_bowel_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    511,
+    110,
+    1792,
+    1080
+  ],
+  "crop_size": [
+    1281,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 54.7
+    },
+    {
+      "name": "02_Peritoneum",
+      "file": "overlay_02_Peritoneum.webp",
+      "coverage_pct": 2.0
+    },
+    {
+      "name": "03_Small_bowel",
+      "file": "overlay_03_Small_bowel.webp",
+      "coverage_pct": 27.1
+    },
+    {
+      "name": "04_Small_bowel_wall",
+      "file": "overlay_04_Small_bowel_wall.webp",
+      "coverage_pct": 5.4
+    },
+    {
+      "name": "05_Muscles_of_abdominal_wall",
+      "file": "overlay_05_Muscles_of_abdominal_wall.webp",
+      "coverage_pct": 17.3
+    },
+    {
+      "name": "06_Subcutaneous_fat",
+      "file": "overlay_06_Subcutaneous_fat.webp",
+      "coverage_pct": 3.9
+    }
+  ]
+}

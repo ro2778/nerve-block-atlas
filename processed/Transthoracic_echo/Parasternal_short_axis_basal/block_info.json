@@ -1,0 +1,95 @@
+{
+  "block": "Parasternal short axis basal",
+  "category": "Transthoracic_echo",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Parasternal_short_axis_basal/Parasternal_short_axis_basal_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        513,
+        110,
+        2224,
+        1080
+      ],
+      "crop_size": [
+        1711,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Parasternal_short_axis_basal/Parasternal_short_axis_basal_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        419,
+        110,
+        1884,
+        1080
+      ],
+      "crop_size": [
+        1465,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 1.1
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Parasternal_short_axis_basal/Parasternal_short_axis_basal_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        664,
+        186,
+        1638,
+        1080
+      ],
+      "crop_size": [
+        974,
+        894
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 35.5
+        },
+        {
+          "name": "02_Ventricle_walls",
+          "file": "overlay_02_Ventricle_walls.webp",
+          "coverage_pct": 16.5
+        },
+        {
+          "name": "03_Mitral_valve",
+          "file": "overlay_03_Mitral_valve.webp",
+          "coverage_pct": 3.6
+        },
+        {
+          "name": "04_Left_ventricle",
+          "file": "overlay_04_Left_ventricle.webp",
+          "coverage_pct": 8.5
+        },
+        {
+          "name": "05_Right_ventricle",
+          "file": "overlay_05_Right_ventricle.webp",
+          "coverage_pct": 11.1
+        }
+      ]
+    }
+  ]
+}

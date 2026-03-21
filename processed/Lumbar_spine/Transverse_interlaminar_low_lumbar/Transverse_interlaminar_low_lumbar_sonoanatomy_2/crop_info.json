@@ -1,0 +1,85 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Transverse_interlaminar_low_lumbar/Transverse_interlaminar_low_lumbar_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    351,
+    117,
+    1952,
+    1080
+  ],
+  "crop_size": [
+    1601,
+    963
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 56.9
+    },
+    {
+      "name": "02_Vertebral_body_cortex_(anterior_complex)",
+      "file": "overlay_02_Vertebral_body_cortex_(anterior_complex).webp",
+      "coverage_pct": 1.1
+    },
+    {
+      "name": "03_Facets_cortex_(_superior_articular_processes)",
+      "file": "overlay_03_Facets_cortex_(_superior_articular_processes).webp",
+      "coverage_pct": 0.9
+    },
+    {
+      "name": "04_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+      "file": "overlay_04_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+      "coverage_pct": 21.9
+    },
+    {
+      "name": "05_Intrathecal_space",
+      "file": "overlay_05_Intrathecal_space.webp",
+      "coverage_pct": 3.1
+    },
+    {
+      "name": "06_Ligamentum_flavum_(posterior_complex)",
+      "file": "overlay_06_Ligamentum_flavum_(posterior_complex).webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "07_Interspinous_ligament",
+      "file": "overlay_07_Interspinous_ligament.webp",
+      "coverage_pct": 1.2
+    },
+    {
+      "name": "08_Supraspinous_ligament",
+      "file": "overlay_08_Supraspinous_ligament.webp",
+      "coverage_pct": 0.1
+    },
+    {
+      "name": "09_Thoracolumbar_fascia",
+      "file": "overlay_09_Thoracolumbar_fascia.webp",
+      "coverage_pct": 1.2
+    },
+    {
+      "name": "10_Erector_spinae",
+      "file": "overlay_10_Erector_spinae.webp",
+      "coverage_pct": 14.5
+    },
+    {
+      "name": "11_Psoas",
+      "file": "overlay_11_Psoas.webp",
+      "coverage_pct": 12.5
+    },
+    {
+      "name": "12_Reverberation_artefact",
+      "file": "overlay_12_Reverberation_artefact.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "13_Subcutaneous_fat",
+      "file": "overlay_13_Subcutaneous_fat.webp",
+      "coverage_pct": 0.4
+    }
+  ]
+}

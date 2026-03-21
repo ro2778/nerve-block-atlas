@@ -1,0 +1,35 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Nerves/Nerves_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    214,
+    1977,
+    968
+  ],
+  "crop_size": [
+    1652,
+    754
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 12.4
+    },
+    {
+      "name": "02_Nerve_short_axis_fascicular_appearance",
+      "file": "overlay_02_Nerve_short_axis_fascicular_appearance.webp",
+      "coverage_pct": 2.1
+    },
+    {
+      "name": "03_Tendons_short_axis_fibrillar_appearance",
+      "file": "overlay_03_Tendons_short_axis_fibrillar_appearance.webp",
+      "coverage_pct": 10.3
+    }
+  ]
+}

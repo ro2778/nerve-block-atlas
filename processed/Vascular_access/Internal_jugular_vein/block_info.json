@@ -1,0 +1,170 @@
+{
+  "block": "Internal jugular vein",
+  "category": "Vascular_access",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Vascular_access/Internal_jugular_vein/Internal_jugular_vein_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        511,
+        110,
+        2238,
+        1080
+      ],
+      "crop_size": [
+        1727,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Vascular_access/Internal_jugular_vein/Internal_jugular_vein_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 1.0
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Vascular_access/Internal_jugular_vein/Internal_jugular_vein_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        348,
+        110,
+        1954,
+        1080
+      ],
+      "crop_size": [
+        1606,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 72.0
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "03_Internal_jugular_vein",
+          "file": "overlay_03_Internal_jugular_vein.webp",
+          "coverage_pct": 2.8
+        },
+        {
+          "name": "04_Carotid_artery",
+          "file": "overlay_04_Carotid_artery.webp",
+          "coverage_pct": 1.8
+        },
+        {
+          "name": "05_Vagus_nerve",
+          "file": "overlay_05_Vagus_nerve.webp",
+          "coverage_pct": 0.3
+        },
+        {
+          "name": "06_Sternocleidomastoid",
+          "file": "overlay_06_Sternocleidomastoid.webp",
+          "coverage_pct": 16.1
+        },
+        {
+          "name": "07_Sternothyroid",
+          "file": "overlay_07_Sternothyroid.webp",
+          "coverage_pct": 3.4
+        },
+        {
+          "name": "08_Anterior_scalene",
+          "file": "overlay_08_Anterior_scalene.webp",
+          "coverage_pct": 4.4
+        },
+        {
+          "name": "09_Brachial_plexus_roots",
+          "file": "overlay_09_Brachial_plexus_roots.webp",
+          "coverage_pct": 1.6
+        },
+        {
+          "name": "10_Phrenic_nerve",
+          "file": "overlay_10_Phrenic_nerve.webp",
+          "coverage_pct": 0.3
+        },
+        {
+          "name": "11_Cervical_sympathetic_chain_location",
+          "file": "overlay_11_Cervical_sympathetic_chain_location.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "12_Longus_colli",
+          "file": "overlay_12_Longus_colli.webp",
+          "coverage_pct": 4.4
+        },
+        {
+          "name": "13_Thyroid",
+          "file": "overlay_13_Thyroid.webp",
+          "coverage_pct": 9.1
+        },
+        {
+          "name": "14_Trachea",
+          "file": "overlay_14_Trachea.webp",
+          "coverage_pct": 2.8
+        },
+        {
+          "name": "15_Vertebral_artery_and_vein",
+          "file": "overlay_15_Vertebral_artery_and_vein.webp",
+          "coverage_pct": 1.7
+        },
+        {
+          "name": "16_Oesophagus",
+          "file": "overlay_16_Oesophagus.webp",
+          "coverage_pct": 5.2
+        },
+        {
+          "name": "17_Cervical_vertebra_cortex",
+          "file": "overlay_17_Cervical_vertebra_cortex.webp",
+          "coverage_pct": 3.3
+        },
+        {
+          "name": "18_Acoustic_shadow_from_bone_cortex",
+          "file": "overlay_18_Acoustic_shadow_from_bone_cortex.webp",
+          "coverage_pct": 9.9
+        },
+        {
+          "name": "19_Dura_deep_inside_transverse_foramen",
+          "file": "overlay_19_Dura_deep_inside_transverse_foramen.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "20_Middle_scalene",
+          "file": "overlay_20_Middle_scalene.webp",
+          "coverage_pct": 4.6
+        }
+      ]
+    }
+  ]
+}

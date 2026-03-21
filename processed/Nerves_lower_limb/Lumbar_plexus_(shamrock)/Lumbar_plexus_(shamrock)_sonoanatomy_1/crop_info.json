@@ -1,0 +1,115 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Lumbar_plexus_(shamrock)/Lumbar_plexus_(shamrock)_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    507,
+    110,
+    1795,
+    1080
+  ],
+  "crop_size": [
+    1288,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 61.6
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 1.1
+    },
+    {
+      "name": "04_Lumbar_plexus_location",
+      "file": "overlay_04_Lumbar_plexus_location.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "05_Psoas",
+      "file": "overlay_05_Psoas.webp",
+      "coverage_pct": 6.1
+    },
+    {
+      "name": "06_Quadratus_lumborum",
+      "file": "overlay_06_Quadratus_lumborum.webp",
+      "coverage_pct": 2.8
+    },
+    {
+      "name": "07_Erector_spinae",
+      "file": "overlay_07_Erector_spinae.webp",
+      "coverage_pct": 9.4
+    },
+    {
+      "name": "08_Vertebra_cortex_with_transverse_process",
+      "file": "overlay_08_Vertebra_cortex_with_transverse_process.webp",
+      "coverage_pct": 3.6
+    },
+    {
+      "name": "09_Right_common_iliac_vein",
+      "file": "overlay_09_Right_common_iliac_vein.webp",
+      "coverage_pct": 1.8
+    },
+    {
+      "name": "10_Right_common_iliac_artery",
+      "file": "overlay_10_Right_common_iliac_artery.webp",
+      "coverage_pct": 1.5
+    },
+    {
+      "name": "11_Peritoneum_and_bowel",
+      "file": "overlay_11_Peritoneum_and_bowel.webp",
+      "coverage_pct": 4.8
+    },
+    {
+      "name": "12_Paranephric_fat",
+      "file": "overlay_12_Paranephric_fat.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "13_Transversus_abdominus",
+      "file": "overlay_13_Transversus_abdominus.webp",
+      "coverage_pct": 1.4
+    },
+    {
+      "name": "14_Internal_oblique",
+      "file": "overlay_14_Internal_oblique.webp",
+      "coverage_pct": 1.4
+    },
+    {
+      "name": "15_External_oblique",
+      "file": "overlay_15_External_oblique.webp",
+      "coverage_pct": 1.8
+    },
+    {
+      "name": "16_Latissimus_dorsi",
+      "file": "overlay_16_Latissimus_dorsi.webp",
+      "coverage_pct": 0.9
+    },
+    {
+      "name": "17_Acoustic_shadow_from_bowel_air",
+      "file": "overlay_17_Acoustic_shadow_from_bowel_air.webp",
+      "coverage_pct": 10.5
+    },
+    {
+      "name": "18_Acoustic_shadow_from_bone_cortex_with_artefacts",
+      "file": "overlay_18_Acoustic_shadow_from_bone_cortex_with_artefacts.webp",
+      "coverage_pct": 14.8
+    },
+    {
+      "name": "19_Subcutaneous_fat",
+      "file": "overlay_19_Subcutaneous_fat.webp",
+      "coverage_pct": 1.3
+    }
+  ]
+}

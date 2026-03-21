@@ -1,0 +1,165 @@
+{
+  "block": "Cricothyroid membrane sagittal",
+  "category": "Airway",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Airway/Cricothyroid_membrane_sagittal/Cricothyroid_membrane_sagittal_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        513,
+        110,
+        2236,
+        1080
+      ],
+      "crop_size": [
+        1723,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Airway/Cricothyroid_membrane_sagittal/Cricothyroid_membrane_sagittal_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.5
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Airway/Cricothyroid_membrane_sagittal/Cricothyroid_membrane_sagittal_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        284,
+        1977,
+        826
+      ],
+      "crop_size": [
+        1652,
+        542
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 64.9
+        },
+        {
+          "name": "02_Thyroid_cartilage",
+          "file": "overlay_02_Thyroid_cartilage.webp",
+          "coverage_pct": 9.1
+        },
+        {
+          "name": "03_Cricoid_cartilage",
+          "file": "overlay_03_Cricoid_cartilage.webp",
+          "coverage_pct": 0.7
+        },
+        {
+          "name": "04_Tracheal_cartilages",
+          "file": "overlay_04_Tracheal_cartilages.webp",
+          "coverage_pct": 1.6
+        },
+        {
+          "name": "05_Trachea_anterior_mucosa-air_interface",
+          "file": "overlay_05_Trachea_anterior_mucosa-air_interface.webp",
+          "coverage_pct": 5.8
+        },
+        {
+          "name": "06_Anterior_commisure",
+          "file": "overlay_06_Anterior_commisure.webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "07_acoustic_shadow_from_trachea_anterior_mucosa-air_interface_and_reverberation_artefacts",
+          "file": "overlay_07_acoustic_shadow_from_trachea_anterior_mucosa-air_interface_and_reverberation_artefacts.webp",
+          "coverage_pct": 47.9
+        },
+        {
+          "name": "08_Cricothyroid_membrane",
+          "file": "overlay_08_Cricothyroid_membrane.webp",
+          "coverage_pct": 1.6
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Airway/Cricothyroid_membrane_sagittal/Cricothyroid_membrane_sagittal_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        326,
+        179,
+        1977,
+        802
+      ],
+      "crop_size": [
+        1651,
+        623
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 74.8
+        },
+        {
+          "name": "02_Thyroid_cartilage",
+          "file": "overlay_02_Thyroid_cartilage.webp",
+          "coverage_pct": 2.2
+        },
+        {
+          "name": "03_Cricoid_cartilage",
+          "file": "overlay_03_Cricoid_cartilage.webp",
+          "coverage_pct": 1.7
+        },
+        {
+          "name": "04_Tracheal_cartilages",
+          "file": "overlay_04_Tracheal_cartilages.webp",
+          "coverage_pct": 2.0
+        },
+        {
+          "name": "05_Trachea_anterior_mucosa-air_interface",
+          "file": "overlay_05_Trachea_anterior_mucosa-air_interface.webp",
+          "coverage_pct": 4.4
+        },
+        {
+          "name": "06_Cricothyroid_membrane",
+          "file": "overlay_06_Cricothyroid_membrane.webp",
+          "coverage_pct": 2.2
+        },
+        {
+          "name": "07_Acoustic_shadow_from_trachea_anterior_mucosa-air_interface_and_reverberation_artefacts",
+          "file": "overlay_07_Acoustic_shadow_from_trachea_anterior_mucosa-air_interface_and_reverberation_artefacts.webp",
+          "coverage_pct": 63.9
+        }
+      ]
+    }
+  ]
+}

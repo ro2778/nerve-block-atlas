@@ -1,0 +1,55 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lung_signs/Tissue_like_sign/Tissue_like_sign_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    645,
+    110,
+    1656,
+    1063
+  ],
+  "crop_size": [
+    1011,
+    953
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 72.3
+    },
+    {
+      "name": "02_Tissue_like_sign",
+      "file": "overlay_02_Tissue_like_sign.webp",
+      "coverage_pct": 20.3
+    },
+    {
+      "name": "03_Pleura_and_lung",
+      "file": "overlay_03_Pleura_and_lung.webp",
+      "coverage_pct": 60.6
+    },
+    {
+      "name": "04_Ribs",
+      "file": "overlay_04_Ribs.webp",
+      "coverage_pct": 2.7
+    },
+    {
+      "name": "05_Intercostal_muscles",
+      "file": "overlay_05_Intercostal_muscles.webp",
+      "coverage_pct": 1.7
+    },
+    {
+      "name": "06_Latissimus_dorsi",
+      "file": "overlay_06_Latissimus_dorsi.webp",
+      "coverage_pct": 3.1
+    },
+    {
+      "name": "07_Serratus_anterior",
+      "file": "overlay_07_Serratus_anterior.webp",
+      "coverage_pct": 4.6
+    }
+  ]
+}

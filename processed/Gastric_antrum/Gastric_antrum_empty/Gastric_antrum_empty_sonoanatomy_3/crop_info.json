@@ -1,0 +1,65 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Gastric_antrum/Gastric_antrum_empty/Gastric_antrum_empty_sonoanatomy_3",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    445,
+    110,
+    1859,
+    1080
+  ],
+  "crop_size": [
+    1414,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 46.8
+    },
+    {
+      "name": "02_Liver",
+      "file": "overlay_02_Liver.webp",
+      "coverage_pct": 6.8
+    },
+    {
+      "name": "03_Gastric_antrum_empty",
+      "file": "overlay_03_Gastric_antrum_empty.webp",
+      "coverage_pct": 1.4
+    },
+    {
+      "name": "04_IVC_and_SMV",
+      "file": "overlay_04_IVC_and_SMV.webp",
+      "coverage_pct": 9.8
+    },
+    {
+      "name": "05_Pancreas",
+      "file": "overlay_05_Pancreas.webp",
+      "coverage_pct": 1.2
+    },
+    {
+      "name": "06_Vertebrae_cortex",
+      "file": "overlay_06_Vertebrae_cortex.webp",
+      "coverage_pct": 2.3
+    },
+    {
+      "name": "07_Acoustic_shadow_from_vertebrae_cortices",
+      "file": "overlay_07_Acoustic_shadow_from_vertebrae_cortices.webp",
+      "coverage_pct": 19.7
+    },
+    {
+      "name": "08_Abdominal_wall_muscles",
+      "file": "overlay_08_Abdominal_wall_muscles.webp",
+      "coverage_pct": 2.9
+    },
+    {
+      "name": "09_Subcutaneous_fat",
+      "file": "overlay_09_Subcutaneous_fat.webp",
+      "coverage_pct": 2.8
+    }
+  ]
+}

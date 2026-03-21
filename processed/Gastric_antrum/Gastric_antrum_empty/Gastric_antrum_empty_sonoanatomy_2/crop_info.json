@@ -1,0 +1,75 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Gastric_antrum/Gastric_antrum_empty/Gastric_antrum_empty_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    463,
+    110,
+    1840,
+    1080
+  ],
+  "crop_size": [
+    1377,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 48.1
+    },
+    {
+      "name": "02_Liver",
+      "file": "overlay_02_Liver.webp",
+      "coverage_pct": 10.9
+    },
+    {
+      "name": "03_Gastric_antrum_empty",
+      "file": "overlay_03_Gastric_antrum_empty.webp",
+      "coverage_pct": 2.2
+    },
+    {
+      "name": "04_Aorta",
+      "file": "overlay_04_Aorta.webp",
+      "coverage_pct": 8.4
+    },
+    {
+      "name": "05_Superior_mesenteric_artery",
+      "file": "overlay_05_Superior_mesenteric_artery.webp",
+      "coverage_pct": 2.9
+    },
+    {
+      "name": "06_Pancreas",
+      "file": "overlay_06_Pancreas.webp",
+      "coverage_pct": 1.4
+    },
+    {
+      "name": "07_Vertebrae_cortex_and_acoustic_shadows",
+      "file": "overlay_07_Vertebrae_cortex_and_acoustic_shadows.webp",
+      "coverage_pct": 9.9
+    },
+    {
+      "name": "08_Transverse_colon_with_air_and_solids",
+      "file": "overlay_08_Transverse_colon_with_air_and_solids.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "09_Acoustic_shadow_from_colon_air_&_solids",
+      "file": "overlay_09_Acoustic_shadow_from_colon_air_&_solids.webp",
+      "coverage_pct": 6.5
+    },
+    {
+      "name": "10_Abdominal_wall_muscles",
+      "file": "overlay_10_Abdominal_wall_muscles.webp",
+      "coverage_pct": 3.8
+    },
+    {
+      "name": "11_Subcutaneous_fat",
+      "file": "overlay_11_Subcutaneous_fat.webp",
+      "coverage_pct": 1.7
+    }
+  ]
+}

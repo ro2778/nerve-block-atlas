@@ -1,0 +1,50 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Gastric_antrum/Gastric_antrum_with_clear_fluid/Gastric_antrum_with_clear_fluid_sonoanatomy_4",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    442,
+    110,
+    1862,
+    1080
+  ],
+  "crop_size": [
+    1420,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 22.4
+    },
+    {
+      "name": "02_Liver",
+      "file": "overlay_02_Liver.webp",
+      "coverage_pct": 4.9
+    },
+    {
+      "name": "03_Gastric_antrum_with_clear_fluid",
+      "file": "overlay_03_Gastric_antrum_with_clear_fluid.webp",
+      "coverage_pct": 3.1
+    },
+    {
+      "name": "04_Aorta_and_superior_mesenteric_artery",
+      "file": "overlay_04_Aorta_and_superior_mesenteric_artery.webp",
+      "coverage_pct": 9.0
+    },
+    {
+      "name": "05_Abdominal_wall_muscles",
+      "file": "overlay_05_Abdominal_wall_muscles.webp",
+      "coverage_pct": 3.0
+    },
+    {
+      "name": "06_Subcutaneous_fat",
+      "file": "overlay_06_Subcutaneous_fat.webp",
+      "coverage_pct": 2.5
+    }
+  ]
+}

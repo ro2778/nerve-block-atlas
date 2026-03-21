@@ -1,0 +1,25 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Airway/Cricoid_cartilage_transverse/Cricoid_cartilage_transverse_landmark_pattern",
+  "view_type": "diagram",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    229,
+    1977,
+    962
+  ],
+  "crop_size": [
+    1652,
+    733
+  ],
+  "layers": [
+    {
+      "name": "01_Show_Labels",
+      "file": "overlay_01_Show_Labels.webp",
+      "coverage_pct": 0.5
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_rectus_sheath/Paediatric_rectus_sheath_ergonomics",
+  "view_type": "ergonomics",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    764,
+    110,
+    1985,
+    1080
+  ],
+  "crop_size": [
+    1221,
+    970
+  ],
+  "layers": []
+}

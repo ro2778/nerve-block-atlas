@@ -1,0 +1,146 @@
+{
+  "block": "Bones",
+  "category": "Basic sonoanatomy",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Bones/Bones_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.4
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Bones/Bones_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        672,
+        110,
+        1630,
+        1078
+      ],
+      "crop_size": [
+        958,
+        968
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 30.8
+        },
+        {
+          "name": "02_bone_cortex",
+          "file": "overlay_02_bone_cortex.webp",
+          "coverage_pct": 2.6
+        },
+        {
+          "name": "03_acoustic_shadow",
+          "file": "overlay_03_acoustic_shadow.webp",
+          "coverage_pct": 28.4
+        },
+        {
+          "name": "04_reverberation_artefact",
+          "file": "overlay_04_reverberation_artefact.webp",
+          "coverage_pct": 5.2
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Bones/Bones_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        605,
+        110,
+        1698,
+        1080
+      ],
+      "crop_size": [
+        1093,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 36.1
+        },
+        {
+          "name": "02_bone_cortex",
+          "file": "overlay_02_bone_cortex.webp",
+          "coverage_pct": 3.8
+        },
+        {
+          "name": "03_acoustic_shadow",
+          "file": "overlay_03_acoustic_shadow.webp",
+          "coverage_pct": 33.1
+        },
+        {
+          "name": "04_reverberation_artefacts",
+          "file": "overlay_04_reverberation_artefacts.webp",
+          "coverage_pct": 4.2
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Bones/Bones_sonoanatomy_3",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        464,
+        110,
+        1838,
+        1080
+      ],
+      "crop_size": [
+        1374,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 48.6
+        },
+        {
+          "name": "02_bone_cortex",
+          "file": "overlay_02_bone_cortex.webp",
+          "coverage_pct": 2.7
+        },
+        {
+          "name": "03_acoustic_shadow",
+          "file": "overlay_03_acoustic_shadow.webp",
+          "coverage_pct": 46.3
+        }
+      ]
+    }
+  ]
+}

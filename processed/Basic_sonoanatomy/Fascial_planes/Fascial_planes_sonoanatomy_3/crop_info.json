@@ -1,0 +1,30 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Fascial_planes/Fascial_planes_sonoanatomy_3",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    375,
+    116,
+    1928,
+    1080
+  ],
+  "crop_size": [
+    1553,
+    964
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 10.2
+    },
+    {
+      "name": "02_Fascial_plane",
+      "file": "overlay_02_Fascial_plane.webp",
+      "coverage_pct": 10.2
+    }
+  ]
+}

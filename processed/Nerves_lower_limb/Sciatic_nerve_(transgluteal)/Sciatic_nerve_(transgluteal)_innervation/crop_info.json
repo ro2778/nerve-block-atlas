@@ -1,0 +1,50 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sciatic_nerve_(transgluteal)/Sciatic_nerve_(transgluteal)_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    459,
+    114,
+    1844,
+    1080
+  ],
+  "crop_size": [
+    1385,
+    966
+  ],
+  "layers": [
+    {
+      "name": "01_Femoral_nerve",
+      "file": "overlay_01_Femoral_nerve.webp",
+      "coverage_pct": 6.8
+    },
+    {
+      "name": "02_Obturator_nerve",
+      "file": "overlay_02_Obturator_nerve.webp",
+      "coverage_pct": 2.0
+    },
+    {
+      "name": "03_Femoral_triangle_distal",
+      "file": "overlay_03_Femoral_triangle_distal.webp",
+      "coverage_pct": 2.9
+    },
+    {
+      "name": "04_Fascia_iliaca",
+      "file": "overlay_04_Fascia_iliaca.webp",
+      "coverage_pct": 8.8
+    },
+    {
+      "name": "05_Sciatic_nerve_(transgluteal)",
+      "file": "overlay_05_Sciatic_nerve_(transgluteal).webp",
+      "coverage_pct": 9.9
+    },
+    {
+      "name": "06_Sciatic_nerve_(popliteal_fossa)",
+      "file": "overlay_06_Sciatic_nerve_(popliteal_fossa).webp",
+      "coverage_pct": 8.0
+    }
+  ]
+}

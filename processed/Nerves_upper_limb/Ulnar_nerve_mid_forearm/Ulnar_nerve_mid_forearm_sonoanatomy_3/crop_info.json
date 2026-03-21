@@ -1,0 +1,85 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Ulnar_nerve_mid_forearm/Ulnar_nerve_mid_forearm_sonoanatomy_3",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    516,
+    110,
+    1787,
+    1080
+  ],
+  "crop_size": [
+    1271,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 80.2
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 1.4
+    },
+    {
+      "name": "04_Ulnar_nerve",
+      "file": "overlay_04_Ulnar_nerve.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "05_Ulnar_artery",
+      "file": "overlay_05_Ulnar_artery.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "06_Median_nerve",
+      "file": "overlay_06_Median_nerve.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "07_Superficial_flexor_digitorum",
+      "file": "overlay_07_Superficial_flexor_digitorum.webp",
+      "coverage_pct": 19.8
+    },
+    {
+      "name": "08_Deep_flexor_digitorum",
+      "file": "overlay_08_Deep_flexor_digitorum.webp",
+      "coverage_pct": 35.9
+    },
+    {
+      "name": "09_Flexor_carpi_ulnaris",
+      "file": "overlay_09_Flexor_carpi_ulnaris.webp",
+      "coverage_pct": 4.5
+    },
+    {
+      "name": "10_Radius_cortex",
+      "file": "overlay_10_Radius_cortex.webp",
+      "coverage_pct": 1.5
+    },
+    {
+      "name": "11_Ulnar_cortex",
+      "file": "overlay_11_Ulnar_cortex.webp",
+      "coverage_pct": 2.1
+    },
+    {
+      "name": "12_Acoustic_shadow_from_bone",
+      "file": "overlay_12_Acoustic_shadow_from_bone.webp",
+      "coverage_pct": 12.3
+    },
+    {
+      "name": "13_Subcutaneous_fat",
+      "file": "overlay_13_Subcutaneous_fat.webp",
+      "coverage_pct": 1.9
+    }
+  ]
+}

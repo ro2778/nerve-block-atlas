@@ -1,0 +1,105 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Radial_nerve_antecubital_fossa/Radial_nerve_antecubital_fossa_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    362,
+    110,
+    1941,
+    1080
+  ],
+  "crop_size": [
+    1579,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 83.1
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 2.7
+    },
+    {
+      "name": "04_Radial_nerve",
+      "file": "overlay_04_Radial_nerve.webp",
+      "coverage_pct": 1.7
+    },
+    {
+      "name": "05_Radial_collateral_artery",
+      "file": "overlay_05_Radial_collateral_artery.webp",
+      "coverage_pct": 0.1
+    },
+    {
+      "name": "06_Brachial_artery",
+      "file": "overlay_06_Brachial_artery.webp",
+      "coverage_pct": 1.6
+    },
+    {
+      "name": "07_Median_nerve",
+      "file": "overlay_07_Median_nerve.webp",
+      "coverage_pct": 1.0
+    },
+    {
+      "name": "08_Cephalic_vein",
+      "file": "overlay_08_Cephalic_vein.webp",
+      "coverage_pct": 1.3
+    },
+    {
+      "name": "09_Lateral_cutaneous_nerve_of_forearm",
+      "file": "overlay_09_Lateral_cutaneous_nerve_of_forearm.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "10_Median_cubital_vein",
+      "file": "overlay_10_Median_cubital_vein.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "11_Biceps_tendon",
+      "file": "overlay_11_Biceps_tendon.webp",
+      "coverage_pct": 2.9
+    },
+    {
+      "name": "12_Brachialis",
+      "file": "overlay_12_Brachialis.webp",
+      "coverage_pct": 19.4
+    },
+    {
+      "name": "13_Brachioradialis",
+      "file": "overlay_13_Brachioradialis.webp",
+      "coverage_pct": 14.6
+    },
+    {
+      "name": "14_Pronator_teres",
+      "file": "overlay_14_Pronator_teres.webp",
+      "coverage_pct": 6.5
+    },
+    {
+      "name": "15_Humerus_cartilage_and_cortex",
+      "file": "overlay_15_Humerus_cartilage_and_cortex.webp",
+      "coverage_pct": 9.7
+    },
+    {
+      "name": "16_Acoustic_shadow_from_bone",
+      "file": "overlay_16_Acoustic_shadow_from_bone.webp",
+      "coverage_pct": 19.9
+    },
+    {
+      "name": "17_Subcutaneous_fat",
+      "file": "overlay_17_Subcutaneous_fat.webp",
+      "coverage_pct": 4.8
+    }
+  ]
+}

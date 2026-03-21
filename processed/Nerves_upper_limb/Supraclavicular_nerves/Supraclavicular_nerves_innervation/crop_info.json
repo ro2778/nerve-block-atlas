@@ -1,0 +1,35 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Supraclavicular_nerves/Supraclavicular_nerves_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    613,
+    129,
+    1707,
+    1080
+  ],
+  "crop_size": [
+    1094,
+    951
+  ],
+  "layers": [
+    {
+      "name": "01_Superior_trunk",
+      "file": "overlay_01_Superior_trunk.webp",
+      "coverage_pct": 10.8
+    },
+    {
+      "name": "02_Interscalene_brachial_plexus",
+      "file": "overlay_02_Interscalene_brachial_plexus.webp",
+      "coverage_pct": 12.3
+    },
+    {
+      "name": "03_Supraclavicular_nerves",
+      "file": "overlay_03_Supraclavicular_nerves.webp",
+      "coverage_pct": 0.8
+    }
+  ]
+}

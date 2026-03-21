@@ -1,0 +1,165 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Interscalene_brachial_plexus/Interscalene_brachial_plexus_sonoanatomy_3",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    535,
+    110,
+    1768,
+    1080
+  ],
+  "crop_size": [
+    1233,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 79.7
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 29.7
+    },
+    {
+      "name": "03_Needle_path",
+      "file": "overlay_03_Needle_path.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "04_LA",
+      "file": "overlay_04_LA.webp",
+      "coverage_pct": 2.3
+    },
+    {
+      "name": "05_C5_plexus_root",
+      "file": "overlay_05_C5_plexus_root.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "06_C6_plexus_root_divided",
+      "file": "overlay_06_C6_plexus_root_divided.webp",
+      "coverage_pct": 1.6
+    },
+    {
+      "name": "07_C7_plexus_root",
+      "file": "overlay_07_C7_plexus_root.webp",
+      "coverage_pct": 1.1
+    },
+    {
+      "name": "08_Carotid_artery",
+      "file": "overlay_08_Carotid_artery.webp",
+      "coverage_pct": 2.2
+    },
+    {
+      "name": "09_Internal_jugular_vein",
+      "file": "overlay_09_Internal_jugular_vein.webp",
+      "coverage_pct": 7.1
+    },
+    {
+      "name": "10_Anterior_scalene",
+      "file": "overlay_10_Anterior_scalene.webp",
+      "coverage_pct": 8.2
+    },
+    {
+      "name": "11_Phrenic_nerve",
+      "file": "overlay_11_Phrenic_nerve.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "12_Transverse_cervical_artery",
+      "file": "overlay_12_Transverse_cervical_artery.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "13_Middle_scalene",
+      "file": "overlay_13_Middle_scalene.webp",
+      "coverage_pct": 9.7
+    },
+    {
+      "name": "14_Long_thoracic_nerve",
+      "file": "overlay_14_Long_thoracic_nerve.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "15_Dorsal_scapular_nerve",
+      "file": "overlay_15_Dorsal_scapular_nerve.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "16_Supraclavicular_nerves",
+      "file": "overlay_16_Supraclavicular_nerves.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "17_Sternocleidomastoid",
+      "file": "overlay_17_Sternocleidomastoid.webp",
+      "coverage_pct": 9.3
+    },
+    {
+      "name": "18_C7_transverse_process_cortex",
+      "file": "overlay_18_C7_transverse_process_cortex.webp",
+      "coverage_pct": 3.2
+    },
+    {
+      "name": "19_Acoustic_shadow",
+      "file": "overlay_19_Acoustic_shadow.webp",
+      "coverage_pct": 12.5
+    },
+    {
+      "name": "20_Vertebral_artery",
+      "file": "overlay_20_Vertebral_artery.webp",
+      "coverage_pct": 1.6
+    },
+    {
+      "name": "21_Vertebral_vein",
+      "file": "overlay_21_Vertebral_vein.webp",
+      "coverage_pct": 1.6
+    },
+    {
+      "name": "22_Vagus_nerve",
+      "file": "overlay_22_Vagus_nerve.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "23_Longus_colli",
+      "file": "overlay_23_Longus_colli.webp",
+      "coverage_pct": 6.3
+    },
+    {
+      "name": "24_Platysma",
+      "file": "overlay_24_Platysma.webp",
+      "coverage_pct": 1.0
+    },
+    {
+      "name": "25_Omohyoid",
+      "file": "overlay_25_Omohyoid.webp",
+      "coverage_pct": 2.0
+    },
+    {
+      "name": "26_Longissimus_cervicis",
+      "file": "overlay_26_Longissimus_cervicis.webp",
+      "coverage_pct": 5.1
+    },
+    {
+      "name": "27_Posterior_scalene",
+      "file": "overlay_27_Posterior_scalene.webp",
+      "coverage_pct": 2.5
+    },
+    {
+      "name": "28_Cervical_sympathetic_chain_location",
+      "file": "overlay_28_Cervical_sympathetic_chain_location.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "29_Thyroid",
+      "file": "overlay_29_Thyroid.webp",
+      "coverage_pct": 4.1
+    }
+  ]
+}

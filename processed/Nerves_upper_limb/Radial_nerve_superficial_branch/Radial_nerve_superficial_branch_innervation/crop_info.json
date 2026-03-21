@@ -1,0 +1,45 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Radial_nerve_superficial_branch/Radial_nerve_superficial_branch_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    604,
+    114,
+    1699,
+    1080
+  ],
+  "crop_size": [
+    1095,
+    966
+  ],
+  "layers": [
+    {
+      "name": "01_Median_nerve",
+      "file": "overlay_01_Median_nerve.webp",
+      "coverage_pct": 9.4
+    },
+    {
+      "name": "02_Ulnar_nerve",
+      "file": "overlay_02_Ulnar_nerve.webp",
+      "coverage_pct": 10.0
+    },
+    {
+      "name": "03_Radial_nerve_superficial_branch",
+      "file": "overlay_03_Radial_nerve_superficial_branch.webp",
+      "coverage_pct": 3.2
+    },
+    {
+      "name": "04_Axillary_brachial_plexus",
+      "file": "overlay_04_Axillary_brachial_plexus.webp",
+      "coverage_pct": 26.9
+    },
+    {
+      "name": "05_Radial_nerve_ACF",
+      "file": "overlay_05_Radial_nerve_ACF.webp",
+      "coverage_pct": 7.5
+    }
+  ]
+}

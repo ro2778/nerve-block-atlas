@@ -1,0 +1,35 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Subcutaneous_fat/Subcutaneous_fat_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    427,
+    110,
+    1875,
+    1080
+  ],
+  "crop_size": [
+    1448,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 92.4
+    },
+    {
+      "name": "02_Subcutaneous_fat",
+      "file": "overlay_02_Subcutaneous_fat.webp",
+      "coverage_pct": 26.8
+    },
+    {
+      "name": "03_Muscle_long_axis",
+      "file": "overlay_03_Muscle_long_axis.webp",
+      "coverage_pct": 65.6
+    }
+  ]
+}

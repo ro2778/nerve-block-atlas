@@ -1,0 +1,55 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Suprasternal_aortic_arch/Suprasternal_aortic_arch_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    495,
+    149,
+    1778,
+    1077
+  ],
+  "crop_size": [
+    1283,
+    928
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 16.0
+    },
+    {
+      "name": "02_Aortic_arch",
+      "file": "overlay_02_Aortic_arch.webp",
+      "coverage_pct": 8.2
+    },
+    {
+      "name": "03_Brachiocephalic_trunk",
+      "file": "overlay_03_Brachiocephalic_trunk.webp",
+      "coverage_pct": 1.1
+    },
+    {
+      "name": "04_Left_common_carotid_artery",
+      "file": "overlay_04_Left_common_carotid_artery.webp",
+      "coverage_pct": 1.1
+    },
+    {
+      "name": "05_Left_subclavian_artery",
+      "file": "overlay_05_Left_subclavian_artery.webp",
+      "coverage_pct": 1.2
+    },
+    {
+      "name": "06_Right_pulmonary_artery",
+      "file": "overlay_06_Right_pulmonary_artery.webp",
+      "coverage_pct": 0.9
+    },
+    {
+      "name": "07_Left_atrium",
+      "file": "overlay_07_Left_atrium.webp",
+      "coverage_pct": 4.0
+    }
+  ]
+}

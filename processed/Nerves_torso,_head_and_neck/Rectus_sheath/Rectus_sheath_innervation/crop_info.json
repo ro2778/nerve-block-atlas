@@ -1,0 +1,45 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Rectus_sheath/Rectus_sheath_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    608,
+    117,
+    1695,
+    1080
+  ],
+  "crop_size": [
+    1087,
+    963
+  ],
+  "layers": [
+    {
+      "name": "01_Rectus_sheath_contralateral",
+      "file": "overlay_01_Rectus_sheath_contralateral.webp",
+      "coverage_pct": 1.0
+    },
+    {
+      "name": "02_Rectus_sheath",
+      "file": "overlay_02_Rectus_sheath.webp",
+      "coverage_pct": 1.0
+    },
+    {
+      "name": "03_Subcostal_TAP",
+      "file": "overlay_03_Subcostal_TAP.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "04_Paravertebral_T8",
+      "file": "overlay_04_Paravertebral_T8.webp",
+      "coverage_pct": 8.6
+    },
+    {
+      "name": "05_Epidural_T8",
+      "file": "overlay_05_Epidural_T8.webp",
+      "coverage_pct": 13.6
+    }
+  ]
+}

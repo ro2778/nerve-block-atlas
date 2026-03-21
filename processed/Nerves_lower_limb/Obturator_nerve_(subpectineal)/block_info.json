@@ -1,0 +1,335 @@
+{
+  "block": "Obturator nerve (subpectineal)",
+  "category": "Nerves: lower limb",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Obturator_nerve_(subpectineal)/Obturator_nerve_(subpectineal)_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        980,
+        110,
+        1783,
+        1080
+      ],
+      "crop_size": [
+        803,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Obturator_nerve_(subpectineal)/Obturator_nerve_(subpectineal)_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        389,
+        115,
+        1914,
+        1080
+      ],
+      "crop_size": [
+        1525,
+        965
+      ],
+      "layers": [
+        {
+          "name": "01_Femoral_nerve",
+          "file": "overlay_01_Femoral_nerve.webp",
+          "coverage_pct": 9.2
+        },
+        {
+          "name": "02_iPACK",
+          "file": "overlay_02_iPACK.webp",
+          "coverage_pct": 2.5
+        },
+        {
+          "name": "03_Femoral_triangle_distal",
+          "file": "overlay_03_Femoral_triangle_distal.webp",
+          "coverage_pct": 3.6
+        },
+        {
+          "name": "04_Obturator_nerve",
+          "file": "overlay_04_Obturator_nerve.webp",
+          "coverage_pct": 2.2
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Obturator_nerve_(subpectineal)/Obturator_nerve_(subpectineal)_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 1.0
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Obturator_nerve_(subpectineal)/Obturator_nerve_(subpectineal)_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        539,
+        110,
+        1764,
+        1080
+      ],
+      "crop_size": [
+        1225,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 79.8
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 2.8
+        },
+        {
+          "name": "04_Pectineus",
+          "file": "overlay_04_Pectineus.webp",
+          "coverage_pct": 23.0
+        },
+        {
+          "name": "05_Adductor_longus",
+          "file": "overlay_05_Adductor_longus.webp",
+          "coverage_pct": 8.1
+        },
+        {
+          "name": "06_Adductor_brevis",
+          "file": "overlay_06_Adductor_brevis.webp",
+          "coverage_pct": 11.7
+        },
+        {
+          "name": "07_Adductor_magnus",
+          "file": "overlay_07_Adductor_magnus.webp",
+          "coverage_pct": 5.1
+        },
+        {
+          "name": "08_Obturator_externus",
+          "file": "overlay_08_Obturator_externus.webp",
+          "coverage_pct": 16.5
+        },
+        {
+          "name": "09_Superior_pubic_ramus_cortex",
+          "file": "overlay_09_Superior_pubic_ramus_cortex.webp",
+          "coverage_pct": 1.2
+        },
+        {
+          "name": "10_Acoustic_shadow_from_bone_cortex",
+          "file": "overlay_10_Acoustic_shadow_from_bone_cortex.webp",
+          "coverage_pct": 5.3
+        },
+        {
+          "name": "11_Subcutaneous_fat",
+          "file": "overlay_11_Subcutaneous_fat.webp",
+          "coverage_pct": 6.9
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Obturator_nerve_(subpectineal)/Obturator_nerve_(subpectineal)_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        479,
+        110,
+        1824,
+        1080
+      ],
+      "crop_size": [
+        1345,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 75.4
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 4.0
+        },
+        {
+          "name": "04_Pectineus",
+          "file": "overlay_04_Pectineus.webp",
+          "coverage_pct": 23.8
+        },
+        {
+          "name": "05_Obturator_nerve_branches",
+          "file": "overlay_05_Obturator_nerve_branches.webp",
+          "coverage_pct": 1.1
+        },
+        {
+          "name": "06_Adductor_longus",
+          "file": "overlay_06_Adductor_longus.webp",
+          "coverage_pct": 5.2
+        },
+        {
+          "name": "07_Adductor_brevis",
+          "file": "overlay_07_Adductor_brevis.webp",
+          "coverage_pct": 5.4
+        },
+        {
+          "name": "08_Obturator_externus",
+          "file": "overlay_08_Obturator_externus.webp",
+          "coverage_pct": 15.6
+        },
+        {
+          "name": "09_Femoral_vein",
+          "file": "overlay_09_Femoral_vein.webp",
+          "coverage_pct": 3.8
+        },
+        {
+          "name": "10_Iliopsoas",
+          "file": "overlay_10_Iliopsoas.webp",
+          "coverage_pct": 1.7
+        },
+        {
+          "name": "11_Superior_pubic_ramus_cortex",
+          "file": "overlay_11_Superior_pubic_ramus_cortex.webp",
+          "coverage_pct": 2.0
+        },
+        {
+          "name": "12_Acoustic_shadow_from_bone_cortex",
+          "file": "overlay_12_Acoustic_shadow_from_bone_cortex.webp",
+          "coverage_pct": 8.5
+        },
+        {
+          "name": "13_Subcutaneous_fat",
+          "file": "overlay_13_Subcutaneous_fat.webp",
+          "coverage_pct": 5.7
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Obturator_nerve_(subpectineal)/Obturator_nerve_(subpectineal)_sonoanatomy_3",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        611,
+        110,
+        1692,
+        1080
+      ],
+      "crop_size": [
+        1081,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 75.6
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 2.6
+        },
+        {
+          "name": "04_Obturator_nerve",
+          "file": "overlay_04_Obturator_nerve.webp",
+          "coverage_pct": 0.9
+        },
+        {
+          "name": "05_Adductor_longus",
+          "file": "overlay_05_Adductor_longus.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "06_Adductor_brevis",
+          "file": "overlay_06_Adductor_brevis.webp",
+          "coverage_pct": 5.7
+        },
+        {
+          "name": "07_Adductor_magnus",
+          "file": "overlay_07_Adductor_magnus.webp",
+          "coverage_pct": 5.0
+        },
+        {
+          "name": "08_Pectineus",
+          "file": "overlay_08_Pectineus.webp",
+          "coverage_pct": 26.7
+        },
+        {
+          "name": "09_Obturator_externus",
+          "file": "overlay_09_Obturator_externus.webp",
+          "coverage_pct": 13.7
+        },
+        {
+          "name": "10_Superior_pubic_ramus_cortex",
+          "file": "overlay_10_Superior_pubic_ramus_cortex.webp",
+          "coverage_pct": 2.0
+        },
+        {
+          "name": "11_Acoustic_shadow_from_bone_cortex",
+          "file": "overlay_11_Acoustic_shadow_from_bone_cortex.webp",
+          "coverage_pct": 10.2
+        },
+        {
+          "name": "12_Obturator_vessels",
+          "file": "overlay_12_Obturator_vessels.webp",
+          "coverage_pct": 1.2
+        },
+        {
+          "name": "13_Subcutaneous_fat",
+          "file": "overlay_13_Subcutaneous_fat.webp",
+          "coverage_pct": 8.1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Superficial_serratus_anterior_plane/Superficial_serratus_anterior_plane_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    368,
+    110,
+    1935,
+    1076
+  ],
+  "crop_size": [
+    1567,
+    966
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 85.3
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 37.4
+    },
+    {
+      "name": "03_Needle_path",
+      "file": "overlay_03_Needle_path.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "04_LA",
+      "file": "overlay_04_LA.webp",
+      "coverage_pct": 4.6
+    },
+    {
+      "name": "05_Serratus_anterior",
+      "file": "overlay_05_Serratus_anterior.webp",
+      "coverage_pct": 20.1
+    },
+    {
+      "name": "06_Latissimus_dorsi",
+      "file": "overlay_06_Latissimus_dorsi.webp",
+      "coverage_pct": 3.3
+    },
+    {
+      "name": "07_Thoracodorsal_artery",
+      "file": "overlay_07_Thoracodorsal_artery.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "08_Ribs_cortex",
+      "file": "overlay_08_Ribs_cortex.webp",
+      "coverage_pct": 2.8
+    },
+    {
+      "name": "09_Acoustic_shadows_from_bone_cortex_with_reverberation_artefacts",
+      "file": "overlay_09_Acoustic_shadows_from_bone_cortex_with_reverberation_artefacts.webp",
+      "coverage_pct": 31.3
+    },
+    {
+      "name": "10_Pleura-air_interface_and_lung_artefact",
+      "file": "overlay_10_Pleura-air_interface_and_lung_artefact.webp",
+      "coverage_pct": 14.3
+    },
+    {
+      "name": "11_Intercostals",
+      "file": "overlay_11_Intercostals.webp",
+      "coverage_pct": 4.7
+    },
+    {
+      "name": "12_Subcutaneous_fat",
+      "file": "overlay_12_Subcutaneous_fat.webp",
+      "coverage_pct": 5.3
+    }
+  ]
+}

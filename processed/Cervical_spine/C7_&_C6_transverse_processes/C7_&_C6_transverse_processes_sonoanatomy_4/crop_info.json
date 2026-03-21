@@ -1,0 +1,65 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Cervical_spine/C7_&_C6_transverse_processes/C7_&_C6_transverse_processes_sonoanatomy_4",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    347,
+    209,
+    1964,
+    977
+  ],
+  "crop_size": [
+    1617,
+    768
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 4.8
+    },
+    {
+      "name": "02_C7_posterior_tubercle_cortex",
+      "file": "overlay_02_C7_posterior_tubercle_cortex.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "03_C7_acoustic_shadow",
+      "file": "overlay_03_C7_acoustic_shadow.webp",
+      "coverage_pct": 1.3
+    },
+    {
+      "name": "04_Vertebral_artery_and_vein",
+      "file": "overlay_04_Vertebral_artery_and_vein.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "05_C6_anterior_and_posterior_tubercles_cortex",
+      "file": "overlay_05_C6_anterior_and_posterior_tubercles_cortex.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "06_C6_acoustic_shadow",
+      "file": "overlay_06_C6_acoustic_shadow.webp",
+      "coverage_pct": 1.4
+    },
+    {
+      "name": "07_C7_nerve_root",
+      "file": "overlay_07_C7_nerve_root.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "08_C6_nerve_root",
+      "file": "overlay_08_C6_nerve_root.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "09_C5_nerve_root",
+      "file": "overlay_09_C5_nerve_root.webp",
+      "coverage_pct": 0.3
+    }
+  ]
+}

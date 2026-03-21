@@ -1,0 +1,85 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Transverse_interlaminar_high_lumbar/Transverse_interlaminar_high_lumbar_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    364,
+    110,
+    1939,
+    1054
+  ],
+  "crop_size": [
+    1575,
+    944
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 42.1
+    },
+    {
+      "name": "02_Vertebra_body_cortex_(anterior_complex)",
+      "file": "overlay_02_Vertebra_body_cortex_(anterior_complex).webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "03_Facet_(_inferior_articular_process)",
+      "file": "overlay_03_Facet_(_inferior_articular_process).webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "04_Facets_(_superior_articular_processes)",
+      "file": "overlay_04_Facets_(_superior_articular_processes).webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "05_Transverse_process",
+      "file": "overlay_05_Transverse_process.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "06_Acoustic_shadow_from_bone_cortex",
+      "file": "overlay_06_Acoustic_shadow_from_bone_cortex.webp",
+      "coverage_pct": 18.9
+    },
+    {
+      "name": "07_Posterior_dura",
+      "file": "overlay_07_Posterior_dura.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "08_Intrathecal_space",
+      "file": "overlay_08_Intrathecal_space.webp",
+      "coverage_pct": 1.6
+    },
+    {
+      "name": "09_Interspinous_ligament",
+      "file": "overlay_09_Interspinous_ligament.webp",
+      "coverage_pct": 1.4
+    },
+    {
+      "name": "10_Supraspinous_ligament",
+      "file": "overlay_10_Supraspinous_ligament.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "11_Thoracolumbar_fascia",
+      "file": "overlay_11_Thoracolumbar_fascia.webp",
+      "coverage_pct": 1.6
+    },
+    {
+      "name": "12_Erector_spinae",
+      "file": "overlay_12_Erector_spinae.webp",
+      "coverage_pct": 14.9
+    },
+    {
+      "name": "13_Subcutaneous_fat",
+      "file": "overlay_13_Subcutaneous_fat.webp",
+      "coverage_pct": 1.8
+    }
+  ]
+}

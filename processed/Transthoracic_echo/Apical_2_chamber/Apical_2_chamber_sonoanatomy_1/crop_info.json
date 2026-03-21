@@ -1,0 +1,55 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Apical_2_chamber/Apical_2_chamber_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    648,
+    131,
+    1655,
+    1080
+  ],
+  "crop_size": [
+    1007,
+    949
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 26.8
+    },
+    {
+      "name": "02_Left_ventricle",
+      "file": "overlay_02_Left_ventricle.webp",
+      "coverage_pct": 10.7
+    },
+    {
+      "name": "03_LA_and_LA_appendage",
+      "file": "overlay_03_LA_and_LA_appendage.webp",
+      "coverage_pct": 7.5
+    },
+    {
+      "name": "04_Posterior_mitral_leaflet",
+      "file": "overlay_04_Posterior_mitral_leaflet.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "05_Anterior_mitral_leaflet",
+      "file": "overlay_05_Anterior_mitral_leaflet.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "06_LV_anterior_wall",
+      "file": "overlay_06_LV_anterior_wall.webp",
+      "coverage_pct": 4.7
+    },
+    {
+      "name": "07_LV_inferior_wall",
+      "file": "overlay_07_LV_inferior_wall.webp",
+      "coverage_pct": 4.1
+    }
+  ]
+}

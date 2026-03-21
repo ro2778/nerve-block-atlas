@@ -1,0 +1,25 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Subcostal_4_chamber/Subcostal_4_chamber_landmark_pattern",
+  "view_type": "diagram",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    419,
+    110,
+    1884,
+    1080
+  ],
+  "crop_size": [
+    1465,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_Labels",
+      "file": "overlay_01_Show_Labels.webp",
+      "coverage_pct": 1.4
+    }
+  ]
+}

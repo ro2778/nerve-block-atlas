@@ -1,0 +1,170 @@
+{
+  "block": "Transverse spinous processes",
+  "category": "Lumbar_spine",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Transverse_spinous_processes/Transverse_spinous_processes_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        594,
+        110,
+        2169,
+        1080
+      ],
+      "crop_size": [
+        1575,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Transverse_spinous_processes/Transverse_spinous_processes_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.3
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Transverse_spinous_processes/Transverse_spinous_processes_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        415,
+        110,
+        1889,
+        1066
+      ],
+      "crop_size": [
+        1474,
+        956
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 54.5
+        },
+        {
+          "name": "02_Spinous_process_and_lamina_cortex",
+          "file": "overlay_02_Spinous_process_and_lamina_cortex.webp",
+          "coverage_pct": 2.5
+        },
+        {
+          "name": "03_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+          "file": "overlay_03_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+          "coverage_pct": 22.2
+        },
+        {
+          "name": "04_Supraspinous_ligament",
+          "file": "overlay_04_Supraspinous_ligament.webp",
+          "coverage_pct": 0.3
+        },
+        {
+          "name": "05_Thoracolumbar_fascia",
+          "file": "overlay_05_Thoracolumbar_fascia.webp",
+          "coverage_pct": 0.9
+        },
+        {
+          "name": "06_Erector_spinae",
+          "file": "overlay_06_Erector_spinae.webp",
+          "coverage_pct": 13.6
+        },
+        {
+          "name": "07_Psoas",
+          "file": "overlay_07_Psoas.webp",
+          "coverage_pct": 12.7
+        },
+        {
+          "name": "08_Subcutaneous_fat",
+          "file": "overlay_08_Subcutaneous_fat.webp",
+          "coverage_pct": 2.8
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Transverse_spinous_processes/Transverse_spinous_processes_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        520,
+        110,
+        1783,
+        1080
+      ],
+      "crop_size": [
+        1263,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 64.2
+        },
+        {
+          "name": "02_Spinous_process_and_lamina_cortex",
+          "file": "overlay_02_Spinous_process_and_lamina_cortex.webp",
+          "coverage_pct": 2.2
+        },
+        {
+          "name": "03_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+          "file": "overlay_03_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+          "coverage_pct": 29.3
+        },
+        {
+          "name": "04_Erector_spinae",
+          "file": "overlay_04_Erector_spinae.webp",
+          "coverage_pct": 12.7
+        },
+        {
+          "name": "05_Supraspinous_ligament",
+          "file": "overlay_05_Supraspinous_ligament.webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "06_Thoracolumbar_fascia",
+          "file": "overlay_06_Thoracolumbar_fascia.webp",
+          "coverage_pct": 1.1
+        },
+        {
+          "name": "07_Psoas",
+          "file": "overlay_07_Psoas.webp",
+          "coverage_pct": 16.0
+        },
+        {
+          "name": "08_Subcutaneous_fat",
+          "file": "overlay_08_Subcutaneous_fat.webp",
+          "coverage_pct": 2.8
+        }
+      ]
+    }
+  ]
+}

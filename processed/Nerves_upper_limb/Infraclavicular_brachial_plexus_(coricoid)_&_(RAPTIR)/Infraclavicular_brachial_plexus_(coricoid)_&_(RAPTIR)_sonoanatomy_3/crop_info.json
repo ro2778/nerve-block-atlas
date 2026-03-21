@@ -1,0 +1,80 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Infraclavicular_brachial_plexus_(coricoid)_&_(RAPTIR)/Infraclavicular_brachial_plexus_(coricoid)_&_(RAPTIR)_sonoanatomy_3",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    632,
+    110,
+    1671,
+    1080
+  ],
+  "crop_size": [
+    1039,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 69.5
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 46.4
+    },
+    {
+      "name": "03_Needle_path_(coricoid)",
+      "file": "overlay_03_Needle_path_(coricoid).webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "04_Needle_path_(RAPTIR)",
+      "file": "overlay_04_Needle_path_(RAPTIR).webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "05_LA",
+      "file": "overlay_05_LA.webp",
+      "coverage_pct": 4.8
+    },
+    {
+      "name": "06_Axillary_artery_and_vein",
+      "file": "overlay_06_Axillary_artery_and_vein.webp",
+      "coverage_pct": 4.2
+    },
+    {
+      "name": "07_Posterior_cord",
+      "file": "overlay_07_Posterior_cord.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "08_Medial_cord",
+      "file": "overlay_08_Medial_cord.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "09_Lateral_cord",
+      "file": "overlay_09_Lateral_cord.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "10_Pectoralis_major",
+      "file": "overlay_10_Pectoralis_major.webp",
+      "coverage_pct": 30.2
+    },
+    {
+      "name": "11_Pectoralis_minor",
+      "file": "overlay_11_Pectoralis_minor.webp",
+      "coverage_pct": 10.1
+    },
+    {
+      "name": "12_Subscapularis",
+      "file": "overlay_12_Subscapularis.webp",
+      "coverage_pct": 19.6
+    }
+  ]
+}

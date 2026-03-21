@@ -1,0 +1,25 @@
+{
+  "block": "ASRA lower limb muscular",
+  "category": "Nerves_sensory_innervation_guides",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_sensory_innervation_guides/ASRA_lower_limb_muscular/ASRA_lower_limb_muscular_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        1043,
+        110,
+        1554,
+        1080
+      ],
+      "crop_size": [
+        511,
+        970
+      ],
+      "layers": []
+    }
+  ]
+}

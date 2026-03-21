@@ -1,0 +1,55 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Airway/Cricothyroid_membrane_transverse/Cricothyroid_membrane_transverse_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    194,
+    1977,
+    996
+  ],
+  "crop_size": [
+    1652,
+    802
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 35.6
+    },
+    {
+      "name": "02_Trachea_anterior_mucosa-air_interface",
+      "file": "overlay_02_Trachea_anterior_mucosa-air_interface.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "03_Cricothyroid_membrane",
+      "file": "overlay_03_Cricothyroid_membrane.webp",
+      "coverage_pct": 1.6
+    },
+    {
+      "name": "04_Acoustic_shadow_and_reverberation_artefacts",
+      "file": "overlay_04_Acoustic_shadow_and_reverberation_artefacts.webp",
+      "coverage_pct": 12.2
+    },
+    {
+      "name": "05_Cricoid_cartilage",
+      "file": "overlay_05_Cricoid_cartilage.webp",
+      "coverage_pct": 4.0
+    },
+    {
+      "name": "06_Cricothyroid_muscle",
+      "file": "overlay_06_Cricothyroid_muscle.webp",
+      "coverage_pct": 4.9
+    },
+    {
+      "name": "07_Strap_muscles",
+      "file": "overlay_07_Strap_muscles.webp",
+      "coverage_pct": 13.0
+    }
+  ]
+}

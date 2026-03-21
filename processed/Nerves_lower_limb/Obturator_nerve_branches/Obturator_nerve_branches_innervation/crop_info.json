@@ -1,0 +1,40 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Obturator_nerve_branches/Obturator_nerve_branches_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    389,
+    115,
+    1914,
+    1080
+  ],
+  "crop_size": [
+    1525,
+    965
+  ],
+  "layers": [
+    {
+      "name": "01_Femoral_nerve",
+      "file": "overlay_01_Femoral_nerve.webp",
+      "coverage_pct": 9.2
+    },
+    {
+      "name": "02_Femoral_triangle_distal",
+      "file": "overlay_02_Femoral_triangle_distal.webp",
+      "coverage_pct": 3.6
+    },
+    {
+      "name": "03_iPACK",
+      "file": "overlay_03_iPACK.webp",
+      "coverage_pct": 2.5
+    },
+    {
+      "name": "04_Obturator_nerve",
+      "file": "overlay_04_Obturator_nerve.webp",
+      "coverage_pct": 2.2
+    }
+  ]
+}

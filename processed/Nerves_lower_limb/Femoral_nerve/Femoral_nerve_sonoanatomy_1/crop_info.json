@@ -1,0 +1,85 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Femoral_nerve/Femoral_nerve_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    160,
+    1977,
+    1030
+  ],
+  "crop_size": [
+    1652,
+    870
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 88.7
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 72.9
+    },
+    {
+      "name": "03_Needle_path",
+      "file": "overlay_03_Needle_path.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "04_LA",
+      "file": "overlay_04_LA.webp",
+      "coverage_pct": 4.1
+    },
+    {
+      "name": "05_Femoral_nerve",
+      "file": "overlay_05_Femoral_nerve.webp",
+      "coverage_pct": 2.0
+    },
+    {
+      "name": "06_Iliopsoas",
+      "file": "overlay_06_Iliopsoas.webp",
+      "coverage_pct": 46.2
+    },
+    {
+      "name": "07_Fascia_iliaca",
+      "file": "overlay_07_Fascia_iliaca.webp",
+      "coverage_pct": 8.4
+    },
+    {
+      "name": "08_Common_femoral_artery",
+      "file": "overlay_08_Common_femoral_artery.webp",
+      "coverage_pct": 5.7
+    },
+    {
+      "name": "09_Femoral_vein",
+      "file": "overlay_09_Femoral_vein.webp",
+      "coverage_pct": 4.0
+    },
+    {
+      "name": "10_Pectineus",
+      "file": "overlay_10_Pectineus.webp",
+      "coverage_pct": 4.8
+    },
+    {
+      "name": "11_Fascia_lata",
+      "file": "overlay_11_Fascia_lata.webp",
+      "coverage_pct": 7.6
+    },
+    {
+      "name": "12_Subcutaneous_fat",
+      "file": "overlay_12_Subcutaneous_fat.webp",
+      "coverage_pct": 10.0
+    },
+    {
+      "name": "13_Femoral_branch_of_genitofemoral_nerve",
+      "file": "overlay_13_Femoral_branch_of_genitofemoral_nerve.webp",
+      "coverage_pct": 0.2
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Sagittal_transverse_processes/Sagittal_transverse_processes_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    406,
+    110,
+    1898,
+    1080
+  ],
+  "crop_size": [
+    1492,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 60.4
+    },
+    {
+      "name": "02_Transverse_processes_cortex",
+      "file": "overlay_02_Transverse_processes_cortex.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "03_Acoustic_shadows_from_bone_cortex",
+      "file": "overlay_03_Acoustic_shadows_from_bone_cortex.webp",
+      "coverage_pct": 14.1
+    },
+    {
+      "name": "04_Erector_spinae",
+      "file": "overlay_04_Erector_spinae.webp",
+      "coverage_pct": 14.1
+    },
+    {
+      "name": "05_Psoas",
+      "file": "overlay_05_Psoas.webp",
+      "coverage_pct": 18.5
+    },
+    {
+      "name": "06_Peritoneal_cavity",
+      "file": "overlay_06_Peritoneal_cavity.webp",
+      "coverage_pct": 11.1
+    },
+    {
+      "name": "07_Subcutaneous_fat",
+      "file": "overlay_07_Subcutaneous_fat.webp",
+      "coverage_pct": 2.6
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Sagittal_transverse_processes/Sagittal_transverse_processes_ergonomics",
+  "view_type": "ergonomics",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    565,
+    110,
+    2198,
+    1080
+  ],
+  "crop_size": [
+    1633,
+    970
+  ],
+  "layers": []
+}

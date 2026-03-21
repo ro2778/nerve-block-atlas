@@ -1,0 +1,19 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Parasternal_short_axis_mid-papillary/Parasternal_short_axis_mid-papillary_ergonomics",
+  "view_type": "ergonomics",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    513,
+    110,
+    2224,
+    1080
+  ],
+  "crop_size": [
+    1711,
+    970
+  ],
+  "layers": []
+}

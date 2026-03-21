@@ -1,0 +1,60 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Subcostal_IVC/Subcostal_IVC_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    422,
+    125,
+    1882,
+    1080
+  ],
+  "crop_size": [
+    1460,
+    955
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 36.5
+    },
+    {
+      "name": "02_Inferior_vena_carva",
+      "file": "overlay_02_Inferior_vena_carva.webp",
+      "coverage_pct": 5.7
+    },
+    {
+      "name": "03_Liver",
+      "file": "overlay_03_Liver.webp",
+      "coverage_pct": 20.2
+    },
+    {
+      "name": "04_Hepatic_vein",
+      "file": "overlay_04_Hepatic_vein.webp",
+      "coverage_pct": 1.1
+    },
+    {
+      "name": "05_Right_atrium",
+      "file": "overlay_05_Right_atrium.webp",
+      "coverage_pct": 1.7
+    },
+    {
+      "name": "06_Chamber_walls",
+      "file": "overlay_06_Chamber_walls.webp",
+      "coverage_pct": 3.5
+    },
+    {
+      "name": "07_Tricuspid_valve",
+      "file": "overlay_07_Tricuspid_valve.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "08_Right_ventricle",
+      "file": "overlay_08_Right_ventricle.webp",
+      "coverage_pct": 5.2
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Lateral_femoral_cutaneous_nerve/Lateral_femoral_cutaneous_nerve_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    150,
+    1977,
+    1040
+  ],
+  "crop_size": [
+    1652,
+    890
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 44.9
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 1.3
+    },
+    {
+      "name": "04_Lateral_femoral_cutaneous_nerve",
+      "file": "overlay_04_Lateral_femoral_cutaneous_nerve.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "05_Fat_filled_fascial_tunnel",
+      "file": "overlay_05_Fat_filled_fascial_tunnel.webp",
+      "coverage_pct": 3.4
+    },
+    {
+      "name": "06_Sartorius",
+      "file": "overlay_06_Sartorius.webp",
+      "coverage_pct": 5.7
+    },
+    {
+      "name": "07_Fascia_lata",
+      "file": "overlay_07_Fascia_lata.webp",
+      "coverage_pct": 3.4
+    },
+    {
+      "name": "08_Subcutaneous_fat",
+      "file": "overlay_08_Subcutaneous_fat.webp",
+      "coverage_pct": 3.8
+    },
+    {
+      "name": "09_Rectus_femoris",
+      "file": "overlay_09_Rectus_femoris.webp",
+      "coverage_pct": 18.9
+    },
+    {
+      "name": "10_Iliacus",
+      "file": "overlay_10_Iliacus.webp",
+      "coverage_pct": 9.5
+    }
+  ]
+}

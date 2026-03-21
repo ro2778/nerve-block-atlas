@@ -1,0 +1,156 @@
+{
+  "block": "Transverse interlaminar mirror image artefact",
+  "category": "Lumbar_spine",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Transverse_interlaminar_mirror_image_artefact/Transverse_interlaminar_mirror_image_artefact_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        363,
+        110,
+        1940,
+        1080
+      ],
+      "crop_size": [
+        1577,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 25.6
+        },
+        {
+          "name": "02_Vertebra_body_cortex_(anterior_complex)",
+          "file": "overlay_02_Vertebra_body_cortex_(anterior_complex).webp",
+          "coverage_pct": 0.7
+        },
+        {
+          "name": "03_Posterior_complex",
+          "file": "overlay_03_Posterior_complex.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "04_Mirror_image_artefact_of_posterior_complex",
+          "file": "overlay_04_Mirror_image_artefact_of_posterior_complex.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "05_Intrathecal_space_and_cauda_equina",
+          "file": "overlay_05_Intrathecal_space_and_cauda_equina.webp",
+          "coverage_pct": 1.8
+        },
+        {
+          "name": "06_Acoustic_shadow",
+          "file": "overlay_06_Acoustic_shadow.webp",
+          "coverage_pct": 23.0
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Transverse_interlaminar_mirror_image_artefact/Transverse_interlaminar_mirror_image_artefact_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        380,
+        110,
+        1923,
+        1075
+      ],
+      "crop_size": [
+        1543,
+        965
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 24.6
+        },
+        {
+          "name": "02_Vertebra_body_cortex_(_anterior_complex)",
+          "file": "overlay_02_Vertebra_body_cortex_(_anterior_complex).webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "03_Posterior_complex",
+          "file": "overlay_03_Posterior_complex.webp",
+          "coverage_pct": 0.3
+        },
+        {
+          "name": "04_Intrathecal_space_with_cauda_equina",
+          "file": "overlay_04_Intrathecal_space_with_cauda_equina.webp",
+          "coverage_pct": 1.7
+        },
+        {
+          "name": "05_Mirror_image_artefact_of_posterior_complex",
+          "file": "overlay_05_Mirror_image_artefact_of_posterior_complex.webp",
+          "coverage_pct": 0.3
+        },
+        {
+          "name": "06_Acoustic_shadow",
+          "file": "overlay_06_Acoustic_shadow.webp",
+          "coverage_pct": 22.3
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Transverse_interlaminar_mirror_image_artefact/Transverse_interlaminar_mirror_image_artefact_sonoanatomy_3",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        351,
+        110,
+        1952,
+        1080
+      ],
+      "crop_size": [
+        1601,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 28.7
+        },
+        {
+          "name": "02_Vertebra_body_cortex_(_anterior_complex)",
+          "file": "overlay_02_Vertebra_body_cortex_(_anterior_complex).webp",
+          "coverage_pct": 1.2
+        },
+        {
+          "name": "03_Posterior_complex",
+          "file": "overlay_03_Posterior_complex.webp",
+          "coverage_pct": 1.0
+        },
+        {
+          "name": "04_Intrathecal_space",
+          "file": "overlay_04_Intrathecal_space.webp",
+          "coverage_pct": 3.0
+        },
+        {
+          "name": "05_Mirror_image_artefact_of_posterior_complex",
+          "file": "overlay_05_Mirror_image_artefact_of_posterior_complex.webp",
+          "coverage_pct": 1.5
+        },
+        {
+          "name": "06_Acoustic_shadow",
+          "file": "overlay_06_Acoustic_shadow.webp",
+          "coverage_pct": 24.2
+        }
+      ]
+    }
+  ]
+}

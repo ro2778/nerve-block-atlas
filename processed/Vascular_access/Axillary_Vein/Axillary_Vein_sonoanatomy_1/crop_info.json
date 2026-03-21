@@ -1,0 +1,75 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Vascular_access/Axillary_Vein/Axillary_Vein_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    538,
+    110,
+    1764,
+    1080
+  ],
+  "crop_size": [
+    1226,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 53.1
+    },
+    {
+      "name": "02_Needle_path_OOP",
+      "file": "overlay_02_Needle_path_OOP.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "03_Axillary_vein",
+      "file": "overlay_03_Axillary_vein.webp",
+      "coverage_pct": 4.7
+    },
+    {
+      "name": "04_Axillary_artery",
+      "file": "overlay_04_Axillary_artery.webp",
+      "coverage_pct": 1.6
+    },
+    {
+      "name": "05_Pectoralis_major",
+      "file": "overlay_05_Pectoralis_major.webp",
+      "coverage_pct": 16.0
+    },
+    {
+      "name": "06_Pectoralis_minor",
+      "file": "overlay_06_Pectoralis_minor.webp",
+      "coverage_pct": 9.4
+    },
+    {
+      "name": "07_Brachial_plexus_cords",
+      "file": "overlay_07_Brachial_plexus_cords.webp",
+      "coverage_pct": 1.4
+    },
+    {
+      "name": "08_Rib_cortex_with_acoustic_shadow_deep",
+      "file": "overlay_08_Rib_cortex_with_acoustic_shadow_deep.webp",
+      "coverage_pct": 8.6
+    },
+    {
+      "name": "09_Pleura-air_interface_with_lung_artefact_deep",
+      "file": "overlay_09_Pleura-air_interface_with_lung_artefact_deep.webp",
+      "coverage_pct": 3.2
+    },
+    {
+      "name": "10_Intercostal_muscles",
+      "file": "overlay_10_Intercostal_muscles.webp",
+      "coverage_pct": 2.0
+    },
+    {
+      "name": "11_Serratus_anterior",
+      "file": "overlay_11_Serratus_anterior.webp",
+      "coverage_pct": 6.7
+    }
+  ]
+}

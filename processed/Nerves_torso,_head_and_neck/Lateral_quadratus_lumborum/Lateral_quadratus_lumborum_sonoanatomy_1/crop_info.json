@@ -1,0 +1,95 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Lateral_quadratus_lumborum/Lateral_quadratus_lumborum_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    628,
+    110,
+    1675,
+    1076
+  ],
+  "crop_size": [
+    1047,
+    966
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 76.7
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 24.6
+    },
+    {
+      "name": "03_Needle_path",
+      "file": "overlay_03_Needle_path.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "04_LA",
+      "file": "overlay_04_LA.webp",
+      "coverage_pct": 3.3
+    },
+    {
+      "name": "05_Quadratus_lumborum",
+      "file": "overlay_05_Quadratus_lumborum.webp",
+      "coverage_pct": 19.4
+    },
+    {
+      "name": "06_Paranephric_fat",
+      "file": "overlay_06_Paranephric_fat.webp",
+      "coverage_pct": 1.3
+    },
+    {
+      "name": "07_Psoas",
+      "file": "overlay_07_Psoas.webp",
+      "coverage_pct": 12.9
+    },
+    {
+      "name": "08_Internal_oblique",
+      "file": "overlay_08_Internal_oblique.webp",
+      "coverage_pct": 5.2
+    },
+    {
+      "name": "09_External_oblique",
+      "file": "overlay_09_External_oblique.webp",
+      "coverage_pct": 4.2
+    },
+    {
+      "name": "10_Latissimus_dorsi",
+      "file": "overlay_10_Latissimus_dorsi.webp",
+      "coverage_pct": 7.4
+    },
+    {
+      "name": "11_Perinephric_fat",
+      "file": "overlay_11_Perinephric_fat.webp",
+      "coverage_pct": 4.3
+    },
+    {
+      "name": "12_Peritoneal_cavity_with_bowel",
+      "file": "overlay_12_Peritoneal_cavity_with_bowel.webp",
+      "coverage_pct": 2.5
+    },
+    {
+      "name": "13_Acoustic_shadow_from_bowel_air",
+      "file": "overlay_13_Acoustic_shadow_from_bowel_air.webp",
+      "coverage_pct": 9.6
+    },
+    {
+      "name": "14_Erector_spinae",
+      "file": "overlay_14_Erector_spinae.webp",
+      "coverage_pct": 1.5
+    },
+    {
+      "name": "15_Subcutaneous_fat",
+      "file": "overlay_15_Subcutaneous_fat.webp",
+      "coverage_pct": 6.4
+    }
+  ]
+}

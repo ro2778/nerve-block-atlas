@@ -1,0 +1,140 @@
+{
+  "block": "Cricoid cartilage transverse",
+  "category": "Airway",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Airway/Cricoid_cartilage_transverse/Cricoid_cartilage_transverse_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        511,
+        110,
+        2238,
+        1080
+      ],
+      "crop_size": [
+        1727,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Airway/Cricoid_cartilage_transverse/Cricoid_cartilage_transverse_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        229,
+        1977,
+        962
+      ],
+      "crop_size": [
+        1652,
+        733
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.5
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Airway/Cricoid_cartilage_transverse/Cricoid_cartilage_transverse_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        329,
+        187,
+        1977,
+        1002
+      ],
+      "crop_size": [
+        1648,
+        815
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 44.5
+        },
+        {
+          "name": "02_Acoustic_shadow_and_reverberation_artefacts",
+          "file": "overlay_02_Acoustic_shadow_and_reverberation_artefacts.webp",
+          "coverage_pct": 22.1
+        },
+        {
+          "name": "03_Cricoid_cartilage",
+          "file": "overlay_03_Cricoid_cartilage.webp",
+          "coverage_pct": 13.9
+        },
+        {
+          "name": "04_Sternothyroid",
+          "file": "overlay_04_Sternothyroid.webp",
+          "coverage_pct": 8.5
+        },
+        {
+          "name": "05_Trachea_anterior_mucosa-air_interface",
+          "file": "overlay_05_Trachea_anterior_mucosa-air_interface.webp",
+          "coverage_pct": 0.5
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Airway/Cricoid_cartilage_transverse/Cricoid_cartilage_transverse_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        326,
+        120,
+        1977,
+        1059
+      ],
+      "crop_size": [
+        1651,
+        939
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 30.6
+        },
+        {
+          "name": "02_Trachea_anterior_mucosa-air_interface",
+          "file": "overlay_02_Trachea_anterior_mucosa-air_interface.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "03_Acoustic_shadow_with_reverberation_artefacts",
+          "file": "overlay_03_Acoustic_shadow_with_reverberation_artefacts.webp",
+          "coverage_pct": 14.2
+        },
+        {
+          "name": "04_Cricoid_cartilage",
+          "file": "overlay_04_Cricoid_cartilage.webp",
+          "coverage_pct": 7.3
+        },
+        {
+          "name": "05_Strap_muscles",
+          "file": "overlay_05_Strap_muscles.webp",
+          "coverage_pct": 8.7
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "block": "Cricothyroid membrane transverse",
+  "category": "Airway",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Airway/Cricothyroid_membrane_transverse/Cricothyroid_membrane_transverse_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        511,
+        110,
+        2238,
+        1080
+      ],
+      "crop_size": [
+        1727,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Airway/Cricothyroid_membrane_transverse/Cricothyroid_membrane_transverse_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        211,
+        1977,
+        980
+      ],
+      "crop_size": [
+        1652,
+        769
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.7
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Airway/Cricothyroid_membrane_transverse/Cricothyroid_membrane_transverse_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        194,
+        1977,
+        996
+      ],
+      "crop_size": [
+        1652,
+        802
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 35.6
+        },
+        {
+          "name": "02_Trachea_anterior_mucosa-air_interface",
+          "file": "overlay_02_Trachea_anterior_mucosa-air_interface.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "03_Cricothyroid_membrane",
+          "file": "overlay_03_Cricothyroid_membrane.webp",
+          "coverage_pct": 1.6
+        },
+        {
+          "name": "04_Acoustic_shadow_and_reverberation_artefacts",
+          "file": "overlay_04_Acoustic_shadow_and_reverberation_artefacts.webp",
+          "coverage_pct": 12.2
+        },
+        {
+          "name": "05_Cricoid_cartilage",
+          "file": "overlay_05_Cricoid_cartilage.webp",
+          "coverage_pct": 4.0
+        },
+        {
+          "name": "06_Cricothyroid_muscle",
+          "file": "overlay_06_Cricothyroid_muscle.webp",
+          "coverage_pct": 4.9
+        },
+        {
+          "name": "07_Strap_muscles",
+          "file": "overlay_07_Strap_muscles.webp",
+          "coverage_pct": 13.0
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Airway/Cricothyroid_membrane_transverse/Cricothyroid_membrane_transverse_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        110,
+        1977,
+        1025
+      ],
+      "crop_size": [
+        1652,
+        915
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 41.3
+        },
+        {
+          "name": "02_Trachea_anterior_mucosa-air_interface",
+          "file": "overlay_02_Trachea_anterior_mucosa-air_interface.webp",
+          "coverage_pct": 1.0
+        },
+        {
+          "name": "03_Cricothyroid_membrane",
+          "file": "overlay_03_Cricothyroid_membrane.webp",
+          "coverage_pct": 1.4
+        },
+        {
+          "name": "04_Acoustic_shadow_with_reverberation_artefacts",
+          "file": "overlay_04_Acoustic_shadow_with_reverberation_artefacts.webp",
+          "coverage_pct": 21.9
+        },
+        {
+          "name": "05_Cricoid_cartilage",
+          "file": "overlay_05_Cricoid_cartilage.webp",
+          "coverage_pct": 4.9
+        },
+        {
+          "name": "06_Cricothyroid_muscle",
+          "file": "overlay_06_Cricothyroid_muscle.webp",
+          "coverage_pct": 2.7
+        },
+        {
+          "name": "07_Strap_muscles",
+          "file": "overlay_07_Strap_muscles.webp",
+          "coverage_pct": 9.8
+        }
+      ]
+    }
+  ]
+}

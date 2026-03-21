@@ -1,0 +1,25 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Transverse_interlaminar_lumbar_levels/Transverse_interlaminar_lumbar_levels_landmark_pattern",
+  "view_type": "diagram",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    369,
+    398,
+    1933,
+    818
+  ],
+  "crop_size": [
+    1564,
+    420
+  ],
+  "layers": [
+    {
+      "name": "01_Show_Labels",
+      "file": "overlay_01_Show_Labels.webp",
+      "coverage_pct": 2.0
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Deep_peroneal_nerve/Deep_peroneal_nerve_sonoanatomy_3",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    213,
+    1977,
+    977
+  ],
+  "crop_size": [
+    1652,
+    764
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 62.6
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 9.6
+    },
+    {
+      "name": "03_Needle_path",
+      "file": "overlay_03_Needle_path.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "04_LA",
+      "file": "overlay_04_LA.webp",
+      "coverage_pct": 1.4
+    },
+    {
+      "name": "05_Deep_peroneal_nerve",
+      "file": "overlay_05_Deep_peroneal_nerve.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "06_Anterior_tibial_artery_and_veins",
+      "file": "overlay_06_Anterior_tibial_artery_and_veins.webp",
+      "coverage_pct": 3.2
+    },
+    {
+      "name": "07_Acoustic_enhancement_from_vessels",
+      "file": "overlay_07_Acoustic_enhancement_from_vessels.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "08_Tibia_cortex",
+      "file": "overlay_08_Tibia_cortex.webp",
+      "coverage_pct": 5.6
+    },
+    {
+      "name": "09_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+      "file": "overlay_09_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+      "coverage_pct": 27.1
+    },
+    {
+      "name": "10_Extensor_digitorum_longus",
+      "file": "overlay_10_Extensor_digitorum_longus.webp",
+      "coverage_pct": 7.6
+    },
+    {
+      "name": "11_Extensor_hallucis_longus",
+      "file": "overlay_11_Extensor_hallucis_longus.webp",
+      "coverage_pct": 7.0
+    },
+    {
+      "name": "12_Tibialis_anterior_tendon",
+      "file": "overlay_12_Tibialis_anterior_tendon.webp",
+      "coverage_pct": 4.4
+    },
+    {
+      "name": "13_Subcutaneous_fat",
+      "file": "overlay_13_Subcutaneous_fat.webp",
+      "coverage_pct": 6.3
+    }
+  ]
+}

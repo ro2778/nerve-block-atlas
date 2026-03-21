@@ -1,0 +1,70 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Radial_nerve_antecubital_fossa/Radial_nerve_antecubital_fossa_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    220,
+    1977,
+    967
+  ],
+  "crop_size": [
+    1652,
+    747
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 81.2
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 2.2
+    },
+    {
+      "name": "04_Radial_nerve",
+      "file": "overlay_04_Radial_nerve.webp",
+      "coverage_pct": 1.4
+    },
+    {
+      "name": "05_Radial_collateral_artery",
+      "file": "overlay_05_Radial_collateral_artery.webp",
+      "coverage_pct": 0.1
+    },
+    {
+      "name": "06_Brachialis",
+      "file": "overlay_06_Brachialis.webp",
+      "coverage_pct": 13.2
+    },
+    {
+      "name": "07_Brachioradialis",
+      "file": "overlay_07_Brachioradialis.webp",
+      "coverage_pct": 38.5
+    },
+    {
+      "name": "08_Humerus_capitulum_cartilage_and_cortex",
+      "file": "overlay_08_Humerus_capitulum_cartilage_and_cortex.webp",
+      "coverage_pct": 7.2
+    },
+    {
+      "name": "09_Acoustic_shadow_from_bone",
+      "file": "overlay_09_Acoustic_shadow_from_bone.webp",
+      "coverage_pct": 10.9
+    },
+    {
+      "name": "10_Subcutaneous_fat",
+      "file": "overlay_10_Subcutaneous_fat.webp",
+      "coverage_pct": 9.0
+    }
+  ]
+}

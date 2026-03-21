@@ -1,0 +1,260 @@
+{
+  "block": "iPACK (lateral)",
+  "category": "Nerves: lower limb",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/iPACK_(lateral)/iPACK_(lateral)_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        513,
+        110,
+        2236,
+        1080
+      ],
+      "crop_size": [
+        1723,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/iPACK_(lateral)/iPACK_(lateral)_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        389,
+        115,
+        1914,
+        1080
+      ],
+      "crop_size": [
+        1525,
+        965
+      ],
+      "layers": [
+        {
+          "name": "01_Femoral_nerve",
+          "file": "overlay_01_Femoral_nerve.webp",
+          "coverage_pct": 9.2
+        },
+        {
+          "name": "02_Intermediate_femoral_cutaneous_nerve",
+          "file": "overlay_02_Intermediate_femoral_cutaneous_nerve.webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "03_Medial_femoral_cutaneous_nerve",
+          "file": "overlay_03_Medial_femoral_cutaneous_nerve.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "04_Geniculate_nerves",
+          "file": "overlay_04_Geniculate_nerves.webp",
+          "coverage_pct": 10.1
+        },
+        {
+          "name": "05_iPACK",
+          "file": "overlay_05_iPACK.webp",
+          "coverage_pct": 2.6
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/iPACK_(lateral)/iPACK_(lateral)_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        444,
+        110,
+        1859,
+        1080
+      ],
+      "crop_size": [
+        1415,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.9
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/iPACK_(lateral)/iPACK_(lateral)_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        349,
+        110,
+        1955,
+        1070
+      ],
+      "crop_size": [
+        1606,
+        960
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 47.8
+        },
+        {
+          "name": "02_Block_view",
+          "file": "overlay_02_Block_view.webp",
+          "coverage_pct": 3.0
+        },
+        {
+          "name": "03_Needle_path",
+          "file": "overlay_03_Needle_path.webp",
+          "coverage_pct": 0.7
+        },
+        {
+          "name": "04_LA",
+          "file": "overlay_04_LA.webp",
+          "coverage_pct": 4.5
+        },
+        {
+          "name": "05_Femur_cortex",
+          "file": "overlay_05_Femur_cortex.webp",
+          "coverage_pct": 2.6
+        },
+        {
+          "name": "06_Acoustic_shadow_from_bone_cortex",
+          "file": "overlay_06_Acoustic_shadow_from_bone_cortex.webp",
+          "coverage_pct": 19.9
+        },
+        {
+          "name": "07_Popliteal_artery",
+          "file": "overlay_07_Popliteal_artery.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "08_Popliteal_vein",
+          "file": "overlay_08_Popliteal_vein.webp",
+          "coverage_pct": 1.0
+        },
+        {
+          "name": "09_Tibial_nerve",
+          "file": "overlay_09_Tibial_nerve.webp",
+          "coverage_pct": 0.3
+        },
+        {
+          "name": "10_Common_peroneal_nerve",
+          "file": "overlay_10_Common_peroneal_nerve.webp",
+          "coverage_pct": 0.1
+        },
+        {
+          "name": "11_Biceps_femoris",
+          "file": "overlay_11_Biceps_femoris.webp",
+          "coverage_pct": 7.5
+        },
+        {
+          "name": "12_Semimembranosis",
+          "file": "overlay_12_Semimembranosis.webp",
+          "coverage_pct": 7.1
+        },
+        {
+          "name": "13_Semitendinosis",
+          "file": "overlay_13_Semitendinosis.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "14_Subcutaneous_fat",
+          "file": "overlay_14_Subcutaneous_fat.webp",
+          "coverage_pct": 3.8
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/iPACK_(lateral)/iPACK_(lateral)_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        110,
+        1977,
+        1037
+      ],
+      "crop_size": [
+        1652,
+        927
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 50.5
+        },
+        {
+          "name": "02_Block_view",
+          "file": "overlay_02_Block_view.webp",
+          "coverage_pct": 18.8
+        },
+        {
+          "name": "03_Needle_path",
+          "file": "overlay_03_Needle_path.webp",
+          "coverage_pct": 0.9
+        },
+        {
+          "name": "04_LA",
+          "file": "overlay_04_LA.webp",
+          "coverage_pct": 5.2
+        },
+        {
+          "name": "05_Femur_cortex_and_acoustic_shadow",
+          "file": "overlay_05_Femur_cortex_and_acoustic_shadow.webp",
+          "coverage_pct": 14.6
+        },
+        {
+          "name": "06_Popliteal_artery_and_vein",
+          "file": "overlay_06_Popliteal_artery_and_vein.webp",
+          "coverage_pct": 4.2
+        },
+        {
+          "name": "07_Tibial_and_common_peroneal_nerve",
+          "file": "overlay_07_Tibial_and_common_peroneal_nerve.webp",
+          "coverage_pct": 1.1
+        },
+        {
+          "name": "08_Biceps_femoris",
+          "file": "overlay_08_Biceps_femoris.webp",
+          "coverage_pct": 13.9
+        },
+        {
+          "name": "09_Semimembranosis",
+          "file": "overlay_09_Semimembranosis.webp",
+          "coverage_pct": 7.3
+        },
+        {
+          "name": "10_Semitendinosis",
+          "file": "overlay_10_Semitendinosis.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "11_Subcutaneous_fat",
+          "file": "overlay_11_Subcutaneous_fat.webp",
+          "coverage_pct": 3.8
+        }
+      ]
+    }
+  ]
+}

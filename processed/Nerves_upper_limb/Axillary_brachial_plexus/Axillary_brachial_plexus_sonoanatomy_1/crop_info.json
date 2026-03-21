@@ -1,0 +1,115 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Axillary_brachial_plexus/Axillary_brachial_plexus_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    383,
+    110,
+    1920,
+    1080
+  ],
+  "crop_size": [
+    1537,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 86.2
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 65.8
+    },
+    {
+      "name": "03_Needle_path",
+      "file": "overlay_03_Needle_path.webp",
+      "coverage_pct": 1.9
+    },
+    {
+      "name": "04_LA",
+      "file": "overlay_04_LA.webp",
+      "coverage_pct": 4.8
+    },
+    {
+      "name": "05_Axillary_artery",
+      "file": "overlay_05_Axillary_artery.webp",
+      "coverage_pct": 1.3
+    },
+    {
+      "name": "06_Median_nerve",
+      "file": "overlay_06_Median_nerve.webp",
+      "coverage_pct": 0.9
+    },
+    {
+      "name": "07_Ulnar_nerve",
+      "file": "overlay_07_Ulnar_nerve.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "08_Radial_nerve",
+      "file": "overlay_08_Radial_nerve.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "09_Musculocutaneous_nerve",
+      "file": "overlay_09_Musculocutaneous_nerve.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "10_Axillary_veins_compressed",
+      "file": "overlay_10_Axillary_veins_compressed.webp",
+      "coverage_pct": 1.5
+    },
+    {
+      "name": "11_Medial_cutaneous_nerve_of_forearm",
+      "file": "overlay_11_Medial_cutaneous_nerve_of_forearm.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "12_Coracobrachialis",
+      "file": "overlay_12_Coracobrachialis.webp",
+      "coverage_pct": 21.0
+    },
+    {
+      "name": "13_Conjoint_tendon_of_teres_major_&_latissimus_dorsi",
+      "file": "overlay_13_Conjoint_tendon_of_teres_major_&_latissimus_dorsi.webp",
+      "coverage_pct": 27.7
+    },
+    {
+      "name": "14_Fascia_over_conjoint_tendon",
+      "file": "overlay_14_Fascia_over_conjoint_tendon.webp",
+      "coverage_pct": 3.1
+    },
+    {
+      "name": "15_Triceps",
+      "file": "overlay_15_Triceps.webp",
+      "coverage_pct": 11.3
+    },
+    {
+      "name": "16_Biceps",
+      "file": "overlay_16_Biceps.webp",
+      "coverage_pct": 9.5
+    },
+    {
+      "name": "17_Subcutaneous_fat",
+      "file": "overlay_17_Subcutaneous_fat.webp",
+      "coverage_pct": 4.5
+    },
+    {
+      "name": "18_Humerus_cortex",
+      "file": "overlay_18_Humerus_cortex.webp",
+      "coverage_pct": 2.0
+    },
+    {
+      "name": "19_Acoustic_shadow_with_reverberation_artefacts",
+      "file": "overlay_19_Acoustic_shadow_with_reverberation_artefacts.webp",
+      "coverage_pct": 1.3
+    }
+  ]
+}

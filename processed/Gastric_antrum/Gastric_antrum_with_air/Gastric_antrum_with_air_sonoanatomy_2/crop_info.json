@@ -1,0 +1,60 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Gastric_antrum/Gastric_antrum_with_air/Gastric_antrum_with_air_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    430,
+    110,
+    1873,
+    1080
+  ],
+  "crop_size": [
+    1443,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 47.1
+    },
+    {
+      "name": "02_Liver_edge",
+      "file": "overlay_02_Liver_edge.webp",
+      "coverage_pct": 3.2
+    },
+    {
+      "name": "03_Gastric_antrum_with_air_and_solids",
+      "file": "overlay_03_Gastric_antrum_with_air_and_solids.webp",
+      "coverage_pct": 7.4
+    },
+    {
+      "name": "04_Air_mucosa_interface",
+      "file": "overlay_04_Air_mucosa_interface.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "05_Air_artefact_and_acoustic_shadow",
+      "file": "overlay_05_Air_artefact_and_acoustic_shadow.webp",
+      "coverage_pct": 27.5
+    },
+    {
+      "name": "06_Rectus_abdominus",
+      "file": "overlay_06_Rectus_abdominus.webp",
+      "coverage_pct": 1.7
+    },
+    {
+      "name": "07_Aorta,_SMA,_coeliac_trunk",
+      "file": "overlay_07_Aorta,_SMA,_coeliac_trunk.webp",
+      "coverage_pct": 10.3
+    },
+    {
+      "name": "08_Pancreas",
+      "file": "overlay_08_Pancreas.webp",
+      "coverage_pct": 2.1
+    }
+  ]
+}

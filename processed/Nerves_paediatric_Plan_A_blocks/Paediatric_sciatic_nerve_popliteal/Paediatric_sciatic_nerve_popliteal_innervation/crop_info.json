@@ -1,0 +1,45 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_sciatic_nerve_popliteal/Paediatric_sciatic_nerve_popliteal_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    459,
+    114,
+    1844,
+    1080
+  ],
+  "crop_size": [
+    1385,
+    966
+  ],
+  "layers": [
+    {
+      "name": "01_Adductor_canal",
+      "file": "overlay_01_Adductor_canal.webp",
+      "coverage_pct": 2.0
+    },
+    {
+      "name": "02_Distal_femoral_triangle",
+      "file": "overlay_02_Distal_femoral_triangle.webp",
+      "coverage_pct": 2.9
+    },
+    {
+      "name": "03_Femoral_nerve",
+      "file": "overlay_03_Femoral_nerve.webp",
+      "coverage_pct": 7.0
+    },
+    {
+      "name": "04_Sciatic_nerve_popliteal",
+      "file": "overlay_04_Sciatic_nerve_popliteal.webp",
+      "coverage_pct": 8.2
+    },
+    {
+      "name": "05_Sciatic_nerve_subgluteal",
+      "file": "overlay_05_Sciatic_nerve_subgluteal.webp",
+      "coverage_pct": 10.5
+    }
+  ]
+}

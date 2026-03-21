@@ -1,0 +1,80 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Axillary_nerve/Axillary_nerve_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    499,
+    110,
+    1804,
+    1080
+  ],
+  "crop_size": [
+    1305,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 85.8
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 7.8
+    },
+    {
+      "name": "03_Needle_path",
+      "file": "overlay_03_Needle_path.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "04_LA",
+      "file": "overlay_04_LA.webp",
+      "coverage_pct": 1.4
+    },
+    {
+      "name": "05_Posterior_circumflex_humeral_vessels",
+      "file": "overlay_05_Posterior_circumflex_humeral_vessels.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "06_Axillary_nerve",
+      "file": "overlay_06_Axillary_nerve.webp",
+      "coverage_pct": 0.9
+    },
+    {
+      "name": "07_Humeral_head_and_neck_cortex",
+      "file": "overlay_07_Humeral_head_and_neck_cortex.webp",
+      "coverage_pct": 6.3
+    },
+    {
+      "name": "08_Acoustic_shadow_from_bone",
+      "file": "overlay_08_Acoustic_shadow_from_bone.webp",
+      "coverage_pct": 25.6
+    },
+    {
+      "name": "09_Teres_minor",
+      "file": "overlay_09_Teres_minor.webp",
+      "coverage_pct": 7.7
+    },
+    {
+      "name": "10_Triceps",
+      "file": "overlay_10_Triceps.webp",
+      "coverage_pct": 2.1
+    },
+    {
+      "name": "11_Deltoid",
+      "file": "overlay_11_Deltoid.webp",
+      "coverage_pct": 38.2
+    },
+    {
+      "name": "12_Subcutaneous_fat",
+      "file": "overlay_12_Subcutaneous_fat.webp",
+      "coverage_pct": 5.6
+    }
+  ]
+}

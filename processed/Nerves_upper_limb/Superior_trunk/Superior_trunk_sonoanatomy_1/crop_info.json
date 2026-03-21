@@ -1,0 +1,100 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Superior_trunk/Superior_trunk_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    360,
+    110,
+    1943,
+    1073
+  ],
+  "crop_size": [
+    1583,
+    963
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 73.6
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 2.3
+    },
+    {
+      "name": "03_Needle_path",
+      "file": "overlay_03_Needle_path.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "04_LA",
+      "file": "overlay_04_LA.webp",
+      "coverage_pct": 2.6
+    },
+    {
+      "name": "05_Superior_trunk",
+      "file": "overlay_05_Superior_trunk.webp",
+      "coverage_pct": 2.3
+    },
+    {
+      "name": "06_Anterior_scalene",
+      "file": "overlay_06_Anterior_scalene.webp",
+      "coverage_pct": 9.9
+    },
+    {
+      "name": "07_Middle_scalene",
+      "file": "overlay_07_Middle_scalene.webp",
+      "coverage_pct": 10.6
+    },
+    {
+      "name": "08_Middle_trunk",
+      "file": "overlay_08_Middle_trunk.webp",
+      "coverage_pct": 2.8
+    },
+    {
+      "name": "09_Inferior_trunk",
+      "file": "overlay_09_Inferior_trunk.webp",
+      "coverage_pct": 2.9
+    },
+    {
+      "name": "10_Pleura_air_interface",
+      "file": "overlay_10_Pleura_air_interface.webp",
+      "coverage_pct": 2.4
+    },
+    {
+      "name": "11_Acoustic_shadow_and_artefacts_from_pleura",
+      "file": "overlay_11_Acoustic_shadow_and_artefacts_from_pleura.webp",
+      "coverage_pct": 31.4
+    },
+    {
+      "name": "12_Subclavian_artery_and_thyrocervical_trunk",
+      "file": "overlay_12_Subclavian_artery_and_thyrocervical_trunk.webp",
+      "coverage_pct": 9.9
+    },
+    {
+      "name": "13_Transverse_cervical_artery",
+      "file": "overlay_13_Transverse_cervical_artery.webp",
+      "coverage_pct": 0.1
+    },
+    {
+      "name": "14_Supraclavicular_nerves",
+      "file": "overlay_14_Supraclavicular_nerves.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "15_Sternocleidomastoid",
+      "file": "overlay_15_Sternocleidomastoid.webp",
+      "coverage_pct": 3.9
+    },
+    {
+      "name": "16_Long_thoracic_nerve",
+      "file": "overlay_16_Long_thoracic_nerve.webp",
+      "coverage_pct": 0.3
+    }
+  ]
+}

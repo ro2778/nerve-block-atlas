@@ -1,0 +1,55 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Gastric_antrum/Gastric_antrum_with_solids/Gastric_antrum_with_solids_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    456,
+    110,
+    1847,
+    1046
+  ],
+  "crop_size": [
+    1391,
+    936
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 46.7
+    },
+    {
+      "name": "02_Liver",
+      "file": "overlay_02_Liver.webp",
+      "coverage_pct": 3.0
+    },
+    {
+      "name": "03_Gastric_antrum_with_solids",
+      "file": "overlay_03_Gastric_antrum_with_solids.webp",
+      "coverage_pct": 9.8
+    },
+    {
+      "name": "04_Aorta",
+      "file": "overlay_04_Aorta.webp",
+      "coverage_pct": 12.9
+    },
+    {
+      "name": "05_Rectus_abdominus",
+      "file": "overlay_05_Rectus_abdominus.webp",
+      "coverage_pct": 3.8
+    },
+    {
+      "name": "06_Pancreas",
+      "file": "overlay_06_Pancreas.webp",
+      "coverage_pct": 3.3
+    },
+    {
+      "name": "07_Vertebrae",
+      "file": "overlay_07_Vertebrae.webp",
+      "coverage_pct": 13.9
+    }
+  ]
+}

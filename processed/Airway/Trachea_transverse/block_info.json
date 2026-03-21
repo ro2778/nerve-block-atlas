@@ -1,0 +1,75 @@
+{
+  "block": "Trachea transverse",
+  "category": "Airway",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Airway/Trachea_transverse/Trachea_transverse_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        513,
+        110,
+        2236,
+        1080
+      ],
+      "crop_size": [
+        1723,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Airway/Trachea_transverse/Trachea_transverse_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        158,
+        1977,
+        1033
+      ],
+      "crop_size": [
+        1652,
+        875
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 73.7
+        },
+        {
+          "name": "02_Trachea_anterior_mucosa-air_interface",
+          "file": "overlay_02_Trachea_anterior_mucosa-air_interface.webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "03_Acoustic_shadow_with_reverberation_artefacts",
+          "file": "overlay_03_Acoustic_shadow_with_reverberation_artefacts.webp",
+          "coverage_pct": 28.4
+        },
+        {
+          "name": "04_Strap_muscles",
+          "file": "overlay_04_Strap_muscles.webp",
+          "coverage_pct": 14.8
+        },
+        {
+          "name": "05_Thyroid",
+          "file": "overlay_05_Thyroid.webp",
+          "coverage_pct": 24.9
+        },
+        {
+          "name": "06_Tracheal_cartilage",
+          "file": "overlay_06_Tracheal_cartilage.webp",
+          "coverage_pct": 4.9
+        }
+      ]
+    }
+  ]
+}

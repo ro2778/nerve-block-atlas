@@ -1,0 +1,85 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sciatic_nerve_(transgluteal)/Sciatic_nerve_(transgluteal)_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    358,
+    110,
+    1945,
+    1076
+  ],
+  "crop_size": [
+    1587,
+    966
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 52.9
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 15.9
+    },
+    {
+      "name": "03_Needle_path",
+      "file": "overlay_03_Needle_path.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "04_LA",
+      "file": "overlay_04_LA.webp",
+      "coverage_pct": 1.9
+    },
+    {
+      "name": "05_Sciatic_nerve",
+      "file": "overlay_05_Sciatic_nerve.webp",
+      "coverage_pct": 1.0
+    },
+    {
+      "name": "06_Inferior_gluteal_artery",
+      "file": "overlay_06_Inferior_gluteal_artery.webp",
+      "coverage_pct": 0.1
+    },
+    {
+      "name": "07_Pudendal_artery",
+      "file": "overlay_07_Pudendal_artery.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "08_Gluteus_maximus",
+      "file": "overlay_08_Gluteus_maximus.webp",
+      "coverage_pct": 14.8
+    },
+    {
+      "name": "09_Superior_gemellus",
+      "file": "overlay_09_Superior_gemellus.webp",
+      "coverage_pct": 6.3
+    },
+    {
+      "name": "10_Femoral_head_cortex",
+      "file": "overlay_10_Femoral_head_cortex.webp",
+      "coverage_pct": 1.9
+    },
+    {
+      "name": "11_Ischium_cortex",
+      "file": "overlay_11_Ischium_cortex.webp",
+      "coverage_pct": 1.8
+    },
+    {
+      "name": "12_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+      "file": "overlay_12_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+      "coverage_pct": 22.8
+    },
+    {
+      "name": "13_Subcutaneous_fat",
+      "file": "overlay_13_Subcutaneous_fat.webp",
+      "coverage_pct": 4.4
+    }
+  ]
+}

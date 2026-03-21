@@ -1,0 +1,330 @@
+{
+  "block": "Suprascapular nerve (posterior)",
+  "category": "Nerves: upper limb",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Suprascapular_nerve_(posterior)/Suprascapular_nerve_(posterior)_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        513,
+        110,
+        2236,
+        1080
+      ],
+      "crop_size": [
+        1723,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Suprascapular_nerve_(posterior)/Suprascapular_nerve_(posterior)_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        613,
+        129,
+        1707,
+        1080
+      ],
+      "crop_size": [
+        1094,
+        951
+      ],
+      "layers": [
+        {
+          "name": "01_Axillary_nerve",
+          "file": "overlay_01_Axillary_nerve.webp",
+          "coverage_pct": 1.4
+        },
+        {
+          "name": "02_Suprascapular_nerve",
+          "file": "overlay_02_Suprascapular_nerve.webp",
+          "coverage_pct": 3.0
+        },
+        {
+          "name": "03_Interscalene_brachial_plexus",
+          "file": "overlay_03_Interscalene_brachial_plexus.webp",
+          "coverage_pct": 11.1
+        },
+        {
+          "name": "04_Supraclavicular_brachial_plexus",
+          "file": "overlay_04_Supraclavicular_brachial_plexus.webp",
+          "coverage_pct": 9.7
+        },
+        {
+          "name": "05_Infraclavicular_brachial_plexus(costoclavicular)",
+          "file": "overlay_05_Infraclavicular_brachial_plexus(costoclavicular).webp",
+          "coverage_pct": 9.7
+        },
+        {
+          "name": "06_Infraclavicular_brachial_plexus_(coricoid)",
+          "file": "overlay_06_Infraclavicular_brachial_plexus_(coricoid).webp",
+          "coverage_pct": 8.4
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Suprascapular_nerve_(posterior)/Suprascapular_nerve_(posterior)_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        998
+      ],
+      "crop_size": [
+        1387,
+        888
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.5
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Suprascapular_nerve_(posterior)/Suprascapular_nerve_(posterior)_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        471,
+        110,
+        1832,
+        1080
+      ],
+      "crop_size": [
+        1361,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 85.9
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.9
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 1.4
+        },
+        {
+          "name": "04_Fascia_deep_to_supraspinatus",
+          "file": "overlay_04_Fascia_deep_to_supraspinatus.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "05_Suprascapular_nerve",
+          "file": "overlay_05_Suprascapular_nerve.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "06_Suprascapular_artery",
+          "file": "overlay_06_Suprascapular_artery.webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "07_Scapula,_suprascapular_fossa_cortex",
+          "file": "overlay_07_Scapula,_suprascapular_fossa_cortex.webp",
+          "coverage_pct": 7.2
+        },
+        {
+          "name": "08_Acoustic_shadow_from_bone",
+          "file": "overlay_08_Acoustic_shadow_from_bone.webp",
+          "coverage_pct": 25.4
+        },
+        {
+          "name": "09_Supraspinatus",
+          "file": "overlay_09_Supraspinatus.webp",
+          "coverage_pct": 37.6
+        },
+        {
+          "name": "10_Trapezius",
+          "file": "overlay_10_Trapezius.webp",
+          "coverage_pct": 7.9
+        },
+        {
+          "name": "11_Subcutaneous_fat",
+          "file": "overlay_11_Subcutaneous_fat.webp",
+          "coverage_pct": 7.1
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Suprascapular_nerve_(posterior)/Suprascapular_nerve_(posterior)_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        380,
+        110,
+        1922,
+        1052
+      ],
+      "crop_size": [
+        1542,
+        942
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 89.4
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 1.0
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 1.2
+        },
+        {
+          "name": "04_Fascia_deep_to_supraspinatus",
+          "file": "overlay_04_Fascia_deep_to_supraspinatus.webp",
+          "coverage_pct": 1.1
+        },
+        {
+          "name": "05_Suprascapular_nerve",
+          "file": "overlay_05_Suprascapular_nerve.webp",
+          "coverage_pct": 0.3
+        },
+        {
+          "name": "06_Suprascapular_artery",
+          "file": "overlay_06_Suprascapular_artery.webp",
+          "coverage_pct": 0.3
+        },
+        {
+          "name": "07_Scapular,_suprascapular_fossa_cortex",
+          "file": "overlay_07_Scapular,_suprascapular_fossa_cortex.webp",
+          "coverage_pct": 6.9
+        },
+        {
+          "name": "08_Acoustic_shadow_from_bone",
+          "file": "overlay_08_Acoustic_shadow_from_bone.webp",
+          "coverage_pct": 31.9
+        },
+        {
+          "name": "09_Supraspinatus",
+          "file": "overlay_09_Supraspinatus.webp",
+          "coverage_pct": 37.4
+        },
+        {
+          "name": "10_Trapezius",
+          "file": "overlay_10_Trapezius.webp",
+          "coverage_pct": 8.7
+        },
+        {
+          "name": "11_Subcutaneous_fat",
+          "file": "overlay_11_Subcutaneous_fat.webp",
+          "coverage_pct": 3.3
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Suprascapular_nerve_(posterior)/Suprascapular_nerve_(posterior)_sonoanatomy_3",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        518,
+        110,
+        1785,
+        1080
+      ],
+      "crop_size": [
+        1267,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 76.9
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "04_Fascia_deep_to_supraspinatus",
+          "file": "overlay_04_Fascia_deep_to_supraspinatus.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "05_Suprascapular_nerve",
+          "file": "overlay_05_Suprascapular_nerve.webp",
+          "coverage_pct": 0.3
+        },
+        {
+          "name": "06_Suprascapular_artery",
+          "file": "overlay_06_Suprascapular_artery.webp",
+          "coverage_pct": 0.1
+        },
+        {
+          "name": "07_Scapular,_supraspinus_fossa_cortex",
+          "file": "overlay_07_Scapular,_supraspinus_fossa_cortex.webp",
+          "coverage_pct": 3.2
+        },
+        {
+          "name": "08_Supraspinatus",
+          "file": "overlay_08_Supraspinatus.webp",
+          "coverage_pct": 28.7
+        },
+        {
+          "name": "09_Trapezius",
+          "file": "overlay_09_Trapezius.webp",
+          "coverage_pct": 8.6
+        },
+        {
+          "name": "10_Clavicle_cortex",
+          "file": "overlay_10_Clavicle_cortex.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "11_Acoustic_shadow_from_bone",
+          "file": "overlay_11_Acoustic_shadow_from_bone.webp",
+          "coverage_pct": 32.2
+        },
+        {
+          "name": "12_Subcutaneous_fat",
+          "file": "overlay_12_Subcutaneous_fat.webp",
+          "coverage_pct": 3.5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_caudal/Paediatric_caudal_sonoanatomy_4",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    268,
+    1977,
+    922
+  ],
+  "crop_size": [
+    1652,
+    654
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 64.1
+    },
+    {
+      "name": "02_Sacral_body_cortex",
+      "file": "overlay_02_Sacral_body_cortex.webp",
+      "coverage_pct": 3.0
+    },
+    {
+      "name": "03_Sacral_cornua_cortices",
+      "file": "overlay_03_Sacral_cornua_cortices.webp",
+      "coverage_pct": 2.2
+    },
+    {
+      "name": "04_Post._sacrococcygeal_ligament",
+      "file": "overlay_04_Post._sacrococcygeal_ligament.webp",
+      "coverage_pct": 4.5
+    },
+    {
+      "name": "05_Epidural_space",
+      "file": "overlay_05_Epidural_space.webp",
+      "coverage_pct": 5.7
+    },
+    {
+      "name": "06_Cauda_equina_and_filum_terminale",
+      "file": "overlay_06_Cauda_equina_and_filum_terminale.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "07_Acoustic_shadows_from_bone_cortex",
+      "file": "overlay_07_Acoustic_shadows_from_bone_cortex.webp",
+      "coverage_pct": 28.4
+    },
+    {
+      "name": "08_Gluteus_maximus",
+      "file": "overlay_08_Gluteus_maximus.webp",
+      "coverage_pct": 10.0
+    },
+    {
+      "name": "09_Subcutaneous_fat",
+      "file": "overlay_09_Subcutaneous_fat.webp",
+      "coverage_pct": 12.8
+    }
+  ]
+}

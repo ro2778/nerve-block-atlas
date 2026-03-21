@@ -1,0 +1,60 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Superior_medial_geniculate_nerves/Superior_medial_geniculate_nerves_sonoanatomy_3",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    141,
+    1977,
+    1049
+  ],
+  "crop_size": [
+    1652,
+    908
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 86.7
+    },
+    {
+      "name": "02_Needle_path_OOP",
+      "file": "overlay_02_Needle_path_OOP.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 2.0
+    },
+    {
+      "name": "04_Femur_metaphysis_cortex",
+      "file": "overlay_04_Femur_metaphysis_cortex.webp",
+      "coverage_pct": 4.4
+    },
+    {
+      "name": "05_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+      "file": "overlay_05_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+      "coverage_pct": 36.0
+    },
+    {
+      "name": "06_Superior_medial_geniculate_vessels",
+      "file": "overlay_06_Superior_medial_geniculate_vessels.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "07_Vastus_medialis",
+      "file": "overlay_07_Vastus_medialis.webp",
+      "coverage_pct": 35.0
+    },
+    {
+      "name": "08_Subcutaneous_fat",
+      "file": "overlay_08_Subcutaneous_fat.webp",
+      "coverage_pct": 10.7
+    }
+  ]
+}

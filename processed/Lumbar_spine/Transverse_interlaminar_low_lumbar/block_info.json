@@ -1,0 +1,370 @@
+{
+  "block": "Transverse interlaminar low lumbar",
+  "category": "Lumbar_spine",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Transverse_interlaminar_low_lumbar/Transverse_interlaminar_low_lumbar_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        511,
+        110,
+        2238,
+        1080
+      ],
+      "crop_size": [
+        1727,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Transverse_interlaminar_low_lumbar/Transverse_interlaminar_low_lumbar_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.7
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Transverse_interlaminar_low_lumbar/Transverse_interlaminar_low_lumbar_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        448,
+        116,
+        1855,
+        1080
+      ],
+      "crop_size": [
+        1407,
+        964
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 54.4
+        },
+        {
+          "name": "02_Vertebral_body_cortex_(anterior_complex)",
+          "file": "overlay_02_Vertebral_body_cortex_(anterior_complex).webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "03_Facets_cortex_(_superior_articular_processes)",
+          "file": "overlay_03_Facets_cortex_(_superior_articular_processes).webp",
+          "coverage_pct": 1.2
+        },
+        {
+          "name": "04_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+          "file": "overlay_04_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+          "coverage_pct": 24.2
+        },
+        {
+          "name": "05_Interspinous_ligament",
+          "file": "overlay_05_Interspinous_ligament.webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "06_Supraspinous_ligament",
+          "file": "overlay_06_Supraspinous_ligament.webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "07_Ligamentum_flavum_(posterior_complex)",
+          "file": "overlay_07_Ligamentum_flavum_(posterior_complex).webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "08_Intrathecal_space",
+          "file": "overlay_08_Intrathecal_space.webp",
+          "coverage_pct": 1.6
+        },
+        {
+          "name": "09_Erector_spinae",
+          "file": "overlay_09_Erector_spinae.webp",
+          "coverage_pct": 8.5
+        },
+        {
+          "name": "10_Psoas",
+          "file": "overlay_10_Psoas.webp",
+          "coverage_pct": 13.1
+        },
+        {
+          "name": "11_Subcutaneous_fat",
+          "file": "overlay_11_Subcutaneous_fat.webp",
+          "coverage_pct": 2.1
+        },
+        {
+          "name": "12_Thoracolumber_fascia",
+          "file": "overlay_12_Thoracolumber_fascia.webp",
+          "coverage_pct": 1.6
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Transverse_interlaminar_low_lumbar/Transverse_interlaminar_low_lumbar_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        351,
+        117,
+        1952,
+        1080
+      ],
+      "crop_size": [
+        1601,
+        963
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 56.9
+        },
+        {
+          "name": "02_Vertebral_body_cortex_(anterior_complex)",
+          "file": "overlay_02_Vertebral_body_cortex_(anterior_complex).webp",
+          "coverage_pct": 1.1
+        },
+        {
+          "name": "03_Facets_cortex_(_superior_articular_processes)",
+          "file": "overlay_03_Facets_cortex_(_superior_articular_processes).webp",
+          "coverage_pct": 0.9
+        },
+        {
+          "name": "04_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+          "file": "overlay_04_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+          "coverage_pct": 21.9
+        },
+        {
+          "name": "05_Intrathecal_space",
+          "file": "overlay_05_Intrathecal_space.webp",
+          "coverage_pct": 3.1
+        },
+        {
+          "name": "06_Ligamentum_flavum_(posterior_complex)",
+          "file": "overlay_06_Ligamentum_flavum_(posterior_complex).webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "07_Interspinous_ligament",
+          "file": "overlay_07_Interspinous_ligament.webp",
+          "coverage_pct": 1.2
+        },
+        {
+          "name": "08_Supraspinous_ligament",
+          "file": "overlay_08_Supraspinous_ligament.webp",
+          "coverage_pct": 0.1
+        },
+        {
+          "name": "09_Thoracolumbar_fascia",
+          "file": "overlay_09_Thoracolumbar_fascia.webp",
+          "coverage_pct": 1.2
+        },
+        {
+          "name": "10_Erector_spinae",
+          "file": "overlay_10_Erector_spinae.webp",
+          "coverage_pct": 14.5
+        },
+        {
+          "name": "11_Psoas",
+          "file": "overlay_11_Psoas.webp",
+          "coverage_pct": 12.5
+        },
+        {
+          "name": "12_Reverberation_artefact",
+          "file": "overlay_12_Reverberation_artefact.webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "13_Subcutaneous_fat",
+          "file": "overlay_13_Subcutaneous_fat.webp",
+          "coverage_pct": 0.4
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Transverse_interlaminar_low_lumbar/Transverse_interlaminar_low_lumbar_sonoanatomy_3",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        392,
+        110,
+        1912,
+        1080
+      ],
+      "crop_size": [
+        1520,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 61.1
+        },
+        {
+          "name": "02_Vertebral_body_cortex_(_anterior_complex_)",
+          "file": "overlay_02_Vertebral_body_cortex_(_anterior_complex_).webp",
+          "coverage_pct": 1.3
+        },
+        {
+          "name": "03_Facets_cortex_(superior_articular_processes)",
+          "file": "overlay_03_Facets_cortex_(superior_articular_processes).webp",
+          "coverage_pct": 1.3
+        },
+        {
+          "name": "04_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+          "file": "overlay_04_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+          "coverage_pct": 26.6
+        },
+        {
+          "name": "05_Intrathecal_space",
+          "file": "overlay_05_Intrathecal_space.webp",
+          "coverage_pct": 2.1
+        },
+        {
+          "name": "06_Interspinous_ligament",
+          "file": "overlay_06_Interspinous_ligament.webp",
+          "coverage_pct": 1.0
+        },
+        {
+          "name": "07_Supraspinous_ligament",
+          "file": "overlay_07_Supraspinous_ligament.webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "08_Thoracolumbar_fascia",
+          "file": "overlay_08_Thoracolumbar_fascia.webp",
+          "coverage_pct": 1.6
+        },
+        {
+          "name": "09_Erector_spinae",
+          "file": "overlay_09_Erector_spinae.webp",
+          "coverage_pct": 13.9
+        },
+        {
+          "name": "10_Psoas",
+          "file": "overlay_10_Psoas.webp",
+          "coverage_pct": 11.8
+        },
+        {
+          "name": "11_Subcutaneous_fat",
+          "file": "overlay_11_Subcutaneous_fat.webp",
+          "coverage_pct": 1.8
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Transverse_interlaminar_low_lumbar/Transverse_interlaminar_low_lumbar_sonoanatomy_4",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        415,
+        110,
+        1889,
+        1080
+      ],
+      "crop_size": [
+        1474,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 47.1
+        },
+        {
+          "name": "02_Facet_cortex_(superior_articular_processes)",
+          "file": "overlay_02_Facet_cortex_(superior_articular_processes).webp",
+          "coverage_pct": 1.1
+        },
+        {
+          "name": "03_Vertebral_body_cortex_(anterior_complex)",
+          "file": "overlay_03_Vertebral_body_cortex_(anterior_complex).webp",
+          "coverage_pct": 1.3
+        },
+        {
+          "name": "04_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+          "file": "overlay_04_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+          "coverage_pct": 26.3
+        },
+        {
+          "name": "05_Reverberation_artefact",
+          "file": "overlay_05_Reverberation_artefact.webp",
+          "coverage_pct": 0.3
+        },
+        {
+          "name": "06_Intrathecal_space",
+          "file": "overlay_06_Intrathecal_space.webp",
+          "coverage_pct": 2.2
+        },
+        {
+          "name": "07_Posterior_dura_(_posterior_complex)",
+          "file": "overlay_07_Posterior_dura_(_posterior_complex).webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "08_Interspinous_ligament",
+          "file": "overlay_08_Interspinous_ligament.webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "09_Supraspinous_ligament",
+          "file": "overlay_09_Supraspinous_ligament.webp",
+          "coverage_pct": 0.1
+        },
+        {
+          "name": "10_Erector_spinae",
+          "file": "overlay_10_Erector_spinae.webp",
+          "coverage_pct": 13.2
+        },
+        {
+          "name": "11_Thoracolumbar_fascia",
+          "file": "overlay_11_Thoracolumbar_fascia.webp",
+          "coverage_pct": 1.0
+        },
+        {
+          "name": "12_Subcutaneous_fat",
+          "file": "overlay_12_Subcutaneous_fat.webp",
+          "coverage_pct": 1.5
+        }
+      ]
+    }
+  ]
+}

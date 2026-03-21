@@ -1,0 +1,75 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_caudal/Paediatric_caudal_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    182,
+    1977,
+    1007
+  ],
+  "crop_size": [
+    1652,
+    825
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 59.8
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 7.0
+    },
+    {
+      "name": "04_Post._scarococcygeal_ligament",
+      "file": "overlay_04_Post._scarococcygeal_ligament.webp",
+      "coverage_pct": 2.2
+    },
+    {
+      "name": "05_Epidural_space",
+      "file": "overlay_05_Epidural_space.webp",
+      "coverage_pct": 26.8
+    },
+    {
+      "name": "06_Dural_sac_intrathecal_space",
+      "file": "overlay_06_Dural_sac_intrathecal_space.webp",
+      "coverage_pct": 5.0
+    },
+    {
+      "name": "07_Cauda_equina_and_filum_terminale",
+      "file": "overlay_07_Cauda_equina_and_filum_terminale.webp",
+      "coverage_pct": 4.4
+    },
+    {
+      "name": "08_Sacral_crest_spinous_tubercles_cortices",
+      "file": "overlay_08_Sacral_crest_spinous_tubercles_cortices.webp",
+      "coverage_pct": 1.2
+    },
+    {
+      "name": "09_S3,_S4,_S5_body_cortices",
+      "file": "overlay_09_S3,_S4,_S5_body_cortices.webp",
+      "coverage_pct": 3.3
+    },
+    {
+      "name": "10_Acoustic_shadows_from_bone_cortex",
+      "file": "overlay_10_Acoustic_shadows_from_bone_cortex.webp",
+      "coverage_pct": 18.2
+    },
+    {
+      "name": "11_Subcutaneous_fat",
+      "file": "overlay_11_Subcutaneous_fat.webp",
+      "coverage_pct": 9.0
+    }
+  ]
+}

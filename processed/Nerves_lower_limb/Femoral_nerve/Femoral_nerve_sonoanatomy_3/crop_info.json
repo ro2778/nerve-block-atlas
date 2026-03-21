@@ -1,0 +1,100 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Femoral_nerve/Femoral_nerve_sonoanatomy_3",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    445,
+    110,
+    1857,
+    1080
+  ],
+  "crop_size": [
+    1412,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 85.7
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 64.0
+    },
+    {
+      "name": "03_Needle_path",
+      "file": "overlay_03_Needle_path.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "04_LA",
+      "file": "overlay_04_LA.webp",
+      "coverage_pct": 2.6
+    },
+    {
+      "name": "05_Femoral_nerve",
+      "file": "overlay_05_Femoral_nerve.webp",
+      "coverage_pct": 2.1
+    },
+    {
+      "name": "06_Common_femoral_artery",
+      "file": "overlay_06_Common_femoral_artery.webp",
+      "coverage_pct": 5.8
+    },
+    {
+      "name": "07_Femoral_vein",
+      "file": "overlay_07_Femoral_vein.webp",
+      "coverage_pct": 3.7
+    },
+    {
+      "name": "08_Fascia_iliaca",
+      "file": "overlay_08_Fascia_iliaca.webp",
+      "coverage_pct": 6.4
+    },
+    {
+      "name": "09_Iliopsoas_muscle_and_tendon",
+      "file": "overlay_09_Iliopsoas_muscle_and_tendon.webp",
+      "coverage_pct": 42.2
+    },
+    {
+      "name": "10_Fascia_lata",
+      "file": "overlay_10_Fascia_lata.webp",
+      "coverage_pct": 4.7
+    },
+    {
+      "name": "11_Subcutaneous_fat",
+      "file": "overlay_11_Subcutaneous_fat.webp",
+      "coverage_pct": 4.4
+    },
+    {
+      "name": "12_Pectineus",
+      "file": "overlay_12_Pectineus.webp",
+      "coverage_pct": 2.8
+    },
+    {
+      "name": "13_Femoral_head_cortex",
+      "file": "overlay_13_Femoral_head_cortex.webp",
+      "coverage_pct": 2.9
+    },
+    {
+      "name": "14_Pubis_acetabulum_cortex",
+      "file": "overlay_14_Pubis_acetabulum_cortex.webp",
+      "coverage_pct": 1.7
+    },
+    {
+      "name": "15_Acoustic_shadow_with_reverberation_artefacts",
+      "file": "overlay_15_Acoustic_shadow_with_reverberation_artefacts.webp",
+      "coverage_pct": 11.1
+    },
+    {
+      "name": "16_Femoral_branch_of_genitofemoral_nerve",
+      "file": "overlay_16_Femoral_branch_of_genitofemoral_nerve.webp",
+      "coverage_pct": 0.3
+    }
+  ]
+}

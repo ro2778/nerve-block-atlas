@@ -1,0 +1,40 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Joints/Joints_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    262,
+    1977,
+    928
+  ],
+  "crop_size": [
+    1652,
+    666
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 68.6
+    },
+    {
+      "name": "02_Bone_cortex",
+      "file": "overlay_02_Bone_cortex.webp",
+      "coverage_pct": 5.7
+    },
+    {
+      "name": "03_Acoustic_shadow_with_reverberation_artefacts",
+      "file": "overlay_03_Acoustic_shadow_with_reverberation_artefacts.webp",
+      "coverage_pct": 57.3
+    },
+    {
+      "name": "04_Joint_space",
+      "file": "overlay_04_Joint_space.webp",
+      "coverage_pct": 5.8
+    }
+  ]
+}

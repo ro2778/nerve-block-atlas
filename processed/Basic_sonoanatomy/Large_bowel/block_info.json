@@ -1,0 +1,141 @@
+{
+  "block": "Large bowel",
+  "category": "Basic sonoanatomy",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Large_bowel/Large_bowel_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.7
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Large_bowel/Large_bowel_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        419,
+        110,
+        1884,
+        1080
+      ],
+      "crop_size": [
+        1465,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 89.8
+        },
+        {
+          "name": "02_Parietal_peritoneum",
+          "file": "overlay_02_Parietal_peritoneum.webp",
+          "coverage_pct": 1.7
+        },
+        {
+          "name": "03_Bowel_wall",
+          "file": "overlay_03_Bowel_wall.webp",
+          "coverage_pct": 5.1
+        },
+        {
+          "name": "04_Haustra_with_air_interface_and_solids",
+          "file": "overlay_04_Haustra_with_air_interface_and_solids.webp",
+          "coverage_pct": 3.2
+        },
+        {
+          "name": "05_Rainclouds_acoustic_shadow_from_air_&_solids",
+          "file": "overlay_05_Rainclouds_acoustic_shadow_from_air_&_solids.webp",
+          "coverage_pct": 45.9
+        },
+        {
+          "name": "06_Muscles_of_abdominal_wall",
+          "file": "overlay_06_Muscles_of_abdominal_wall.webp",
+          "coverage_pct": 24.4
+        },
+        {
+          "name": "07_Subcutaneous_fat",
+          "file": "overlay_07_Subcutaneous_fat.webp",
+          "coverage_pct": 10.6
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Large_bowel/Large_bowel_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        500,
+        110,
+        1802,
+        1080
+      ],
+      "crop_size": [
+        1302,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 78.1
+        },
+        {
+          "name": "02_Peritoneum",
+          "file": "overlay_02_Peritoneum.webp",
+          "coverage_pct": 1.1
+        },
+        {
+          "name": "03_Bowel_wall",
+          "file": "overlay_03_Bowel_wall.webp",
+          "coverage_pct": 4.7
+        },
+        {
+          "name": "04_Haustra_with_air_interface",
+          "file": "overlay_04_Haustra_with_air_interface.webp",
+          "coverage_pct": 2.3
+        },
+        {
+          "name": "05_Acoustic_shadow_from_air_and_solids",
+          "file": "overlay_05_Acoustic_shadow_from_air_and_solids.webp",
+          "coverage_pct": 25.9
+        },
+        {
+          "name": "06_Muscles_of_abdominal_wall",
+          "file": "overlay_06_Muscles_of_abdominal_wall.webp",
+          "coverage_pct": 40.7
+        },
+        {
+          "name": "07_Subcutaneous_fat",
+          "file": "overlay_07_Subcutaneous_fat.webp",
+          "coverage_pct": 5.2
+        }
+      ]
+    }
+  ]
+}

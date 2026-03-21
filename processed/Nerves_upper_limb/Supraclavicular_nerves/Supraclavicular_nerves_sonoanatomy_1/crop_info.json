@@ -1,0 +1,145 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Supraclavicular_nerves/Supraclavicular_nerves_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    370,
+    110,
+    1932,
+    1073
+  ],
+  "crop_size": [
+    1562,
+    963
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 73.4
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 1.4
+    },
+    {
+      "name": "04_Supraclavicular_nerves",
+      "file": "overlay_04_Supraclavicular_nerves.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "05_Middle_scalene",
+      "file": "overlay_05_Middle_scalene.webp",
+      "coverage_pct": 16.1
+    },
+    {
+      "name": "06_C5_root",
+      "file": "overlay_06_C5_root.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "07_C6_root_divided",
+      "file": "overlay_07_C6_root_divided.webp",
+      "coverage_pct": 0.9
+    },
+    {
+      "name": "08_C7_root",
+      "file": "overlay_08_C7_root.webp",
+      "coverage_pct": 1.2
+    },
+    {
+      "name": "09_C7_transverse_process_cortex",
+      "file": "overlay_09_C7_transverse_process_cortex.webp",
+      "coverage_pct": 1.7
+    },
+    {
+      "name": "10_Acoustic_shadow_from_bone",
+      "file": "overlay_10_Acoustic_shadow_from_bone.webp",
+      "coverage_pct": 8.2
+    },
+    {
+      "name": "11_Carotid_artery",
+      "file": "overlay_11_Carotid_artery.webp",
+      "coverage_pct": 2.6
+    },
+    {
+      "name": "12_Internal_jugular_vein",
+      "file": "overlay_12_Internal_jugular_vein.webp",
+      "coverage_pct": 3.7
+    },
+    {
+      "name": "13_Anterior_scalene",
+      "file": "overlay_13_Anterior_scalene.webp",
+      "coverage_pct": 10.4
+    },
+    {
+      "name": "14_Phrenic_nerve",
+      "file": "overlay_14_Phrenic_nerve.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "15_Long_thoracic_nerve",
+      "file": "overlay_15_Long_thoracic_nerve.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "16_Dorsal_scapular_nerve",
+      "file": "overlay_16_Dorsal_scapular_nerve.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "17_Vertebral_artery_and_vein",
+      "file": "overlay_17_Vertebral_artery_and_vein.webp",
+      "coverage_pct": 2.8
+    },
+    {
+      "name": "18_Sternocleidomastoid",
+      "file": "overlay_18_Sternocleidomastoid.webp",
+      "coverage_pct": 4.3
+    },
+    {
+      "name": "19_Platysma",
+      "file": "overlay_19_Platysma.webp",
+      "coverage_pct": 1.1
+    },
+    {
+      "name": "20_Longus_colli",
+      "file": "overlay_20_Longus_colli.webp",
+      "coverage_pct": 7.2
+    },
+    {
+      "name": "21_Vagus_nerve",
+      "file": "overlay_21_Vagus_nerve.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "22_Cervical_sympathetics_location",
+      "file": "overlay_22_Cervical_sympathetics_location.webp",
+      "coverage_pct": 1.1
+    },
+    {
+      "name": "23_Inferior_thyroid_artery",
+      "file": "overlay_23_Inferior_thyroid_artery.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "24_Deep_cervical_muscles",
+      "file": "overlay_24_Deep_cervical_muscles.webp",
+      "coverage_pct": 6.5
+    },
+    {
+      "name": "25_Posterior_scalene",
+      "file": "overlay_25_Posterior_scalene.webp",
+      "coverage_pct": 2.6
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "block": "Quad sign",
+  "category": "Lung_signs",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lung_signs/Quad_sign/Quad_sign_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        924,
+        110,
+        1839,
+        1080
+      ],
+      "crop_size": [
+        915,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lung_signs/Quad_sign/Quad_sign_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        505,
+        110,
+        1798,
+        1080
+      ],
+      "crop_size": [
+        1293,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 1.7
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lung_signs/Quad_sign/Quad_sign_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        697,
+        110,
+        1606,
+        1080
+      ],
+      "crop_size": [
+        909,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 84.9
+        },
+        {
+          "name": "02_Quad_(quadralateral)_sign",
+          "file": "overlay_02_Quad_(quadralateral)_sign.webp",
+          "coverage_pct": 4.1
+        },
+        {
+          "name": "03_Pleural_effusion",
+          "file": "overlay_03_Pleural_effusion.webp",
+          "coverage_pct": 8.0
+        },
+        {
+          "name": "04_Pleura_and_lung",
+          "file": "overlay_04_Pleura_and_lung.webp",
+          "coverage_pct": 51.4
+        },
+        {
+          "name": "05_Ribs",
+          "file": "overlay_05_Ribs.webp",
+          "coverage_pct": 5.3
+        },
+        {
+          "name": "06_Intercostal_muscles",
+          "file": "overlay_06_Intercostal_muscles.webp",
+          "coverage_pct": 5.0
+        },
+        {
+          "name": "07_Intercostal_neurovascular_bundle",
+          "file": "overlay_07_Intercostal_neurovascular_bundle.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "08_Pectoralis_major",
+          "file": "overlay_08_Pectoralis_major.webp",
+          "coverage_pct": 8.9
+        },
+        {
+          "name": "09_Pectoralis_minor",
+          "file": "overlay_09_Pectoralis_minor.webp",
+          "coverage_pct": 6.5
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lung_signs/Quad_sign/Quad_sign_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        589,
+        110,
+        1710,
+        1080
+      ],
+      "crop_size": [
+        1121,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 68.3
+        },
+        {
+          "name": "02_Quad_(quadralateral)_sign",
+          "file": "overlay_02_Quad_(quadralateral)_sign.webp",
+          "coverage_pct": 6.2
+        },
+        {
+          "name": "03_Pleural_effusion",
+          "file": "overlay_03_Pleural_effusion.webp",
+          "coverage_pct": 16.6
+        },
+        {
+          "name": "04_Visceral_pleura_and_lung",
+          "file": "overlay_04_Visceral_pleura_and_lung.webp",
+          "coverage_pct": 25.3
+        },
+        {
+          "name": "05_Ribs",
+          "file": "overlay_05_Ribs.webp",
+          "coverage_pct": 7.6
+        },
+        {
+          "name": "06_Intercostal_muscles",
+          "file": "overlay_06_Intercostal_muscles.webp",
+          "coverage_pct": 2.9
+        },
+        {
+          "name": "07_Serratus_anterior",
+          "file": "overlay_07_Serratus_anterior.webp",
+          "coverage_pct": 16.0
+        }
+      ]
+    }
+  ]
+}

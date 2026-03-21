@@ -1,0 +1,140 @@
+{
+  "block": "B lines",
+  "category": "Lung_signs",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lung_signs/B_lines/B_lines_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        924,
+        110,
+        1839,
+        1080
+      ],
+      "crop_size": [
+        915,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lung_signs/B_lines/B_lines_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        505,
+        110,
+        1798,
+        1080
+      ],
+      "crop_size": [
+        1293,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 1.8
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lung_signs/B_lines/B_lines_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        497,
+        110,
+        1825,
+        1068
+      ],
+      "crop_size": [
+        1328,
+        958
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 56.4
+        },
+        {
+          "name": "02_B_lines",
+          "file": "overlay_02_B_lines.webp",
+          "coverage_pct": 14.9
+        },
+        {
+          "name": "03_Pleura_and_lung",
+          "file": "overlay_03_Pleura_and_lung.webp",
+          "coverage_pct": 54.0
+        },
+        {
+          "name": "04_Ribs",
+          "file": "overlay_04_Ribs.webp",
+          "coverage_pct": 1.1
+        },
+        {
+          "name": "05_Chest_wall_muscles",
+          "file": "overlay_05_Chest_wall_muscles.webp",
+          "coverage_pct": 2.2
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lung_signs/B_lines/B_lines_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        494,
+        123,
+        1820,
+        1065
+      ],
+      "crop_size": [
+        1326,
+        942
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 57.1
+        },
+        {
+          "name": "02_B_line",
+          "file": "overlay_02_B_line.webp",
+          "coverage_pct": 6.1
+        },
+        {
+          "name": "03_Pleura_and_lung",
+          "file": "overlay_03_Pleura_and_lung.webp",
+          "coverage_pct": 53.5
+        },
+        {
+          "name": "04_Ribs",
+          "file": "overlay_04_Ribs.webp",
+          "coverage_pct": 0.9
+        },
+        {
+          "name": "05_Chest_wall_muscles",
+          "file": "overlay_05_Chest_wall_muscles.webp",
+          "coverage_pct": 2.6
+        }
+      ]
+    }
+  ]
+}

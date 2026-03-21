@@ -1,0 +1,19 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Interpectoral_plane/Interpectoral_plane_ergonomics",
+  "view_type": "ergonomics",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    627,
+    110,
+    2122,
+    1080
+  ],
+  "crop_size": [
+    1495,
+    970
+  ],
+  "layers": []
+}

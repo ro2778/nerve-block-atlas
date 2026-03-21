@@ -1,0 +1,85 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Rectus_sheath/Rectus_sheath_sonoanatomy_3",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    150,
+    1977,
+    1037
+  ],
+  "crop_size": [
+    1652,
+    887
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 88.2
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 47.3
+    },
+    {
+      "name": "03_Needle_path",
+      "file": "overlay_03_Needle_path.webp",
+      "coverage_pct": 1.1
+    },
+    {
+      "name": "04_LA",
+      "file": "overlay_04_LA.webp",
+      "coverage_pct": 1.6
+    },
+    {
+      "name": "05_Rectus_abdominus",
+      "file": "overlay_05_Rectus_abdominus.webp",
+      "coverage_pct": 7.6
+    },
+    {
+      "name": "06_External_oblique",
+      "file": "overlay_06_External_oblique.webp",
+      "coverage_pct": 4.1
+    },
+    {
+      "name": "07_Internal_oblique",
+      "file": "overlay_07_Internal_oblique.webp",
+      "coverage_pct": 13.0
+    },
+    {
+      "name": "08_Transversus_abdominus",
+      "file": "overlay_08_Transversus_abdominus.webp",
+      "coverage_pct": 5.8
+    },
+    {
+      "name": "09_Linear_semilunaris",
+      "file": "overlay_09_Linear_semilunaris.webp",
+      "coverage_pct": 5.0
+    },
+    {
+      "name": "10_Peritoneum_and_intraperitoneal_structures",
+      "file": "overlay_10_Peritoneum_and_intraperitoneal_structures.webp",
+      "coverage_pct": 38.1
+    },
+    {
+      "name": "11_Subcutaneous_fat",
+      "file": "overlay_11_Subcutaneous_fat.webp",
+      "coverage_pct": 14.0
+    },
+    {
+      "name": "12_Anterior_rectus_sheath",
+      "file": "overlay_12_Anterior_rectus_sheath.webp",
+      "coverage_pct": 0.9
+    },
+    {
+      "name": "13_Posterior_rectus_sheath",
+      "file": "overlay_13_Posterior_rectus_sheath.webp",
+      "coverage_pct": 1.1
+    }
+  ]
+}

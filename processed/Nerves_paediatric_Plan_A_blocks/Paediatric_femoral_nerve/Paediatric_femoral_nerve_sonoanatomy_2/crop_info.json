@@ -1,0 +1,110 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_femoral_nerve/Paediatric_femoral_nerve_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    296,
+    1977,
+    890
+  ],
+  "crop_size": [
+    1652,
+    594
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 75.7
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 1.1
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 1.9
+    },
+    {
+      "name": "04_Femoral_artery_and_vein",
+      "file": "overlay_04_Femoral_artery_and_vein.webp",
+      "coverage_pct": 3.2
+    },
+    {
+      "name": "05_Iliopsoas",
+      "file": "overlay_05_Iliopsoas.webp",
+      "coverage_pct": 20.9
+    },
+    {
+      "name": "06_Fascia_iliaca",
+      "file": "overlay_06_Fascia_iliaca.webp",
+      "coverage_pct": 2.9
+    },
+    {
+      "name": "07_Femoral_nerve",
+      "file": "overlay_07_Femoral_nerve.webp",
+      "coverage_pct": 1.0
+    },
+    {
+      "name": "08_Fascia_lata",
+      "file": "overlay_08_Fascia_lata.webp",
+      "coverage_pct": 3.1
+    },
+    {
+      "name": "09_Pectineus",
+      "file": "overlay_09_Pectineus.webp",
+      "coverage_pct": 3.7
+    },
+    {
+      "name": "10_Femoral_branch_of_genitofemoral_nerve",
+      "file": "overlay_10_Femoral_branch_of_genitofemoral_nerve.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "11_Sartorius",
+      "file": "overlay_11_Sartorius.webp",
+      "coverage_pct": 6.4
+    },
+    {
+      "name": "12_Lateral_femoral_cutaneous_nerve",
+      "file": "overlay_12_Lateral_femoral_cutaneous_nerve.webp",
+      "coverage_pct": 0.1
+    },
+    {
+      "name": "13_Tensor_fascia_lata",
+      "file": "overlay_13_Tensor_fascia_lata.webp",
+      "coverage_pct": 4.6
+    },
+    {
+      "name": "14_Rectus_femoris",
+      "file": "overlay_14_Rectus_femoris.webp",
+      "coverage_pct": 3.8
+    },
+    {
+      "name": "15_Iliofemoral_ligament,_femoral_head_and_acoustic_shadow",
+      "file": "overlay_15_Iliofemoral_ligament,_femoral_head_and_acoustic_shadow.webp",
+      "coverage_pct": 6.7
+    },
+    {
+      "name": "16_Pubis_cortex",
+      "file": "overlay_16_Pubis_cortex.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "17_Acoustic_shadow_from_bone_cortex",
+      "file": "overlay_17_Acoustic_shadow_from_bone_cortex.webp",
+      "coverage_pct": 5.0
+    },
+    {
+      "name": "18_Subcutaneous_fat",
+      "file": "overlay_18_Subcutaneous_fat.webp",
+      "coverage_pct": 13.1
+    }
+  ]
+}

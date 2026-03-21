@@ -1,0 +1,250 @@
+{
+  "block": "Posterior cutaneous nerve of forearm",
+  "category": "Nerves: upper limb",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Posterior_cutaneous_nerve_of_forearm/Posterior_cutaneous_nerve_of_forearm_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        513,
+        110,
+        2236,
+        1080
+      ],
+      "crop_size": [
+        1723,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Posterior_cutaneous_nerve_of_forearm/Posterior_cutaneous_nerve_of_forearm_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        641,
+        116,
+        1662,
+        1080
+      ],
+      "crop_size": [
+        1021,
+        964
+      ],
+      "layers": [
+        {
+          "name": "01_Medial_cutaneous_nerve_of_forearm",
+          "file": "overlay_01_Medial_cutaneous_nerve_of_forearm.webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "02_Lateral_cutaneous_nerve_of_forearm",
+          "file": "overlay_02_Lateral_cutaneous_nerve_of_forearm.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "03_Posterior_cutaneous_nerve_of_forearm",
+          "file": "overlay_03_Posterior_cutaneous_nerve_of_forearm.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "04_Axillary_brachial_plexus",
+          "file": "overlay_04_Axillary_brachial_plexus.webp",
+          "coverage_pct": 8.5
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Posterior_cutaneous_nerve_of_forearm/Posterior_cutaneous_nerve_of_forearm_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.6
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Posterior_cutaneous_nerve_of_forearm/Posterior_cutaneous_nerve_of_forearm_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        213,
+        1977,
+        968
+      ],
+      "crop_size": [
+        1652,
+        755
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 85.9
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 1.5
+        },
+        {
+          "name": "04_Posterior_cutaneous_nerve_of_forearm",
+          "file": "overlay_04_Posterior_cutaneous_nerve_of_forearm.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "05_Radial_nerve",
+          "file": "overlay_05_Radial_nerve.webp",
+          "coverage_pct": 1.3
+        },
+        {
+          "name": "06_Humerus_cortex",
+          "file": "overlay_06_Humerus_cortex.webp",
+          "coverage_pct": 3.9
+        },
+        {
+          "name": "07_Acoustic_shadow_from_bone",
+          "file": "overlay_07_Acoustic_shadow_from_bone.webp",
+          "coverage_pct": 4.8
+        },
+        {
+          "name": "08_Brachialis",
+          "file": "overlay_08_Brachialis.webp",
+          "coverage_pct": 21.9
+        },
+        {
+          "name": "09_Brachioradialis",
+          "file": "overlay_09_Brachioradialis.webp",
+          "coverage_pct": 27.7
+        },
+        {
+          "name": "10_Triceps",
+          "file": "overlay_10_Triceps.webp",
+          "coverage_pct": 14.6
+        },
+        {
+          "name": "11_Subcutaneous_fat",
+          "file": "overlay_11_Subcutaneous_fat.webp",
+          "coverage_pct": 9.5
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Posterior_cutaneous_nerve_of_forearm/Posterior_cutaneous_nerve_of_forearm_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        145,
+        1977,
+        1031
+      ],
+      "crop_size": [
+        1652,
+        886
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 85.0
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 1.1
+        },
+        {
+          "name": "04_Posterior_cutaneous_nerve_of_forearm",
+          "file": "overlay_04_Posterior_cutaneous_nerve_of_forearm.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "05_Radial_nerve",
+          "file": "overlay_05_Radial_nerve.webp",
+          "coverage_pct": 1.3
+        },
+        {
+          "name": "06_Humerus_cortex",
+          "file": "overlay_06_Humerus_cortex.webp",
+          "coverage_pct": 4.4
+        },
+        {
+          "name": "07_Acoustic_shadow_from_bone",
+          "file": "overlay_07_Acoustic_shadow_from_bone.webp",
+          "coverage_pct": 16.7
+        },
+        {
+          "name": "08_Reverberation_artefacts",
+          "file": "overlay_08_Reverberation_artefacts.webp",
+          "coverage_pct": 2.3
+        },
+        {
+          "name": "09_Brachialis",
+          "file": "overlay_09_Brachialis.webp",
+          "coverage_pct": 17.6
+        },
+        {
+          "name": "10_Brachioradialis",
+          "file": "overlay_10_Brachioradialis.webp",
+          "coverage_pct": 15.4
+        },
+        {
+          "name": "11_Extensor_carpi_radialis",
+          "file": "overlay_11_Extensor_carpi_radialis.webp",
+          "coverage_pct": 4.2
+        },
+        {
+          "name": "12_Triceps",
+          "file": "overlay_12_Triceps.webp",
+          "coverage_pct": 15.5
+        },
+        {
+          "name": "13_Subcutaneous_fat",
+          "file": "overlay_13_Subcutaneous_fat.webp",
+          "coverage_pct": 9.1
+        }
+      ]
+    }
+  ]
+}

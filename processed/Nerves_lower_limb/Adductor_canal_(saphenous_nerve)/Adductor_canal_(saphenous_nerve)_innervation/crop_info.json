@@ -1,0 +1,40 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Adductor_canal_(saphenous_nerve)/Adductor_canal_(saphenous_nerve)_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    459,
+    114,
+    1844,
+    1080
+  ],
+  "crop_size": [
+    1385,
+    966
+  ],
+  "layers": [
+    {
+      "name": "01_iPACK",
+      "file": "overlay_01_iPACK.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "02_Sciatic_nerve_(popliteal_fossa)",
+      "file": "overlay_02_Sciatic_nerve_(popliteal_fossa).webp",
+      "coverage_pct": 8.7
+    },
+    {
+      "name": "03_Adductor_canal_(saphenous_nerve)",
+      "file": "overlay_03_Adductor_canal_(saphenous_nerve).webp",
+      "coverage_pct": 1.9
+    },
+    {
+      "name": "04_Femoral_triangle_distal",
+      "file": "overlay_04_Femoral_triangle_distal.webp",
+      "coverage_pct": 3.2
+    }
+  ]
+}

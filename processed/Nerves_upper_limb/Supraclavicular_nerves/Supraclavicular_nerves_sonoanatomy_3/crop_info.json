@@ -1,0 +1,90 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Supraclavicular_nerves/Supraclavicular_nerves_sonoanatomy_3",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    360,
+    110,
+    1943,
+    1073
+  ],
+  "crop_size": [
+    1583,
+    963
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 74.9
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 0.9
+    },
+    {
+      "name": "04_Supraclavicular_nerves",
+      "file": "overlay_04_Supraclavicular_nerves.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "05_Transverse_cervical_artery",
+      "file": "overlay_05_Transverse_cervical_artery.webp",
+      "coverage_pct": 0.1
+    },
+    {
+      "name": "06_Middle_scalene",
+      "file": "overlay_06_Middle_scalene.webp",
+      "coverage_pct": 14.2
+    },
+    {
+      "name": "07_Anterior_scalene",
+      "file": "overlay_07_Anterior_scalene.webp",
+      "coverage_pct": 9.3
+    },
+    {
+      "name": "08_Upper_trunk",
+      "file": "overlay_08_Upper_trunk.webp",
+      "coverage_pct": 2.0
+    },
+    {
+      "name": "09_Middle_trunk",
+      "file": "overlay_09_Middle_trunk.webp",
+      "coverage_pct": 1.8
+    },
+    {
+      "name": "10_Pleura_air_interface",
+      "file": "overlay_10_Pleura_air_interface.webp",
+      "coverage_pct": 2.5
+    },
+    {
+      "name": "11_Acoustic_shadow_and_artefact_from_pleura",
+      "file": "overlay_11_Acoustic_shadow_and_artefact_from_pleura.webp",
+      "coverage_pct": 31.3
+    },
+    {
+      "name": "12_Sternocleidomastoid",
+      "file": "overlay_12_Sternocleidomastoid.webp",
+      "coverage_pct": 4.7
+    },
+    {
+      "name": "13_Long_thoracic_nerve",
+      "file": "overlay_13_Long_thoracic_nerve.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "14_Subclavian_artery_and_thyrocervical_trunk",
+      "file": "overlay_14_Subclavian_artery_and_thyrocervical_trunk.webp",
+      "coverage_pct": 9.3
+    }
+  ]
+}

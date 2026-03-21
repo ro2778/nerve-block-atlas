@@ -1,0 +1,55 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Gastric_antrum/Gastric_antrum_with_clear_fluid/Gastric_antrum_with_clear_fluid_sonoanatomy_3",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    440,
+    110,
+    1863,
+    1080
+  ],
+  "crop_size": [
+    1423,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 22.0
+    },
+    {
+      "name": "02_Abdominal_wall_muscles",
+      "file": "overlay_02_Abdominal_wall_muscles.webp",
+      "coverage_pct": 1.5
+    },
+    {
+      "name": "03_Aorta_and_superior_mesenteric_artery",
+      "file": "overlay_03_Aorta_and_superior_mesenteric_artery.webp",
+      "coverage_pct": 7.1
+    },
+    {
+      "name": "04_Gastric_antrum_with_clear_fluid",
+      "file": "overlay_04_Gastric_antrum_with_clear_fluid.webp",
+      "coverage_pct": 4.9
+    },
+    {
+      "name": "05_Liver",
+      "file": "overlay_05_Liver.webp",
+      "coverage_pct": 6.2
+    },
+    {
+      "name": "06_Spine_cortex",
+      "file": "overlay_06_Spine_cortex.webp",
+      "coverage_pct": 1.2
+    },
+    {
+      "name": "07_Subcutaneous_fat",
+      "file": "overlay_07_Subcutaneous_fat.webp",
+      "coverage_pct": 1.3
+    }
+  ]
+}

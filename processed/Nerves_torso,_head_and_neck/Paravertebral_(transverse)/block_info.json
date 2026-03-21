@@ -1,0 +1,280 @@
+{
+  "block": "Paravertebral (transverse)",
+  "category": "Nerves_torso,_head_and_neck",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Paravertebral_(transverse)/Paravertebral_(transverse)_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        513,
+        110,
+        2236,
+        1080
+      ],
+      "crop_size": [
+        1723,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Paravertebral_(transverse)/Paravertebral_(transverse)_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        491,
+        114,
+        1811,
+        1080
+      ],
+      "crop_size": [
+        1320,
+        966
+      ],
+      "layers": [
+        {
+          "name": "01_Paravertebral_T4",
+          "file": "overlay_01_Paravertebral_T4.webp",
+          "coverage_pct": 19.1
+        },
+        {
+          "name": "02_Erector_spinae_T4",
+          "file": "overlay_02_Erector_spinae_T4.webp",
+          "coverage_pct": 8.8
+        },
+        {
+          "name": "03_Superficial_serratus_anterior_plane",
+          "file": "overlay_03_Superficial_serratus_anterior_plane.webp",
+          "coverage_pct": 10.7
+        },
+        {
+          "name": "04_Interpectoral_plane",
+          "file": "overlay_04_Interpectoral_plane.webp",
+          "coverage_pct": 1.5
+        },
+        {
+          "name": "05_Interpectoral_and_pectoserratus_planes",
+          "file": "overlay_05_Interpectoral_and_pectoserratus_planes.webp",
+          "coverage_pct": 11.9
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Paravertebral_(transverse)/Paravertebral_(transverse)_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 2.7
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Paravertebral_(transverse)/Paravertebral_(transverse)_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        331,
+        110,
+        1972,
+        1080
+      ],
+      "crop_size": [
+        1641,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 84.4
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "03_LA_(lateral_to_acoustic_shadow)",
+          "file": "overlay_03_LA_(lateral_to_acoustic_shadow).webp",
+          "coverage_pct": 1.7
+        },
+        {
+          "name": "04_Spinous_and_transverse_process_cortex",
+          "file": "overlay_04_Spinous_and_transverse_process_cortex.webp",
+          "coverage_pct": 5.3
+        },
+        {
+          "name": "05_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+          "file": "overlay_05_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+          "coverage_pct": 26.0
+        },
+        {
+          "name": "06_PVS_(_lateral_to_acoustic_shadow)",
+          "file": "overlay_06_PVS_(_lateral_to_acoustic_shadow).webp",
+          "coverage_pct": 2.5
+        },
+        {
+          "name": "07_Internal_intercostal_membrane",
+          "file": "overlay_07_Internal_intercostal_membrane.webp",
+          "coverage_pct": 1.6
+        },
+        {
+          "name": "08_Pleura-air_interface",
+          "file": "overlay_08_Pleura-air_interface.webp",
+          "coverage_pct": 1.5
+        },
+        {
+          "name": "09_Lung_artefact_from_pleura-air_interface",
+          "file": "overlay_09_Lung_artefact_from_pleura-air_interface.webp",
+          "coverage_pct": 10.9
+        },
+        {
+          "name": "10_External_intercostal_muscle",
+          "file": "overlay_10_External_intercostal_muscle.webp",
+          "coverage_pct": 2.4
+        },
+        {
+          "name": "11_Erector_spinae",
+          "file": "overlay_11_Erector_spinae.webp",
+          "coverage_pct": 23.6
+        },
+        {
+          "name": "12_Trapezius",
+          "file": "overlay_12_Trapezius.webp",
+          "coverage_pct": 5.9
+        },
+        {
+          "name": "13_Subcutaneous_fat",
+          "file": "overlay_13_Subcutaneous_fat.webp",
+          "coverage_pct": 7.6
+        },
+        {
+          "name": "14_PVS,_LA,_Pleura_hidden_by_acoustic_shadow",
+          "file": "overlay_14_PVS,_LA,_Pleura_hidden_by_acoustic_shadow.webp",
+          "coverage_pct": 8.1
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Paravertebral_(transverse)/Paravertebral_(transverse)_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        545,
+        110,
+        1758,
+        1080
+      ],
+      "crop_size": [
+        1213,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 81.6
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "03_LA_(lateral_to_acoustic_shadow)",
+          "file": "overlay_03_LA_(lateral_to_acoustic_shadow).webp",
+          "coverage_pct": 1.9
+        },
+        {
+          "name": "04_PVS_(lateral_to_acoustic_shadow)",
+          "file": "overlay_04_PVS_(lateral_to_acoustic_shadow).webp",
+          "coverage_pct": 3.1
+        },
+        {
+          "name": "05_Internal_intercostal_membrane",
+          "file": "overlay_05_Internal_intercostal_membrane.webp",
+          "coverage_pct": 3.4
+        },
+        {
+          "name": "06_Pleura-air_interface",
+          "file": "overlay_06_Pleura-air_interface.webp",
+          "coverage_pct": 1.9
+        },
+        {
+          "name": "07_Lung_artefact_from_pleura-air_interface",
+          "file": "overlay_07_Lung_artefact_from_pleura-air_interface.webp",
+          "coverage_pct": 12.0
+        },
+        {
+          "name": "08_Transverse_process_cortex",
+          "file": "overlay_08_Transverse_process_cortex.webp",
+          "coverage_pct": 3.9
+        },
+        {
+          "name": "09_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+          "file": "overlay_09_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+          "coverage_pct": 17.9
+        },
+        {
+          "name": "10_External_intercostal_muscle",
+          "file": "overlay_10_External_intercostal_muscle.webp",
+          "coverage_pct": 4.4
+        },
+        {
+          "name": "11_Erector_spinae_muscles",
+          "file": "overlay_11_Erector_spinae_muscles.webp",
+          "coverage_pct": 20.1
+        },
+        {
+          "name": "12_Rhomboid_major",
+          "file": "overlay_12_Rhomboid_major.webp",
+          "coverage_pct": 7.3
+        },
+        {
+          "name": "13_Trapezius",
+          "file": "overlay_13_Trapezius.webp",
+          "coverage_pct": 7.0
+        },
+        {
+          "name": "14_Subcutaneous_fat",
+          "file": "overlay_14_Subcutaneous_fat.webp",
+          "coverage_pct": 3.6
+        },
+        {
+          "name": "15_PVS,_LA_hidden_by_acoustic_shadow",
+          "file": "overlay_15_PVS,_LA_hidden_by_acoustic_shadow.webp",
+          "coverage_pct": 7.1
+        }
+      ]
+    }
+  ]
+}

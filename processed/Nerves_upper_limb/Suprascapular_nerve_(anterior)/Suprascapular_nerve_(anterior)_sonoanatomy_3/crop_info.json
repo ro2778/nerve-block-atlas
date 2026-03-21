@@ -1,0 +1,105 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Suprascapular_nerve_(anterior)/Suprascapular_nerve_(anterior)_sonoanatomy_3",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    196,
+    1977,
+    994
+  ],
+  "crop_size": [
+    1652,
+    798
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 70.7
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "03_Needle_path",
+      "file": "overlay_03_Needle_path.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "04_LA",
+      "file": "overlay_04_LA.webp",
+      "coverage_pct": 1.1
+    },
+    {
+      "name": "05_Suprascapular_nerve",
+      "file": "overlay_05_Suprascapular_nerve.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "06_Omohyoid",
+      "file": "overlay_06_Omohyoid.webp",
+      "coverage_pct": 4.9
+    },
+    {
+      "name": "07_Subclavian_artery",
+      "file": "overlay_07_Subclavian_artery.webp",
+      "coverage_pct": 5.2
+    },
+    {
+      "name": "08_Brachial_plexus",
+      "file": "overlay_08_Brachial_plexus.webp",
+      "coverage_pct": 10.5
+    },
+    {
+      "name": "09_First_rib_cortex",
+      "file": "overlay_09_First_rib_cortex.webp",
+      "coverage_pct": 1.4
+    },
+    {
+      "name": "10_Acoustic_shadow_from_rib",
+      "file": "overlay_10_Acoustic_shadow_from_rib.webp",
+      "coverage_pct": 11.3
+    },
+    {
+      "name": "11_Pleura_air_interface",
+      "file": "overlay_11_Pleura_air_interface.webp",
+      "coverage_pct": 2.0
+    },
+    {
+      "name": "12_Acoustic_shadow_and_artefact_from_pleura",
+      "file": "overlay_12_Acoustic_shadow_and_artefact_from_pleura.webp",
+      "coverage_pct": 7.9
+    },
+    {
+      "name": "13_Anterior_scalene",
+      "file": "overlay_13_Anterior_scalene.webp",
+      "coverage_pct": 2.9
+    },
+    {
+      "name": "14_Intercostal",
+      "file": "overlay_14_Intercostal.webp",
+      "coverage_pct": 6.1
+    },
+    {
+      "name": "15_Serratus_anterior",
+      "file": "overlay_15_Serratus_anterior.webp",
+      "coverage_pct": 9.0
+    },
+    {
+      "name": "16_Middle_scalene",
+      "file": "overlay_16_Middle_scalene.webp",
+      "coverage_pct": 5.0
+    },
+    {
+      "name": "17_Subcutaneous_fat",
+      "file": "overlay_17_Subcutaneous_fat.webp",
+      "coverage_pct": 5.4
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Ilioinguinal_&_iliohypogastric_nerves/Ilioinguinal_&_iliohypogastric_nerves_sonoanatomy_3",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    262,
+    1977,
+    928
+  ],
+  "crop_size": [
+    1652,
+    666
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 77.1
+    },
+    {
+      "name": "02_Needle_paths",
+      "file": "overlay_02_Needle_paths.webp",
+      "coverage_pct": 1.5
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 2.6
+    },
+    {
+      "name": "04_Ilioinguinal_nerve",
+      "file": "overlay_04_Ilioinguinal_nerve.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "05_Iliohypogastric_nerve",
+      "file": "overlay_05_Iliohypogastric_nerve.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "06_External_oblique_becoming_fascial_plane",
+      "file": "overlay_06_External_oblique_becoming_fascial_plane.webp",
+      "coverage_pct": 2.8
+    },
+    {
+      "name": "07_Internal_oblique",
+      "file": "overlay_07_Internal_oblique.webp",
+      "coverage_pct": 9.3
+    },
+    {
+      "name": "08_Transversus_abdominus",
+      "file": "overlay_08_Transversus_abdominus.webp",
+      "coverage_pct": 5.8
+    },
+    {
+      "name": "09_Deep_circumflex_iliac_artery",
+      "file": "overlay_09_Deep_circumflex_iliac_artery.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "10_Iliacus",
+      "file": "overlay_10_Iliacus.webp",
+      "coverage_pct": 28.0
+    },
+    {
+      "name": "11_Ilium_cortex",
+      "file": "overlay_11_Ilium_cortex.webp",
+      "coverage_pct": 3.9
+    },
+    {
+      "name": "12_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+      "file": "overlay_12_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+      "coverage_pct": 13.8
+    },
+    {
+      "name": "13_Peritoneal_cavity",
+      "file": "overlay_13_Peritoneal_cavity.webp",
+      "coverage_pct": 3.1
+    },
+    {
+      "name": "14_Subcutaneous_fat",
+      "file": "overlay_14_Subcutaneous_fat.webp",
+      "coverage_pct": 8.2
+    }
+  ]
+}

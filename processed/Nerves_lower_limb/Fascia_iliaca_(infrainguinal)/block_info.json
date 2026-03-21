@@ -1,0 +1,255 @@
+{
+  "block": "Fascia iliaca (infrainguinal)",
+  "category": "Nerves: lower limb",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Fascia_iliaca_(infrainguinal)/Fascia_iliaca_(infrainguinal)_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        980,
+        110,
+        1756,
+        1080
+      ],
+      "crop_size": [
+        776,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Fascia_iliaca_(infrainguinal)/Fascia_iliaca_(infrainguinal)_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        343,
+        115,
+        1960,
+        1080
+      ],
+      "crop_size": [
+        1617,
+        965
+      ],
+      "layers": [
+        {
+          "name": "01_Obturator_nerve",
+          "file": "overlay_01_Obturator_nerve.webp",
+          "coverage_pct": 4.4
+        },
+        {
+          "name": "02_Sacral_plexus",
+          "file": "overlay_02_Sacral_plexus.webp",
+          "coverage_pct": 18.5
+        },
+        {
+          "name": "03_Fascia_iliaca",
+          "file": "overlay_03_Fascia_iliaca.webp",
+          "coverage_pct": 10.9
+        },
+        {
+          "name": "04_Femoral_nerve",
+          "file": "overlay_04_Femoral_nerve.webp",
+          "coverage_pct": 8.6
+        },
+        {
+          "name": "05_Lateral_femoral_cutaneous_nerve",
+          "file": "overlay_05_Lateral_femoral_cutaneous_nerve.webp",
+          "coverage_pct": 1.2
+        },
+        {
+          "name": "06_Pericapsular_nerve_group_(PENG)",
+          "file": "overlay_06_Pericapsular_nerve_group_(PENG).webp",
+          "coverage_pct": 2.7
+        },
+        {
+          "name": "07_Lumbar_plexus",
+          "file": "overlay_07_Lumbar_plexus.webp",
+          "coverage_pct": 15.6
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Fascia_iliaca_(infrainguinal)/Fascia_iliaca_(infrainguinal)_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.9
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Fascia_iliaca_(infrainguinal)/Fascia_iliaca_(infrainguinal)_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        216,
+        1977,
+        971
+      ],
+      "crop_size": [
+        1652,
+        755
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 89.0
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 4.1
+        },
+        {
+          "name": "04_Femoral_artery_and_vein",
+          "file": "overlay_04_Femoral_artery_and_vein.webp",
+          "coverage_pct": 8.3
+        },
+        {
+          "name": "05_Iliacus",
+          "file": "overlay_05_Iliacus.webp",
+          "coverage_pct": 41.4
+        },
+        {
+          "name": "06_Fascia_iliaca",
+          "file": "overlay_06_Fascia_iliaca.webp",
+          "coverage_pct": 5.1
+        },
+        {
+          "name": "07_Femoral_nerve",
+          "file": "overlay_07_Femoral_nerve.webp",
+          "coverage_pct": 2.1
+        },
+        {
+          "name": "08_Fascia_lata",
+          "file": "overlay_08_Fascia_lata.webp",
+          "coverage_pct": 4.0
+        },
+        {
+          "name": "09_Pectineus",
+          "file": "overlay_09_Pectineus.webp",
+          "coverage_pct": 13.1
+        },
+        {
+          "name": "10_Sartorius",
+          "file": "overlay_10_Sartorius.webp",
+          "coverage_pct": 5.1
+        },
+        {
+          "name": "11_Subcutaneous_fat",
+          "file": "overlay_11_Subcutaneous_fat.webp",
+          "coverage_pct": 9.8
+        },
+        {
+          "name": "12_Acoustic_enhancement_from_vessel",
+          "file": "overlay_12_Acoustic_enhancement_from_vessel.webp",
+          "coverage_pct": 1.3
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Fascia_iliaca_(infrainguinal)/Fascia_iliaca_(infrainguinal)_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        160,
+        1977,
+        1030
+      ],
+      "crop_size": [
+        1652,
+        870
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 85.0
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 4.9
+        },
+        {
+          "name": "04_Femoral_artery",
+          "file": "overlay_04_Femoral_artery.webp",
+          "coverage_pct": 5.7
+        },
+        {
+          "name": "05_Femoral_vein",
+          "file": "overlay_05_Femoral_vein.webp",
+          "coverage_pct": 4.3
+        },
+        {
+          "name": "06_Iliopsoas",
+          "file": "overlay_06_Iliopsoas.webp",
+          "coverage_pct": 46.7
+        },
+        {
+          "name": "07_Fascia_iliaca",
+          "file": "overlay_07_Fascia_iliaca.webp",
+          "coverage_pct": 8.4
+        },
+        {
+          "name": "08_Femoral_nerve",
+          "file": "overlay_08_Femoral_nerve.webp",
+          "coverage_pct": 2.0
+        },
+        {
+          "name": "09_Fascia_lata",
+          "file": "overlay_09_Fascia_lata.webp",
+          "coverage_pct": 7.6
+        },
+        {
+          "name": "10_Subcutaneous_fat",
+          "file": "overlay_10_Subcutaneous_fat.webp",
+          "coverage_pct": 11.5
+        }
+      ]
+    }
+  ]
+}

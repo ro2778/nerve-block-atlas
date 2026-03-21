@@ -1,0 +1,40 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Ulnar_nerve_mid_forearm/Ulnar_nerve_mid_forearm_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    604,
+    114,
+    1699,
+    1080
+  ],
+  "crop_size": [
+    1095,
+    966
+  ],
+  "layers": [
+    {
+      "name": "01_Radial_nerve_ACF",
+      "file": "overlay_01_Radial_nerve_ACF.webp",
+      "coverage_pct": 8.1
+    },
+    {
+      "name": "02_Median_nerve_mid_forearm",
+      "file": "overlay_02_Median_nerve_mid_forearm.webp",
+      "coverage_pct": 10.1
+    },
+    {
+      "name": "03_Ulnar_nerve_mid_forearm",
+      "file": "overlay_03_Ulnar_nerve_mid_forearm.webp",
+      "coverage_pct": 10.7
+    },
+    {
+      "name": "04_Axillary_brachial_plexus",
+      "file": "overlay_04_Axillary_brachial_plexus.webp",
+      "coverage_pct": 26.9
+    }
+  ]
+}

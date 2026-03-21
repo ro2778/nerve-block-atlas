@@ -1,0 +1,40 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Radial_nerve_antecubital_fossa/Radial_nerve_antecubital_fossa_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    667,
+    118,
+    1636,
+    1075
+  ],
+  "crop_size": [
+    969,
+    957
+  ],
+  "layers": [
+    {
+      "name": "01_Median_nerve_ACF",
+      "file": "overlay_01_Median_nerve_ACF.webp",
+      "coverage_pct": 1.7
+    },
+    {
+      "name": "02_Ulnar_nerve_mid_arm",
+      "file": "overlay_02_Ulnar_nerve_mid_arm.webp",
+      "coverage_pct": 2.0
+    },
+    {
+      "name": "03_Radial_nerve_ACF",
+      "file": "overlay_03_Radial_nerve_ACF.webp",
+      "coverage_pct": 1.6
+    },
+    {
+      "name": "04_Axillary_brachial_plexus",
+      "file": "overlay_04_Axillary_brachial_plexus.webp",
+      "coverage_pct": 9.0
+    }
+  ]
+}

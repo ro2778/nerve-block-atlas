@@ -1,0 +1,80 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Sagittal_oblique_interlaminar/Sagittal_oblique_interlaminar_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    539,
+    110,
+    1764,
+    1080
+  ],
+  "crop_size": [
+    1225,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 63.1
+    },
+    {
+      "name": "02_Laminae_cortex",
+      "file": "overlay_02_Laminae_cortex.webp",
+      "coverage_pct": 1.6
+    },
+    {
+      "name": "03_Acoustic_shadow_from_laminae",
+      "file": "overlay_03_Acoustic_shadow_from_laminae.webp",
+      "coverage_pct": 31.7
+    },
+    {
+      "name": "04_Ligamentum_flavum",
+      "file": "overlay_04_Ligamentum_flavum.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "05_Dura,_ant._and_post",
+      "file": "overlay_05_Dura,_ant._and_post.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "06_Epidural_space,_ant._and_post",
+      "file": "overlay_06_Epidural_space,_ant._and_post.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "07_Intrathecal_space_and_cauda_equina",
+      "file": "overlay_07_Intrathecal_space_and_cauda_equina.webp",
+      "coverage_pct": 4.6
+    },
+    {
+      "name": "08_Vertebral_body_cortex",
+      "file": "overlay_08_Vertebral_body_cortex.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "09_Acoustic_shadow_with_reverberation_artefact",
+      "file": "overlay_09_Acoustic_shadow_with_reverberation_artefact.webp",
+      "coverage_pct": 4.4
+    },
+    {
+      "name": "10_Intervertebral_disc",
+      "file": "overlay_10_Intervertebral_disc.webp",
+      "coverage_pct": 0.1
+    },
+    {
+      "name": "11_Erector_spinae",
+      "file": "overlay_11_Erector_spinae.webp",
+      "coverage_pct": 17.0
+    },
+    {
+      "name": "12_Subcutaneous_fat",
+      "file": "overlay_12_Subcutaneous_fat.webp",
+      "coverage_pct": 2.3
+    }
+  ]
+}

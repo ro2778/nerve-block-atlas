@@ -1,0 +1,35 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_quadratus_lumborum/Paediatric_quadratus_lumborum_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    607,
+    110,
+    1696,
+    1070
+  ],
+  "crop_size": [
+    1089,
+    960
+  ],
+  "layers": [
+    {
+      "name": "01_Contralateral_quadratus_lumborum",
+      "file": "overlay_01_Contralateral_quadratus_lumborum.webp",
+      "coverage_pct": 1.9
+    },
+    {
+      "name": "02_Quadratus_lumborum_lateral",
+      "file": "overlay_02_Quadratus_lumborum_lateral.webp",
+      "coverage_pct": 1.9
+    },
+    {
+      "name": "03_Midaxillary_TAP",
+      "file": "overlay_03_Midaxillary_TAP.webp",
+      "coverage_pct": 0.9
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Muscles/Muscles_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    206,
+    1977,
+    984
+  ],
+  "crop_size": [
+    1652,
+    778
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 48.1
+    },
+    {
+      "name": "02_Muscle_short_axis_starry_night",
+      "file": "overlay_02_Muscle_short_axis_starry_night.webp",
+      "coverage_pct": 48.1
+    }
+  ]
+}

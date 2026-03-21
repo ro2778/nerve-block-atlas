@@ -1,0 +1,50 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Superficial_peroneal_nerve/Superficial_peroneal_nerve_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    524,
+    114,
+    1779,
+    1080
+  ],
+  "crop_size": [
+    1255,
+    966
+  ],
+  "layers": [
+    {
+      "name": "01_Saphenous_nerve",
+      "file": "overlay_01_Saphenous_nerve.webp",
+      "coverage_pct": 2.5
+    },
+    {
+      "name": "02_Sural_nerve",
+      "file": "overlay_02_Sural_nerve.webp",
+      "coverage_pct": 3.6
+    },
+    {
+      "name": "03_Tibial_nerve",
+      "file": "overlay_03_Tibial_nerve.webp",
+      "coverage_pct": 11.0
+    },
+    {
+      "name": "04_Deep_peroneal_nerve",
+      "file": "overlay_04_Deep_peroneal_nerve.webp",
+      "coverage_pct": 3.7
+    },
+    {
+      "name": "05_Superficial_peroneal_nerve",
+      "file": "overlay_05_Superficial_peroneal_nerve.webp",
+      "coverage_pct": 2.6
+    },
+    {
+      "name": "06_Sciatic_nerve",
+      "file": "overlay_06_Sciatic_nerve.webp",
+      "coverage_pct": 21.1
+    }
+  ]
+}

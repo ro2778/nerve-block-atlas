@@ -1,0 +1,65 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Subcostal_4_chamber/Subcostal_4_chamber_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    656,
+    122,
+    1647,
+    1080
+  ],
+  "crop_size": [
+    991,
+    958
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 44.7
+    },
+    {
+      "name": "02_Liver",
+      "file": "overlay_02_Liver.webp",
+      "coverage_pct": 8.5
+    },
+    {
+      "name": "03_Right_atrium",
+      "file": "overlay_03_Right_atrium.webp",
+      "coverage_pct": 3.8
+    },
+    {
+      "name": "04_Right_ventricle",
+      "file": "overlay_04_Right_ventricle.webp",
+      "coverage_pct": 4.1
+    },
+    {
+      "name": "05_Left_atrium",
+      "file": "overlay_05_Left_atrium.webp",
+      "coverage_pct": 3.9
+    },
+    {
+      "name": "06_Left_ventricle",
+      "file": "overlay_06_Left_ventricle.webp",
+      "coverage_pct": 10.5
+    },
+    {
+      "name": "07_Chamber_walls",
+      "file": "overlay_07_Chamber_walls.webp",
+      "coverage_pct": 17.0
+    },
+    {
+      "name": "08_Mitral_valve",
+      "file": "overlay_08_Mitral_valve.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "09_Tricuspid_valve",
+      "file": "overlay_09_Tricuspid_valve.webp",
+      "coverage_pct": 0.5
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Gastric_antrum/Gastric_antrum_with_air/Gastric_antrum_with_air_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    411,
+    110,
+    1892,
+    1080
+  ],
+  "crop_size": [
+    1481,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 57.5
+    },
+    {
+      "name": "02_Liver",
+      "file": "overlay_02_Liver.webp",
+      "coverage_pct": 9.7
+    },
+    {
+      "name": "03_Gastric_antrum_with_air",
+      "file": "overlay_03_Gastric_antrum_with_air.webp",
+      "coverage_pct": 8.5
+    },
+    {
+      "name": "04_Air_mucosa_interface",
+      "file": "overlay_04_Air_mucosa_interface.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "05_Air_artefact_and_acoustic_shadow",
+      "file": "overlay_05_Air_artefact_and_acoustic_shadow.webp",
+      "coverage_pct": 24.1
+    },
+    {
+      "name": "06_Inferior_vena_carva",
+      "file": "overlay_06_Inferior_vena_carva.webp",
+      "coverage_pct": 7.6
+    },
+    {
+      "name": "07_Pancreas",
+      "file": "overlay_07_Pancreas.webp",
+      "coverage_pct": 3.9
+    },
+    {
+      "name": "08_Rectus_abdominus",
+      "file": "overlay_08_Rectus_abdominus.webp",
+      "coverage_pct": 1.9
+    },
+    {
+      "name": "09_Superior_mesenteric_vein",
+      "file": "overlay_09_Superior_mesenteric_vein.webp",
+      "coverage_pct": 5.0
+    },
+    {
+      "name": "10_Vertebrae",
+      "file": "overlay_10_Vertebrae.webp",
+      "coverage_pct": 3.1
+    }
+  ]
+}

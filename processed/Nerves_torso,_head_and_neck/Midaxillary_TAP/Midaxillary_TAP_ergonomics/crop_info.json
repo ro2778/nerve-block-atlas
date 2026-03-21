@@ -1,0 +1,19 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Midaxillary_TAP/Midaxillary_TAP_ergonomics",
+  "view_type": "ergonomics",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    925,
+    110,
+    1811,
+    1080
+  ],
+  "crop_size": [
+    886,
+    970
+  ],
+  "layers": []
+}

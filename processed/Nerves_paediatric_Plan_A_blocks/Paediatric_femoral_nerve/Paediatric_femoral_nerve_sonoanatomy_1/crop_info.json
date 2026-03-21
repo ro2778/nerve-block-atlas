@@ -1,0 +1,95 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_femoral_nerve/Paediatric_femoral_nerve_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    333,
+    1977,
+    857
+  ],
+  "crop_size": [
+    1652,
+    524
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 75.5
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.9
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 2.9
+    },
+    {
+      "name": "04_Femoral_artery",
+      "file": "overlay_04_Femoral_artery.webp",
+      "coverage_pct": 1.8
+    },
+    {
+      "name": "05_Femoral_vein",
+      "file": "overlay_05_Femoral_vein.webp",
+      "coverage_pct": 2.1
+    },
+    {
+      "name": "06_Iliopsoas",
+      "file": "overlay_06_Iliopsoas.webp",
+      "coverage_pct": 23.6
+    },
+    {
+      "name": "07_Fascia_iliaca",
+      "file": "overlay_07_Fascia_iliaca.webp",
+      "coverage_pct": 7.0
+    },
+    {
+      "name": "08_Femoral_nerve",
+      "file": "overlay_08_Femoral_nerve.webp",
+      "coverage_pct": 1.2
+    },
+    {
+      "name": "09_Fascia_lata",
+      "file": "overlay_09_Fascia_lata.webp",
+      "coverage_pct": 6.4
+    },
+    {
+      "name": "10_Pectineus",
+      "file": "overlay_10_Pectineus.webp",
+      "coverage_pct": 6.5
+    },
+    {
+      "name": "11_Rectus_femoris",
+      "file": "overlay_11_Rectus_femoris.webp",
+      "coverage_pct": 4.6
+    },
+    {
+      "name": "12_Sartorius",
+      "file": "overlay_12_Sartorius.webp",
+      "coverage_pct": 7.7
+    },
+    {
+      "name": "13_Pubis_cortex",
+      "file": "overlay_13_Pubis_cortex.webp",
+      "coverage_pct": 1.0
+    },
+    {
+      "name": "14_Acoustic_shadow_from_bone_cortex",
+      "file": "overlay_14_Acoustic_shadow_from_bone_cortex.webp",
+      "coverage_pct": 2.6
+    },
+    {
+      "name": "15_Subcutaneous_fat",
+      "file": "overlay_15_Subcutaneous_fat.webp",
+      "coverage_pct": 12.2
+    }
+  ]
+}

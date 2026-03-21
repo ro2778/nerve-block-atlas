@@ -1,0 +1,136 @@
+{
+  "block": "Inferior lateral geniculate nerves",
+  "category": "Nerves_lower_limb",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Inferior_lateral_geniculate_nerves/Inferior_lateral_geniculate_nerves_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        388,
+        116,
+        1915,
+        1080
+      ],
+      "crop_size": [
+        1527,
+        964
+      ],
+      "layers": [
+        {
+          "name": "01_IM_geniculate_nerves",
+          "file": "overlay_01_IM_geniculate_nerves.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "02_SL_geniculate_nerves",
+          "file": "overlay_02_SL_geniculate_nerves.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "03_SM_geniculate_nerves",
+          "file": "overlay_03_SM_geniculate_nerves.webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "04_Femoral_triangle_apex",
+          "file": "overlay_04_Femoral_triangle_apex.webp",
+          "coverage_pct": 2.7
+        },
+        {
+          "name": "05_IL_geniculate_nerves",
+          "file": "overlay_05_IL_geniculate_nerves.webp",
+          "coverage_pct": 0.5
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Inferior_lateral_geniculate_nerves/Inferior_lateral_geniculate_nerves_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 2.4
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Inferior_lateral_geniculate_nerves/Inferior_lateral_geniculate_nerves_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        215,
+        1977,
+        877
+      ],
+      "crop_size": [
+        1652,
+        662
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 70.9
+        },
+        {
+          "name": "02_Needle_path_OOP",
+          "file": "overlay_02_Needle_path_OOP.webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 4.3
+        },
+        {
+          "name": "04_Tibia_metaphysis_cortex_and_acoustic_shadow",
+          "file": "overlay_04_Tibia_metaphysis_cortex_and_acoustic_shadow.webp",
+          "coverage_pct": 19.9
+        },
+        {
+          "name": "05_Fibula_head_cortex_and_acoustic_shadow",
+          "file": "overlay_05_Fibula_head_cortex_and_acoustic_shadow.webp",
+          "coverage_pct": 28.6
+        },
+        {
+          "name": "06_Inferior_lateral_geniculate_artery",
+          "file": "overlay_06_Inferior_lateral_geniculate_artery.webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "07_Lateral_collateral_ligament",
+          "file": "overlay_07_Lateral_collateral_ligament.webp",
+          "coverage_pct": 8.6
+        },
+        {
+          "name": "08_Subcutaneous_fat",
+          "file": "overlay_08_Subcutaneous_fat.webp",
+          "coverage_pct": 10.3
+        }
+      ]
+    }
+  ]
+}

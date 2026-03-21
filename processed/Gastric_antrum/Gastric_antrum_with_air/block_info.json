@@ -1,0 +1,240 @@
+{
+  "block": "Gastric antrum with air",
+  "category": "Gastric_antrum",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Gastric_antrum/Gastric_antrum_with_air/Gastric_antrum_with_air_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        979,
+        110,
+        1757,
+        1080
+      ],
+      "crop_size": [
+        778,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Gastric_antrum/Gastric_antrum_with_air/Gastric_antrum_with_air_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.3
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Gastric_antrum/Gastric_antrum_with_air/Gastric_antrum_with_air_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        411,
+        110,
+        1892,
+        1080
+      ],
+      "crop_size": [
+        1481,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 57.5
+        },
+        {
+          "name": "02_Liver",
+          "file": "overlay_02_Liver.webp",
+          "coverage_pct": 9.7
+        },
+        {
+          "name": "03_Gastric_antrum_with_air",
+          "file": "overlay_03_Gastric_antrum_with_air.webp",
+          "coverage_pct": 8.5
+        },
+        {
+          "name": "04_Air_mucosa_interface",
+          "file": "overlay_04_Air_mucosa_interface.webp",
+          "coverage_pct": 0.4
+        },
+        {
+          "name": "05_Air_artefact_and_acoustic_shadow",
+          "file": "overlay_05_Air_artefact_and_acoustic_shadow.webp",
+          "coverage_pct": 24.1
+        },
+        {
+          "name": "06_Inferior_vena_carva",
+          "file": "overlay_06_Inferior_vena_carva.webp",
+          "coverage_pct": 7.6
+        },
+        {
+          "name": "07_Pancreas",
+          "file": "overlay_07_Pancreas.webp",
+          "coverage_pct": 3.9
+        },
+        {
+          "name": "08_Rectus_abdominus",
+          "file": "overlay_08_Rectus_abdominus.webp",
+          "coverage_pct": 1.9
+        },
+        {
+          "name": "09_Superior_mesenteric_vein",
+          "file": "overlay_09_Superior_mesenteric_vein.webp",
+          "coverage_pct": 5.0
+        },
+        {
+          "name": "10_Vertebrae",
+          "file": "overlay_10_Vertebrae.webp",
+          "coverage_pct": 3.1
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Gastric_antrum/Gastric_antrum_with_air/Gastric_antrum_with_air_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        430,
+        110,
+        1873,
+        1080
+      ],
+      "crop_size": [
+        1443,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 47.1
+        },
+        {
+          "name": "02_Liver_edge",
+          "file": "overlay_02_Liver_edge.webp",
+          "coverage_pct": 3.2
+        },
+        {
+          "name": "03_Gastric_antrum_with_air_and_solids",
+          "file": "overlay_03_Gastric_antrum_with_air_and_solids.webp",
+          "coverage_pct": 7.4
+        },
+        {
+          "name": "04_Air_mucosa_interface",
+          "file": "overlay_04_Air_mucosa_interface.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "05_Air_artefact_and_acoustic_shadow",
+          "file": "overlay_05_Air_artefact_and_acoustic_shadow.webp",
+          "coverage_pct": 27.5
+        },
+        {
+          "name": "06_Rectus_abdominus",
+          "file": "overlay_06_Rectus_abdominus.webp",
+          "coverage_pct": 1.7
+        },
+        {
+          "name": "07_Aorta,_SMA,_coeliac_trunk",
+          "file": "overlay_07_Aorta,_SMA,_coeliac_trunk.webp",
+          "coverage_pct": 10.3
+        },
+        {
+          "name": "08_Pancreas",
+          "file": "overlay_08_Pancreas.webp",
+          "coverage_pct": 2.1
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Gastric_antrum/Gastric_antrum_with_air/Gastric_antrum_with_air_sonoanatomy_3",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        442,
+        110,
+        1861,
+        1080
+      ],
+      "crop_size": [
+        1419,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 55.1
+        },
+        {
+          "name": "02_Liver",
+          "file": "overlay_02_Liver.webp",
+          "coverage_pct": 8.7
+        },
+        {
+          "name": "03_Gastric_antrum_with_air",
+          "file": "overlay_03_Gastric_antrum_with_air.webp",
+          "coverage_pct": 4.3
+        },
+        {
+          "name": "04_Air_mucosa_interface",
+          "file": "overlay_04_Air_mucosa_interface.webp",
+          "coverage_pct": 0.9
+        },
+        {
+          "name": "05_air_artefact_and_acoustic_shadow",
+          "file": "overlay_05_air_artefact_and_acoustic_shadow.webp",
+          "coverage_pct": 33.1
+        },
+        {
+          "name": "06_Rectus_abdominus",
+          "file": "overlay_06_Rectus_abdominus.webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "07_Aorta",
+          "file": "overlay_07_Aorta.webp",
+          "coverage_pct": 3.2
+        },
+        {
+          "name": "08_Vertebrae",
+          "file": "overlay_08_Vertebrae.webp",
+          "coverage_pct": 8.4
+        }
+      ]
+    }
+  ]
+}

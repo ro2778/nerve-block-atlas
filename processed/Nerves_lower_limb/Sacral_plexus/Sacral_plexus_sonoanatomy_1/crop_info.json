@@ -1,0 +1,90 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sacral_plexus/Sacral_plexus_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    448,
+    110,
+    1854,
+    1080
+  ],
+  "crop_size": [
+    1406,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 67.3
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 2.1
+    },
+    {
+      "name": "04_Posterior_border_of_ischium_cortex",
+      "file": "overlay_04_Posterior_border_of_ischium_cortex.webp",
+      "coverage_pct": 1.9
+    },
+    {
+      "name": "05_Sacrum_lateral_border_cortex",
+      "file": "overlay_05_Sacrum_lateral_border_cortex.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "06_Acoustic_shadows_from_bone_with_reverberation_artefacts",
+      "file": "overlay_06_Acoustic_shadows_from_bone_with_reverberation_artefacts.webp",
+      "coverage_pct": 23.5
+    },
+    {
+      "name": "07_Gluteus_maximus",
+      "file": "overlay_07_Gluteus_maximus.webp",
+      "coverage_pct": 7.4
+    },
+    {
+      "name": "08_Piriformis",
+      "file": "overlay_08_Piriformis.webp",
+      "coverage_pct": 9.6
+    },
+    {
+      "name": "09_Gluteus_minimus",
+      "file": "overlay_09_Gluteus_minimus.webp",
+      "coverage_pct": 1.8
+    },
+    {
+      "name": "10_Sacral_plexus",
+      "file": "overlay_10_Sacral_plexus.webp",
+      "coverage_pct": 1.1
+    },
+    {
+      "name": "11_Inferior_gluteal_vessels",
+      "file": "overlay_11_Inferior_gluteal_vessels.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "12_Posterior_sacroiliac_ligaments",
+      "file": "overlay_12_Posterior_sacroiliac_ligaments.webp",
+      "coverage_pct": 3.8
+    },
+    {
+      "name": "13_Retroperitoneal_structures",
+      "file": "overlay_13_Retroperitoneal_structures.webp",
+      "coverage_pct": 11.6
+    },
+    {
+      "name": "14_Subcutaneous_fat",
+      "file": "overlay_14_Subcutaneous_fat.webp",
+      "coverage_pct": 4.7
+    }
+  ]
+}

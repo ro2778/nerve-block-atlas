@@ -1,0 +1,45 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lung_signs/Lung_sliding,_seashore_sign/Lung_sliding,_seashore_sign_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    506,
+    120,
+    1797,
+    1080
+  ],
+  "crop_size": [
+    1291,
+    960
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 83.6
+    },
+    {
+      "name": "02_Pleura_and_lung",
+      "file": "overlay_02_Pleura_and_lung.webp",
+      "coverage_pct": 70.4
+    },
+    {
+      "name": "03_Intercostal_muscles",
+      "file": "overlay_03_Intercostal_muscles.webp",
+      "coverage_pct": 8.6
+    },
+    {
+      "name": "04_Chest_wall_muscles",
+      "file": "overlay_04_Chest_wall_muscles.webp",
+      "coverage_pct": 8.6
+    },
+    {
+      "name": "05_Ribs",
+      "file": "overlay_05_Ribs.webp",
+      "coverage_pct": 4.3
+    }
+  ]
+}

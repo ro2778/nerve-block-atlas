@@ -1,0 +1,355 @@
+{
+  "block": "Sciatic nerve (popliteal fossa)",
+  "category": "Nerves: lower limb",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sciatic_nerve_(popliteal_fossa)/Sciatic_nerve_(popliteal_fossa)_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        513,
+        110,
+        2236,
+        1080
+      ],
+      "crop_size": [
+        1723,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sciatic_nerve_(popliteal_fossa)/Sciatic_nerve_(popliteal_fossa)_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        459,
+        114,
+        1844,
+        1080
+      ],
+      "crop_size": [
+        1385,
+        966
+      ],
+      "layers": [
+        {
+          "name": "01_Femoral_nerve",
+          "file": "overlay_01_Femoral_nerve.webp",
+          "coverage_pct": 7.0
+        },
+        {
+          "name": "02_Adductor_canal_(saphenous_nerve)",
+          "file": "overlay_02_Adductor_canal_(saphenous_nerve).webp",
+          "coverage_pct": 1.9
+        },
+        {
+          "name": "03_Femoral_triangle_distal",
+          "file": "overlay_03_Femoral_triangle_distal.webp",
+          "coverage_pct": 2.9
+        },
+        {
+          "name": "04_Sciatic_nerve_(popliteal_fossa)",
+          "file": "overlay_04_Sciatic_nerve_(popliteal_fossa).webp",
+          "coverage_pct": 8.2
+        },
+        {
+          "name": "05_Sciatic_nerve_(infragluteal)",
+          "file": "overlay_05_Sciatic_nerve_(infragluteal).webp",
+          "coverage_pct": 10.5
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sciatic_nerve_(popliteal_fossa)/Sciatic_nerve_(popliteal_fossa)_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.5
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sciatic_nerve_(popliteal_fossa)/Sciatic_nerve_(popliteal_fossa)_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        426,
+        110,
+        1878,
+        1080
+      ],
+      "crop_size": [
+        1452,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 65.7
+        },
+        {
+          "name": "02_Block_view",
+          "file": "overlay_02_Block_view.webp",
+          "coverage_pct": 33.8
+        },
+        {
+          "name": "03_Needle_path",
+          "file": "overlay_03_Needle_path.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "04_LA",
+          "file": "overlay_04_LA.webp",
+          "coverage_pct": 4.2
+        },
+        {
+          "name": "05_Tibial_nerve",
+          "file": "overlay_05_Tibial_nerve.webp",
+          "coverage_pct": 1.5
+        },
+        {
+          "name": "06_Common_peroneal_nerve",
+          "file": "overlay_06_Common_peroneal_nerve.webp",
+          "coverage_pct": 1.1
+        },
+        {
+          "name": "07_Popliteal_artery",
+          "file": "overlay_07_Popliteal_artery.webp",
+          "coverage_pct": 2.1
+        },
+        {
+          "name": "08_Popliteal_vein",
+          "file": "overlay_08_Popliteal_vein.webp",
+          "coverage_pct": 4.6
+        },
+        {
+          "name": "09_Biceps_femoris",
+          "file": "overlay_09_Biceps_femoris.webp",
+          "coverage_pct": 24.4
+        },
+        {
+          "name": "10_Semimembranosis",
+          "file": "overlay_10_Semimembranosis.webp",
+          "coverage_pct": 19.7
+        },
+        {
+          "name": "11_Subcutaneous_fat",
+          "file": "overlay_11_Subcutaneous_fat.webp",
+          "coverage_pct": 8.4
+        },
+        {
+          "name": "12_Femur_lateral_condyle",
+          "file": "overlay_12_Femur_lateral_condyle.webp",
+          "coverage_pct": 0.9
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sciatic_nerve_(popliteal_fossa)/Sciatic_nerve_(popliteal_fossa)_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        574,
+        110,
+        1730,
+        1080
+      ],
+      "crop_size": [
+        1156,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 69.4
+        },
+        {
+          "name": "02_Block_view",
+          "file": "overlay_02_Block_view.webp",
+          "coverage_pct": 34.4
+        },
+        {
+          "name": "03_Needle_path",
+          "file": "overlay_03_Needle_path.webp",
+          "coverage_pct": 1.0
+        },
+        {
+          "name": "04_LA",
+          "file": "overlay_04_LA.webp",
+          "coverage_pct": 5.4
+        },
+        {
+          "name": "05_Tibial_nerve",
+          "file": "overlay_05_Tibial_nerve.webp",
+          "coverage_pct": 3.0
+        },
+        {
+          "name": "06_Common_peroneal_nerve",
+          "file": "overlay_06_Common_peroneal_nerve.webp",
+          "coverage_pct": 1.1
+        },
+        {
+          "name": "07_Popliteal_artery",
+          "file": "overlay_07_Popliteal_artery.webp",
+          "coverage_pct": 1.7
+        },
+        {
+          "name": "08_Popliteal_vein",
+          "file": "overlay_08_Popliteal_vein.webp",
+          "coverage_pct": 4.3
+        },
+        {
+          "name": "09_Semimembranosis",
+          "file": "overlay_09_Semimembranosis.webp",
+          "coverage_pct": 17.9
+        },
+        {
+          "name": "10_Biceps_femoris",
+          "file": "overlay_10_Biceps_femoris.webp",
+          "coverage_pct": 24.3
+        },
+        {
+          "name": "11_Femur_lateral_condyle_cortex",
+          "file": "overlay_11_Femur_lateral_condyle_cortex.webp",
+          "coverage_pct": 2.1
+        },
+        {
+          "name": "12_Acoustic_shadow_with_reverberation_artefacts",
+          "file": "overlay_12_Acoustic_shadow_with_reverberation_artefacts.webp",
+          "coverage_pct": 4.2
+        },
+        {
+          "name": "13_Acoustic_enhancement_from_vessels",
+          "file": "overlay_13_Acoustic_enhancement_from_vessels.webp",
+          "coverage_pct": 0.9
+        },
+        {
+          "name": "14_Subcutaneous_fat",
+          "file": "overlay_14_Subcutaneous_fat.webp",
+          "coverage_pct": 7.8
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Sciatic_nerve_(popliteal_fossa)/Sciatic_nerve_(popliteal_fossa)_sonoanatomy_3",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        505,
+        110,
+        1798,
+        1080
+      ],
+      "crop_size": [
+        1293,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 52.5
+        },
+        {
+          "name": "02_Block_view",
+          "file": "overlay_02_Block_view.webp",
+          "coverage_pct": 23.5
+        },
+        {
+          "name": "03_Needle_path",
+          "file": "overlay_03_Needle_path.webp",
+          "coverage_pct": 1.2
+        },
+        {
+          "name": "04_LA",
+          "file": "overlay_04_LA.webp",
+          "coverage_pct": 4.6
+        },
+        {
+          "name": "05_Tibial_nerve",
+          "file": "overlay_05_Tibial_nerve.webp",
+          "coverage_pct": 2.0
+        },
+        {
+          "name": "06_Common_peroneal_nerve",
+          "file": "overlay_06_Common_peroneal_nerve.webp",
+          "coverage_pct": 1.0
+        },
+        {
+          "name": "07_Popliteal_artery",
+          "file": "overlay_07_Popliteal_artery.webp",
+          "coverage_pct": 3.3
+        },
+        {
+          "name": "08_Popliteal_vein",
+          "file": "overlay_08_Popliteal_vein.webp",
+          "coverage_pct": 5.0
+        },
+        {
+          "name": "09_Biceps_femoris",
+          "file": "overlay_09_Biceps_femoris.webp",
+          "coverage_pct": 12.3
+        },
+        {
+          "name": "10_Semimembranosis",
+          "file": "overlay_10_Semimembranosis.webp",
+          "coverage_pct": 15.6
+        },
+        {
+          "name": "11_Femur_lateral_condyle_cortex",
+          "file": "overlay_11_Femur_lateral_condyle_cortex.webp",
+          "coverage_pct": 1.3
+        },
+        {
+          "name": "12_Subcutaneous_fat",
+          "file": "overlay_12_Subcutaneous_fat.webp",
+          "coverage_pct": 3.8
+        },
+        {
+          "name": "13_Acoustic_enhancement_from_vessels",
+          "file": "overlay_13_Acoustic_enhancement_from_vessels.webp",
+          "coverage_pct": 1.1
+        },
+        {
+          "name": "14_Acoustic_shadow_with_reverberation_artefacts",
+          "file": "overlay_14_Acoustic_shadow_with_reverberation_artefacts.webp",
+          "coverage_pct": 4.8
+        }
+      ]
+    }
+  ]
+}

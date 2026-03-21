@@ -1,0 +1,140 @@
+{
+  "block": "Sagittal articular processes",
+  "category": "Lumbar_spine",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Sagittal_articular_processes/Sagittal_articular_processes_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        566,
+        110,
+        2169,
+        1080
+      ],
+      "crop_size": [
+        1603,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Sagittal_articular_processes/Sagittal_articular_processes_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.4
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Sagittal_articular_processes/Sagittal_articular_processes_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        401,
+        110,
+        1902,
+        1080
+      ],
+      "crop_size": [
+        1501,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 63.6
+        },
+        {
+          "name": "02_Articular_processes_cortices",
+          "file": "overlay_02_Articular_processes_cortices.webp",
+          "coverage_pct": 3.0
+        },
+        {
+          "name": "03_Acoustic_shadows_from_bone_cortices",
+          "file": "overlay_03_Acoustic_shadows_from_bone_cortices.webp",
+          "coverage_pct": 45.2
+        },
+        {
+          "name": "04_Erector_spinae",
+          "file": "overlay_04_Erector_spinae.webp",
+          "coverage_pct": 13.7
+        },
+        {
+          "name": "05_Subcutaneous_fat",
+          "file": "overlay_05_Subcutaneous_fat.webp",
+          "coverage_pct": 2.0
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Sagittal_articular_processes/Sagittal_articular_processes_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        441,
+        110,
+        1863,
+        1080
+      ],
+      "crop_size": [
+        1422,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 61.4
+        },
+        {
+          "name": "02_Articular_processes_cortices",
+          "file": "overlay_02_Articular_processes_cortices.webp",
+          "coverage_pct": 3.2
+        },
+        {
+          "name": "03_Acoustic_shadow_from_bone_cortices_with_reverberation_artefacts",
+          "file": "overlay_03_Acoustic_shadow_from_bone_cortices_with_reverberation_artefacts.webp",
+          "coverage_pct": 42.3
+        },
+        {
+          "name": "04_Erector_spinae",
+          "file": "overlay_04_Erector_spinae.webp",
+          "coverage_pct": 14.6
+        },
+        {
+          "name": "05_Subcutaneous_fat",
+          "file": "overlay_05_Subcutaneous_fat.webp",
+          "coverage_pct": 1.4
+        }
+      ]
+    }
+  ]
+}

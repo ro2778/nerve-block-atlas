@@ -1,0 +1,95 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Ulnar_nerve_mid_forearm/Ulnar_nerve_mid_forearm_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    513,
+    110,
+    1790,
+    1080
+  ],
+  "crop_size": [
+    1277,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 78.1
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 1.0
+    },
+    {
+      "name": "04_Ulnar_nerve",
+      "file": "overlay_04_Ulnar_nerve.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "05_Ulnar_artery",
+      "file": "overlay_05_Ulnar_artery.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "06_Median_nerve",
+      "file": "overlay_06_Median_nerve.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "07_Deep_flexor_digitorum",
+      "file": "overlay_07_Deep_flexor_digitorum.webp",
+      "coverage_pct": 29.6
+    },
+    {
+      "name": "08_Superficial_flexor_digitorum",
+      "file": "overlay_08_Superficial_flexor_digitorum.webp",
+      "coverage_pct": 14.7
+    },
+    {
+      "name": "09_Flexor_carpi_radialis",
+      "file": "overlay_09_Flexor_carpi_radialis.webp",
+      "coverage_pct": 12.4
+    },
+    {
+      "name": "10_Palmaris_longus",
+      "file": "overlay_10_Palmaris_longus.webp",
+      "coverage_pct": 5.9
+    },
+    {
+      "name": "11_Flexor_carpi_ulnaris",
+      "file": "overlay_11_Flexor_carpi_ulnaris.webp",
+      "coverage_pct": 3.2
+    },
+    {
+      "name": "12_Flexor_policis_longus",
+      "file": "overlay_12_Flexor_policis_longus.webp",
+      "coverage_pct": 2.7
+    },
+    {
+      "name": "13_Ulnar_cortex",
+      "file": "overlay_13_Ulnar_cortex.webp",
+      "coverage_pct": 2.6
+    },
+    {
+      "name": "14_Acoustic_shadow_from_bone",
+      "file": "overlay_14_Acoustic_shadow_from_bone.webp",
+      "coverage_pct": 3.1
+    },
+    {
+      "name": "15_Subcutaneous_fat",
+      "file": "overlay_15_Subcutaneous_fat.webp",
+      "coverage_pct": 2.0
+    }
+  ]
+}

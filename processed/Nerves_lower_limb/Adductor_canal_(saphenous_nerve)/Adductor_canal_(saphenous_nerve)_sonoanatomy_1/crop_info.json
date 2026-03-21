@@ -1,0 +1,85 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Adductor_canal_(saphenous_nerve)/Adductor_canal_(saphenous_nerve)_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    513,
+    110,
+    1789,
+    1080
+  ],
+  "crop_size": [
+    1276,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 82.9
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 44.1
+    },
+    {
+      "name": "03_Needle_path",
+      "file": "overlay_03_Needle_path.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "04_LA",
+      "file": "overlay_04_LA.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "05_Femoral_artery",
+      "file": "overlay_05_Femoral_artery.webp",
+      "coverage_pct": 2.2
+    },
+    {
+      "name": "06_Femoral_vein",
+      "file": "overlay_06_Femoral_vein.webp",
+      "coverage_pct": 2.3
+    },
+    {
+      "name": "07_Saphenous_nerve_location",
+      "file": "overlay_07_Saphenous_nerve_location.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "08_Acoustic_enhancement_from_vessels",
+      "file": "overlay_08_Acoustic_enhancement_from_vessels.webp",
+      "coverage_pct": 1.2
+    },
+    {
+      "name": "09_Sartorius",
+      "file": "overlay_09_Sartorius.webp",
+      "coverage_pct": 18.7
+    },
+    {
+      "name": "10_Adductor_magnus",
+      "file": "overlay_10_Adductor_magnus.webp",
+      "coverage_pct": 29.9
+    },
+    {
+      "name": "11_Vastus_medialis",
+      "file": "overlay_11_Vastus_medialis.webp",
+      "coverage_pct": 19.9
+    },
+    {
+      "name": "12_Subcutaneous_fat",
+      "file": "overlay_12_Subcutaneous_fat.webp",
+      "coverage_pct": 7.8
+    },
+    {
+      "name": "13_Vasoadductor_membrane",
+      "file": "overlay_13_Vasoadductor_membrane.webp",
+      "coverage_pct": 0.7
+    }
+  ]
+}

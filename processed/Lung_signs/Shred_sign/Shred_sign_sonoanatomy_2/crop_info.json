@@ -1,0 +1,45 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lung_signs/Shred_sign/Shred_sign_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    523,
+    129,
+    1780,
+    1080
+  ],
+  "crop_size": [
+    1257,
+    951
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 68.6
+    },
+    {
+      "name": "02_Shred_sign",
+      "file": "overlay_02_Shred_sign.webp",
+      "coverage_pct": 2.7
+    },
+    {
+      "name": "03_Pleura_and_lung",
+      "file": "overlay_03_Pleura_and_lung.webp",
+      "coverage_pct": 61.2
+    },
+    {
+      "name": "04_Ribs",
+      "file": "overlay_04_Ribs.webp",
+      "coverage_pct": 1.7
+    },
+    {
+      "name": "05_Chest_wall_muscles",
+      "file": "overlay_05_Chest_wall_muscles.webp",
+      "coverage_pct": 5.1
+    }
+  ]
+}

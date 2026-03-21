@@ -1,0 +1,60 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Interscalene_brachial_plexus/Interscalene_brachial_plexus_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    611,
+    129,
+    1707,
+    1080
+  ],
+  "crop_size": [
+    1096,
+    951
+  ],
+  "layers": [
+    {
+      "name": "01_Supraclavicular_nerves",
+      "file": "overlay_01_Supraclavicular_nerves.webp",
+      "coverage_pct": 0.9
+    },
+    {
+      "name": "02_Interscalene_brachial_plexus",
+      "file": "overlay_02_Interscalene_brachial_plexus.webp",
+      "coverage_pct": 11.5
+    },
+    {
+      "name": "03_Superior_trunk",
+      "file": "overlay_03_Superior_trunk.webp",
+      "coverage_pct": 10.7
+    },
+    {
+      "name": "04_Supraclavicular_brachial_plexus",
+      "file": "overlay_04_Supraclavicular_brachial_plexus.webp",
+      "coverage_pct": 9.6
+    },
+    {
+      "name": "05_Infraclavicular_brachial_plexus_(costoclavicular)",
+      "file": "overlay_05_Infraclavicular_brachial_plexus_(costoclavicular).webp",
+      "coverage_pct": 9.7
+    },
+    {
+      "name": "06_Suprascapular_nerve",
+      "file": "overlay_06_Suprascapular_nerve.webp",
+      "coverage_pct": 2.9
+    },
+    {
+      "name": "07_Axillary_nerve",
+      "file": "overlay_07_Axillary_nerve.webp",
+      "coverage_pct": 1.5
+    },
+    {
+      "name": "08_Infraclavicular_brachial_plexus_(coracoid)",
+      "file": "overlay_08_Infraclavicular_brachial_plexus_(coracoid).webp",
+      "coverage_pct": 8.0
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Gastric_antrum/Gastric_antrum_with_clear_fluid/Gastric_antrum_with_clear_fluid_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    474,
+    110,
+    1829,
+    1080
+  ],
+  "crop_size": [
+    1355,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 34.1
+    },
+    {
+      "name": "02_Liver",
+      "file": "overlay_02_Liver.webp",
+      "coverage_pct": 12.5
+    },
+    {
+      "name": "03_Gastric_antrum_with_clear_fluid",
+      "file": "overlay_03_Gastric_antrum_with_clear_fluid.webp",
+      "coverage_pct": 6.1
+    },
+    {
+      "name": "04_Inferior_vena_carva",
+      "file": "overlay_04_Inferior_vena_carva.webp",
+      "coverage_pct": 7.2
+    },
+    {
+      "name": "05_Superior_mesenteric_vein",
+      "file": "overlay_05_Superior_mesenteric_vein.webp",
+      "coverage_pct": 4.4
+    },
+    {
+      "name": "06_Pancreas",
+      "file": "overlay_06_Pancreas.webp",
+      "coverage_pct": 4.8
+    }
+  ]
+}

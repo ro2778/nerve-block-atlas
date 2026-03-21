@@ -1,0 +1,45 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/iPACK_(lateral)/iPACK_(lateral)_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    389,
+    115,
+    1914,
+    1080
+  ],
+  "crop_size": [
+    1525,
+    965
+  ],
+  "layers": [
+    {
+      "name": "01_Femoral_nerve",
+      "file": "overlay_01_Femoral_nerve.webp",
+      "coverage_pct": 9.2
+    },
+    {
+      "name": "02_Intermediate_femoral_cutaneous_nerve",
+      "file": "overlay_02_Intermediate_femoral_cutaneous_nerve.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "03_Medial_femoral_cutaneous_nerve",
+      "file": "overlay_03_Medial_femoral_cutaneous_nerve.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "04_Geniculate_nerves",
+      "file": "overlay_04_Geniculate_nerves.webp",
+      "coverage_pct": 10.1
+    },
+    {
+      "name": "05_iPACK",
+      "file": "overlay_05_iPACK.webp",
+      "coverage_pct": 2.6
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Fascia_iliaca_(suprainguinal)/Fascia_iliaca_(suprainguinal)_sonoanatomy_3",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    531,
+    110,
+    1772,
+    1080
+  ],
+  "crop_size": [
+    1241,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 85.1
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 49.5
+    },
+    {
+      "name": "03_Needle_path",
+      "file": "overlay_03_Needle_path.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "04_LA",
+      "file": "overlay_04_LA.webp",
+      "coverage_pct": 3.5
+    },
+    {
+      "name": "05_Anterior_inferior_iliac_spine_cortex",
+      "file": "overlay_05_Anterior_inferior_iliac_spine_cortex.webp",
+      "coverage_pct": 3.9
+    },
+    {
+      "name": "06_Acoustic_shadow_from_bone_cortex",
+      "file": "overlay_06_Acoustic_shadow_from_bone_cortex.webp",
+      "coverage_pct": 17.4
+    },
+    {
+      "name": "07_Deep_circumflex_iliac_artery",
+      "file": "overlay_07_Deep_circumflex_iliac_artery.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "08_Fascia_iliaca",
+      "file": "overlay_08_Fascia_iliaca.webp",
+      "coverage_pct": 3.1
+    },
+    {
+      "name": "09_Iliacus",
+      "file": "overlay_09_Iliacus.webp",
+      "coverage_pct": 46.2
+    },
+    {
+      "name": "10_Internal_oblique",
+      "file": "overlay_10_Internal_oblique.webp",
+      "coverage_pct": 5.4
+    },
+    {
+      "name": "11_Rectus_femoris_insertion",
+      "file": "overlay_11_Rectus_femoris_insertion.webp",
+      "coverage_pct": 3.8
+    },
+    {
+      "name": "12_Subcutaneous_fat",
+      "file": "overlay_12_Subcutaneous_fat.webp",
+      "coverage_pct": 5.3
+    }
+  ]
+}

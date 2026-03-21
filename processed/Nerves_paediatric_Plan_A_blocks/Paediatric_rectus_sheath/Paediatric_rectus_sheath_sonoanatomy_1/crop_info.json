@@ -1,0 +1,70 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_rectus_sheath/Paediatric_rectus_sheath_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    325,
+    1977,
+    865
+  ],
+  "crop_size": [
+    1652,
+    540
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 70.0
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 1.6
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 2.7
+    },
+    {
+      "name": "04_Rectus_abdominus",
+      "file": "overlay_04_Rectus_abdominus.webp",
+      "coverage_pct": 10.1
+    },
+    {
+      "name": "05_Superior_epigastric_artery_branch",
+      "file": "overlay_05_Superior_epigastric_artery_branch.webp",
+      "coverage_pct": 0.1
+    },
+    {
+      "name": "06_External_oblique",
+      "file": "overlay_06_External_oblique.webp",
+      "coverage_pct": 1.7
+    },
+    {
+      "name": "07_Internal_oblique",
+      "file": "overlay_07_Internal_oblique.webp",
+      "coverage_pct": 2.3
+    },
+    {
+      "name": "08_Transversus_abdominus",
+      "file": "overlay_08_Transversus_abdominus.webp",
+      "coverage_pct": 1.9
+    },
+    {
+      "name": "09_Peritoneal_cavity_with_bowel",
+      "file": "overlay_09_Peritoneal_cavity_with_bowel.webp",
+      "coverage_pct": 38.1
+    },
+    {
+      "name": "10_Subcutaneous_fat",
+      "file": "overlay_10_Subcutaneous_fat.webp",
+      "coverage_pct": 14.1
+    }
+  ]
+}

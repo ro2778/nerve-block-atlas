@@ -1,0 +1,35 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Subcutaneous_fat/Subcutaneous_fat_sonoanatomy_5",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    161,
+    1977,
+    1029
+  ],
+  "crop_size": [
+    1652,
+    868
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 63.5
+    },
+    {
+      "name": "02_Subcutaneous_fat",
+      "file": "overlay_02_Subcutaneous_fat.webp",
+      "coverage_pct": 62.0
+    },
+    {
+      "name": "03_Vein",
+      "file": "overlay_03_Vein.webp",
+      "coverage_pct": 1.6
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Erector_spinae_plane/Erector_spinae_plane_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    361,
+    110,
+    1943,
+    1080
+  ],
+  "crop_size": [
+    1582,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 83.3
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 27.5
+    },
+    {
+      "name": "03_Needle_path",
+      "file": "overlay_03_Needle_path.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "04_LA",
+      "file": "overlay_04_LA.webp",
+      "coverage_pct": 6.0
+    },
+    {
+      "name": "05_Erector_spinae_plane",
+      "file": "overlay_05_Erector_spinae_plane.webp",
+      "coverage_pct": 2.7
+    },
+    {
+      "name": "06_Transverse_processes_cortex",
+      "file": "overlay_06_Transverse_processes_cortex.webp",
+      "coverage_pct": 2.1
+    },
+    {
+      "name": "07_Erector_spinae",
+      "file": "overlay_07_Erector_spinae.webp",
+      "coverage_pct": 17.4
+    },
+    {
+      "name": "08_Trapezius",
+      "file": "overlay_08_Trapezius.webp",
+      "coverage_pct": 6.7
+    },
+    {
+      "name": "09_Rib_necks_cortex",
+      "file": "overlay_09_Rib_necks_cortex.webp",
+      "coverage_pct": 1.3
+    },
+    {
+      "name": "10_Acoustic_shadows_from_bone_cortex",
+      "file": "overlay_10_Acoustic_shadows_from_bone_cortex.webp",
+      "coverage_pct": 27.7
+    },
+    {
+      "name": "11_Intertransverse_tissue_complex",
+      "file": "overlay_11_Intertransverse_tissue_complex.webp",
+      "coverage_pct": 8.3
+    },
+    {
+      "name": "12_Superior_costotransverse_ligament",
+      "file": "overlay_12_Superior_costotransverse_ligament.webp",
+      "coverage_pct": 1.6
+    },
+    {
+      "name": "13_Paravertebral_space",
+      "file": "overlay_13_Paravertebral_space.webp",
+      "coverage_pct": 5.2
+    },
+    {
+      "name": "14_Pleura-air_interface",
+      "file": "overlay_14_Pleura-air_interface.webp",
+      "coverage_pct": 1.3
+    },
+    {
+      "name": "15_Lung_artefact_from_pleura-air_interface",
+      "file": "overlay_15_Lung_artefact_from_pleura-air_interface.webp",
+      "coverage_pct": 5.8
+    },
+    {
+      "name": "16_Subcutaneous_fat",
+      "file": "overlay_16_Subcutaneous_fat.webp",
+      "coverage_pct": 5.8
+    }
+  ]
+}

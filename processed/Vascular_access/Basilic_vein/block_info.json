@@ -1,0 +1,135 @@
+{
+  "block": "Basilic vein",
+  "category": "Vascular_access",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Vascular_access/Basilic_vein/Basilic_vein_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        622,
+        110,
+        2114,
+        1080
+      ],
+      "crop_size": [
+        1492,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Vascular_access/Basilic_vein/Basilic_vein_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.7
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Vascular_access/Basilic_vein/Basilic_vein_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        364,
+        110,
+        1939,
+        1080
+      ],
+      "crop_size": [
+        1575,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 84.9
+        },
+        {
+          "name": "02_Needle_path_OOP",
+          "file": "overlay_02_Needle_path_OOP.webp",
+          "coverage_pct": 0.1
+        },
+        {
+          "name": "03_Basilic_vein",
+          "file": "overlay_03_Basilic_vein.webp",
+          "coverage_pct": 1.9
+        },
+        {
+          "name": "04_Brachial_artery_and_veins",
+          "file": "overlay_04_Brachial_artery_and_veins.webp",
+          "coverage_pct": 2.9
+        },
+        {
+          "name": "05_Superior_ulnar_collateral_vessels",
+          "file": "overlay_05_Superior_ulnar_collateral_vessels.webp",
+          "coverage_pct": 1.0
+        },
+        {
+          "name": "06_Medial_cutaneous_nerve_of_forearm",
+          "file": "overlay_06_Medial_cutaneous_nerve_of_forearm.webp",
+          "coverage_pct": 0.3
+        },
+        {
+          "name": "07_Median_nerve",
+          "file": "overlay_07_Median_nerve.webp",
+          "coverage_pct": 1.3
+        },
+        {
+          "name": "08_Ulnar_nerve",
+          "file": "overlay_08_Ulnar_nerve.webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "09_Brachialis",
+          "file": "overlay_09_Brachialis.webp",
+          "coverage_pct": 20.3
+        },
+        {
+          "name": "10_Biceps",
+          "file": "overlay_10_Biceps.webp",
+          "coverage_pct": 13.8
+        },
+        {
+          "name": "11_Triceps",
+          "file": "overlay_11_Triceps.webp",
+          "coverage_pct": 37.8
+        },
+        {
+          "name": "12_Humerus",
+          "file": "overlay_12_Humerus.webp",
+          "coverage_pct": 1.4
+        },
+        {
+          "name": "13_Subcutaneous_fat",
+          "file": "overlay_13_Subcutaneous_fat.webp",
+          "coverage_pct": 3.9
+        }
+      ]
+    }
+  ]
+}

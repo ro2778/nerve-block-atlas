@@ -1,0 +1,280 @@
+{
+  "block": "Saphenous nerve (ankle)",
+  "category": "Nerves_lower_limb",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Saphenous_nerve_(ankle)/Saphenous_nerve_(ankle)_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        940,
+        110,
+        1811,
+        1080
+      ],
+      "crop_size": [
+        871,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Saphenous_nerve_(ankle)/Saphenous_nerve_(ankle)_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        524,
+        114,
+        1779,
+        1080
+      ],
+      "crop_size": [
+        1255,
+        966
+      ],
+      "layers": [
+        {
+          "name": "01_Tibial_nerve",
+          "file": "overlay_01_Tibial_nerve.webp",
+          "coverage_pct": 11.0
+        },
+        {
+          "name": "02_Deep_peroneal_nerve",
+          "file": "overlay_02_Deep_peroneal_nerve.webp",
+          "coverage_pct": 3.7
+        },
+        {
+          "name": "03_Superficial_peroneal_nerve",
+          "file": "overlay_03_Superficial_peroneal_nerve.webp",
+          "coverage_pct": 2.4
+        },
+        {
+          "name": "04_Sural_nerve",
+          "file": "overlay_04_Sural_nerve.webp",
+          "coverage_pct": 3.6
+        },
+        {
+          "name": "05_Saphenous_nerve",
+          "file": "overlay_05_Saphenous_nerve.webp",
+          "coverage_pct": 2.7
+        },
+        {
+          "name": "06_Sciatic_nerve",
+          "file": "overlay_06_Sciatic_nerve.webp",
+          "coverage_pct": 21.0
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Saphenous_nerve_(ankle)/Saphenous_nerve_(ankle)_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.7
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Saphenous_nerve_(ankle)/Saphenous_nerve_(ankle)_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        264,
+        1977,
+        926
+      ],
+      "crop_size": [
+        1652,
+        662
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 82.5
+        },
+        {
+          "name": "02_Block_view",
+          "file": "overlay_02_Block_view.webp",
+          "coverage_pct": 1.1
+        },
+        {
+          "name": "03_Needle_path",
+          "file": "overlay_03_Needle_path.webp",
+          "coverage_pct": 0.9
+        },
+        {
+          "name": "04_LA",
+          "file": "overlay_04_LA.webp",
+          "coverage_pct": 1.9
+        },
+        {
+          "name": "05_Saphenous_nerve",
+          "file": "overlay_05_Saphenous_nerve.webp",
+          "coverage_pct": 0.7
+        },
+        {
+          "name": "06_Great_saphenous_vein",
+          "file": "overlay_06_Great_saphenous_vein.webp",
+          "coverage_pct": 1.1
+        },
+        {
+          "name": "07_Tibia_medial_malleolus_cortex",
+          "file": "overlay_07_Tibia_medial_malleolus_cortex.webp",
+          "coverage_pct": 3.1
+        },
+        {
+          "name": "08_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+          "file": "overlay_08_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+          "coverage_pct": 33.0
+        },
+        {
+          "name": "09_Posterior_tibial_artery_and_veins",
+          "file": "overlay_09_Posterior_tibial_artery_and_veins.webp",
+          "coverage_pct": 3.7
+        },
+        {
+          "name": "10_Tibial_nerve",
+          "file": "overlay_10_Tibial_nerve.webp",
+          "coverage_pct": 1.4
+        },
+        {
+          "name": "11_Flexor_digitorum_longus",
+          "file": "overlay_11_Flexor_digitorum_longus.webp",
+          "coverage_pct": 7.4
+        },
+        {
+          "name": "12_Tibialis_posterior",
+          "file": "overlay_12_Tibialis_posterior.webp",
+          "coverage_pct": 11.9
+        },
+        {
+          "name": "13_Flexor_hallucis_longus",
+          "file": "overlay_13_Flexor_hallucis_longus.webp",
+          "coverage_pct": 5.9
+        },
+        {
+          "name": "14_Subcutaneous_fat",
+          "file": "overlay_14_Subcutaneous_fat.webp",
+          "coverage_pct": 13.7
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Saphenous_nerve_(ankle)/Saphenous_nerve_(ankle)_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        211,
+        1977,
+        979
+      ],
+      "crop_size": [
+        1652,
+        768
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 84.7
+        },
+        {
+          "name": "02_Block_view",
+          "file": "overlay_02_Block_view.webp",
+          "coverage_pct": 1.0
+        },
+        {
+          "name": "03_Needle_path",
+          "file": "overlay_03_Needle_path.webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "04_LA",
+          "file": "overlay_04_LA.webp",
+          "coverage_pct": 2.3
+        },
+        {
+          "name": "05_Saphenous_nerve_branches",
+          "file": "overlay_05_Saphenous_nerve_branches.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "06_Great_saphenous_vein",
+          "file": "overlay_06_Great_saphenous_vein.webp",
+          "coverage_pct": 1.0
+        },
+        {
+          "name": "07_Tibia_medial_malleolus_cortex",
+          "file": "overlay_07_Tibia_medial_malleolus_cortex.webp",
+          "coverage_pct": 3.0
+        },
+        {
+          "name": "08_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+          "file": "overlay_08_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+          "coverage_pct": 37.4
+        },
+        {
+          "name": "09_Posterior_tibial_vessels",
+          "file": "overlay_09_Posterior_tibial_vessels.webp",
+          "coverage_pct": 2.7
+        },
+        {
+          "name": "10_Tibial_nerve",
+          "file": "overlay_10_Tibial_nerve.webp",
+          "coverage_pct": 1.0
+        },
+        {
+          "name": "11_Flexor_digitorum_longus_and_tendon",
+          "file": "overlay_11_Flexor_digitorum_longus_and_tendon.webp",
+          "coverage_pct": 5.6
+        },
+        {
+          "name": "12_Tibialis_posterior",
+          "file": "overlay_12_Tibialis_posterior.webp",
+          "coverage_pct": 12.4
+        },
+        {
+          "name": "13_Flexor_pollicis_longus",
+          "file": "overlay_13_Flexor_pollicis_longus.webp",
+          "coverage_pct": 4.3
+        },
+        {
+          "name": "14_Subcutaneous_fat_and_veins",
+          "file": "overlay_14_Subcutaneous_fat_and_veins.webp",
+          "coverage_pct": 16.3
+        }
+      ]
+    }
+  ]
+}

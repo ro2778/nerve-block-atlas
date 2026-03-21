@@ -1,0 +1,40 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Radial_nerve_distal_arm/Radial_nerve_distal_arm_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    641,
+    116,
+    1662,
+    1080
+  ],
+  "crop_size": [
+    1021,
+    964
+  ],
+  "layers": [
+    {
+      "name": "01_Median_nerve_mid_arm",
+      "file": "overlay_01_Median_nerve_mid_arm.webp",
+      "coverage_pct": 1.9
+    },
+    {
+      "name": "02_Ulnar_nerve_mid_arm",
+      "file": "overlay_02_Ulnar_nerve_mid_arm.webp",
+      "coverage_pct": 1.7
+    },
+    {
+      "name": "03_Radial_nerve_distal_arm",
+      "file": "overlay_03_Radial_nerve_distal_arm.webp",
+      "coverage_pct": 1.9
+    },
+    {
+      "name": "04_Axillary_brachial_plexus",
+      "file": "overlay_04_Axillary_brachial_plexus.webp",
+      "coverage_pct": 8.3
+    }
+  ]
+}

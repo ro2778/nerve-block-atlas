@@ -1,0 +1,50 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Femoral_triangle_apex/Femoral_triangle_apex_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    389,
+    115,
+    1914,
+    1080
+  ],
+  "crop_size": [
+    1525,
+    965
+  ],
+  "layers": [
+    {
+      "name": "01_iPACK",
+      "file": "overlay_01_iPACK.webp",
+      "coverage_pct": 2.5
+    },
+    {
+      "name": "02_Intermediate_femoral_cutaneous_nerve",
+      "file": "overlay_02_Intermediate_femoral_cutaneous_nerve.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "03_Medial_femoral_cutaneous_nerve",
+      "file": "overlay_03_Medial_femoral_cutaneous_nerve.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "04_Obturator_nerve",
+      "file": "overlay_04_Obturator_nerve.webp",
+      "coverage_pct": 2.3
+    },
+    {
+      "name": "05_Femoral_triangle_distal",
+      "file": "overlay_05_Femoral_triangle_distal.webp",
+      "coverage_pct": 3.8
+    },
+    {
+      "name": "06_Femoral_nerve",
+      "file": "overlay_06_Femoral_nerve.webp",
+      "coverage_pct": 9.1
+    }
+  ]
+}

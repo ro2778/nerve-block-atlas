@@ -1,0 +1,225 @@
+{
+  "block": "Obturator nerve branches",
+  "category": "Nerves: lower limb",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Obturator_nerve_branches/Obturator_nerve_branches_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        980,
+        110,
+        1756,
+        1080
+      ],
+      "crop_size": [
+        776,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Obturator_nerve_branches/Obturator_nerve_branches_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        389,
+        115,
+        1914,
+        1080
+      ],
+      "crop_size": [
+        1525,
+        965
+      ],
+      "layers": [
+        {
+          "name": "01_Femoral_nerve",
+          "file": "overlay_01_Femoral_nerve.webp",
+          "coverage_pct": 9.2
+        },
+        {
+          "name": "02_Femoral_triangle_distal",
+          "file": "overlay_02_Femoral_triangle_distal.webp",
+          "coverage_pct": 3.6
+        },
+        {
+          "name": "03_iPACK",
+          "file": "overlay_03_iPACK.webp",
+          "coverage_pct": 2.5
+        },
+        {
+          "name": "04_Obturator_nerve",
+          "file": "overlay_04_Obturator_nerve.webp",
+          "coverage_pct": 2.2
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Obturator_nerve_branches/Obturator_nerve_branches_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        458,
+        110,
+        1845,
+        1080
+      ],
+      "crop_size": [
+        1387,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 0.7
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Obturator_nerve_branches/Obturator_nerve_branches_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        584,
+        110,
+        1719,
+        1080
+      ],
+      "crop_size": [
+        1135,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 75.8
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 1.1
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 3.5
+        },
+        {
+          "name": "04_Obturator_nerve_anterior_branch",
+          "file": "overlay_04_Obturator_nerve_anterior_branch.webp",
+          "coverage_pct": 0.7
+        },
+        {
+          "name": "05_Obturator_nerve_posterior_branch",
+          "file": "overlay_05_Obturator_nerve_posterior_branch.webp",
+          "coverage_pct": 0.9
+        },
+        {
+          "name": "06_Adductor_longus",
+          "file": "overlay_06_Adductor_longus.webp",
+          "coverage_pct": 11.5
+        },
+        {
+          "name": "07_Adductor_brevis",
+          "file": "overlay_07_Adductor_brevis.webp",
+          "coverage_pct": 29.5
+        },
+        {
+          "name": "08_Adductor_magnus",
+          "file": "overlay_08_Adductor_magnus.webp",
+          "coverage_pct": 19.0
+        },
+        {
+          "name": "09_Pectineus",
+          "file": "overlay_09_Pectineus.webp",
+          "coverage_pct": 10.4
+        },
+        {
+          "name": "10_Subcutaneous_fat",
+          "file": "overlay_10_Subcutaneous_fat.webp",
+          "coverage_pct": 2.0
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Obturator_nerve_branches/Obturator_nerve_branches_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        734,
+        110,
+        1570,
+        1080
+      ],
+      "crop_size": [
+        836,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 89.7
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 4.0
+        },
+        {
+          "name": "04_Obturator_nerve_anterior_and_posterior_branches",
+          "file": "overlay_04_Obturator_nerve_anterior_and_posterior_branches.webp",
+          "coverage_pct": 1.8
+        },
+        {
+          "name": "05_Adductor_longus",
+          "file": "overlay_05_Adductor_longus.webp",
+          "coverage_pct": 15.7
+        },
+        {
+          "name": "06_Adductor_brevis",
+          "file": "overlay_06_Adductor_brevis.webp",
+          "coverage_pct": 20.7
+        },
+        {
+          "name": "07_Adductor_magnus",
+          "file": "overlay_07_Adductor_magnus.webp",
+          "coverage_pct": 34.0
+        },
+        {
+          "name": "08_Pectineus",
+          "file": "overlay_08_Pectineus.webp",
+          "coverage_pct": 5.6
+        },
+        {
+          "name": "09_Subcutaneous_fat",
+          "file": "overlay_09_Subcutaneous_fat.webp",
+          "coverage_pct": 10.3
+        }
+      ]
+    }
+  ]
+}

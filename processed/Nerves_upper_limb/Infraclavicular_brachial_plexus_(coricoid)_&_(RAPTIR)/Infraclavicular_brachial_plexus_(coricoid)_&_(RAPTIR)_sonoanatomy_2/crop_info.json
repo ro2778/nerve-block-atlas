@@ -1,0 +1,95 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Infraclavicular_brachial_plexus_(coricoid)_&_(RAPTIR)/Infraclavicular_brachial_plexus_(coricoid)_&_(RAPTIR)_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    616,
+    110,
+    1687,
+    1079
+  ],
+  "crop_size": [
+    1071,
+    969
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 60.5
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 42.4
+    },
+    {
+      "name": "03_Needle_path_(coricoid)",
+      "file": "overlay_03_Needle_path_(coricoid).webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "04_Needle_path_(RAPTIR)",
+      "file": "overlay_04_Needle_path_(RAPTIR).webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "05_LA",
+      "file": "overlay_05_LA.webp",
+      "coverage_pct": 3.0
+    },
+    {
+      "name": "06_Axillary_artery",
+      "file": "overlay_06_Axillary_artery.webp",
+      "coverage_pct": 0.9
+    },
+    {
+      "name": "07_Axillary_vein",
+      "file": "overlay_07_Axillary_vein.webp",
+      "coverage_pct": 3.1
+    },
+    {
+      "name": "08_Lateral_cord",
+      "file": "overlay_08_Lateral_cord.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "09_Medial_cord",
+      "file": "overlay_09_Medial_cord.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "10_Posterior_cord",
+      "file": "overlay_10_Posterior_cord.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "11_Pectoralis_major",
+      "file": "overlay_11_Pectoralis_major.webp",
+      "coverage_pct": 27.4
+    },
+    {
+      "name": "12_Pectoralis_minor",
+      "file": "overlay_12_Pectoralis_minor.webp",
+      "coverage_pct": 12.3
+    },
+    {
+      "name": "13_Thoracoacromial_artery",
+      "file": "overlay_13_Thoracoacromial_artery.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "14_Lateral_pectoral_nerve",
+      "file": "overlay_14_Lateral_pectoral_nerve.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "15_Subscapularis",
+      "file": "overlay_15_Subscapularis.webp",
+      "coverage_pct": 12.9
+    }
+  ]
+}

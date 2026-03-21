@@ -1,0 +1,100 @@
+{
+  "block": "Parasternal right ventricle inflow",
+  "category": "Transthoracic_echo",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Parasternal_right_ventricle_inflow/Parasternal_right_ventricle_inflow_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        513,
+        110,
+        2236,
+        1080
+      ],
+      "crop_size": [
+        1723,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Parasternal_right_ventricle_inflow/Parasternal_right_ventricle_inflow_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        419,
+        110,
+        1884,
+        1080
+      ],
+      "crop_size": [
+        1465,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 1.2
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Parasternal_right_ventricle_inflow/Parasternal_right_ventricle_inflow_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        517,
+        162,
+        1752,
+        1080
+      ],
+      "crop_size": [
+        1235,
+        918
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 42.3
+        },
+        {
+          "name": "02_Right_ventricle",
+          "file": "overlay_02_Right_ventricle.webp",
+          "coverage_pct": 6.7
+        },
+        {
+          "name": "03_Right_atrium_and_coronary_sinus",
+          "file": "overlay_03_Right_atrium_and_coronary_sinus.webp",
+          "coverage_pct": 10.5
+        },
+        {
+          "name": "04_Tricuspid_valve",
+          "file": "overlay_04_Tricuspid_valve.webp",
+          "coverage_pct": 1.5
+        },
+        {
+          "name": "05_Left_ventricle",
+          "file": "overlay_05_Left_ventricle.webp",
+          "coverage_pct": 9.8
+        },
+        {
+          "name": "06_Chamber_walls",
+          "file": "overlay_06_Chamber_walls.webp",
+          "coverage_pct": 18.3
+        }
+      ]
+    }
+  ]
+}

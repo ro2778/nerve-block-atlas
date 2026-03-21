@@ -1,0 +1,30 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_penile_nerves/Paediatric_penile_nerves_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    238,
+    1977,
+    952
+  ],
+  "crop_size": [
+    1652,
+    714
+  ],
+  "layers": [
+    {
+      "name": "01_perineal_nerve",
+      "file": "overlay_01_perineal_nerve.webp",
+      "coverage_pct": 3.7
+    },
+    {
+      "name": "02_Dorsal_penile_nerves",
+      "file": "overlay_02_Dorsal_penile_nerves.webp",
+      "coverage_pct": 10.8
+    }
+  ]
+}

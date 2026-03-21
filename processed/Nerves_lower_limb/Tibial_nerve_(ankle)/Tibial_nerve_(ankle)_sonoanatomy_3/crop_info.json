@@ -1,0 +1,95 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Tibial_nerve_(ankle)/Tibial_nerve_(ankle)_sonoanatomy_3",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    220,
+    1977,
+    962
+  ],
+  "crop_size": [
+    1652,
+    742
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 79.1
+    },
+    {
+      "name": "02_Block_view",
+      "file": "overlay_02_Block_view.webp",
+      "coverage_pct": 3.5
+    },
+    {
+      "name": "03_Needle_path",
+      "file": "overlay_03_Needle_path.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "04_LA",
+      "file": "overlay_04_LA.webp",
+      "coverage_pct": 2.8
+    },
+    {
+      "name": "05_Tibial_nerve",
+      "file": "overlay_05_Tibial_nerve.webp",
+      "coverage_pct": 1.5
+    },
+    {
+      "name": "06_Posterior_tibial_artery_and_vein",
+      "file": "overlay_06_Posterior_tibial_artery_and_vein.webp",
+      "coverage_pct": 2.1
+    },
+    {
+      "name": "07_Tibia_medial_malleolus_cortex",
+      "file": "overlay_07_Tibia_medial_malleolus_cortex.webp",
+      "coverage_pct": 2.2
+    },
+    {
+      "name": "08_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+      "file": "overlay_08_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+      "coverage_pct": 14.2
+    },
+    {
+      "name": "09_Great_saphenous_vein",
+      "file": "overlay_09_Great_saphenous_vein.webp",
+      "coverage_pct": 1.6
+    },
+    {
+      "name": "10_Tibialis_posterior_tendon",
+      "file": "overlay_10_Tibialis_posterior_tendon.webp",
+      "coverage_pct": 2.3
+    },
+    {
+      "name": "11_Flexor_digitorum_longus",
+      "file": "overlay_11_Flexor_digitorum_longus.webp",
+      "coverage_pct": 23.9
+    },
+    {
+      "name": "12_Flexor_hallucis_longus",
+      "file": "overlay_12_Flexor_hallucis_longus.webp",
+      "coverage_pct": 12.6
+    },
+    {
+      "name": "13_Soleus",
+      "file": "overlay_13_Soleus.webp",
+      "coverage_pct": 7.6
+    },
+    {
+      "name": "14_Subcutaneous_fat",
+      "file": "overlay_14_Subcutaneous_fat.webp",
+      "coverage_pct": 9.6
+    },
+    {
+      "name": "15_Saphenous_nerve_branch",
+      "file": "overlay_15_Saphenous_nerve_branch.webp",
+      "coverage_pct": 0.5
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lung_signs/Quad_sign/Quad_sign_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    697,
+    110,
+    1606,
+    1080
+  ],
+  "crop_size": [
+    909,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 84.9
+    },
+    {
+      "name": "02_Quad_(quadralateral)_sign",
+      "file": "overlay_02_Quad_(quadralateral)_sign.webp",
+      "coverage_pct": 4.1
+    },
+    {
+      "name": "03_Pleural_effusion",
+      "file": "overlay_03_Pleural_effusion.webp",
+      "coverage_pct": 8.0
+    },
+    {
+      "name": "04_Pleura_and_lung",
+      "file": "overlay_04_Pleura_and_lung.webp",
+      "coverage_pct": 51.4
+    },
+    {
+      "name": "05_Ribs",
+      "file": "overlay_05_Ribs.webp",
+      "coverage_pct": 5.3
+    },
+    {
+      "name": "06_Intercostal_muscles",
+      "file": "overlay_06_Intercostal_muscles.webp",
+      "coverage_pct": 5.0
+    },
+    {
+      "name": "07_Intercostal_neurovascular_bundle",
+      "file": "overlay_07_Intercostal_neurovascular_bundle.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "08_Pectoralis_major",
+      "file": "overlay_08_Pectoralis_major.webp",
+      "coverage_pct": 8.9
+    },
+    {
+      "name": "09_Pectoralis_minor",
+      "file": "overlay_09_Pectoralis_minor.webp",
+      "coverage_pct": 6.5
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_penile_nerves/Paediatric_penile_nerves_sonoanatomy_4",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    124,
+    1977,
+    1066
+  ],
+  "crop_size": [
+    1652,
+    942
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 70.3
+    },
+    {
+      "name": "02_Needle_path_OOP",
+      "file": "overlay_02_Needle_path_OOP.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 4.7
+    },
+    {
+      "name": "04_Corpus_cavernosum_with_central_artery",
+      "file": "overlay_04_Corpus_cavernosum_with_central_artery.webp",
+      "coverage_pct": 13.4
+    },
+    {
+      "name": "05_Tunica_albuginea",
+      "file": "overlay_05_Tunica_albuginea.webp",
+      "coverage_pct": 2.3
+    },
+    {
+      "name": "06_Corpus_spongiosum",
+      "file": "overlay_06_Corpus_spongiosum.webp",
+      "coverage_pct": 6.1
+    },
+    {
+      "name": "07_Superficial_fascia",
+      "file": "overlay_07_Superficial_fascia.webp",
+      "coverage_pct": 4.0
+    },
+    {
+      "name": "08_Deep_fascia_of_penis",
+      "file": "overlay_08_Deep_fascia_of_penis.webp",
+      "coverage_pct": 1.8
+    },
+    {
+      "name": "09_Fundiform_ligament,_cephalad_medial_portion",
+      "file": "overlay_09_Fundiform_ligament,_cephalad_medial_portion.webp",
+      "coverage_pct": 4.7
+    },
+    {
+      "name": "10_Linea_alba_and_rectus_abdominus",
+      "file": "overlay_10_Linea_alba_and_rectus_abdominus.webp",
+      "coverage_pct": 3.7
+    },
+    {
+      "name": "11_Pubis_cortex",
+      "file": "overlay_11_Pubis_cortex.webp",
+      "coverage_pct": 0.9
+    },
+    {
+      "name": "12_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+      "file": "overlay_12_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+      "coverage_pct": 11.3
+    },
+    {
+      "name": "13_Scrotal_structures",
+      "file": "overlay_13_Scrotal_structures.webp",
+      "coverage_pct": 11.5
+    },
+    {
+      "name": "14_Subcutaneous_fat",
+      "file": "overlay_14_Subcutaneous_fat.webp",
+      "coverage_pct": 8.5
+    }
+  ]
+}

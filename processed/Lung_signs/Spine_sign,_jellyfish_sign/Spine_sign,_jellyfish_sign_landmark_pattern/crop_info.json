@@ -1,0 +1,25 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lung_signs/Spine_sign,_jellyfish_sign/Spine_sign,_jellyfish_sign_landmark_pattern",
+  "view_type": "diagram",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    505,
+    110,
+    1798,
+    1080
+  ],
+  "crop_size": [
+    1293,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_Labels",
+      "file": "overlay_01_Show_Labels.webp",
+      "coverage_pct": 2.2
+    }
+  ]
+}

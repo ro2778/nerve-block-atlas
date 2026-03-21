@@ -1,0 +1,50 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Subcostal_TAP_(upper)/Subcostal_TAP_(upper)_innervation",
+  "view_type": "innervation",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    608,
+    117,
+    1695,
+    1080
+  ],
+  "crop_size": [
+    1087,
+    963
+  ],
+  "layers": [
+    {
+      "name": "01_Contralateral_subcostal_TAP_(upper)",
+      "file": "overlay_01_Contralateral_subcostal_TAP_(upper).webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "02_Subcostal_TAP_(lower)",
+      "file": "overlay_02_Subcostal_TAP_(lower).webp",
+      "coverage_pct": 2.8
+    },
+    {
+      "name": "03_Subcostal_TAP_(upper)",
+      "file": "overlay_03_Subcostal_TAP_(upper).webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "04_Rectus_sheath",
+      "file": "overlay_04_Rectus_sheath.webp",
+      "coverage_pct": 0.9
+    },
+    {
+      "name": "05_Paravertebral_T8",
+      "file": "overlay_05_Paravertebral_T8.webp",
+      "coverage_pct": 12.7
+    },
+    {
+      "name": "06_Epidural_T8",
+      "file": "overlay_06_Epidural_T8.webp",
+      "coverage_pct": 13.6
+    }
+  ]
+}

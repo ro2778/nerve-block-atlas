@@ -1,0 +1,75 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Transverse_interlaminar_high_lumbar/Transverse_interlaminar_high_lumbar_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    505,
+    110,
+    1798,
+    1074
+  ],
+  "crop_size": [
+    1293,
+    964
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 69.1
+    },
+    {
+      "name": "02_Vertebra_body_cortex_(anterior_complex)",
+      "file": "overlay_02_Vertebra_body_cortex_(anterior_complex).webp",
+      "coverage_pct": 1.1
+    },
+    {
+      "name": "03_Facets_(_superior_articular_processes)",
+      "file": "overlay_03_Facets_(_superior_articular_processes).webp",
+      "coverage_pct": 1.6
+    },
+    {
+      "name": "04_Transverse_processes",
+      "file": "overlay_04_Transverse_processes.webp",
+      "coverage_pct": 0.9
+    },
+    {
+      "name": "05_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+      "file": "overlay_05_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+      "coverage_pct": 41.4
+    },
+    {
+      "name": "06_posterior_dura",
+      "file": "overlay_06_posterior_dura.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "07_Intrathecal_space_and_cauda_equina",
+      "file": "overlay_07_Intrathecal_space_and_cauda_equina.webp",
+      "coverage_pct": 2.9
+    },
+    {
+      "name": "08_Interspinous_ligament",
+      "file": "overlay_08_Interspinous_ligament.webp",
+      "coverage_pct": 1.3
+    },
+    {
+      "name": "09_Thoracolumbar_fascia",
+      "file": "overlay_09_Thoracolumbar_fascia.webp",
+      "coverage_pct": 1.4
+    },
+    {
+      "name": "10_erector_spinae",
+      "file": "overlay_10_erector_spinae.webp",
+      "coverage_pct": 16.0
+    },
+    {
+      "name": "11_Subcutaneous_fat",
+      "file": "overlay_11_Subcutaneous_fat.webp",
+      "coverage_pct": 3.1
+    }
+  ]
+}

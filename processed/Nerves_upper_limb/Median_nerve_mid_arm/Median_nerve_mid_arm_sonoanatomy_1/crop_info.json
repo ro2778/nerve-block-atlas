@@ -1,0 +1,90 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Median_nerve_mid_arm/Median_nerve_mid_arm_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    219,
+    1977,
+    971
+  ],
+  "crop_size": [
+    1652,
+    752
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 87.0
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 2.5
+    },
+    {
+      "name": "04_Median_nerve",
+      "file": "overlay_04_Median_nerve.webp",
+      "coverage_pct": 2.4
+    },
+    {
+      "name": "05_Brachial_artery",
+      "file": "overlay_05_Brachial_artery.webp",
+      "coverage_pct": 1.8
+    },
+    {
+      "name": "06_Ulnar_nerve",
+      "file": "overlay_06_Ulnar_nerve.webp",
+      "coverage_pct": 0.9
+    },
+    {
+      "name": "07_Superior_ulnar_collateral_artery",
+      "file": "overlay_07_Superior_ulnar_collateral_artery.webp",
+      "coverage_pct": 0.3
+    },
+    {
+      "name": "08_Basilic_vein_compressed",
+      "file": "overlay_08_Basilic_vein_compressed.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "09_Medial_cutaneous_nerve_of_forearm",
+      "file": "overlay_09_Medial_cutaneous_nerve_of_forearm.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "10_Biceps",
+      "file": "overlay_10_Biceps.webp",
+      "coverage_pct": 38.6
+    },
+    {
+      "name": "11_Triceps",
+      "file": "overlay_11_Triceps.webp",
+      "coverage_pct": 31.3
+    },
+    {
+      "name": "12_Humerus_cortex",
+      "file": "overlay_12_Humerus_cortex.webp",
+      "coverage_pct": 2.9
+    },
+    {
+      "name": "13_Acoustic_shadow_from_bone",
+      "file": "overlay_13_Acoustic_shadow_from_bone.webp",
+      "coverage_pct": 3.3
+    },
+    {
+      "name": "14_Subcutaneous_fat",
+      "file": "overlay_14_Subcutaneous_fat.webp",
+      "coverage_pct": 4.4
+    }
+  ]
+}

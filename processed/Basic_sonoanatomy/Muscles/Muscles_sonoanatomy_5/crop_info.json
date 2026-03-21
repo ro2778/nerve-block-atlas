@@ -1,0 +1,30 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Muscles/Muscles_sonoanatomy_5",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    153,
+    1977,
+    1038
+  ],
+  "crop_size": [
+    1652,
+    885
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 78.4
+    },
+    {
+      "name": "02_Muscle_long_axis,_long_parallel_lines",
+      "file": "overlay_02_Muscle_long_axis,_long_parallel_lines.webp",
+      "coverage_pct": 78.4
+    }
+  ]
+}

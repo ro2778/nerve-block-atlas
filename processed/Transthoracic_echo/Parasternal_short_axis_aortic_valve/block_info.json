@@ -1,0 +1,125 @@
+{
+  "block": "Parasternal short axis aortic valve",
+  "category": "Transthoracic_echo",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Parasternal_short_axis_aortic_valve/Parasternal_short_axis_aortic_valve_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        513,
+        110,
+        2224,
+        1080
+      ],
+      "crop_size": [
+        1711,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Parasternal_short_axis_aortic_valve/Parasternal_short_axis_aortic_valve_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        419,
+        110,
+        1884,
+        1080
+      ],
+      "crop_size": [
+        1465,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 2.2
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Parasternal_short_axis_aortic_valve/Parasternal_short_axis_aortic_valve_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        611,
+        131,
+        1610,
+        1080
+      ],
+      "crop_size": [
+        999,
+        949
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 43.6
+        },
+        {
+          "name": "02_Aortic_valve_left_coronary_cusp",
+          "file": "overlay_02_Aortic_valve_left_coronary_cusp.webp",
+          "coverage_pct": 2.0
+        },
+        {
+          "name": "03_Aortic_valve_non_coronary_cusp",
+          "file": "overlay_03_Aortic_valve_non_coronary_cusp.webp",
+          "coverage_pct": 2.1
+        },
+        {
+          "name": "04_Aortic_valve_right_coronary_cusp",
+          "file": "overlay_04_Aortic_valve_right_coronary_cusp.webp",
+          "coverage_pct": 1.8
+        },
+        {
+          "name": "05_Left_atrium",
+          "file": "overlay_05_Left_atrium.webp",
+          "coverage_pct": 4.3
+        },
+        {
+          "name": "06_Right_atrium",
+          "file": "overlay_06_Right_atrium.webp",
+          "coverage_pct": 7.4
+        },
+        {
+          "name": "07_Tricuspid_valve",
+          "file": "overlay_07_Tricuspid_valve.webp",
+          "coverage_pct": 0.7
+        },
+        {
+          "name": "08_Right_ventricle",
+          "file": "overlay_08_Right_ventricle.webp",
+          "coverage_pct": 10.7
+        },
+        {
+          "name": "09_Pulmonary_valve",
+          "file": "overlay_09_Pulmonary_valve.webp",
+          "coverage_pct": 0.7
+        },
+        {
+          "name": "10_Pulmonary_artery",
+          "file": "overlay_10_Pulmonary_artery.webp",
+          "coverage_pct": 4.4
+        },
+        {
+          "name": "11_Chamber_walls",
+          "file": "overlay_11_Chamber_walls.webp",
+          "coverage_pct": 15.3
+        }
+      ]
+    }
+  ]
+}

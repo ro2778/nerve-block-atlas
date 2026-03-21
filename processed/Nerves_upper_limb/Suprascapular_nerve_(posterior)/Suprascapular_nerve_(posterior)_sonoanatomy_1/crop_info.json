@@ -1,0 +1,75 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Suprascapular_nerve_(posterior)/Suprascapular_nerve_(posterior)_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    471,
+    110,
+    1832,
+    1080
+  ],
+  "crop_size": [
+    1361,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 85.9
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.9
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 1.4
+    },
+    {
+      "name": "04_Fascia_deep_to_supraspinatus",
+      "file": "overlay_04_Fascia_deep_to_supraspinatus.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "05_Suprascapular_nerve",
+      "file": "overlay_05_Suprascapular_nerve.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "06_Suprascapular_artery",
+      "file": "overlay_06_Suprascapular_artery.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "07_Scapula,_suprascapular_fossa_cortex",
+      "file": "overlay_07_Scapula,_suprascapular_fossa_cortex.webp",
+      "coverage_pct": 7.2
+    },
+    {
+      "name": "08_Acoustic_shadow_from_bone",
+      "file": "overlay_08_Acoustic_shadow_from_bone.webp",
+      "coverage_pct": 25.4
+    },
+    {
+      "name": "09_Supraspinatus",
+      "file": "overlay_09_Supraspinatus.webp",
+      "coverage_pct": 37.6
+    },
+    {
+      "name": "10_Trapezius",
+      "file": "overlay_10_Trapezius.webp",
+      "coverage_pct": 7.9
+    },
+    {
+      "name": "11_Subcutaneous_fat",
+      "file": "overlay_11_Subcutaneous_fat.webp",
+      "coverage_pct": 7.1
+    }
+  ]
+}

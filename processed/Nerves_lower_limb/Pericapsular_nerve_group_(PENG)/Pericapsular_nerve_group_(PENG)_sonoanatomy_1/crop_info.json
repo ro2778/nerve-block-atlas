@@ -1,0 +1,85 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Pericapsular_nerve_group_(PENG)/Pericapsular_nerve_group_(PENG)_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    578,
+    110,
+    1725,
+    1080
+  ],
+  "crop_size": [
+    1147,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 89.2
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 4.2
+    },
+    {
+      "name": "04_Ilium_(AIIS_to_IPE)_cortex",
+      "file": "overlay_04_Ilium_(AIIS_to_IPE)_cortex.webp",
+      "coverage_pct": 6.5
+    },
+    {
+      "name": "05_Acoustic_shadow_from_bone_cortex",
+      "file": "overlay_05_Acoustic_shadow_from_bone_cortex.webp",
+      "coverage_pct": 26.4
+    },
+    {
+      "name": "06_Psoas_muscle_and_tendon",
+      "file": "overlay_06_Psoas_muscle_and_tendon.webp",
+      "coverage_pct": 9.7
+    },
+    {
+      "name": "07_Reverberation_artefact",
+      "file": "overlay_07_Reverberation_artefact.webp",
+      "coverage_pct": 2.9
+    },
+    {
+      "name": "08_Iliacus",
+      "file": "overlay_08_Iliacus.webp",
+      "coverage_pct": 26.7
+    },
+    {
+      "name": "09_Femoral_artery_and_vein",
+      "file": "overlay_09_Femoral_artery_and_vein.webp",
+      "coverage_pct": 5.1
+    },
+    {
+      "name": "10_Fascia_iliaca",
+      "file": "overlay_10_Fascia_iliaca.webp",
+      "coverage_pct": 5.5
+    },
+    {
+      "name": "11_Femoral_nerve",
+      "file": "overlay_11_Femoral_nerve.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "12_Subcutaneous_fat",
+      "file": "overlay_12_Subcutaneous_fat.webp",
+      "coverage_pct": 7.5
+    },
+    {
+      "name": "13_Superficial_circumflex_iliac_artery",
+      "file": "overlay_13_Superficial_circumflex_iliac_artery.webp",
+      "coverage_pct": 0.6
+    }
+  ]
+}

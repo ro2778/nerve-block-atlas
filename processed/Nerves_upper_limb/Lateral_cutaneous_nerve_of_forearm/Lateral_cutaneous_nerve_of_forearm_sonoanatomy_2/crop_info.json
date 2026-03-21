@@ -1,0 +1,75 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_upper_limb/Lateral_cutaneous_nerve_of_forearm/Lateral_cutaneous_nerve_of_forearm_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    149,
+    1977,
+    1021
+  ],
+  "crop_size": [
+    1652,
+    872
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 82.1
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 1.3
+    },
+    {
+      "name": "04_Lateral_cutaneous_nerve_of_forearm",
+      "file": "overlay_04_Lateral_cutaneous_nerve_of_forearm.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "05_Biceps_tendon",
+      "file": "overlay_05_Biceps_tendon.webp",
+      "coverage_pct": 10.5
+    },
+    {
+      "name": "06_Cephalic_vein",
+      "file": "overlay_06_Cephalic_vein.webp",
+      "coverage_pct": 1.0
+    },
+    {
+      "name": "07_Brachial_artery_and_vein",
+      "file": "overlay_07_Brachial_artery_and_vein.webp",
+      "coverage_pct": 2.6
+    },
+    {
+      "name": "08_Brachialis",
+      "file": "overlay_08_Brachialis.webp",
+      "coverage_pct": 41.4
+    },
+    {
+      "name": "09_Brachioradialis",
+      "file": "overlay_09_Brachioradialis.webp",
+      "coverage_pct": 15.4
+    },
+    {
+      "name": "10_Subcutaneous_fat",
+      "file": "overlay_10_Subcutaneous_fat.webp",
+      "coverage_pct": 3.9
+    },
+    {
+      "name": "11_Extensor_carpi_radialis",
+      "file": "overlay_11_Extensor_carpi_radialis.webp",
+      "coverage_pct": 6.1
+    }
+  ]
+}

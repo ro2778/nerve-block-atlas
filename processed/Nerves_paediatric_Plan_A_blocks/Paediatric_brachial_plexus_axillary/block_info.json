@@ -1,0 +1,195 @@
+{
+  "block": "Paediatric brachial plexus axillary",
+  "category": "Nerves_paediatric_Plan_A_blocks",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_brachial_plexus_axillary/Paediatric_brachial_plexus_axillary_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        770,
+        110,
+        1979,
+        1080
+      ],
+      "crop_size": [
+        1209,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_brachial_plexus_axillary/Paediatric_brachial_plexus_axillary_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        641,
+        116,
+        1662,
+        1080
+      ],
+      "crop_size": [
+        1021,
+        964
+      ],
+      "layers": [
+        {
+          "name": "01_Intercostobrachial_nerve",
+          "file": "overlay_01_Intercostobrachial_nerve.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "02_Brachial_plexus_axillary",
+          "file": "overlay_02_Brachial_plexus_axillary.webp",
+          "coverage_pct": 8.1
+        },
+        {
+          "name": "03_Brachial_plexus_infraclavicular",
+          "file": "overlay_03_Brachial_plexus_infraclavicular.webp",
+          "coverage_pct": 9.4
+        },
+        {
+          "name": "04_Brachial_plexus_costoclavicular",
+          "file": "overlay_04_Brachial_plexus_costoclavicular.webp",
+          "coverage_pct": 10.2
+        },
+        {
+          "name": "05_Brachial_plexus_supraclavicular",
+          "file": "overlay_05_Brachial_plexus_supraclavicular.webp",
+          "coverage_pct": 10.4
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_brachial_plexus_axillary/Paediatric_brachial_plexus_axillary_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        405,
+        110,
+        1898,
+        1080
+      ],
+      "crop_size": [
+        1493,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 1.1
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_paediatric_Plan_A_blocks/Paediatric_brachial_plexus_axillary/Paediatric_brachial_plexus_axillary_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        325,
+        273,
+        1977,
+        918
+      ],
+      "crop_size": [
+        1652,
+        645
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 75.8
+        },
+        {
+          "name": "02_Needle_path",
+          "file": "overlay_02_Needle_path.webp",
+          "coverage_pct": 3.9
+        },
+        {
+          "name": "03_LA",
+          "file": "overlay_03_LA.webp",
+          "coverage_pct": 6.7
+        },
+        {
+          "name": "04_Axillary_artery",
+          "file": "overlay_04_Axillary_artery.webp",
+          "coverage_pct": 1.3
+        },
+        {
+          "name": "05_Median_nerve",
+          "file": "overlay_05_Median_nerve.webp",
+          "coverage_pct": 1.1
+        },
+        {
+          "name": "06_Ulnar_nerve",
+          "file": "overlay_06_Ulnar_nerve.webp",
+          "coverage_pct": 1.0
+        },
+        {
+          "name": "07_Radial_nerve",
+          "file": "overlay_07_Radial_nerve.webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "08_Musculocutaneous_nerve",
+          "file": "overlay_08_Musculocutaneous_nerve.webp",
+          "coverage_pct": 0.5
+        },
+        {
+          "name": "09_Axillary_veins_compressed",
+          "file": "overlay_09_Axillary_veins_compressed.webp",
+          "coverage_pct": 1.5
+        },
+        {
+          "name": "10_Coracobrachialis",
+          "file": "overlay_10_Coracobrachialis.webp",
+          "coverage_pct": 14.1
+        },
+        {
+          "name": "11_Biceps_brachii",
+          "file": "overlay_11_Biceps_brachii.webp",
+          "coverage_pct": 5.6
+        },
+        {
+          "name": "12_Latissimus_dorsi_and_teres_major",
+          "file": "overlay_12_Latissimus_dorsi_and_teres_major.webp",
+          "coverage_pct": 18.1
+        },
+        {
+          "name": "13_Triceps_brachii",
+          "file": "overlay_13_Triceps_brachii.webp",
+          "coverage_pct": 13.7
+        },
+        {
+          "name": "14_Humerus_cortex",
+          "file": "overlay_14_Humerus_cortex.webp",
+          "coverage_pct": 2.3
+        },
+        {
+          "name": "15_Acoustic_shadow_from_bone_cortex",
+          "file": "overlay_15_Acoustic_shadow_from_bone_cortex.webp",
+          "coverage_pct": 5.6
+        },
+        {
+          "name": "16_Subcutaneous_fat",
+          "file": "overlay_16_Subcutaneous_fat.webp",
+          "coverage_pct": 7.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Superior_lateral_geniculate_nerves/Superior_lateral_geniculate_nerves_sonoanatomy_3",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    177,
+    1977,
+    1012
+  ],
+  "crop_size": [
+    1652,
+    835
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 84.0
+    },
+    {
+      "name": "02_Needle_path_OOP",
+      "file": "overlay_02_Needle_path_OOP.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 3.1
+    },
+    {
+      "name": "04_Femur_metaphysis_cortex",
+      "file": "overlay_04_Femur_metaphysis_cortex.webp",
+      "coverage_pct": 4.7
+    },
+    {
+      "name": "05_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+      "file": "overlay_05_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+      "coverage_pct": 47.8
+    },
+    {
+      "name": "06_Superior_lateral_geniculate_vessels",
+      "file": "overlay_06_Superior_lateral_geniculate_vessels.webp",
+      "coverage_pct": 0.1
+    },
+    {
+      "name": "07_Vastus_lateralis",
+      "file": "overlay_07_Vastus_lateralis.webp",
+      "coverage_pct": 10.9
+    },
+    {
+      "name": "08_Iliotibial_band",
+      "file": "overlay_08_Iliotibial_band.webp",
+      "coverage_pct": 4.7
+    },
+    {
+      "name": "09_Subcutaneous_fat",
+      "file": "overlay_09_Subcutaneous_fat.webp",
+      "coverage_pct": 14.2
+    }
+  ]
+}

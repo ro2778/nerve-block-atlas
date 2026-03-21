@@ -1,0 +1,75 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Deep_parasternal_intercostal_plane/Deep_parasternal_intercostal_plane_sonoanatomy_2",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    325,
+    210,
+    1977,
+    978
+  ],
+  "crop_size": [
+    1652,
+    768
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 85.4
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 6.4
+    },
+    {
+      "name": "04_Internal_thoracic_vessels",
+      "file": "overlay_04_Internal_thoracic_vessels.webp",
+      "coverage_pct": 1.0
+    },
+    {
+      "name": "05_Pleura-air_interface_and_lung_artefact",
+      "file": "overlay_05_Pleura-air_interface_and_lung_artefact.webp",
+      "coverage_pct": 31.1
+    },
+    {
+      "name": "06_Transversus_thoracis",
+      "file": "overlay_06_Transversus_thoracis.webp",
+      "coverage_pct": 2.7
+    },
+    {
+      "name": "07_Intercostals",
+      "file": "overlay_07_Intercostals.webp",
+      "coverage_pct": 12.5
+    },
+    {
+      "name": "08_Pectoralis_major",
+      "file": "overlay_08_Pectoralis_major.webp",
+      "coverage_pct": 18.5
+    },
+    {
+      "name": "09_Subcutaneous_fat",
+      "file": "overlay_09_Subcutaneous_fat.webp",
+      "coverage_pct": 10.1
+    },
+    {
+      "name": "10_Sternum_cortex",
+      "file": "overlay_10_Sternum_cortex.webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "11_Acoustic_shadow_from_bone_cortex",
+      "file": "overlay_11_Acoustic_shadow_from_bone_cortex.webp",
+      "coverage_pct": 5.9
+    }
+  ]
+}

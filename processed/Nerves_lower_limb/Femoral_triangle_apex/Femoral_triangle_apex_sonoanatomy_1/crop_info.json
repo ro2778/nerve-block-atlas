@@ -1,0 +1,90 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_lower_limb/Femoral_triangle_apex/Femoral_triangle_apex_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    574,
+    110,
+    1730,
+    1080
+  ],
+  "crop_size": [
+    1156,
+    970
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 78.8
+    },
+    {
+      "name": "02_Needle_path",
+      "file": "overlay_02_Needle_path.webp",
+      "coverage_pct": 0.4
+    },
+    {
+      "name": "03_LA",
+      "file": "overlay_03_LA.webp",
+      "coverage_pct": 2.4
+    },
+    {
+      "name": "04_Saphenous_nerve",
+      "file": "overlay_04_Saphenous_nerve.webp",
+      "coverage_pct": 0.7
+    },
+    {
+      "name": "05_Nerve_to_vastus_medialis",
+      "file": "overlay_05_Nerve_to_vastus_medialis.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "06_Femoral_artery_and_vein",
+      "file": "overlay_06_Femoral_artery_and_vein.webp",
+      "coverage_pct": 1.6
+    },
+    {
+      "name": "07_Acoustic_enhancement_from_vessels",
+      "file": "overlay_07_Acoustic_enhancement_from_vessels.webp",
+      "coverage_pct": 0.6
+    },
+    {
+      "name": "08_Sartorius",
+      "file": "overlay_08_Sartorius.webp",
+      "coverage_pct": 9.5
+    },
+    {
+      "name": "09_Adductor_longus",
+      "file": "overlay_09_Adductor_longus.webp",
+      "coverage_pct": 12.4
+    },
+    {
+      "name": "10_Adductor_magnus",
+      "file": "overlay_10_Adductor_magnus.webp",
+      "coverage_pct": 17.4
+    },
+    {
+      "name": "11_Vastus_medialis",
+      "file": "overlay_11_Vastus_medialis.webp",
+      "coverage_pct": 24.7
+    },
+    {
+      "name": "12_Femur_cortex",
+      "file": "overlay_12_Femur_cortex.webp",
+      "coverage_pct": 2.6
+    },
+    {
+      "name": "13_Acoustic_shadow_from_bone_cortex",
+      "file": "overlay_13_Acoustic_shadow_from_bone_cortex.webp",
+      "coverage_pct": 3.1
+    },
+    {
+      "name": "14_Subcutaneous_fat",
+      "file": "overlay_14_Subcutaneous_fat.webp",
+      "coverage_pct": 5.1
+    }
+  ]
+}

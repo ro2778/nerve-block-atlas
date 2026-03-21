@@ -1,0 +1,120 @@
+{
+  "block": "Apical 5 chamber",
+  "category": "Transthoracic_echo",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Apical_5_chamber/Apical_5_chamber_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        513,
+        110,
+        2236,
+        1080
+      ],
+      "crop_size": [
+        1723,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Apical_5_chamber/Apical_5_chamber_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        419,
+        110,
+        1884,
+        1080
+      ],
+      "crop_size": [
+        1465,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 1.4
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Apical_5_chamber/Apical_5_chamber_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        471,
+        110,
+        1833,
+        1080
+      ],
+      "crop_size": [
+        1362,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 23.0
+        },
+        {
+          "name": "02_Left_ventricle",
+          "file": "overlay_02_Left_ventricle.webp",
+          "coverage_pct": 5.4
+        },
+        {
+          "name": "03_Right_ventricle",
+          "file": "overlay_03_Right_ventricle.webp",
+          "coverage_pct": 3.6
+        },
+        {
+          "name": "04_Left_atrium",
+          "file": "overlay_04_Left_atrium.webp",
+          "coverage_pct": 1.3
+        },
+        {
+          "name": "05_Ascending_aorta",
+          "file": "overlay_05_Ascending_aorta.webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "06_Right_atrium",
+          "file": "overlay_06_Right_atrium.webp",
+          "coverage_pct": 2.1
+        },
+        {
+          "name": "07_Mitral_valve",
+          "file": "overlay_07_Mitral_valve.webp",
+          "coverage_pct": 0.3
+        },
+        {
+          "name": "08_Aortic_valve",
+          "file": "overlay_08_Aortic_valve.webp",
+          "coverage_pct": 0.2
+        },
+        {
+          "name": "09_Tricuspid_valve",
+          "file": "overlay_09_Tricuspid_valve.webp",
+          "coverage_pct": 0.3
+        },
+        {
+          "name": "10_Chamber_walls",
+          "file": "overlay_10_Chamber_walls.webp",
+          "coverage_pct": 12.1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Transverse_interlaminar_low_lumbar/Transverse_interlaminar_low_lumbar_sonoanatomy_1",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    448,
+    116,
+    1855,
+    1080
+  ],
+  "crop_size": [
+    1407,
+    964
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 54.4
+    },
+    {
+      "name": "02_Vertebral_body_cortex_(anterior_complex)",
+      "file": "overlay_02_Vertebral_body_cortex_(anterior_complex).webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "03_Facets_cortex_(_superior_articular_processes)",
+      "file": "overlay_03_Facets_cortex_(_superior_articular_processes).webp",
+      "coverage_pct": 1.2
+    },
+    {
+      "name": "04_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts",
+      "file": "overlay_04_Acoustic_shadow_from_bone_cortex_with_reverberation_artefacts.webp",
+      "coverage_pct": 24.2
+    },
+    {
+      "name": "05_Interspinous_ligament",
+      "file": "overlay_05_Interspinous_ligament.webp",
+      "coverage_pct": 0.8
+    },
+    {
+      "name": "06_Supraspinous_ligament",
+      "file": "overlay_06_Supraspinous_ligament.webp",
+      "coverage_pct": 0.2
+    },
+    {
+      "name": "07_Ligamentum_flavum_(posterior_complex)",
+      "file": "overlay_07_Ligamentum_flavum_(posterior_complex).webp",
+      "coverage_pct": 0.5
+    },
+    {
+      "name": "08_Intrathecal_space",
+      "file": "overlay_08_Intrathecal_space.webp",
+      "coverage_pct": 1.6
+    },
+    {
+      "name": "09_Erector_spinae",
+      "file": "overlay_09_Erector_spinae.webp",
+      "coverage_pct": 8.5
+    },
+    {
+      "name": "10_Psoas",
+      "file": "overlay_10_Psoas.webp",
+      "coverage_pct": 13.1
+    },
+    {
+      "name": "11_Subcutaneous_fat",
+      "file": "overlay_11_Subcutaneous_fat.webp",
+      "coverage_pct": 2.1
+    },
+    {
+      "name": "12_Thoracolumber_fascia",
+      "file": "overlay_12_Thoracolumber_fascia.webp",
+      "coverage_pct": 1.6
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "block": "Parasternal long axis",
+  "category": "Transthoracic_echo",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Parasternal_long_axis/Parasternal_long_axis_ergonomics",
+      "view_type": "ergonomics",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        513,
+        110,
+        2236,
+        1080
+      ],
+      "crop_size": [
+        1723,
+        970
+      ],
+      "layers": []
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Parasternal_long_axis/Parasternal_long_axis_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        419,
+        110,
+        1884,
+        1080
+      ],
+      "crop_size": [
+        1465,
+        970
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 2.2
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Transthoracic_echo/Parasternal_long_axis/Parasternal_long_axis_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        584,
+        140,
+        1717,
+        1080
+      ],
+      "crop_size": [
+        1133,
+        940
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 34.1
+        },
+        {
+          "name": "02_Left_ventricle",
+          "file": "overlay_02_Left_ventricle.webp",
+          "coverage_pct": 13.7
+        },
+        {
+          "name": "03_Left_atrium",
+          "file": "overlay_03_Left_atrium.webp",
+          "coverage_pct": 4.9
+        },
+        {
+          "name": "04_Mitral_valve",
+          "file": "overlay_04_Mitral_valve.webp",
+          "coverage_pct": 2.3
+        },
+        {
+          "name": "05_Aortic_valve",
+          "file": "overlay_05_Aortic_valve.webp",
+          "coverage_pct": 1.2
+        },
+        {
+          "name": "06_Ascending_aorta",
+          "file": "overlay_06_Ascending_aorta.webp",
+          "coverage_pct": 4.2
+        },
+        {
+          "name": "07_Right_ventricle",
+          "file": "overlay_07_Right_ventricle.webp",
+          "coverage_pct": 5.9
+        },
+        {
+          "name": "08_LV_anteroseptal_wall",
+          "file": "overlay_08_LV_anteroseptal_wall.webp",
+          "coverage_pct": 2.8
+        },
+        {
+          "name": "09_LV_inferolateral_wall",
+          "file": "overlay_09_LV_inferolateral_wall.webp",
+          "coverage_pct": 5.2
+        },
+        {
+          "name": "10_Descending_aorta",
+          "file": "overlay_10_Descending_aorta.webp",
+          "coverage_pct": 3.0
+        }
+      ]
+    }
+  ]
+}

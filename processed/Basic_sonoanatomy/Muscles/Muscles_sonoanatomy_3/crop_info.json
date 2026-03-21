@@ -1,0 +1,30 @@
+{
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Basic_sonoanatomy/Muscles/Muscles_sonoanatomy_3",
+  "view_type": "sonoanatomy",
+  "original_size": [
+    2424,
+    1080
+  ],
+  "crop_bbox": [
+    404,
+    110,
+    1899,
+    1078
+  ],
+  "crop_size": [
+    1495,
+    968
+  ],
+  "layers": [
+    {
+      "name": "01_Show_All",
+      "file": "overlay_01_Show_All.webp",
+      "coverage_pct": 58.1
+    },
+    {
+      "name": "02_Muscle_oblique,_short_parallel_wavy_lines",
+      "file": "overlay_02_Muscle_oblique,_short_parallel_wavy_lines.webp",
+      "coverage_pct": 58.1
+    }
+  ]
+}

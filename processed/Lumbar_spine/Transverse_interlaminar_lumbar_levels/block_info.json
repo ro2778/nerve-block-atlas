@@ -1,0 +1,66 @@
+{
+  "block": "Transverse interlaminar lumbar levels",
+  "category": "Lumbar_spine",
+  "views": [
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Transverse_interlaminar_lumbar_levels/Transverse_interlaminar_lumbar_levels_landmark_pattern",
+      "view_type": "diagram",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        369,
+        398,
+        1933,
+        818
+      ],
+      "crop_size": [
+        1564,
+        420
+      ],
+      "layers": [
+        {
+          "name": "01_Show_Labels",
+          "file": "overlay_01_Show_Labels.webp",
+          "coverage_pct": 2.0
+        }
+      ]
+    },
+    {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Lumbar_spine/Transverse_interlaminar_lumbar_levels/Transverse_interlaminar_lumbar_levels_sonoanatomy_1",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        370,
+        353,
+        1938,
+        764
+      ],
+      "crop_size": [
+        1568,
+        411
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 8.6
+        },
+        {
+          "name": "02_Anterior_complex_width",
+          "file": "overlay_02_Anterior_complex_width.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "03_Facets_joint_angles_and_pedicle_heights",
+          "file": "overlay_03_Facets_joint_angles_and_pedicle_heights.webp",
+          "coverage_pct": 8.1
+        }
+      ]
+    }
+  ]
+}
