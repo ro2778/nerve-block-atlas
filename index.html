@@ -1352,28 +1352,34 @@ img {
     var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
     var isAndroid = /Android/.test(navigator.userAgent);
     var isStandalone = window.navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches;
-    if (!isStandalone) {
-      if (isIOS) {
-        var iosHint = document.getElementById('iosHint');
-        if (iosHint) iosHint.style.display = '';
-      } else if (isAndroid) {
-        var androidHint = document.getElementById('androidHint');
-        if (androidHint) androidHint.style.display = '';
-      }
-    }
-
-    /* Install button */
+    /* Show install button on mobile (not already installed) */
     var btnInstall = document.getElementById('btnInstall');
-    if (btnInstall) {
-      btnInstall.addEventListener('click', function () {
-        if (deferredInstallPrompt) {
-          deferredInstallPrompt.prompt();
-          deferredInstallPrompt.userChoice.then(function () {
-            deferredInstallPrompt = null;
+    if (!isStandalone && btnInstall) {
+      if (isIOS) {
+        btnInstall.textContent = 'Install Atlas';
+        btnInstall.style.display = '';
+        btnInstall.addEventListener('click', function () {
+          btnInstall.style.display = 'none';
+          var iosHint = document.getElementById('iosHint');
+          if (iosHint) iosHint.style.display = '';
+        });
+      } else if (isAndroid) {
+        btnInstall.textContent = 'Install Atlas';
+        btnInstall.style.display = '';
+        btnInstall.addEventListener('click', function () {
+          if (deferredInstallPrompt) {
+            deferredInstallPrompt.prompt();
+            deferredInstallPrompt.userChoice.then(function () {
+              deferredInstallPrompt = null;
+              btnInstall.style.display = 'none';
+            });
+          } else {
             btnInstall.style.display = 'none';
-          });
-        }
-      });
+            var androidHint = document.getElementById('androidHint');
+            if (androidHint) androidHint.style.display = '';
+          }
+        });
+      }
     }
 
     /* Enter button — opens app with nav drawer visible */
