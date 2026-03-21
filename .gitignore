@@ -7,7 +7,6 @@ apk_extract/
 scripts/
 
 # Temporary/build files
-*.png
 crop_*.png
 test_*.png
 recapture_log.txt
@@ -23,4 +22,3 @@ __pycache__/
 
 # Old files
 handover_iphone_screenshot_project.md
-pwa-manifest.json
