@@ -1357,7 +1357,7 @@ img {
     if (!isStandalone && btnInstall) {
       if (isIOS) {
         btnInstall.textContent = 'Install Atlas';
-        btnInstall.style.display = '';
+        btnInstall.style.display = 'block';
         btnInstall.addEventListener('click', function () {
           btnInstall.style.display = 'none';
           var iosHint = document.getElementById('iosHint');
@@ -1365,7 +1365,7 @@ img {
         });
       } else if (isAndroid) {
         btnInstall.textContent = 'Install Atlas';
-        btnInstall.style.display = '';
+        btnInstall.style.display = 'block';
         btnInstall.addEventListener('click', function () {
           if (deferredInstallPrompt) {
             deferredInstallPrompt.prompt();
