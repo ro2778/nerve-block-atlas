@@ -1342,25 +1342,25 @@ img {
     if (btn) btn.style.display = '';
   });
 
-  /* iOS detection — show hint since beforeinstallprompt doesn't fire */
-  var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-  var isAndroid = /Android/.test(navigator.userAgent);
-  var isStandalone = window.navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches;
-  if (!isStandalone) {
-    if (isIOS) {
-      var iosHint = document.getElementById('iosHint');
-      if (iosHint) iosHint.style.display = '';
-    } else if (isAndroid) {
-      var androidHint = document.getElementById('androidHint');
-      if (androidHint) androidHint.style.display = '';
-    }
-  }
-
   function init() {
     cacheDom();
     loadFavourites();
     bindEvents();
     fetchManifest();
+
+    /* Platform install hints — must run after DOM is ready */
+    var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    var isAndroid = /Android/.test(navigator.userAgent);
+    var isStandalone = window.navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches;
+    if (!isStandalone) {
+      if (isIOS) {
+        var iosHint = document.getElementById('iosHint');
+        if (iosHint) iosHint.style.display = '';
+      } else if (isAndroid) {
+        var androidHint = document.getElementById('androidHint');
+        if (androidHint) androidHint.style.display = '';
+      }
+    }
 
     /* Install button */
     var btnInstall = document.getElementById('btnInstall');
