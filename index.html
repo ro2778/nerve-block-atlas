@@ -1338,8 +1338,6 @@ img {
   window.addEventListener('beforeinstallprompt', function (e) {
     e.preventDefault();
     deferredInstallPrompt = e;
-    var btn = document.getElementById('btnInstall');
-    if (btn) btn.style.display = '';
   });
 
   function init() {
