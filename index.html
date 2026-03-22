@@ -1464,29 +1464,53 @@ img {
         if (remote.version !== APP_VERSION) {
           /* New version available */
           if (versionEl) versionEl.textContent = 'v' + APP_VERSION + ' — update available (v' + remote.version + ')';
+
+          function doUpdate() {
+            if ('caches' in window) {
+              caches.keys().then(function (names) {
+                return Promise.all(names.map(function (n) { return caches.delete(n); }));
+              }).then(function () {
+                if (navigator.serviceWorker) {
+                  navigator.serviceWorker.getRegistration().then(function (reg) {
+                    if (reg) reg.unregister().then(function () { window.location.reload(true); });
+                    else window.location.reload(true);
+                  });
+                } else {
+                  window.location.reload(true);
+                }
+              });
+            } else {
+              window.location.reload(true);
+            }
+          }
+
+          /* Splash screen update button */
           if (updateBtn) {
             updateBtn.style.display = '';
             updateBtn.addEventListener('click', function () {
               updateBtn.textContent = 'Updating...';
-              /* Clear service worker caches and reload */
-              if ('caches' in window) {
-                caches.keys().then(function (names) {
-                  return Promise.all(names.map(function (n) { return caches.delete(n); }));
-                }).then(function () {
-                  if (navigator.serviceWorker) {
-                    navigator.serviceWorker.getRegistration().then(function (reg) {
-                      if (reg) reg.unregister().then(function () { window.location.reload(true); });
-                      else window.location.reload(true);
-                    });
-                  } else {
-                    window.location.reload(true);
-                  }
-                });
-              } else {
-                window.location.reload(true);
-              }
+              doUpdate();
             });
           }
+
+          /* In-app update banner (shown when splash is skipped for installed PWAs) */
+          var banner = document.createElement('div');
+          banner.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:300;background:#1a5276;color:#fff;padding:10px 16px;display:flex;align-items:center;justify-content:space-between;font-size:13px;';
+          banner.innerHTML = '<span>Update available (v' + remote.version + ')</span>';
+          var updateLink = document.createElement('button');
+          updateLink.textContent = 'Update Now';
+          updateLink.style.cssText = 'background:#7ab5e8;color:#000;border:none;padding:6px 14px;border-radius:6px;font-weight:600;font-size:13px;cursor:pointer;';
+          updateLink.addEventListener('click', function () {
+            updateLink.textContent = 'Updating...';
+            doUpdate();
+          });
+          var dismissBtn = document.createElement('button');
+          dismissBtn.textContent = '✕';
+          dismissBtn.style.cssText = 'background:none;border:none;color:#fff;font-size:18px;padding:4px 8px;cursor:pointer;';
+          dismissBtn.addEventListener('click', function () { banner.remove(); });
+          banner.appendChild(updateLink);
+          banner.appendChild(dismissBtn);
+          document.body.appendChild(banner);
         }
       })
       .catch(function () { /* offline or error — skip update check */ });
