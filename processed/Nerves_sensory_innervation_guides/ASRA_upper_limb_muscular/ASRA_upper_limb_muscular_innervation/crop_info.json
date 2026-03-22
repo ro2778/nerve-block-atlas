@@ -1,5 +1,5 @@
 {
-  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_sensory_innervation_guides/ASRA_upper_limb_muscular/ASRA_upper_limb_muscular_innervation",
+  "source": "AnSo_Content/Nerves_sensory_innervation_guides/ASRA_upper_limb_muscular/ASRA_upper_limb_muscular_innervation",
   "view_type": "innervation",
   "original_size": [
     2424,
@@ -8,11 +8,11 @@
   "crop_bbox": [
     580,
     110,
-    1977,
+    2017,
     1080
   ],
   "crop_size": [
-    1397,
+    1437,
     970
   ],
   "layers": []

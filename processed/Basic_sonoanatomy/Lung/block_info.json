@@ -71,6 +71,56 @@
           "coverage_pct": 16.3
         }
       ]
+    },
+    {
+      "source": "AnSo_Content/Basic_sonoanatomy/Lung/Lung_sonoanatomy_2",
+      "view_type": "sonoanatomy",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        411,
+        113,
+        1892,
+        1080
+      ],
+      "crop_size": [
+        1481,
+        967
+      ],
+      "layers": [
+        {
+          "name": "01_Show_All",
+          "file": "overlay_01_Show_All.webp",
+          "coverage_pct": 46.8
+        },
+        {
+          "name": "02_Ribs_cortex",
+          "file": "overlay_02_Ribs_cortex.webp",
+          "coverage_pct": 0.6
+        },
+        {
+          "name": "03_Ribs_acoustic_shadow",
+          "file": "overlay_03_Ribs_acoustic_shadow.webp",
+          "coverage_pct": 22.1
+        },
+        {
+          "name": "04_Pleura-air_interface",
+          "file": "overlay_04_Pleura-air_interface.webp",
+          "coverage_pct": 0.8
+        },
+        {
+          "name": "05_Acoustic_shadow_and_reverberation_artefacts_from_pleura-air_interface",
+          "file": "overlay_05_Acoustic_shadow_and_reverberation_artefacts_from_pleura-air_interface.webp",
+          "coverage_pct": 24.3
+        },
+        {
+          "name": "06_A_lines",
+          "file": "overlay_06_A_lines.webp",
+          "coverage_pct": 1.1
+        }
+      ]
     }
   ]
 }

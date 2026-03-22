@@ -55,7 +55,11 @@
   --sar: env(safe-area-inset-right, 0px);
 }
 
+html {
+  background: #000000;
+}
 html, body {
+  height: 100dvh;
   height: 100%;
   width: 100%;
   overflow: hidden;
@@ -1066,8 +1070,10 @@ img {
   <div class="splash-subtitle">Ultrasound-Guided Nerve Blocks</div>
   <button class="splash-enter-btn" id="btnEnter" style="display:none">Open Atlas</button>
   <button class="splash-install-btn" id="btnInstall">Install Atlas</button>
+  <button class="splash-enter-btn" id="btnUpdate" style="display:none">Update Available — Tap to Update</button>
   <div class="splash-ios-hint" id="iosHint" style="display:none">To install: tap <svg viewBox="0 0 24 24" style="width:18px;height:18px;vertical-align:middle;fill:var(--accent)"><path d="M16 5l-1.42 1.42-1.59-1.59V16h-1.98V4.83L9.42 6.42 8 5l4-4 4 4zm4 5v11c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V10c0-1.1.9-2 2-2h3v2H6v11h12V10h-3V8h3c1.1 0 2 .9 2 2z"/></svg> then "Add to Home Screen"</div>
   <div class="splash-ios-hint" id="androidHint" style="display:none">To install: tap <svg viewBox="0 0 24 24" style="width:18px;height:18px;vertical-align:middle;fill:var(--accent)"><circle cx="12" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="19" r="2"/></svg> then "Add to Home screen"</div>
+  <div class="splash-version" id="splashVersion" style="display:none; color:#666; font-size:12px; margin-top:8px;"></div>
   <div class="spinner" id="splashSpinner"></div>
   <div class="loading-text" id="splashLoadingText">Loading...</div>
 </div>
@@ -1151,7 +1157,7 @@ img {
       <svg viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
     </button>
     <input class="search-input" id="searchInput" type="search"
-           placeholder="Search blocks, indications..."
+           placeholder="Search blocks, surgery, indications..."
            autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
   </div>
   <div class="search-results" id="searchResults"></div>
@@ -1409,12 +1415,59 @@ img {
         if (spinner) spinner.style.display = 'none';
         if (loadText) loadText.style.display = 'none';
         if (btnEnter) btnEnter.style.display = '';
+        /* Check for updates */
+        checkForUpdate();
       })
       .catch(function (err) {
         dom.loadingScreen.style.display = 'none';
         dom.errorScreen.style.display = '';
         dom.errorText.textContent = 'Could not load atlas data.\n' + (err.message || '');
       });
+  }
+
+  var APP_VERSION = '1.0.0';
+
+  function checkForUpdate() {
+    var versionEl = document.getElementById('splashVersion');
+    var updateBtn = document.getElementById('btnUpdate');
+    if (versionEl) versionEl.style.display = '';
+    if (versionEl) versionEl.textContent = 'v' + APP_VERSION;
+
+    /* Fetch version.json from network (bypass cache) */
+    fetch('version.json?_t=' + Date.now(), { cache: 'no-store' })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (remote) {
+        if (!remote || !remote.version) return;
+        if (versionEl) versionEl.textContent = 'v' + APP_VERSION;
+        if (remote.version !== APP_VERSION) {
+          /* New version available */
+          if (versionEl) versionEl.textContent = 'v' + APP_VERSION + ' — update available (v' + remote.version + ')';
+          if (updateBtn) {
+            updateBtn.style.display = '';
+            updateBtn.addEventListener('click', function () {
+              updateBtn.textContent = 'Updating...';
+              /* Clear service worker caches and reload */
+              if ('caches' in window) {
+                caches.keys().then(function (names) {
+                  return Promise.all(names.map(function (n) { return caches.delete(n); }));
+                }).then(function () {
+                  if (navigator.serviceWorker) {
+                    navigator.serviceWorker.getRegistration().then(function (reg) {
+                      if (reg) reg.unregister().then(function () { window.location.reload(true); });
+                      else window.location.reload(true);
+                    });
+                  } else {
+                    window.location.reload(true);
+                  }
+                });
+              } else {
+                window.location.reload(true);
+              }
+            });
+          }
+        }
+      })
+      .catch(function () { /* offline or error — skip update check */ });
   }
 
   function processManifest(data) {
@@ -1584,8 +1637,31 @@ img {
       currentPanel = 'image';
       currentViewIdx = viewIdx;
       layerState = {};
+      findInnervationSelfIdx(viewIdx);
       loadCurrentView();
     };
+  }
+
+  /* For innervation views, find the "self" layer index (matching block name).
+     The self layer is baked into the base image, so its overlay should NOT be applied.
+     We just mark it visually as always-on in the layer controls. */
+  var innervationSelfIdx = -1;
+
+  function findInnervationSelfIdx(viewIdx) {
+    innervationSelfIdx = -1;
+    var block = BLOCKS[currentBlockIdx];
+    if (!block) return;
+    var view = (block.views || [])[viewIdx];
+    if (!view || view.type !== 'innervation') return;
+    var layers = view.layers || [];
+    var blockName = block.name.toLowerCase().trim();
+    for (var i = 0; i < layers.length; i++) {
+      var layerName = layers[i].name.toLowerCase().trim();
+      if (blockName.indexOf(layerName) >= 0 || layerName.indexOf(blockName) >= 0) {
+        innervationSelfIdx = i;
+        return;
+      }
+    }
   }
 
   /* ──────────────────────────────────────────────────────────
@@ -1708,39 +1784,52 @@ img {
       return;
     }
 
-    /* Show All / first layer — special toggle button */
-    var headerDiv = document.createElement('div');
-    headerDiv.className = 'layer-header';
-
-    var showAllBtn = document.createElement('button');
-    showAllBtn.className = 'show-all-btn ' + (layerState[0] ? 'on' : 'off');
-    /* For labels-type layers, toggle text between Show/Hide */
-    var layerName0 = formatLayerName(layers[0].name);
-    var isLabelType = /label/i.test(layerName0);
-    if (isLabelType) {
-      showAllBtn.textContent = layerState[0] ? 'Hide Labels' : 'Show Labels';
-    } else {
-      showAllBtn.textContent = layerName0;
-    }
-    showAllBtn.addEventListener('click', function () {
-      layerState[0] = !layerState[0];
-      /* Turning on show-all disables individual layers */
-      if (layerState[0]) {
-        for (var j = 1; j < layers.length; j++) {
-          layerState[j] = false;
-        }
-      }
-      applyLayerState();
-      renderLayerControls(view);
-    });
-
-    headerDiv.appendChild(showAllBtn);
-    dom.layerControls.appendChild(headerDiv);
-
-    /* Sidebar text key/legend — shown below controls for diagram/landmark views */
+    /* Check if this view has a "Compare" sidebar text — if so, use it as header
+       and show ALL layers as individual toggles (no show-all button) */
     var block = BLOCKS[currentBlockIdx];
-    if (block && block.sidebar_texts && view.dir) {
-      var sidebarText = block.sidebar_texts[view.dir];
+    var sidebarText = (block && block.sidebar_texts && view.dir)
+      ? block.sidebar_texts[view.dir] : '';
+    var isCompareView = /compare/i.test(sidebarText);
+    var layerStartIdx = 1; /* normally skip first layer (show-all) */
+
+    if (isCompareView) {
+      /* Compare header label — all layers are equal individual toggles */
+      var compareDiv = document.createElement('div');
+      compareDiv.className = 'layer-header compare-header';
+      compareDiv.innerHTML = '<span class="compare-label">↔ ' + sidebarText + '</span>';
+      dom.layerControls.appendChild(compareDiv);
+      layerStartIdx = 0; /* show ALL layers as individual toggles */
+    } else {
+      /* Show All / first layer — special toggle button */
+      var headerDiv = document.createElement('div');
+      headerDiv.className = 'layer-header';
+
+      var showAllBtn = document.createElement('button');
+      showAllBtn.className = 'show-all-btn ' + (layerState[0] ? 'on' : 'off');
+      /* For labels-type layers, toggle text between Show/Hide */
+      var layerName0 = formatLayerName(layers[0].name);
+      var isLabelType = /label/i.test(layerName0);
+      if (isLabelType) {
+        showAllBtn.textContent = layerState[0] ? 'Hide Labels' : 'Show Labels';
+      } else {
+        showAllBtn.textContent = layerName0;
+      }
+      showAllBtn.addEventListener('click', function () {
+        layerState[0] = !layerState[0];
+        /* Turning on show-all disables individual layers */
+        if (layerState[0]) {
+          for (var j = 1; j < layers.length; j++) {
+            layerState[j] = false;
+          }
+        }
+        applyLayerState();
+        renderLayerControls(view);
+      });
+
+      headerDiv.appendChild(showAllBtn);
+      dom.layerControls.appendChild(headerDiv);
+
+      /* Sidebar text key/legend — shown below controls for diagram/landmark views */
       if (sidebarText) {
         var sidebarDiv = document.createElement('div');
         sidebarDiv.className = 'sidebar-text-key';
@@ -1749,19 +1838,22 @@ img {
       }
     }
 
-    /* Individual layer rows (skip index 0 = show-all) */
-    for (var i = 1; i < layers.length; i++) {
+    /* Individual layer rows */
+    for (var i = layerStartIdx; i < layers.length; i++) {
       var layer = layers[i];
+      var isSelf = (i === innervationSelfIdx);
       var isOn = !!layerState[i];
+      /* Self layer is inverted: overlay OFF = innervation visible = dot colored */
+      var showOn = isSelf ? !isOn : isOn;
       var dotColor = layer.color || layerDotColor(i);
 
       var row = document.createElement('div');
-      row.className = 'layer-row' + (isOn ? ' on' : '');
+      row.className = 'layer-row' + (showOn ? ' on' : '');
 
       var dot = document.createElement('div');
       dot.className = 'layer-dot';
-      dot.style.backgroundColor = isOn ? dotColor : 'transparent';
-      dot.style.borderColor = isOn ? dotColor : '';
+      dot.style.backgroundColor = showOn ? dotColor : 'transparent';
+      dot.style.borderColor = showOn ? dotColor : '';
 
       var nameSpan = document.createElement('span');
       nameSpan.className = 'layer-name';
@@ -1779,8 +1871,12 @@ img {
   function makeLayerToggle(layerIdx, layers, view) {
     return function () {
       layerState[layerIdx] = !layerState[layerIdx];
-      /* Turn off show-all when toggling an individual layer on */
-      if (layerState[layerIdx]) {
+      /* Turn off show-all when toggling an individual layer on (but not for compare views
+         where layer 0 is a regular layer, not a show-all) */
+      var blk = BLOCKS[currentBlockIdx];
+      var sbt = (blk && blk.sidebar_texts && view.dir) ? blk.sidebar_texts[view.dir] : '';
+      var isCompare = /compare/i.test(sbt);
+      if (!isCompare && layerState[layerIdx] && layerIdx !== 0) {
         layerState[0] = false;
       }
       applyLayerState();
@@ -1826,11 +1922,14 @@ img {
     }
 
     var sections = [
-      { key: 'indication',   label: 'Indication',   type: 'indication' },
-      { key: 'positioning',  label: 'Positioning',  type: 'positioning' },
-      { key: 'volume',       label: 'Volume',        type: 'volume' },
-      { key: 'side_effects', label: 'Side Effects', type: 'side_effects' },
-      { key: 'complications', label: 'Complications', type: 'complications' },
+      { key: 'indication',      label: 'Indication',       type: 'indication' },
+      { key: 'indications',     label: 'Indication',       type: 'indication' },
+      { key: 'positioning',     label: 'Positioning',      type: 'positioning' },
+      { key: 'volume',          label: 'Volume',           type: 'volume' },
+      { key: 'side_effects',    label: 'Side Effects',     type: 'side_effects' },
+      { key: 'complications',   label: 'Complications',    type: 'complications' },
+      { key: 'ultrasound_tips', label: 'Sonoanatomy Tips', type: 'ultrasound_tips' },
+      { key: 'practical_tips',  label: 'Practical Tips',   type: 'practical_tips' },
     ];
 
     var renderedAny = false;
@@ -1902,6 +2001,8 @@ img {
     videoElement.setAttribute('playsinline', '');
     videoElement.setAttribute('webkit-playsinline', '');
     dom.videoPanel.appendChild(videoElement);
+    /* Auto-play when video view is selected */
+    try { videoElement.play(); } catch (e) {}
   }
 
   function pauseVideo() {
@@ -1925,6 +2026,18 @@ img {
   function openNav() {
     dom.navOverlay.classList.add('open');
     dom.navDrawer.classList.add('open');
+    /* If we're viewing a block, open at the submenu level for its category */
+    if (currentBlockIdx >= 0) {
+      var block = BLOCKS[currentBlockIdx];
+      for (var ci = 0; ci < CATEGORIES.length; ci++) {
+        if (CATEGORIES[ci].name === block.category) {
+          navLevel = 'sub';
+          navCategoryIdx = ci;
+          renderNav();
+          return;
+        }
+      }
+    }
     navLevel = 'main';
     navCategoryIdx = -1;
     renderNav();
@@ -2135,7 +2248,7 @@ img {
     for (var i = 0; i < BLOCKS.length; i++) {
       var block = BLOCKS[i];
       var nameMatch = block.name.toLowerCase().indexOf(query) >= 0;
-      var indication = (block.notes && block.notes.indication) ? block.notes.indication : '';
+      var indication = (block.notes && (block.notes.indications || block.notes.indication)) || '';
       var indicationMatch = indication.toLowerCase().indexOf(query) >= 0;
       var catName = block._catName || '';
       var catMatch = catName.toLowerCase().indexOf(query) >= 0;
