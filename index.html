@@ -1410,6 +1410,18 @@ img {
     history.pushState({ app: true }, '');
   }
 
+  /* When fullscreen exits (first back gesture), replenish the buffer */
+  document.addEventListener('fullscreenchange', function () {
+    if (!document.fullscreenElement) {
+      ensureBackBuffer();
+    }
+  });
+  document.addEventListener('webkitfullscreenchange', function () {
+    if (!document.webkitFullscreenElement) {
+      ensureBackBuffer();
+    }
+  });
+
   window.addEventListener('popstate', function (e) {
     /* Search panel open → close it */
     if (dom.searchPanel && dom.searchPanel.classList.contains('visible')) {
@@ -1502,7 +1514,7 @@ img {
       });
   }
 
-  var APP_VERSION = '1.1.6';
+  var APP_VERSION = '1.1.7';
 
   function checkForUpdate() {
     var versionEl = document.getElementById('splashVersion');
