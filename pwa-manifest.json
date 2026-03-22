@@ -5,8 +5,8 @@
   "id": "/nerve-block-atlas/",
   "start_url": "/nerve-block-atlas/",
   "scope": "/nerve-block-atlas/",
-  "display": "fullscreen",
-  "orientation": "natural",
+  "display": "standalone",
+  "orientation": "any",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [

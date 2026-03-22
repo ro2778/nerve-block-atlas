@@ -1355,7 +1355,10 @@ img {
     /* Platform install hints — must run after DOM is ready */
     var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
     var isAndroid = /Android/.test(navigator.userAgent);
-    var isStandalone = window.navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches;
+    var isStandalone = window.navigator.standalone === true
+      || window.matchMedia('(display-mode: standalone)').matches
+      || window.matchMedia('(display-mode: fullscreen)').matches
+      || document.referrer.includes('android-app://');
     /* Show install button on mobile (not already installed) */
     var btnInstall = document.getElementById('btnInstall');
     if (!isStandalone && btnInstall) {
@@ -1386,19 +1389,28 @@ img {
       }
     }
 
-    /* Enter button — opens app with nav drawer visible */
+    /* Enter button — opens app with main menu visible */
     var btnEnter = document.getElementById('btnEnter');
     if (btnEnter) {
       btnEnter.addEventListener('click', function () {
-        dom.loadingScreen.style.display = 'none';
-        dom.app.style.display = '';
-        /* Load first block in background so the viewer has content */
-        if (BLOCKS.length > 0) loadBlock(0);
-        /* Then immediately open the navigation menu */
-        setTimeout(function () { openNav(); }, 100);
+        enterApp();
       });
     }
   }
+
+  function enterApp() {
+    dom.loadingScreen.style.display = 'none';
+    dom.app.style.display = '';
+    /* Load first block in background */
+    if (BLOCKS.length > 0) loadBlock(0);
+    /* Open main menu */
+    setTimeout(function () { openNav(); }, 100);
+  }
+
+  var _isStandalone = window.navigator.standalone === true
+    || window.matchMedia('(display-mode: standalone)').matches
+    || window.matchMedia('(display-mode: fullscreen)').matches
+    || document.referrer.includes('android-app://');
 
   function fetchManifest() {
     fetch('manifest.json')
@@ -1408,7 +1420,15 @@ img {
       })
       .then(function (data) {
         processManifest(data);
-        /* Hide spinner, show enter button */
+
+        if (_isStandalone) {
+          /* Installed PWA: skip splash, go straight to main menu */
+          enterApp();
+          checkForUpdate();
+          return;
+        }
+
+        /* Browser: show splash with enter button */
         var spinner = document.getElementById('splashSpinner');
         var loadText = document.getElementById('splashLoadingText');
         var btnEnter = document.getElementById('btnEnter');
