@@ -1423,12 +1423,7 @@ img {
       .then(function (data) {
         processManifest(data);
 
-        if (_isStandalone) {
-          /* Installed PWA: skip splash, go straight to main menu */
-          enterApp();
-          checkForUpdate();
-          return;
-        }
+        /* Always show splash (for version check / update prompt) */
 
         /* Browser: show splash with enter button */
         var spinner = document.getElementById('splashSpinner');
