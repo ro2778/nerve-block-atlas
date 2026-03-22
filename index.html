@@ -1400,6 +1400,47 @@ img {
     }
   }
 
+  /* ──────────────────────────────────────────────────────────
+     History API — Android back gesture support
+     Back in block → submenu, submenu → main menu, main menu → close app
+     ────────────────────────────────────────────────────────── */
+  function pushNavState(level) {
+    history.pushState({ nav: level }, '');
+  }
+
+  window.addEventListener('popstate', function (e) {
+    var state = e.state;
+
+    /* Search panel open → close it */
+    if (dom.searchPanel.classList.contains('visible')) {
+      closeSearch();
+      return;
+    }
+
+    /* Nav drawer open */
+    if (dom.navDrawer.classList.contains('open')) {
+      if (navLevel === 'sub') {
+        /* In submenu → go to main menu */
+        navLevel = 'main';
+        navCategoryIdx = -1;
+        renderNav();
+        pushNavState('main');
+      } else {
+        /* In main menu → close nav, show block */
+        closeNav();
+        pushNavState('block');
+      }
+      return;
+    }
+
+    /* Block view → open submenu for this block's category */
+    if (currentBlockIdx >= 0) {
+      openNav();
+      pushNavState('sub');
+      return;
+    }
+  });
+
   function enterApp() {
     /* Request true fullscreen to hide system nav bar */
     var el = document.documentElement;
@@ -1410,6 +1451,11 @@ img {
     dom.app.style.display = '';
     /* Load first block in background */
     if (BLOCKS.length > 0) loadBlock(0);
+
+    /* Seed history so back gesture doesn't immediately exit */
+    history.replaceState({ nav: 'main' }, '');
+    pushNavState('main');
+
     /* Open main menu (force top level, not submenu) */
     setTimeout(function () {
       navLevel = 'main';
@@ -1453,7 +1499,7 @@ img {
       });
   }
 
-  var APP_VERSION = '1.1.4';
+  var APP_VERSION = '1.1.5';
 
   function checkForUpdate() {
     var versionEl = document.getElementById('splashVersion');
@@ -2131,6 +2177,7 @@ img {
       onClick: function () {
         navLevel = 'sub';
         navCategoryIdx = -1;
+        pushNavState('sub');
         renderNav();
       },
     });
@@ -2148,6 +2195,7 @@ img {
           onClick: function () {
             navLevel = 'sub';
             navCategoryIdx = catIdx;
+            pushNavState('sub');
             renderNav();
           },
         });
@@ -2229,6 +2277,7 @@ img {
     /* Clicking the row loads the block */
     item.addEventListener('click', function () {
       loadBlock(globalIdx);
+      pushNavState('block');
     });
 
     dom.navList.appendChild(item);
@@ -2374,6 +2423,7 @@ img {
         div.addEventListener('click', function () {
           closeSearch();
           loadBlock(blockIdx);
+          pushNavState('block');
         });
       })(res.idx);
 
