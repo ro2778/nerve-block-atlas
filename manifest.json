@@ -21427,7 +21427,10 @@
                 }
               ]
             }
-          ]
+          ],
+          "sidebar_texts": {
+            "Parietal_and_visceral_peritoneum_innervation": "Compare"
+          }
         },
         {
           "id": "Nerves_sensory_innervation_guides/ASRA_upper_limb_cutaneous",
@@ -26752,5 +26755,5 @@
       ]
     }
   ],
-  "generated": "2026-03-21T19:24:08.548468+00:00"
+  "generated": "2026-03-22T15:45:34.970152+00:00"
 }
