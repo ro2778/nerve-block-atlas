@@ -6,6 +6,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="theme-color" content="#000000">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#000000">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="description" content="Nerve Block Atlas — Interactive ultrasound-guided regional anaesthesia reference">
 <link rel="manifest" href="pwa-manifest.json">
@@ -59,9 +61,9 @@ html {
   background: #000000;
 }
 html, body {
+  height: 100vh;
   height: 100dvh;
-  height: 100%;
-  width: 100%;
+  width: 100vw;
   overflow: hidden;
   background: var(--bg);
   color: var(--text);
