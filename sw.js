@@ -1,4 +1,4 @@
-const CACHE_NAME = 'nba-v17';
+const CACHE_NAME = 'nba-v18';
 const SHELL_ASSETS = ['index.html', 'manifest.json', 'pwa-manifest.json', 'icon-192.png'];
 
 // Install: cache the app shell

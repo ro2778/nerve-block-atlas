@@ -1405,8 +1405,14 @@ img {
     dom.app.style.display = '';
     /* Load first block in background */
     if (BLOCKS.length > 0) loadBlock(0);
-    /* Open main menu */
-    setTimeout(function () { openNav(); }, 100);
+    /* Open main menu (force top level, not submenu) */
+    setTimeout(function () {
+      navLevel = 'main';
+      navCategoryIdx = -1;
+      dom.navOverlay.classList.add('open');
+      dom.navDrawer.classList.add('open');
+      renderNav();
+    }, 100);
   }
 
   var _isStandalone = window.navigator.standalone === true
@@ -1442,7 +1448,7 @@ img {
       });
   }
 
-  var APP_VERSION = '1.1.0';
+  var APP_VERSION = '1.1.1';
 
   function checkForUpdate() {
     var versionEl = document.getElementById('splashVersion');
