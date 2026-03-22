@@ -1401,59 +1401,49 @@ img {
   }
 
   /* ──────────────────────────────────────────────────────────
-     History API — Android back gesture support
-     Always keep a buffer state so back never exits unexpectedly.
-     Back in block → submenu, submenu → main menu, main menu → do nothing
+     Hash-based navigation — Android back gesture support
+     Uses URL hashes so browser history naturally handles back/forward.
+     #main → main menu, #sub/N → submenu, #block → block view
      ────────────────────────────────────────────────────────── */
-  function ensureBackBuffer() {
-    /* Push a dummy state so the NEXT back gesture is caught by popstate */
-    history.pushState({ app: true }, '');
+  var _suppressHashChange = false;
+
+  function setHash(hash) {
+    _suppressHashChange = true;
+    location.hash = hash;
+    /* Allow hashchange to fire again after a tick */
+    setTimeout(function () { _suppressHashChange = false; }, 50);
   }
 
-  /* When fullscreen exits (first back gesture), replenish the buffer */
-  document.addEventListener('fullscreenchange', function () {
-    if (!document.fullscreenElement) {
-      ensureBackBuffer();
-    }
-  });
-  document.addEventListener('webkitfullscreenchange', function () {
-    if (!document.webkitFullscreenElement) {
-      ensureBackBuffer();
-    }
-  });
+  window.addEventListener('hashchange', function () {
+    if (_suppressHashChange) return;
 
-  window.addEventListener('popstate', function (e) {
+    var hash = location.hash || '';
+
     /* Search panel open → close it */
     if (dom.searchPanel && dom.searchPanel.classList.contains('visible')) {
       closeSearch();
-      ensureBackBuffer();
       return;
     }
 
-    /* Nav drawer open */
-    if (dom.navDrawer && dom.navDrawer.classList.contains('open')) {
-      if (navLevel === 'sub') {
-        /* In submenu → go to main menu */
-        navLevel = 'main';
-        navCategoryIdx = -1;
-        renderNav();
-      } else {
-        /* In main menu → close nav, show block */
-        closeNav();
-      }
-      ensureBackBuffer();
-      return;
+    if (hash === '#main' || hash === '#main-menu') {
+      /* Show main menu */
+      navLevel = 'main';
+      navCategoryIdx = -1;
+      dom.navOverlay.classList.add('open');
+      dom.navDrawer.classList.add('open');
+      renderNav();
+    } else if (hash.indexOf('#sub/') === 0) {
+      /* Show submenu */
+      var catIdx = parseInt(hash.replace('#sub/', ''));
+      navLevel = 'sub';
+      navCategoryIdx = isNaN(catIdx) ? -1 : catIdx;
+      dom.navOverlay.classList.add('open');
+      dom.navDrawer.classList.add('open');
+      renderNav();
+    } else if (hash === '#block') {
+      /* Close nav, show block */
+      closeNav();
     }
-
-    /* Block view (nav closed) → open submenu for this block's category */
-    if (currentBlockIdx >= 0) {
-      openNav();
-      ensureBackBuffer();
-      return;
-    }
-
-    /* Fallback: re-push buffer so app doesn't exit */
-    ensureBackBuffer();
   });
 
   function enterApp() {
@@ -1467,20 +1457,14 @@ img {
     /* Load first block in background */
     if (BLOCKS.length > 0) loadBlock(0);
 
-    /* Seed history with buffer state */
-    history.replaceState({ app: true }, '');
-    ensureBackBuffer();
-    ensureBackBuffer();
-    ensureBackBuffer();
-    ensureBackBuffer();
-
-    /* Open main menu (force top level, not submenu) */
+    /* Start at main menu via hash */
     setTimeout(function () {
       navLevel = 'main';
       navCategoryIdx = -1;
       dom.navOverlay.classList.add('open');
       dom.navDrawer.classList.add('open');
       renderNav();
+      setHash('#main');
     }, 100);
   }
 
@@ -1517,7 +1501,7 @@ img {
       });
   }
 
-  var APP_VERSION = '1.1.8';
+  var APP_VERSION = '1.1.9';
 
   function checkForUpdate() {
     var versionEl = document.getElementById('splashVersion');
@@ -2149,6 +2133,7 @@ img {
         if (CATEGORIES[ci].name === block.category) {
           navLevel = 'sub';
           navCategoryIdx = ci;
+          setHash('#sub/' + ci);
           renderNav();
           return;
         }
@@ -2156,18 +2141,21 @@ img {
     }
     navLevel = 'main';
     navCategoryIdx = -1;
+    setHash('#main');
     renderNav();
   }
 
   function closeNav() {
     dom.navOverlay.classList.remove('open');
     dom.navDrawer.classList.remove('open');
+    setHash('#block');
   }
 
   function navGoBack() {
     if (navLevel === 'sub') {
       navLevel = 'main';
       navCategoryIdx = -1;
+      setHash('#main');
       renderNav();
     }
   }
@@ -2195,6 +2183,7 @@ img {
       onClick: function () {
         navLevel = 'sub';
         navCategoryIdx = -1;
+        setHash('#sub/fav');
         renderNav();
       },
     });
@@ -2212,6 +2201,7 @@ img {
           onClick: function () {
             navLevel = 'sub';
             navCategoryIdx = catIdx;
+            setHash('#sub/' + catIdx);
             renderNav();
           },
         });
@@ -2293,6 +2283,7 @@ img {
     /* Clicking the row loads the block */
     item.addEventListener('click', function () {
       loadBlock(globalIdx);
+      setHash('#block');
     });
 
     dom.navList.appendChild(item);
