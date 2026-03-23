@@ -765,6 +765,74 @@ img {
 
 /* ── Search panel ── */
 
+.info-panel {
+  position: fixed;
+  inset: 0;
+  background: var(--bg);
+  z-index: 120;
+  display: none;
+  flex-direction: column;
+  padding-top: var(--sat);
+  padding-bottom: var(--sab);
+  padding-left: var(--sal);
+  padding-right: var(--sar);
+  overflow-y: auto;
+}
+
+.info-panel.visible {
+  display: flex;
+}
+
+.info-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  min-height: var(--bar-h);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.info-content {
+  padding: 20px 16px 40px;
+  overflow-y: auto;
+  flex: 1;
+  line-height: 1.6;
+}
+
+.info-content h2 {
+  color: var(--accent);
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.info-content h3 {
+  color: var(--text-secondary);
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.info-content p {
+  color: var(--text-secondary);
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.info-content strong {
+  color: var(--text);
+}
+
+.info-attribution {
+  background: var(--panel-alt);
+  padding: 10px 12px;
+  border-radius: 8px;
+  border-left: 3px solid var(--accent);
+  font-style: italic;
+}
+
 .search-panel {
   position: fixed;
   inset: 0;
@@ -1159,8 +1227,40 @@ img {
       <svg viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
     </button>
     <div class="nav-title" id="navTitle">Categories</div>
+    <button class="btn-icon" id="navInfoBtn" aria-label="Information" style="margin-left:auto">
+      <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+    </button>
   </div>
   <div class="nav-list" id="navList"></div>
+</div>
+
+<!-- Info panel -->
+<div class="info-panel" id="infoPanel" style="display:none">
+  <div class="info-header">
+    <button class="btn-icon" id="infoCloseBtn" aria-label="Close">
+      <svg viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+    </button>
+    <div class="nav-title">About</div>
+  </div>
+  <div class="info-content">
+    <h2>Regional Anaesthesia Atlas</h2>
+    <p>An interactive ultrasound-guided regional anaesthesia reference app, built for anaesthetists at <strong>North Devon District General Hospital</strong> and intended for integration into a Residents app in development.</p>
+    <p>While we wait, it is released as a standalone app for those with a desire to use AnSo content in portrait mode, or who have older devices that no longer support apps released in the app stores.</p>
+
+    <h3>Author</h3>
+    <p><strong>Dr Richard O'Byrne</strong><br>Specialty Doctor in Anaesthesia<br>Interest in Regional Anaesthesia</p>
+    <p style="margin-top:4px;color:var(--text-dim);font-size:13px">With development assistance from <strong>Claude</strong> (Anthropic) — who now knows more about brachial plexus anatomy than any AI probably should.</p>
+
+    <h3>Acknowledgements</h3>
+    <p>With thanks to the creators of <strong>AnSo</strong> and in particular <strong>David Stoeter</strong> who didn't quite teach me everything he knows.</p>
+
+    <h3>Use of Images</h3>
+    <p>The creators of AnSo give permission for these images to be used for any non-commercial educational purposes (e.g., lectures, tutorials, workshops, journal articles, not-for-profit courses) provided appropriate acknowledgement of the source is also given.</p>
+    <p class="info-attribution">Source: <strong>"AnSo - Anaesthesia Sonoanatomy"</strong>. Mobile App. Apple App Store or Google Play Store.</p>
+
+    <h3>Version</h3>
+    <p id="infoVersion"></p>
+  </div>
 </div>
 
 <!-- Search panel -->
@@ -1468,13 +1568,16 @@ img {
     /* Load first block in background */
     if (BLOCKS.length > 0) loadBlock(0);
 
-    /* Start at main menu via hash */
+    /* Always start at main menu — clear any stale hash first */
+    _suppressHashChange = true;
+    location.hash = '';
+    navLevel = 'main';
+    navCategoryIdx = -1;
+    dom.navOverlay.classList.add('open');
+    dom.navDrawer.classList.add('open');
+    renderNav();
     setTimeout(function () {
-      navLevel = 'main';
-      navCategoryIdx = -1;
-      dom.navOverlay.classList.add('open');
-      dom.navDrawer.classList.add('open');
-      renderNav();
+      _suppressHashChange = false;
       setHash('#main');
     }, 100);
   }
@@ -1512,7 +1615,7 @@ img {
       });
   }
 
-  var APP_VERSION = '1.2.2';
+  var APP_VERSION = '1.2.3';
 
   function checkForUpdate() {
     var versionEl = document.getElementById('splashVersion');
@@ -2565,6 +2668,25 @@ img {
     /* Navigation drawer */
     dom.navOverlay.addEventListener('click', closeNav);
     dom.navBackBtn.addEventListener('click', navGoBack);
+
+    /* Info panel */
+    var navInfoBtn = document.getElementById('navInfoBtn');
+    var infoPanel = document.getElementById('infoPanel');
+    var infoCloseBtn = document.getElementById('infoCloseBtn');
+    var infoVersion = document.getElementById('infoVersion');
+    if (navInfoBtn) {
+      navInfoBtn.addEventListener('click', function () {
+        if (infoVersion) infoVersion.textContent = 'v' + APP_VERSION;
+        infoPanel.classList.add('visible');
+        infoPanel.style.display = 'flex';
+      });
+    }
+    if (infoCloseBtn) {
+      infoCloseBtn.addEventListener('click', function () {
+        infoPanel.classList.remove('visible');
+        infoPanel.style.display = 'none';
+      });
+    }
 
     /* Search */
     dom.searchCloseBtn.addEventListener('click', closeSearch);
