@@ -1564,14 +1564,17 @@ img {
       _needsFullscreen = true;
     }
   });
-  document.addEventListener('touchstart', function() {
-    if (_needsFullscreen) {
-      _needsFullscreen = false;
-      var el = document.documentElement;
-      if (el.requestFullscreen) el.requestFullscreen().catch(function(){});
-      else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
-    }
-  }, { passive: true });
+  /* Try multiple event types — browsers vary on which counts as "user gesture" */
+  ['click', 'touchend', 'pointerup'].forEach(function(evt) {
+    document.addEventListener(evt, function() {
+      if (_needsFullscreen) {
+        _needsFullscreen = false;
+        var el = document.documentElement;
+        if (el.requestFullscreen) el.requestFullscreen().catch(function(){});
+        else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
+      }
+    });
+  });
 
   function enterApp() {
     /* Request true fullscreen to hide system nav bar */
@@ -1631,7 +1634,7 @@ img {
       });
   }
 
-  var APP_VERSION = '1.2.4';
+  var APP_VERSION = '1.2.5';
 
   function checkForUpdate() {
     var versionEl = document.getElementById('splashVersion');
