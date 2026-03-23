@@ -1557,6 +1557,22 @@ img {
     }
   });
 
+  /* Re-enter fullscreen after switching back to the app */
+  var _needsFullscreen = false;
+  document.addEventListener('visibilitychange', function() {
+    if (!document.hidden && !document.fullscreenElement) {
+      _needsFullscreen = true;
+    }
+  });
+  document.addEventListener('touchstart', function() {
+    if (_needsFullscreen) {
+      _needsFullscreen = false;
+      var el = document.documentElement;
+      if (el.requestFullscreen) el.requestFullscreen().catch(function(){});
+      else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
+    }
+  }, { passive: true });
+
   function enterApp() {
     /* Request true fullscreen to hide system nav bar */
     var el = document.documentElement;
