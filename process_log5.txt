@@ -1,0 +1,806 @@
+Processing 139 blocks...
+Output: /Users/richardobyrne/Documents/Claude Projects/AnSo capture/processed
+
+[1/139] Airway/Cricoid_cartilage_transverse
+    Cricoid_cartilage_transverse_ergonomics: 1727x970, 0 overlays
+    Cricoid_cartilage_transverse_landmark_pattern: 1652x733, 1 overlays
+    Cricoid_cartilage_transverse_sonoanatomy_1: 1648x815, 5 overlays
+    Cricoid_cartilage_transverse_sonoanatomy_2: 1651x939, 5 overlays
+[2/139] Airway/Cricothyroid_membrane_sagittal
+    Cricothyroid_membrane_sagittal_ergonomics: 1723x970, 0 overlays
+    Cricothyroid_membrane_sagittal_landmark_pattern: 1387x970, 1 overlays
+    Cricothyroid_membrane_sagittal_sonoanatomy_1: 1652x542, 8 overlays
+    Cricothyroid_membrane_sagittal_sonoanatomy_2: 1651x623, 7 overlays
+[3/139] Airway/Cricothyroid_membrane_transverse
+    Cricothyroid_membrane_transverse_ergonomics: 1727x970, 0 overlays
+    Cricothyroid_membrane_transverse_landmark_pattern: 1652x769, 1 overlays
+    Cricothyroid_membrane_transverse_sonoanatomy_1: 1652x802, 7 overlays
+    Cricothyroid_membrane_transverse_sonoanatomy_2: 1652x915, 7 overlays
+[4/139] Airway/Thyroid_cartilage_transverse
+    Thyroid_cartilage_transverse_ergonomics: 1723x970, 0 overlays
+    Thyroid_cartilage_transverse_landmark_pattern_1: 1387x970, 1 overlays
+    Thyroid_cartilage_transverse_landmark_pattern_2: 1387x970, 1 overlays
+    Thyroid_cartilage_transverse_sonoanatomy_1: 1638x958, 4 overlays
+    Thyroid_cartilage_transverse_sonoanatomy_2: 1639x870, 4 overlays
+[5/139] Airway/Trachea_transverse
+    Trachea_transverse_ergonomics: 1723x970, 0 overlays
+    Trachea_transverse_sonoanatomy_1: 1652x875, 6 overlays
+[6/139] Basic_sonoanatomy/Arteries
+    Arteries_landmark_pattern: 1387x970, 1 overlays
+    Arteries_sonoanatomy_1: 1511x968, 2 overlays
+    Arteries_sonoanatomy_2: 1652x873, 2 overlays
+    Arteries_sonoanatomy_3: 1645x944, 2 overlays
+[7/139] Basic_sonoanatomy/Bones
+    Bones_landmark_pattern: 1387x970, 1 overlays
+    Bones_sonoanatomy_1: 958x968, 4 overlays
+    Bones_sonoanatomy_2: 1093x970, 4 overlays
+    Bones_sonoanatomy_3: 1374x970, 3 overlays
+[8/139] Basic_sonoanatomy/Fascial_planes
+    Fascial_planes_landmark_pattern: 1387x970, 1 overlays
+    Fascial_planes_sonoanatomy_1: 1652x662, 2 overlays
+    Fascial_planes_sonoanatomy_2: 1530x970, 2 overlays
+    Fascial_planes_sonoanatomy_3: 1553x964, 2 overlays
+[9/139] Basic_sonoanatomy/Joints
+    Joints_landmark_pattern: 1387x970, 1 overlays
+    Joints_sonoanatomy_1: 1652x666, 4 overlays
+    Joints_sonoanatomy_2: 1347x970, 4 overlays
+    Joints_sonoanatomy_3: 883x970, 4 overlays
+[10/139] Basic_sonoanatomy/Large_bowel
+    Large_bowel_landmark_pattern: 1387x970, 1 overlays
+    Large_bowel_sonoanatomy_1: 1465x970, 7 overlays
+    Large_bowel_sonoanatomy_2: 1302x970, 7 overlays
+[11/139] Basic_sonoanatomy/Lung
+    Lung_landmark_pattern: 1387x970, 1 overlays
+    Lung_sonoanatomy_1: 1481x967, 5 overlays
+    WARNING: Could not detect content area for Lung_sonoanatomy_2
+[12/139] Basic_sonoanatomy/Muscles
+    Muscles_landmark_pattern: 1387x970, 1 overlays
+    Muscles_sonoanatomy_1: 1652x778, 2 overlays
+    Muscles_sonoanatomy_2: 1652x834, 2 overlays
+    Muscles_sonoanatomy_3: 1495x968, 2 overlays
+    Muscles_sonoanatomy_4: 1277x970, 2 overlays
+    Muscles_sonoanatomy_5: 1652x885, 2 overlays
+[13/139] Basic_sonoanatomy/Nerves
+    Nerves_landmark_pattern_1: 1387x970, 1 overlays
+    Nerves_landmark_pattern_2: 1387x970, 1 overlays
+    Nerves_sonoanatomy_1: 1652x776, 2 overlays
+    Nerves_sonoanatomy_2: 1652x754, 3 overlays
+    Nerves_sonoanatomy_3: 1392x970, 2 overlays
+    Nerves_sonoanatomy_4: 1652x638, 2 overlays
+[14/139] Basic_sonoanatomy/Nerves_Vs_Tendons
+    Nerves_Vs_Tendons_landmark_pattern_1: 1387x970, 1 overlays
+    Nerves_Vs_Tendons_landmark_pattern_2: 1387x970, 1 overlays
+    Nerves_Vs_Tendons_sonoanatomy_1: 1652x622, 3 overlays
+    Nerves_Vs_Tendons_sonoanatomy_2: 1652x754, 3 overlays
+[15/139] Basic_sonoanatomy/Small_bowel
+    Small_bowel_landmark_pattern: 1387x970, 1 overlays
+    Small_bowel_sonoanatomy_1: 1281x970, 6 overlays
+    Small_bowel_sonoanatomy_2: 1585x969, 6 overlays
+[16/139] Basic_sonoanatomy/Subcutaneous_fat
+    Subcutaneous_fat_landmark_pattern: 1387x970, 1 overlays
+    Subcutaneous_fat_sonoanatomy_1: 1448x970, 3 overlays
+    Subcutaneous_fat_sonoanatomy_2: 1652x914, 3 overlays
+    Subcutaneous_fat_sonoanatomy_3: 1652x767, 3 overlays
+    Subcutaneous_fat_sonoanatomy_4: 1652x870, 2 overlays
+    Subcutaneous_fat_sonoanatomy_5: 1652x868, 3 overlays
+[17/139] Basic_sonoanatomy/Tendons
+    Tendons_landmark_pattern_1: 1387x970, 1 overlays
+    Tendons_landmark_pattern_2: 1387x970, 1 overlays
+    Tendons_sonoanatomy_1: 1549x959, 4 overlays
+    Tendons_sonoanatomy_2: 1652x754, 3 overlays
+    Tendons_sonoanatomy_3: 1652x769, 2 overlays
+    Tendons_sonoanatomy_4: 1652x622, 2 overlays
+[18/139] Basic_sonoanatomy/Veins
+    Veins_landmark_pattern: 1387x970, 1 overlays
+    Veins_sonoanatomy_1: 1652x868, 3 overlays
+    Veins_sonoanatomy_2: 1652x913, 3 overlays
+    Veins_sonoanatomy_3: 1652x741, 3 overlays
+    Veins_sonoanatomy_4: 1652x644, 2 overlays
+    Veins_sonoanatomy_5: 1652x622, 2 overlays
+[19/139] Cervical_spine/C7_&_C6_transverse_processes
+    C7_&_C6_transverse_processes_ergonomics: 1723x970, 0 overlays
+    C7_&_C6_transverse_processes_sonoanatomy_1: 1531x945, 8 overlays
+    C7_&_C6_transverse_processes_sonoanatomy_2: 1617x959, 9 overlays
+    C7_&_C6_transverse_processes_sonoanatomy_3: 1541x951, 8 overlays
+    C7_&_C6_transverse_processes_sonoanatomy_4: 1617x768, 9 overlays
+[20/139] Cervical_spine/Cervical_spine_levels
+    Cervical_spine_levels_ergonomics: 1723x970, 0 overlays
+    Cervical_spine_levels_sonoanatomy_1: 1638x526, 17 overlays
+    Cervical_spine_levels_sonoanatomy_2: 1652x451, 14 overlays
+[21/139] Gastric_antrum/Gastric_antrum_empty
+    Gastric_antrum_empty_ergonomics: 1603x970, 0 overlays
+    Gastric_antrum_empty_landmark_pattern: 1387x970, 1 overlays
+    Gastric_antrum_empty_sonoanatomy_1: 1071x970, 8 overlays
+    Gastric_antrum_empty_sonoanatomy_2: 1377x970, 11 overlays
+    Gastric_antrum_empty_sonoanatomy_3: 1414x970, 9 overlays
+[22/139] Gastric_antrum/Gastric_antrum_with_air
+    Gastric_antrum_with_air_ergonomics: 778x970, 0 overlays
+    Gastric_antrum_with_air_landmark_pattern: 1387x970, 1 overlays
+    Gastric_antrum_with_air_sonoanatomy_1: 1481x970, 10 overlays
+    Gastric_antrum_with_air_sonoanatomy_2: 1443x970, 8 overlays
+    Gastric_antrum_with_air_sonoanatomy_3: 1419x970, 8 overlays
+[23/139] Gastric_antrum/Gastric_antrum_with_clear_fluid
+    Gastric_antrum_with_clear_fluid_ergonomics: 778x970, 0 overlays
+    Gastric_antrum_with_clear_fluid_landmark_pattern: 1387x970, 1 overlays
+    Gastric_antrum_with_clear_fluid_sonoanatomy_1: 1355x970, 6 overlays
+    Gastric_antrum_with_clear_fluid_sonoanatomy_2: 1271x970, 6 overlays
+    Gastric_antrum_with_clear_fluid_sonoanatomy_3: 1423x970, 7 overlays
+    Gastric_antrum_with_clear_fluid_sonoanatomy_4: 1420x970, 6 overlays
+[24/139] Gastric_antrum/Gastric_antrum_with_solids
+    Gastric_antrum_with_solids_ergonomics: 778x970, 0 overlays
+    Gastric_antrum_with_solids_landmark_pattern: 1387x970, 1 overlays
+    Gastric_antrum_with_solids_sonoanatomy_1: 1391x936, 7 overlays
+    Gastric_antrum_with_solids_sonoanatomy_2: 1403x966, 6 overlays
+    Gastric_antrum_with_solids_sonoanatomy_3: 1135x970, 4 overlays
+    Gastric_antrum_with_solids_sonoanatomy_4: 1325x965, 8 overlays
+[25/139] Lumbar_spine/Sagittal_articular_processes
+    Sagittal_articular_processes_ergonomics: 1603x970, 0 overlays
+    Sagittal_articular_processes_landmark_pattern: 1387x970, 1 overlays
+    Sagittal_articular_processes_sonoanatomy_1: 1501x970, 5 overlays
+    Sagittal_articular_processes_sonoanatomy_2: 1422x970, 5 overlays
+[26/139] Lumbar_spine/Sagittal_oblique_interlaminar
+    Sagittal_oblique_interlaminar_ergonomics: 1606x970, 0 overlays
+    Sagittal_oblique_interlaminar_landmark_pattern: 1387x970, 1 overlays
+    Sagittal_oblique_interlaminar_sonoanatomy_1: 1508x942, 9 overlays
+    Sagittal_oblique_interlaminar_sonoanatomy_2: 1225x970, 12 overlays
+[27/139] Lumbar_spine/Sagittal_transverse_processes
+    Sagittal_transverse_processes_ergonomics: 1633x970, 0 overlays
+    Sagittal_transverse_processes_landmark_pattern: 1387x970, 1 overlays
+    Sagittal_transverse_processes_sonoanatomy_1: 1492x970, 7 overlays
+[28/139] Lumbar_spine/Transverse_interlaminar_high_lumbar
+    Transverse_interlaminar_high_lumbar_ergonomics: 1727x970, 0 overlays
+    Transverse_interlaminar_high_lumbar_landmark_pattern: 1387x970, 1 overlays
+    Transverse_interlaminar_high_lumbar_sonoanatomy_1: 1293x964, 11 overlays
+    Transverse_interlaminar_high_lumbar_sonoanatomy_2: 1575x944, 13 overlays
+    Transverse_interlaminar_high_lumbar_sonoanatomy_3: 1467x970, 11 overlays
+[29/139] Lumbar_spine/Transverse_interlaminar_low_lumbar
+    Transverse_interlaminar_low_lumbar_ergonomics: 1727x970, 0 overlays
+    Transverse_interlaminar_low_lumbar_landmark_pattern: 1387x970, 1 overlays
+    Transverse_interlaminar_low_lumbar_sonoanatomy_1: 1407x964, 12 overlays
+    Transverse_interlaminar_low_lumbar_sonoanatomy_2: 1601x963, 13 overlays
+    Transverse_interlaminar_low_lumbar_sonoanatomy_3: 1520x970, 11 overlays
+    Transverse_interlaminar_low_lumbar_sonoanatomy_4: 1474x970, 12 overlays
+[30/139] Lumbar_spine/Transverse_interlaminar_lumbar_levels
+    Transverse_interlaminar_lumbar_levels_landmark_pattern: 1564x420, 1 overlays
+    Transverse_interlaminar_lumbar_levels_sonoanatomy_1: 1568x411, 3 overlays
+[31/139] Lumbar_spine/Transverse_interlaminar_mirror_image_artefact
+    Transverse_interlaminar_mirror_image_artefact_sonoanatomy_1: 1577x970, 6 overlays
+    Transverse_interlaminar_mirror_image_artefact_sonoanatomy_2: 1543x965, 6 overlays
+    Transverse_interlaminar_mirror_image_artefact_sonoanatomy_3: 1601x970, 6 overlays
+[32/139] Lumbar_spine/Transverse_spinous_processes
+    Transverse_spinous_processes_ergonomics: 1575x970, 0 overlays
+    Transverse_spinous_processes_landmark_pattern: 1387x970, 1 overlays
+    Transverse_spinous_processes_sonoanatomy_1: 1474x956, 8 overlays
+    Transverse_spinous_processes_sonoanatomy_2: 1263x970, 8 overlays
+[33/139] Lung_signs/A_lines
+    A_lines_ergonomics: 1723x970, 0 overlays
+    A_lines_landmark_pattern: 1293x970, 1 overlays
+    A_lines_sonoanatomy_1: 1223x946, 5 overlays
+    A_lines_sonoanatomy_2: 1039x943, 6 overlays
+[34/139] Lung_signs/Abscent_lung_sliding,_barcode_sign
+    Abscent_lung_sliding,_barcode_sign_ergonomics: 1723x970, 0 overlays
+    Abscent_lung_sliding,_barcode_sign_landmark_pattern: 1293x970, 1 overlays
+    Abscent_lung_sliding,_barcode_sign_sonoanatomy_1: 1315x970, 5 overlays
+    Abscent_lung_sliding,_barcode_sign_sonoanatomy_2: 1291x965, 5 overlays
+    Abscent_lung_sliding,_barcode_sign_sonoanatomy_3: 1652x893, 5 overlays
+[35/139] Lung_signs/B_lines
+    B_lines_ergonomics: 915x970, 0 overlays
+    B_lines_landmark_pattern: 1293x970, 1 overlays
+    B_lines_sonoanatomy_1: 1328x958, 5 overlays
+    B_lines_sonoanatomy_2: 1326x942, 5 overlays
+[36/139] Lung_signs/Lung_sliding,_seashore_sign
+    Lung_sliding,_seashore_sign_ergonomics: 1723x970, 0 overlays
+    Lung_sliding,_seashore_sign_landmark_pattern: 1293x970, 1 overlays
+    Lung_sliding,_seashore_sign_sonoanatomy_1: 1308x965, 5 overlays
+    Lung_sliding,_seashore_sign_sonoanatomy_2: 1291x960, 5 overlays
+    Lung_sliding,_seashore_sign_sonoanatomy_3: 1282x957, 5 overlays
+[37/139] Lung_signs/Quad_sign
+    Quad_sign_ergonomics: 915x970, 0 overlays
+    Quad_sign_landmark_pattern: 1293x970, 1 overlays
+    Quad_sign_sonoanatomy_1: 909x970, 9 overlays
+    Quad_sign_sonoanatomy_2: 1121x970, 7 overlays
+[38/139] Lung_signs/Shred_sign
+    Shred_sign_ergonomics: 915x970, 0 overlays
+    Shred_sign_landmark_pattern: 1293x970, 1 overlays
+    Shred_sign_sonoanatomy_1: 1401x970, 6 overlays
+    Shred_sign_sonoanatomy_2: 1257x951, 5 overlays
+    Shred_sign_sonoanatomy_3: 1325x961, 6 overlays
+[39/139] Lung_signs/Spine_sign,_jellyfish_sign
+    Spine_sign,_jellyfish_sign_ergonomics: 915x970, 0 overlays
+    Spine_sign,_jellyfish_sign_landmark_pattern: 1293x970, 1 overlays
+    Spine_sign,_jellyfish_sign_sonoanatomy_1: 1319x844, 5 overlays
+[40/139] Lung_signs/Tissue_like_sign
+    Tissue_like_sign_ergonomics: 915x970, 0 overlays
+    Tissue_like_sign_landmark_pattern: 1293x970, 1 overlays
+    Tissue_like_sign_sonoanatomy_1: 1011x953, 7 overlays
+[41/139] Nerves_lower_limb/Adductor_canal_(saphenous_nerve)
+    Adductor_canal_(saphenous_nerve)_ergonomics: 750x970, 0 overlays
+    Adductor_canal_(saphenous_nerve)_innervation: 1204x840, 4 overlays
+    Adductor_canal_(saphenous_nerve)_landmark_pattern: 1387x970, 1 overlays
+    Adductor_canal_(saphenous_nerve)_sonoanatomy_1: 1276x970, 13 overlays
+    Adductor_canal_(saphenous_nerve)_sonoanatomy_2: 1049x970, 15 overlays
+[42/139] Nerves_lower_limb/Deep_peroneal_nerve
+    Deep_peroneal_nerve_ergonomics: 803x970, 0 overlays
+    Deep_peroneal_nerve_innervation: 1255x966, 6 overlays
+    Deep_peroneal_nerve_landmark_pattern: 1387x970, 1 overlays
+    Deep_peroneal_nerve_sonoanatomy_1: 1383x970, 13 overlays
+    Deep_peroneal_nerve_sonoanatomy_2: 1652x792, 15 overlays
+    Deep_peroneal_nerve_sonoanatomy_3: 1652x764, 13 overlays
+[43/139] Nerves_lower_limb/Fascia_iliaca_(infrainguinal)
+    Fascia_iliaca_(infrainguinal)_ergonomics: 776x970, 0 overlays
+    Fascia_iliaca_(infrainguinal)_innervation: 1407x839, 7 overlays
+    Fascia_iliaca_(infrainguinal)_landmark_pattern: 1387x970, 1 overlays
+    Fascia_iliaca_(infrainguinal)_sonoanatomy_1: 1652x755, 12 overlays
+    Fascia_iliaca_(infrainguinal)_sonoanatomy_2: 1652x870, 10 overlays
+[44/139] Nerves_lower_limb/Fascia_iliaca_(suprainguinal)
+    Fascia_iliaca_(suprainguinal)_ergonomics: 1023x970, 0 overlays
+    Fascia_iliaca_(suprainguinal)_innervation: 1407x839, 7 overlays
+    Fascia_iliaca_(suprainguinal)_landmark_pattern: 1387x970, 1 overlays
+    Fascia_iliaca_(suprainguinal)_sonoanatomy_1: 1379x970, 15 overlays
+    Fascia_iliaca_(suprainguinal)_sonoanatomy_2: 1384x970, 13 overlays
+    Fascia_iliaca_(suprainguinal)_sonoanatomy_3: 1241x970, 12 overlays
+[45/139] Nerves_lower_limb/Femoral_nerve
+    Femoral_nerve_ergonomics: 776x970, 0 overlays
+    Femoral_nerve_innervation: 1407x839, 7 overlays
+    Femoral_nerve_landmark_pattern: 1387x970, 1 overlays
+    Femoral_nerve_sonoanatomy_1: 1652x870, 13 overlays
+    Femoral_nerve_sonoanatomy_2: 1268x970, 15 overlays
+    Femoral_nerve_sonoanatomy_3: 1412x970, 16 overlays
+[46/139] Nerves_lower_limb/Femoral_triangle_apex
+    Femoral_triangle_apex_ergonomics: 721x970, 0 overlays
+    Femoral_triangle_apex_innervation: 1525x965, 10 overlays
+    Femoral_triangle_apex_landmark_pattern: 1387x970, 1 overlays
+    Femoral_triangle_apex_sonoanatomy_1: 1156x970, 14 overlays
+    Femoral_triangle_apex_sonoanatomy_2: 1248x970, 12 overlays
+[47/139] Nerves_lower_limb/Inferior_lateral_geniculate_nerves
+    Inferior_lateral_geniculate_nerves_innervation: 1527x964, 7 overlays
+    Inferior_lateral_geniculate_nerves_landmark_pattern: 1387x970, 1 overlays
+    Inferior_lateral_geniculate_nerves_sonoanatomy_1: 1652x662, 8 overlays
+[48/139] Nerves_lower_limb/Inferior_medial_geniculate_nerves
+    Inferior_medial_geniculate_nerves_innervation: 1527x964, 7 overlays
+    Inferior_medial_geniculate_nerves_landmark_pattern: 1387x970, 1 overlays
+    Inferior_medial_geniculate_nerves_sonoanatomy_1: 1652x808, 8 overlays
+    Inferior_medial_geniculate_nerves_sonoanatomy_2: 1652x768, 7 overlays
+    Inferior_medial_geniculate_nerves_sonoanatomy_3: 1652x789, 7 overlays
+[49/139] Nerves_lower_limb/Lateral_femoral_cutaneous_nerve
+    Lateral_femoral_cutaneous_nerve_ergonomics: 777x970, 0 overlays
+    Lateral_femoral_cutaneous_nerve_innervation: 1407x839, 5 overlays
+    Lateral_femoral_cutaneous_nerve_landmark_pattern: 1387x970, 1 overlays
+    Lateral_femoral_cutaneous_nerve_sonoanatomy_1: 1652x890, 10 overlays
+    Lateral_femoral_cutaneous_nerve_sonoanatomy_2: 1575x970, 10 overlays
+    Lateral_femoral_cutaneous_nerve_sonoanatomy_3: 1652x736, 10 overlays
+    Lateral_femoral_cutaneous_nerve_sonoanatomy_4: 1652x913, 10 overlays
+[50/139] Nerves_lower_limb/Lumbar_plexus_(shamrock)
+    Lumbar_plexus_(shamrock)_ergonomics: 1723x970, 0 overlays
+    Lumbar_plexus_(shamrock)_innervation: 1407x839, 7 overlays
+    Lumbar_plexus_(shamrock)_landmark_pattern: 1387x970, 1 overlays
+    Lumbar_plexus_(shamrock)_sonoanatomy_1: 1288x970, 19 overlays
+    Lumbar_plexus_(shamrock)_sonoanatomy_2: 1402x970, 19 overlays
+    Lumbar_plexus_(shamrock)_sonoanatomy_3: 1248x970, 16 overlays
+[51/139] Nerves_lower_limb/Lumbar_plexus_(trident)
+    Lumbar_plexus_(trident)_ergonomics: 1720x970, 0 overlays
+    Lumbar_plexus_(trident)_innervation: 1407x839, 7 overlays
+    Lumbar_plexus_(trident)_landmark_pattern: 1387x970, 1 overlays
+    Lumbar_plexus_(trident)_sonoanatomy_1: 997x970, 10 overlays
+[52/139] Nerves_lower_limb/Obturator_nerve_(subpectineal)
+    Obturator_nerve_(subpectineal)_ergonomics: 803x970, 0 overlays
+    Obturator_nerve_(subpectineal)_innervation: 1327x840, 4 overlays
+    Obturator_nerve_(subpectineal)_landmark_pattern: 1387x970, 1 overlays
+    Obturator_nerve_(subpectineal)_sonoanatomy_1: 1225x970, 11 overlays
+    Obturator_nerve_(subpectineal)_sonoanatomy_2: 1345x970, 13 overlays
+    Obturator_nerve_(subpectineal)_sonoanatomy_3: 1081x970, 13 overlays
+[53/139] Nerves_lower_limb/Obturator_nerve_branches
+    Obturator_nerve_branches_ergonomics: 776x970, 0 overlays
+    Obturator_nerve_branches_innervation: 1327x840, 4 overlays
+    Obturator_nerve_branches_landmark_pattern: 1387x970, 1 overlays
+    Obturator_nerve_branches_sonoanatomy_1: 1135x970, 10 overlays
+    Obturator_nerve_branches_sonoanatomy_2: 836x970, 9 overlays
+[54/139] Nerves_lower_limb/Pericapsular_nerve_group_(PENG)
+    Pericapsular_nerve_group_(PENG)_ergonomics: 858x970, 0 overlays
+    Pericapsular_nerve_group_(PENG)_innervation: 1407x839, 6 overlays
+    Pericapsular_nerve_group_(PENG)_landmark_pattern: 1387x970, 1 overlays
+    Pericapsular_nerve_group_(PENG)_sonoanatomy_1: 1147x970, 13 overlays
+    Pericapsular_nerve_group_(PENG)_sonoanatomy_2: 1031x970, 14 overlays
+    Pericapsular_nerve_group_(PENG)_sonoanatomy_3: 1652x926, 12 overlays
+[55/139] Nerves_lower_limb/Sacral_plexus
+    Sacral_plexus_ergonomics: 1606x970, 0 overlays
+    Sacral_plexus_innervation: 1617x965, 8 overlays
+    Sacral_plexus_landmark_pattern: 1387x970, 1 overlays
+    Sacral_plexus_sonoanatomy_1: 1406x970, 14 overlays
+    Sacral_plexus_sonoanatomy_2: 1431x970, 13 overlays
+    Sacral_plexus_sonoanatomy_3: 1525x968, 14 overlays
+[56/139] Nerves_lower_limb/Saphenous_nerve_(ankle)
+    Saphenous_nerve_(ankle)_ergonomics: 871x970, 0 overlays
+    Saphenous_nerve_(ankle)_innervation: 1255x966, 6 overlays
+    Saphenous_nerve_(ankle)_landmark_pattern: 1387x970, 1 overlays
+    Saphenous_nerve_(ankle)_sonoanatomy_1: 1652x662, 14 overlays
+    Saphenous_nerve_(ankle)_sonoanatomy_2: 1652x768, 14 overlays
+[57/139] Nerves_lower_limb/Sciatic_nerve_(anterior)
+    Sciatic_nerve_(anterior)_ergonomics: 844x970, 0 overlays
+    Sciatic_nerve_(anterior)_innervation: 1385x966, 10 overlays
+    Sciatic_nerve_(anterior)_landmark_pattern: 1387x970, 1 overlays
+    Sciatic_nerve_(anterior)_sonoanatomy_1: 1371x970, 24 overlays
+    Sciatic_nerve_(anterior)_sonoanatomy_2: 1331x970, 18 overlays
+[58/139] Nerves_lower_limb/Sciatic_nerve_(infragluteal)
+    Sciatic_nerve_(infragluteal)_ergonomics: 1504x970, 0 overlays
+    Sciatic_nerve_(infragluteal)_innervation: 1385x966, 11 overlays
+    Sciatic_nerve_(infragluteal)_landmark_pattern: 1387x970, 1 overlays
+    Sciatic_nerve_(infragluteal)_sonoanatomy_1: 1433x970, 15 overlays
+    Sciatic_nerve_(infragluteal)_sonoanatomy_2: 1061x970, 13 overlays
+[59/139] Nerves_lower_limb/Sciatic_nerve_(popliteal_fossa)
+    Sciatic_nerve_(popliteal_fossa)_ergonomics: 1723x970, 0 overlays
+    Sciatic_nerve_(popliteal_fossa)_innervation: 1204x840, 5 overlays
+    Sciatic_nerve_(popliteal_fossa)_landmark_pattern: 1387x970, 1 overlays
+    Sciatic_nerve_(popliteal_fossa)_sonoanatomy_1: 1452x970, 12 overlays
+    Sciatic_nerve_(popliteal_fossa)_sonoanatomy_2: 1156x970, 14 overlays
+    Sciatic_nerve_(popliteal_fossa)_sonoanatomy_3: 1293x970, 14 overlays
+[60/139] Nerves_lower_limb/Sciatic_nerve_(transgluteal)
+    Sciatic_nerve_(transgluteal)_ergonomics: 1590x970, 0 overlays
+    Sciatic_nerve_(transgluteal)_innervation: 1385x966, 10 overlays
+    Sciatic_nerve_(transgluteal)_landmark_pattern: 1387x970, 1 overlays
+    Sciatic_nerve_(transgluteal)_sonoanatomy_1: 1587x966, 13 overlays
+    Sciatic_nerve_(transgluteal)_sonoanatomy_2: 1532x957, 14 overlays
+    Sciatic_nerve_(transgluteal)_sonoanatomy_3: 1593x970, 13 overlays
+[61/139] Nerves_lower_limb/Superficial_peroneal_nerve
+    Superficial_peroneal_nerve_ergonomics: 1723x970, 0 overlays
+    Superficial_peroneal_nerve_innervation: 1255x966, 6 overlays
+    Superficial_peroneal_nerve_landmark_pattern: 1387x970, 1 overlays
+    Superficial_peroneal_nerve_sonoanatomy_1: 1652x794, 12 overlays
+    Superficial_peroneal_nerve_sonoanatomy_2: 1652x900, 16 overlays
+    Superficial_peroneal_nerve_sonoanatomy_3: 1647x962, 13 overlays
+[62/139] Nerves_lower_limb/Superior_lateral_geniculate_nerves
+    Superior_lateral_geniculate_nerves_innervation: 1527x964, 7 overlays
+    Superior_lateral_geniculate_nerves_landmark_pattern: 1387x970, 1 overlays
+    Superior_lateral_geniculate_nerves_sonoanatomy_1: 1652x913, 9 overlays
+    Superior_lateral_geniculate_nerves_sonoanatomy_2: 1652x808, 9 overlays
+    Superior_lateral_geniculate_nerves_sonoanatomy_3: 1652x835, 9 overlays
+[63/139] Nerves_lower_limb/Superior_medial_geniculate_nerves
+    Superior_medial_geniculate_nerves_innervation: 1527x964, 8 overlays
+    Superior_medial_geniculate_nerves_landmark_pattern: 1387x970, 1 overlays
+    Superior_medial_geniculate_nerves_sonoanatomy_1: 1425x970, 8 overlays
+    Superior_medial_geniculate_nerves_sonoanatomy_2: 1410x970, 8 overlays
+    Superior_medial_geniculate_nerves_sonoanatomy_3: 1652x908, 8 overlays
+[64/139] Nerves_lower_limb/Sural_nerve
+    Sural_nerve_ergonomics: 1723x970, 0 overlays
+    Sural_nerve_innervation: 1202x899, 6 overlays
+    Sural_nerve_landmark_pattern: 1387x970, 1 overlays
+    Sural_nerve_sonoanatomy_1: 1652x542, 12 overlays
+    Sural_nerve_sonoanatomy_2: 1652x662, 12 overlays
+    Sural_nerve_sonoanatomy_3: 1652x819, 12 overlays
+[65/139] Nerves_lower_limb/Tibial_nerve_(ankle)
+    Tibial_nerve_(ankle)_ergonomics: 941x970, 0 overlays
+    Tibial_nerve_(ankle)_innervation: 1255x966, 6 overlays
+    Tibial_nerve_(ankle)_landmark_pattern: 1387x970, 1 overlays
+    Tibial_nerve_(ankle)_sonoanatomy_1: 1652x877, 14 overlays
+    Tibial_nerve_(ankle)_sonoanatomy_2: 1652x755, 14 overlays
+    Tibial_nerve_(ankle)_sonoanatomy_3: 1652x742, 15 overlays
+[66/139] Nerves_lower_limb/iPACK_(lateral)
+    iPACK_(lateral)_ergonomics: 1723x970, 0 overlays
+    iPACK_(lateral)_innervation: 1525x965, 7 overlays
+    iPACK_(lateral)_landmark_pattern: 1415x970, 1 overlays
+    iPACK_(lateral)_sonoanatomy_1: 1606x960, 14 overlays
+    iPACK_(lateral)_sonoanatomy_2: 1652x927, 11 overlays
+[67/139] Nerves_lower_limb/iPACK_(supine)
+    iPACK_(supine)_ergonomics: 1606x970, 0 overlays
+    iPACK_(supine)_innervation: 1525x965, 8 overlays
+    iPACK_(supine)_landmark_pattern: 1387x970, 1 overlays
+    iPACK_(supine)_sonoanatomy_1: 1598x959, 12 overlays
+    iPACK_(supine)_sonoanatomy_2: 1497x970, 12 overlays
+    iPACK_(supine)_sonoanatomy_3: 1525x939, 11 overlays
+[68/139] Nerves_paediatric_Plan_A_blocks/Paediatric_brachial_plexus_axillary
+    Paediatric_brachial_plexus_axillary_ergonomics: 1209x970, 0 overlays
+    Paediatric_brachial_plexus_axillary_innervation: 889x841, 5 overlays
+    Paediatric_brachial_plexus_axillary_landmark_pattern: 1493x970, 1 overlays
+    Paediatric_brachial_plexus_axillary_sonoanatomy_1: 1652x645, 16 overlays
+[69/139] Nerves_paediatric_Plan_A_blocks/Paediatric_caudal
+    Paediatric_caudal_ergonomics: 973x970, 0 overlays
+    Paediatric_caudal_innervation: 1327x839, 0 overlays
+    Paediatric_caudal_landmark_pattern: 1652x774, 1 overlays
+    Paediatric_caudal_sonoanatomy_1: 1652x825, 11 overlays
+    Paediatric_caudal_sonoanatomy_2: 1652x830, 11 overlays
+    Paediatric_caudal_sonoanatomy_3: 1652x551, 9 overlays
+    Paediatric_caudal_sonoanatomy_4: 1652x654, 9 overlays
+[70/139] Nerves_paediatric_Plan_A_blocks/Paediatric_femoral_nerve
+    Paediatric_femoral_nerve_ergonomics: 1322x970, 0 overlays
+    Paediatric_femoral_nerve_innervation: 1407x839, 7 overlays
+    Paediatric_femoral_nerve_landmark_pattern: 1489x970, 1 overlays
+    Paediatric_femoral_nerve_sonoanatomy_1: 1652x524, 15 overlays
+    Paediatric_femoral_nerve_sonoanatomy_2: 1652x594, 18 overlays
+[71/139] Nerves_paediatric_Plan_A_blocks/Paediatric_penile_nerves
+    Paediatric_penile_nerves_ergonomics_1: 673x970, 0 overlays
+    Paediatric_penile_nerves_ergonomics_2: 611x970, 0 overlays
+    Paediatric_penile_nerves_ergonomics_3: 1230x970, 0 overlays
+    Paediatric_penile_nerves_innervation: 1652x714, 2 overlays
+    Paediatric_penile_nerves_landmark_pattern_1: 1652x903, 1 overlays
+    Paediatric_penile_nerves_landmark_pattern_2: 1593x970, 1 overlays
+    Paediatric_penile_nerves_landmark_pattern_3: 1652x716, 1 overlays
+    Paediatric_penile_nerves_sonoanatomy_1: 1652x958, 13 overlays
+    Paediatric_penile_nerves_sonoanatomy_2: 1652x804, 14 overlays
+    Paediatric_penile_nerves_sonoanatomy_3: 1652x944, 17 overlays
+    Paediatric_penile_nerves_sonoanatomy_4: 1652x942, 14 overlays
+    Paediatric_penile_nerves_sonoanatomy_5: 1652x785, 14 overlays
+[72/139] Nerves_paediatric_Plan_A_blocks/Paediatric_quadratus_lumborum
+    Paediatric_quadratus_lumborum_ergonomics: 1158x970, 0 overlays
+    WARNING: Could not detect content area for Paediatric_quadratus_lumborum_innervation
+    Paediatric_quadratus_lumborum_landmark_pattern: 1387x970, 1 overlays
+    Paediatric_quadratus_lumborum_sonoanatomy_1: 1405x970, 13 overlays
+[73/139] Nerves_paediatric_Plan_A_blocks/Paediatric_rectus_sheath
+    Paediatric_rectus_sheath_ergonomics: 1221x970, 0 overlays
+    Paediatric_rectus_sheath_innervation: 947x841, 5 overlays
+    Paediatric_rectus_sheath_landmark_pattern: 1599x970, 1 overlays
+    Paediatric_rectus_sheath_sonoanatomy_1: 1652x540, 10 overlays
+[74/139] Nerves_paediatric_Plan_A_blocks/Paediatric_sciatic_nerve_popliteal
+    Paediatric_sciatic_nerve_popliteal_ergonomics: 1565x970, 0 overlays
+    Paediatric_sciatic_nerve_popliteal_innervation: 1204x840, 5 overlays
+    Paediatric_sciatic_nerve_popliteal_landmark_pattern: 1387x970, 1 overlays
+    Paediatric_sciatic_nerve_popliteal_sonoanatomy_1: 1652x752, 13 overlays
+    Paediatric_sciatic_nerve_popliteal_sonoanatomy_2: 1652x728, 13 overlays
+[75/139] Nerves_sensory_innervation_guides/ASRA_lower_limb_cutaneous
+    ASRA_lower_limb_cutaneous_innervation: 511x970, 0 overlays
+[76/139] Nerves_sensory_innervation_guides/ASRA_lower_limb_muscular
+    ASRA_lower_limb_muscular_innervation: 511x970, 0 overlays
+[77/139] Nerves_sensory_innervation_guides/ASRA_lower_limb_osseous
+    ASRA_lower_limb_osseous_innervation: 511x970, 0 overlays
+[78/139] Nerves_sensory_innervation_guides/ASRA_upper_limb_cutaneous
+    ASRA_upper_limb_cutaneous__innervation: 1397x970, 0 overlays
+[79/139] Nerves_sensory_innervation_guides/ASRA_upper_limb_muscular
+    ASRA_upper_limb_muscular_innervation: 1397x970, 0 overlays
+[80/139] Nerves_sensory_innervation_guides/ASRA_upper_limb_osseous
+    ASRA_upper_limb_osseous_innervation: 1397x970, 0 overlays
+[81/139] Nerves_sensory_innervation_guides/Parietal_and_visceral_peritoneum
+    Parietal_and_visceral_peritoneum_innervation: 1616x910, 3 overlays
+[82/139] Nerves_torso,_head_and_neck/Anterior_quadratus_lumborum
+    Anterior_quadratus_lumborum_ergonomics: 1723x970, 0 overlays
+    Anterior_quadratus_lumborum_innervation: 947x841, 6 overlays
+    Anterior_quadratus_lumborum_landmark_pattern: 1387x970, 1 overlays
+    Anterior_quadratus_lumborum_sonoanatomy_1: 1461x970, 21 overlays
+    Anterior_quadratus_lumborum_sonoanatomy_2: 1345x968, 21 overlays
+    Anterior_quadratus_lumborum_sonoanatomy_3: 1248x970, 17 overlays
+[83/139] Nerves_torso,_head_and_neck/Cervical_plexus_(intermediate)
+    Cervical_plexus_(intermediate)_ergonomics: 1723x970, 0 overlays
+    Cervical_plexus_(intermediate)_innervation: 1051x837, 1 overlays
+    Cervical_plexus_(intermediate)_landmark_pattern: 1387x970, 1 overlays
+    Cervical_plexus_(intermediate)_sonoanatomy_1: 1652x884, 18 overlays
+    Cervical_plexus_(intermediate)_sonoanatomy_2: 1652x878, 15 overlays
+    Cervical_plexus_(intermediate)_sonoanatomy_3: 1323x970, 19 overlays
+[84/139] Nerves_torso,_head_and_neck/Deep_parasternal_intercostal_plane
+    Deep_parasternal_intercostal_plane_ergonomics: 1727x970, 0 overlays
+    Deep_parasternal_intercostal_plane_innervation: 1149x840, 2 overlays
+    Deep_parasternal_intercostal_plane_landmark_pattern: 1387x970, 1 overlays
+    Deep_parasternal_intercostal_plane_sonoanatomy_1: 1652x751, 12 overlays
+    Deep_parasternal_intercostal_plane_sonoanatomy_2: 1652x768, 11 overlays
+    Deep_parasternal_intercostal_plane_sonoanatomy_3: 1652x856, 11 overlays
+[85/139] Nerves_torso,_head_and_neck/Erector_spinae_plane
+    Erector_spinae_plane_ergonomics_1: 1723x970, 0 overlays
+    Erector_spinae_plane_ergonomics_2: 1723x970, 0 overlays
+    Erector_spinae_plane_innervation: 1149x840, 5 overlays
+    Erector_spinae_plane_landmark_pattern: 1387x970, 1 overlays
+    Erector_spinae_plane_sonoanatomy_1: 1582x970, 16 overlays
+    Erector_spinae_plane_sonoanatomy_2: 1452x970, 17 overlays
+    Erector_spinae_plane_sonoanatomy_3: 1269x970, 11 overlays
+[86/139] Nerves_torso,_head_and_neck/Ilioinguinal_&_iliohypogastric_nerves
+    Ilioinguinal_&_iliohypogastric_nerves_ergonomics: 761x970, 0 overlays
+    Ilioinguinal_&_iliohypogastric_nerves_innervation: 947x841, 6 overlays
+    Ilioinguinal_&_iliohypogastric_nerves_landmark_pattern: 1387x970, 1 overlays
+    Ilioinguinal_&_iliohypogastric_nerves_sonoanatomy_1: 1652x884, 12 overlays
+    Ilioinguinal_&_iliohypogastric_nerves_sonoanatomy_2: 1579x970, 11 overlays
+    Ilioinguinal_&_iliohypogastric_nerves_sonoanatomy_3: 1652x666, 14 overlays
+[87/139] Nerves_torso,_head_and_neck/Interpectoral_plane
+    Interpectoral_plane_ergonomics: 1495x970, 0 overlays
+    Interpectoral_plane_innervation: 1149x840, 11 overlays
+    Interpectoral_plane_landmark_pattern: 1387x970, 1 overlays
+    Interpectoral_plane_sonoanatomy_1: 1225x970, 14 overlays
+    Interpectoral_plane_sonoanatomy_2: 1107x970, 12 overlays
+[88/139] Nerves_torso,_head_and_neck/Lateral_quadratus_lumborum
+    Lateral_quadratus_lumborum_ergonomics_1: 833x970, 0 overlays
+    Lateral_quadratus_lumborum_ergonomics_2: 1723x970, 0 overlays
+    WARNING: Could not detect content area for Lateral_quadratus_lumborum_innervation
+    Lateral_quadratus_lumborum_landmark_pattern: 1387x970, 1 overlays
+    Lateral_quadratus_lumborum_sonoanatomy_1: 1047x966, 15 overlays
+    Lateral_quadratus_lumborum_sonoanatomy_2: 1383x970, 12 overlays
+    Lateral_quadratus_lumborum_sonoanatomy_3: 1031x970, 15 overlays
+[89/139] Nerves_torso,_head_and_neck/Midaxillary_TAP
+    Midaxillary_TAP_ergonomics: 886x970, 0 overlays
+    Midaxillary_TAP_innervation: 947x841, 6 overlays
+    Midaxillary_TAP_landmark_pattern: 1387x970, 1 overlays
+    Midaxillary_TAP_sonoanatomy_1: 1289x970, 8 overlays
+    Midaxillary_TAP_sonoanatomy_2: 1323x970, 8 overlays
+    Midaxillary_TAP_sonoanatomy_3: 1447x970, 8 overlays
+[90/139] Nerves_torso,_head_and_neck/Paravertebral_(sagittal)
+    Paravertebral_(sagittal)_ergonomics_1: 1723x970, 0 overlays
+    Paravertebral_(sagittal)_ergonomics_2: 1723x970, 0 overlays
+    Paravertebral_(sagittal)_innervation: 1149x840, 5 overlays
+    Paravertebral_(sagittal)_landmark_pattern: 1387x970, 1 overlays
+    Paravertebral_(sagittal)_sonoanatomy_1: 1575x970, 16 overlays
+    Paravertebral_(sagittal)_sonoanatomy_2: 1549x952, 16 overlays
+    Paravertebral_(sagittal)_sonoanatomy_3: 1452x970, 17 overlays
+[91/139] Nerves_torso,_head_and_neck/Paravertebral_(transverse)
+    Paravertebral_(transverse)_ergonomics: 1723x970, 0 overlays
+    Paravertebral_(transverse)_innervation: 1149x840, 5 overlays
+    Paravertebral_(transverse)_landmark_pattern: 1387x970, 1 overlays
+    Paravertebral_(transverse)_sonoanatomy_1: 1641x970, 14 overlays
+    Paravertebral_(transverse)_sonoanatomy_2: 1213x970, 15 overlays
+[92/139] Nerves_torso,_head_and_neck/Pectoserratus_and_interpectoral_planes
+    Pectoserratus_and_interpectoral_planes_ergonomics: 1723x970, 0 overlays
+    Pectoserratus_and_interpectoral_planes_innervation: 1149x840, 6 overlays
+    Pectoserratus_and_interpectoral_planes_landmark_pattern: 1387x970, 1 overlays
+    Pectoserratus_and_interpectoral_planes_sonoanatomy_1: 1545x970, 13 overlays
+    Pectoserratus_and_interpectoral_planes_sonoanatomy_2: 1652x887, 12 overlays
+    Pectoserratus_and_interpectoral_planes_sonoanatomy_3: 1105x970, 12 overlays
+[93/139] Nerves_torso,_head_and_neck/Rectus_sheath
+    Rectus_sheath_ergonomics_1: 833x970, 0 overlays
+    Rectus_sheath_ergonomics_2: 1618x970, 0 overlays
+    Rectus_sheath_innervation: 947x841, 5 overlays
+    Rectus_sheath_landmark_pattern: 1387x970, 1 overlays
+    Rectus_sheath_sonoanatomy_1: 1652x886, 14 overlays
+    Rectus_sheath_sonoanatomy_2: 1567x966, 13 overlays
+    Rectus_sheath_sonoanatomy_3: 1652x887, 13 overlays
+[94/139] Nerves_torso,_head_and_neck/Subcostal_TAP_(lower)
+    Subcostal_TAP_(lower)_ergonomics: 861x970, 0 overlays
+    Subcostal_TAP_(lower)_innervation: 947x841, 8 overlays
+    Subcostal_TAP_(lower)_landmark_pattern: 1387x970, 1 overlays
+    Subcostal_TAP_(lower)_sonoanatomy_1: 1652x736, 12 overlays
+    Subcostal_TAP_(lower)_sonoanatomy_2: 1652x742, 8 overlays
+[95/139] Nerves_torso,_head_and_neck/Subcostal_TAP_(upper)
+    Subcostal_TAP_(upper)_ergonomics: 871x970, 0 overlays
+    Subcostal_TAP_(upper)_innervation: 947x841, 6 overlays
+    Subcostal_TAP_(upper)_landmark_pattern: 1387x970, 1 overlays
+    Subcostal_TAP_(upper)_sonoanatomy_1: 1575x970, 8 overlays
+    Subcostal_TAP_(upper)_sonoanatomy_2: 1580x964, 10 overlays
+    Subcostal_TAP_(upper)_sonoanatomy_3: 1652x755, 10 overlays
+[96/139] Nerves_torso,_head_and_neck/Superficial_parasternal_intercostal_plane
+    Superficial_parasternal_intercostal_plane_ergonomics: 1723x970, 0 overlays
+    Superficial_parasternal_intercostal_plane_innervation: 1149x840, 2 overlays
+    Superficial_parasternal_intercostal_plane_landmark_pattern: 1387x970, 1 overlays
+    Superficial_parasternal_intercostal_plane_sonoanatomy_1: 1652x755, 9 overlays
+    Superficial_parasternal_intercostal_plane_sonoanatomy_2: 1652x749, 9 overlays
+    Superficial_parasternal_intercostal_plane_sonoanatomy_3: 1291x970, 8 overlays
+[97/139] Nerves_torso,_head_and_neck/Superficial_serratus_anterior_plane
+    Superficial_serratus_anterior_plane_ergonomics_1: 1727x970, 0 overlays
+    Superficial_serratus_anterior_plane_ergonomics_2: 1727x970, 0 overlays
+    Superficial_serratus_anterior_plane_innervation: 1149x840, 6 overlays
+    Superficial_serratus_anterior_plane_landmark_pattern: 1387x970, 1 overlays
+    Superficial_serratus_anterior_plane_sonoanatomy_1: 1567x966, 12 overlays
+    Superficial_serratus_anterior_plane_sonoanatomy_2: 1267x970, 12 overlays
+    Superficial_serratus_anterior_plane_sonoanatomy_3: 1537x970, 12 overlays
+[98/139] Nerves_torso,_head_and_neck/Transversalis_fascia_plane
+    WARNING: Could not detect content area for Transversalis_fascia_plane_innervation
+    Transversalis_fascia_plane_landmark_pattern: 1387x970, 1 overlays
+    Transversalis_fascia_plane_sonoanatomy_1: 1293x970, 15 overlays
+    Transversalis_fascia_plane_sonoanatomy_2: 881x970, 15 overlays
+[99/139] Nerves_upper_limb/Axillary_brachial_plexus
+    Axillary_brachial_plexus_ergonomics_1: 1051x970, 0 overlays
+    Axillary_brachial_plexus_ergonomics_2: 969x970, 0 overlays
+    Axillary_brachial_plexus_innervation: 889x839, 5 overlays
+    Axillary_brachial_plexus_landmark_pattern: 1387x970, 1 overlays
+    Axillary_brachial_plexus_sonoanatomy_1: 1537x970, 19 overlays
+    Axillary_brachial_plexus_sonoanatomy_2: 1600x970, 15 overlays
+    Axillary_brachial_plexus_sonoanatomy_3: 1652x887, 17 overlays
+    Axillary_brachial_plexus_sonoanatomy_4: 1652x872, 18 overlays
+[100/139] Nerves_upper_limb/Axillary_nerve
+    Axillary_nerve_ergonomics: 1455x970, 0 overlays
+    Axillary_nerve_innervation: 951x828, 6 overlays
+    Axillary_nerve_landmark_pattern: 1387x902, 1 overlays
+    Axillary_nerve_sonoanatomy_1: 1305x970, 12 overlays
+    Axillary_nerve_sonoanatomy_2: 1222x970, 12 overlays
+    Axillary_nerve_sonoanatomy_3: 1060x970, 13 overlays
+[101/139] Nerves_upper_limb/Infraclavicular_brachial_plexus_(coricoid)_&_(RAPTIR)
+    Infraclavicular_brachial_plexus_(coricoid)_&_(RAPTIR)_ergonomics: 1457x970, 0 overlays
+    Infraclavicular_brachial_plexus_(coricoid)_&_(RAPTIR)_innervation: 951x828, 9 overlays
+    Infraclavicular_brachial_plexus_(coricoid)_&_(RAPTIR)_landmark_pattern: 1387x970, 1 overlays
+    Infraclavicular_brachial_plexus_(coricoid)_&_(RAPTIR)_sonoanatomy_1: 965x966, 16 overlays
+    Infraclavicular_brachial_plexus_(coricoid)_&_(RAPTIR)_sonoanatomy_2: 1071x969, 15 overlays
+    Infraclavicular_brachial_plexus_(coricoid)_&_(RAPTIR)_sonoanatomy_3: 1039x970, 12 overlays
+[102/139] Nerves_upper_limb/Infraclavicular_brachial_plexus_(costoclavicular)
+    Infraclavicular_brachial_plexus_(costoclavicular)_ergonomics: 1723x970, 0 overlays
+    Infraclavicular_brachial_plexus_(costoclavicular)_innervation: 951x828, 9 overlays
+    Infraclavicular_brachial_plexus_(costoclavicular)_landmark_pattern: 1387x970, 1 overlays
+    Infraclavicular_brachial_plexus_(costoclavicular)_sonoanatomy_1: 1441x970, 19 overlays
+    Infraclavicular_brachial_plexus_(costoclavicular)_sonoanatomy_2: 1232x970, 20 overlays
+    Infraclavicular_brachial_plexus_(costoclavicular)_sonoanatomy_3: 1439x970, 19 overlays
+[103/139] Nerves_upper_limb/Intercostobrachial_nerve
+    Intercostobrachial_nerve_ergonomics_1: 1051x970, 0 overlays
+    Intercostobrachial_nerve_ergonomics_2: 1054x970, 0 overlays
+    Intercostobrachial_nerve_innervation: 889x841, 7 overlays
+    Intercostobrachial_nerve_landmark_pattern: 1387x970, 1 overlays
+    Intercostobrachial_nerve_sonoanatomy_1: 1652x860, 16 overlays
+[104/139] Nerves_upper_limb/Interscalene_brachial_plexus
+    Interscalene_brachial_plexus_ergonomics_1: 1723x970, 0 overlays
+    Interscalene_brachial_plexus_ergonomics_2: 1727x970, 0 overlays
+    Interscalene_brachial_plexus_innervation: 951x828, 8 overlays
+    Interscalene_brachial_plexus_landmark_pattern: 1387x970, 1 overlays
+    Interscalene_brachial_plexus_sonoanatomy_1: 1562x963, 26 overlays
+    Interscalene_brachial_plexus_sonoanatomy_2: 1251x970, 25 overlays
+    Interscalene_brachial_plexus_sonoanatomy_3: 1233x970, 29 overlays
+[105/139] Nerves_upper_limb/Lateral_cutaneous_nerve_of_forearm
+    Lateral_cutaneous_nerve_of_forearm_ergonomics: 877x970, 0 overlays
+    Lateral_cutaneous_nerve_of_forearm_innervation: 889x841, 4 overlays
+    Lateral_cutaneous_nerve_of_forearm_landmark_pattern: 1387x970, 1 overlays
+    Lateral_cutaneous_nerve_of_forearm_sonoanatomy_1: 1652x761, 16 overlays
+    Lateral_cutaneous_nerve_of_forearm_sonoanatomy_2: 1652x872, 11 overlays
+[106/139] Nerves_upper_limb/Medial_cutaneous_nerve_of_forearm
+    Medial_cutaneous_nerve_of_forearm_ergonomics: 943x970, 0 overlays
+    Medial_cutaneous_nerve_of_forearm_innervation: 889x841, 4 overlays
+    Medial_cutaneous_nerve_of_forearm_landmark_pattern: 1387x970, 1 overlays
+    Medial_cutaneous_nerve_of_forearm_sonoanatomy_1: 1652x834, 14 overlays
+    Medial_cutaneous_nerve_of_forearm_sonoanatomy_2: 1587x966, 14 overlays
+[107/139] Nerves_upper_limb/Median_nerve_antecubital_fossa
+    Median_nerve_antecubital_fossa_ergonomics: 861x970, 0 overlays
+    Median_nerve_antecubital_fossa_innervation: 889x841, 5 overlays
+    Median_nerve_antecubital_fossa_landmark_pattern: 1387x970, 1 overlays
+    Median_nerve_antecubital_fossa_sonoanatomy_1: 1652x890, 11 overlays
+    Median_nerve_antecubital_fossa_sonoanatomy_2: 1649x728, 15 overlays
+    Median_nerve_antecubital_fossa_sonoanatomy_3: 1652x870, 15 overlays
+[108/139] Nerves_upper_limb/Median_nerve_mid_arm
+    Median_nerve_mid_arm_ergonomics: 943x970, 0 overlays
+    Median_nerve_mid_arm_innervation: 889x841, 4 overlays
+    Median_nerve_mid_arm_landmark_pattern: 1387x970, 1 overlays
+    Median_nerve_mid_arm_sonoanatomy_1: 1652x752, 14 overlays
+    Median_nerve_mid_arm_sonoanatomy_2: 1652x921, 12 overlays
+    Median_nerve_mid_arm_sonoanatomy_3: 1652x636, 12 overlays
+[109/139] Nerves_upper_limb/Median_nerve_mid_forearm
+    Median_nerve_mid_forearm_ergonomics: 803x970, 0 overlays
+    Median_nerve_mid_forearm_innervation: 951x838, 4 overlays
+    Median_nerve_mid_forearm_landmark_pattern: 1387x970, 1 overlays
+    Median_nerve_mid_forearm_sonoanatomy_1: 1451x970, 18 overlays
+    Median_nerve_mid_forearm_sonoanatomy_2: 1409x970, 17 overlays
+    Median_nerve_mid_forearm_sonoanatomy_3: 1652x688, 19 overlays
+[110/139] Nerves_upper_limb/Posterior_cutaneous_nerve_of_forearm
+    Posterior_cutaneous_nerve_of_forearm_ergonomics: 1723x970, 0 overlays
+    Posterior_cutaneous_nerve_of_forearm_innervation: 889x841, 4 overlays
+    Posterior_cutaneous_nerve_of_forearm_landmark_pattern: 1387x970, 1 overlays
+    Posterior_cutaneous_nerve_of_forearm_sonoanatomy_1: 1652x755, 11 overlays
+    Posterior_cutaneous_nerve_of_forearm_sonoanatomy_2: 1652x886, 13 overlays
+[111/139] Nerves_upper_limb/Radial_nerve_antecubital_fossa
+    Radial_nerve_antecubital_fossa_ergonomics: 970x970, 0 overlays
+    Radial_nerve_antecubital_fossa_innervation: 843x833, 4 overlays
+    Radial_nerve_antecubital_fossa_landmark_pattern: 1387x970, 1 overlays
+    Radial_nerve_antecubital_fossa_sonoanatomy_1: 1579x970, 17 overlays
+    Radial_nerve_antecubital_fossa_sonoanatomy_2: 1652x747, 10 overlays
+    Radial_nerve_antecubital_fossa_sonoanatomy_3: 1652x728, 15 overlays
+[112/139] Nerves_upper_limb/Radial_nerve_distal_arm
+    Radial_nerve_distal_arm_ergonomics_1: 1723x970, 0 overlays
+    Radial_nerve_distal_arm_ergonomics_2: 803x970, 0 overlays
+    Radial_nerve_distal_arm_innervation: 889x841, 4 overlays
+    Radial_nerve_distal_arm_landmark_pattern: 1387x970, 1 overlays
+    Radial_nerve_distal_arm_sonoanatomy_1: 1652x886, 13 overlays
+    Radial_nerve_distal_arm_sonoanatomy_2: 1652x794, 11 overlays
+    Radial_nerve_distal_arm_sonoanatomy_3: 1587x970, 12 overlays
+[113/139] Nerves_upper_limb/Radial_nerve_superficial_branch
+    Radial_nerve_superficial_branch_ergonomics: 1023x970, 0 overlays
+    Radial_nerve_superficial_branch_innervation: 951x838, 5 overlays
+    Radial_nerve_superficial_branch_landmark_pattern: 1387x970, 1 overlays
+    Radial_nerve_superficial_branch_sonoanatomy_1: 1652x887, 16 overlays
+    Radial_nerve_superficial_branch_sonoanatomy_2: 1652x768, 16 overlays
+    Radial_nerve_superficial_branch_sonoanatomy_3: 1652x939, 15 overlays
+[114/139] Nerves_upper_limb/Superior_trunk
+    Superior_trunk_ergonomics: 1727x970, 0 overlays
+    Superior_trunk_innervation: 951x828, 13 overlays
+    Superior_trunk_landmark_pattern: 1387x970, 1 overlays
+    Superior_trunk_sonoanatomy_1: 1583x963, 16 overlays
+    Superior_trunk_sonoanatomy_2: 1633x970, 20 overlays
+    Superior_trunk_sonoanatomy_3: 1652x866, 22 overlays
+[115/139] Nerves_upper_limb/Supraclavicular_brachial_plexus
+    Supraclavicular_brachial_plexus_ergonomics: 1727x970, 0 overlays
+    Supraclavicular_brachial_plexus_innervation: 951x828, 13 overlays
+    Supraclavicular_brachial_plexus_landmark_pattern: 1387x970, 1 overlays
+    Supraclavicular_brachial_plexus_sonoanatomy_1: 1652x764, 22 overlays
+    Supraclavicular_brachial_plexus_sonoanatomy_2: 1652x755, 20 overlays
+    Supraclavicular_brachial_plexus_sonoanatomy_3: 1652x970, 19 overlays
+[116/139] Nerves_upper_limb/Supraclavicular_nerves
+    Supraclavicular_nerves_ergonomics: 1727x970, 0 overlays
+    Supraclavicular_nerves_innervation: 951x828, 3 overlays
+    Supraclavicular_nerves_landmark_pattern: 1387x970, 1 overlays
+    Supraclavicular_nerves_sonoanatomy_1: 1562x963, 25 overlays
+    Supraclavicular_nerves_sonoanatomy_2: 1652x887, 18 overlays
+    Supraclavicular_nerves_sonoanatomy_3: 1583x963, 14 overlays
+[117/139] Nerves_upper_limb/Suprascapular_nerve_(anterior)
+    Suprascapular_nerve_(anterior)_ergonomics: 1727x970, 0 overlays
+    Suprascapular_nerve_(anterior)_innervation: 951x828, 6 overlays
+    Suprascapular_nerve_(anterior)_landmark_pattern: 1387x970, 1 overlays
+    Suprascapular_nerve_(anterior)_sonoanatomy_1: 1652x753, 19 overlays
+    Suprascapular_nerve_(anterior)_sonoanatomy_2: 1652x755, 19 overlays
+    Suprascapular_nerve_(anterior)_sonoanatomy_3: 1652x798, 17 overlays
+[118/139] Nerves_upper_limb/Suprascapular_nerve_(posterior)
+    Suprascapular_nerve_(posterior)_ergonomics: 1723x970, 0 overlays
+    Suprascapular_nerve_(posterior)_innervation: 951x828, 6 overlays
+    Suprascapular_nerve_(posterior)_landmark_pattern: 1387x888, 1 overlays
+    Suprascapular_nerve_(posterior)_sonoanatomy_1: 1361x970, 11 overlays
+    Suprascapular_nerve_(posterior)_sonoanatomy_2: 1542x942, 11 overlays
+    Suprascapular_nerve_(posterior)_sonoanatomy_3: 1267x970, 12 overlays
+[119/139] Nerves_upper_limb/Ulnar_nerve_mid_arm
+    Ulnar_nerve_mid_arm_ergonomics_1: 1010x970, 0 overlays
+    Ulnar_nerve_mid_arm_ergonomics_2: 943x970, 0 overlays
+    Ulnar_nerve_mid_arm_innervation: 889x841, 4 overlays
+    Ulnar_nerve_mid_arm_landmark_pattern: 1387x970, 1 overlays
+    Ulnar_nerve_mid_arm_sonoanatomy_1: 1652x752, 14 overlays
+    Ulnar_nerve_mid_arm_sonoanatomy_2: 1652x827, 12 overlays
+    Ulnar_nerve_mid_arm_sonoanatomy_3: 1652x636, 12 overlays
+[120/139] Nerves_upper_limb/Ulnar_nerve_mid_forearm
+    Ulnar_nerve_mid_forearm_ergonomics: 971x970, 0 overlays
+    Ulnar_nerve_mid_forearm_innervation: 951x838, 4 overlays
+    Ulnar_nerve_mid_forearm_landmark_pattern: 1387x970, 1 overlays
+    Ulnar_nerve_mid_forearm_sonoanatomy_1: 1652x886, 13 overlays
+    Ulnar_nerve_mid_forearm_sonoanatomy_2: 1277x970, 15 overlays
+    Ulnar_nerve_mid_forearm_sonoanatomy_3: 1271x970, 13 overlays
+[121/139] Transthoracic_echo/Apical_2_chamber
+    Apical_2_chamber_ergonomics: 1723x970, 0 overlays
+    Apical_2_chamber_landmark_pattern: 1465x970, 1 overlays
+    Apical_2_chamber_sonoanatomy_1: 1007x949, 7 overlays
+[122/139] Transthoracic_echo/Apical_4_chamber
+    Apical_4_chamber_ergonomics: 1723x970, 0 overlays
+    Apical_4_chamber_landmark_pattern: 1465x970, 1 overlays
+    Apical_4_chamber_sonoanatomy_1: 949x959, 11 overlays
+[123/139] Transthoracic_echo/Apical_5_chamber
+    Apical_5_chamber_ergonomics: 1723x970, 0 overlays
+    Apical_5_chamber_landmark_pattern: 1465x970, 1 overlays
+    Apical_5_chamber_sonoanatomy_1: 1362x970, 10 overlays
+[124/139] Transthoracic_echo/Apical_long_axis
+    Apical_long_axis_ergonomics: 1723x970, 0 overlays
+    Apical_long_axis_landmark_pattern: 1465x970, 1 overlays
+    Apical_long_axis_sonoanatomy_1: 1280x955, 10 overlays
+[125/139] Transthoracic_echo/Parasternal_long_axis
+    Parasternal_long_axis_ergonomics: 1723x970, 0 overlays
+    Parasternal_long_axis_landmark_pattern: 1465x970, 1 overlays
+    Parasternal_long_axis_sonoanatomy_1: 1133x940, 10 overlays
+[126/139] Transthoracic_echo/Parasternal_right_ventricle_inflow
+    Parasternal_right_ventricle_inflow_ergonomics: 1723x970, 0 overlays
+    Parasternal_right_ventricle_inflow_landmark_pattern: 1465x970, 1 overlays
+    Parasternal_right_ventricle_inflow_sonoanatomy_1: 1235x918, 6 overlays
+[127/139] Transthoracic_echo/Parasternal_short_axis_aortic_valve
+    Parasternal_short_axis_aortic_valve_ergonomics: 1711x970, 0 overlays
+    Parasternal_short_axis_aortic_valve_landmark_pattern: 1465x970, 1 overlays
+    Parasternal_short_axis_aortic_valve_sonoanatomy_1: 999x949, 11 overlays
+[128/139] Transthoracic_echo/Parasternal_short_axis_apex
+    Parasternal_short_axis_apex_ergonomics: 1711x970, 0 overlays
+    Parasternal_short_axis_apex_landmark_pattern: 1391x970, 1 overlays
+    Parasternal_short_axis_apex_sonoanatomy_1: 1085x959, 5 overlays
+[129/139] Transthoracic_echo/Parasternal_short_axis_basal
+    Parasternal_short_axis_basal_ergonomics: 1711x970, 0 overlays
+    Parasternal_short_axis_basal_landmark_pattern: 1465x970, 1 overlays
+    Parasternal_short_axis_basal_sonoanatomy_1: 974x894, 5 overlays
+[130/139] Transthoracic_echo/Parasternal_short_axis_mid-papillary
+    Parasternal_short_axis_mid-papillary_ergonomics: 1711x970, 0 overlays
+    Parasternal_short_axis_mid-papillary_landmark_pattern: 1465x970, 1 overlays
+    Parasternal_short_axis_mid-papillary_sonoanatomy_1: 1140x958, 12 overlays
+[131/139] Transthoracic_echo/Subcostal_4_chamber
+    Subcostal_4_chamber_ergonomics: 1723x970, 0 overlays
+    Subcostal_4_chamber_landmark_pattern: 1465x970, 1 overlays
+    Subcostal_4_chamber_sonoanatomy_1: 991x958, 9 overlays
+[132/139] Transthoracic_echo/Subcostal_IVC
+    Subcostal_IVC_ergonomics: 1723x970, 0 overlays
+    Subcostal_IVC_landmark_pattern: 1465x970, 1 overlays
+    Subcostal_IVC_sonoanatomy_1: 1460x955, 8 overlays
+[133/139] Transthoracic_echo/Suprasternal_aortic_arch
+    Suprasternal_aortic_arch_ergonomics: 1723x970, 0 overlays
+    Suprasternal_aortic_arch_landmark_pattern: 1465x970, 1 overlays
+    Suprasternal_aortic_arch_sonoanatomy_1: 1283x928, 7 overlays
+[134/139] Vascular_access/Axillary_Vein
+    Axillary_Vein_ergonomics: 1723x970, 0 overlays
+    Axillary_Vein_landmark_pattern: 1387x970, 1 overlays
+    Axillary_Vein_sonoanatomy_1: 1226x970, 11 overlays
+[135/139] Vascular_access/Basilic_vein
+    Basilic_vein_ergonomics: 1492x970, 0 overlays
+    Basilic_vein_landmark_pattern: 1387x968, 1 overlays
+    Basilic_vein_sonoanatomy_1: 1575x970, 13 overlays
+[136/139] Vascular_access/Brachial_artery
+    Brachial_artery_ergonomics: 749x970, 0 overlays
+    Brachial_artery_landmark_pattern: 1387x970, 1 overlays
+    Brachial_artery_sonoanatomy_1: 1579x970, 10 overlays
+[137/139] Vascular_access/Femoral_vein
+    Femoral_vein_ergonomics: 790x970, 0 overlays
+    Femoral_vein_landmark_pattern: 1387x970, 1 overlays
+    Femoral_vein_sonoanatomy_1: 1309x970, 8 overlays
+[138/139] Vascular_access/Internal_jugular_vein
+    Internal_jugular_vein_ergonomics: 1727x970, 0 overlays
+    Internal_jugular_vein_landmark_pattern: 1387x970, 1 overlays
+    Internal_jugular_vein_sonoanatomy_1: 1606x970, 20 overlays
+[139/139] Vascular_access/Radial_artery
+    Radial_artery_ergonomics: 776x970, 0 overlays
+    Radial_artery_landmark_pattern: 1652x876, 1 overlays
+    Radial_artery_sonoanatomy_1: 1652x635, 13 overlays
+
+Done! Processed 655 views across 139 blocks
+Output: 4709 WebP files, 364.4 MB total
+
+Review page: /Users/richardobyrne/Documents/Claude Projects/AnSo capture/processed/review.html

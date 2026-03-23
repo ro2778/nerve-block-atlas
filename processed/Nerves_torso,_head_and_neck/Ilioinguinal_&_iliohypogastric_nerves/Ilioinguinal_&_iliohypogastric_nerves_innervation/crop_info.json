@@ -9,42 +9,42 @@
     678,
     176,
     1625,
-    1054
+    1017
   ],
   "crop_size": [
     947,
-    878
+    841
   ],
   "layers": [
     {
       "name": "01_Contralateral_ilioinguinal_and_iliohypogastric_nerves",
       "file": "overlay_01_Contralateral_ilioinguinal_and_iliohypogastric_nerves.webp",
-      "coverage_pct": 7.3
+      "coverage_pct": 7.7
     },
     {
       "name": "02_Ilioinguinal_&_iliohypogastric_nerves",
       "file": "overlay_02_Ilioinguinal_&_iliohypogastric_nerves.webp",
-      "coverage_pct": 7.3
+      "coverage_pct": 7.7
     },
     {
       "name": "03_Midaxillary_TAP",
       "file": "overlay_03_Midaxillary_TAP.webp",
-      "coverage_pct": 7.9
+      "coverage_pct": 8.3
     },
     {
       "name": "04_Transversalis_fascia",
       "file": "overlay_04_Transversalis_fascia.webp",
-      "coverage_pct": 7.5
+      "coverage_pct": 7.8
     },
     {
       "name": "05_Anterior_quadratus_lumborum",
       "file": "overlay_05_Anterior_quadratus_lumborum.webp",
-      "coverage_pct": 11.1
+      "coverage_pct": 11.6
     },
     {
       "name": "06_Paravertebral_T10",
       "file": "overlay_06_Paravertebral_T10.webp",
-      "coverage_pct": 10.7
+      "coverage_pct": 11.1
     }
   ]
 }

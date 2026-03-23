@@ -9,22 +9,22 @@
     577,
     177,
     1726,
-    1054
+    1017
   ],
   "crop_size": [
     1149,
-    877
+    840
   ],
   "layers": [
     {
       "name": "01_Superficial_serratus_anterior_plane",
       "file": "overlay_01_Superficial_serratus_anterior_plane.webp",
-      "coverage_pct": 17.5
+      "coverage_pct": 18.3
     },
     {
       "name": "02_Deep_parasternal_intercostal_plane",
       "file": "overlay_02_Deep_parasternal_intercostal_plane.webp",
-      "coverage_pct": 10.6
+      "coverage_pct": 11.0
     }
   ]
 }

@@ -5285,7 +5285,7 @@
                   "name": "Intercostobrachial nerve",
                   "file": "overlay_05_Intercostobrachial_nerve.webp",
                   "section": "compare",
-                  "color": "#a37d69"
+                  "color": "#a37d6a"
                 }
               ]
             },
@@ -17664,7 +17664,7 @@
                   "name": "Interpectoral plane",
                   "file": "overlay_02_Interpectoral_plane.webp",
                   "section": "compare",
-                  "color": "#c09074"
+                  "color": "#c09075"
                 },
                 {
                   "name": "Interpectoral and pectoserratus planes",
@@ -17693,7 +17693,7 @@
                   "name": "Erector spinae T4",
                   "file": "overlay_05_Erector_spinae_T4.webp",
                   "section": "compare",
-                  "color": "#b39a7a"
+                  "color": "#b39b7a"
                 },
                 {
                   "name": "Interpectoral and pectoserratus planes",
@@ -27304,5 +27304,5 @@
       ]
     }
   ],
-  "generated": "2026-03-23T12:18:20.369183+00:00"
+  "generated": "2026-03-23T13:26:57.628960+00:00"
 }

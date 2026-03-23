@@ -9,11 +9,11 @@
     707,
     176,
     1596,
-    1054
+    1017
   ],
   "crop_size": [
     889,
-    878
+    841
   ],
   "layers": [
     {
@@ -29,12 +29,12 @@
     {
       "name": "03_Lateral_cutaneous_nerve_of_forearm",
       "file": "overlay_03_Lateral_cutaneous_nerve_of_forearm.webp",
-      "coverage_pct": 0.6
+      "coverage_pct": 0.7
     },
     {
       "name": "04_Axillary_brachial_plexus",
       "file": "overlay_04_Axillary_brachial_plexus.webp",
-      "coverage_pct": 8.1
+      "coverage_pct": 8.5
     }
   ]
 }

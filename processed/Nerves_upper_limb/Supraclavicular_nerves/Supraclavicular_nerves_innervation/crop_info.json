@@ -9,22 +9,22 @@
     683,
     189,
     1634,
-    1054
+    1017
   ],
   "crop_size": [
     951,
-    865
+    828
   ],
   "layers": [
     {
       "name": "01_Superior_trunk",
       "file": "overlay_01_Superior_trunk.webp",
-      "coverage_pct": 10.4
+      "coverage_pct": 10.8
     },
     {
       "name": "02_Interscalene_brachial_plexus",
       "file": "overlay_02_Interscalene_brachial_plexus.webp",
-      "coverage_pct": 11.8
+      "coverage_pct": 12.3
     },
     {
       "name": "03_Supraclavicular_nerves",

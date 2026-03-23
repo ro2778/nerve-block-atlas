@@ -9,42 +9,42 @@
     577,
     177,
     1726,
-    1054
+    1017
   ],
   "crop_size": [
     1149,
-    877
+    840
   ],
   "layers": [
     {
       "name": "01_Superficial_parasternal_intercostal_plane",
       "file": "overlay_01_Superficial_parasternal_intercostal_plane.webp",
-      "coverage_pct": 3.0
+      "coverage_pct": 3.1
     },
     {
       "name": "02_Superficial_serratus_anterior_plane",
       "file": "overlay_02_Superficial_serratus_anterior_plane.webp",
-      "coverage_pct": 17.3
+      "coverage_pct": 18.1
     },
     {
       "name": "03_Interpectoral_plane",
       "file": "overlay_03_Interpectoral_plane.webp",
-      "coverage_pct": 9.2
+      "coverage_pct": 9.6
     },
     {
       "name": "04_Pectoserratus_and_interpectoral_planes",
       "file": "overlay_04_Pectoserratus_and_interpectoral_planes.webp",
-      "coverage_pct": 18.5
+      "coverage_pct": 19.3
     },
     {
       "name": "05_Erector_spinae_plane_T4",
       "file": "overlay_05_Erector_spinae_plane_T4.webp",
-      "coverage_pct": 15.8
+      "coverage_pct": 16.5
     },
     {
       "name": "06_Paravertebral_T4",
       "file": "overlay_06_Paravertebral_T4.webp",
-      "coverage_pct": 18.5
+      "coverage_pct": 19.3
     }
   ]
 }
