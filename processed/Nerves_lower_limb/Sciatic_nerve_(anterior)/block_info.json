@@ -42,12 +42,12 @@
         {
           "name": "01_Fascia_iliaca",
           "file": "overlay_01_Fascia_iliaca.webp",
-          "coverage_pct": 8.8
+          "coverage_pct": 8.9
         },
         {
           "name": "02_Femoral_nerve",
           "file": "overlay_02_Femoral_nerve.webp",
-          "coverage_pct": 6.8
+          "coverage_pct": 6.9
         },
         {
           "name": "03_Obturator_nerve",
@@ -60,14 +60,34 @@
           "coverage_pct": 2.9
         },
         {
+          "name": "04_Sciatic_nerve_(anterior)",
+          "file": "overlay_04_Sciatic_nerve_(anterior).webp",
+          "coverage_pct": 41.2
+        },
+        {
           "name": "05_Sciatic_nerve_(anterior)",
           "file": "overlay_05_Sciatic_nerve_(anterior).webp",
           "coverage_pct": 9.9
         },
         {
+          "name": "05_Sciatic_nerve_(popliteal_fossa)",
+          "file": "overlay_05_Sciatic_nerve_(popliteal_fossa).webp",
+          "coverage_pct": 41.0
+        },
+        {
+          "name": "06_Femoral_triangle_distal",
+          "file": "overlay_06_Femoral_triangle_distal.webp",
+          "coverage_pct": 40.6
+        },
+        {
           "name": "06_Sciatic_nerve_(popliteal_fossa)",
           "file": "overlay_06_Sciatic_nerve_(popliteal_fossa).webp",
           "coverage_pct": 8.0
+        },
+        {
+          "name": "07_Adductor_canal",
+          "file": "overlay_07_Adductor_canal.webp",
+          "coverage_pct": 2.1
         }
       ]
     },

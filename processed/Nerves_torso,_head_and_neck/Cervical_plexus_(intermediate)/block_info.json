@@ -29,20 +29,20 @@
         1080
       ],
       "crop_bbox": [
-        547,
-        114,
-        1755,
-        1080
+        626,
+        180,
+        1677,
+        1054
       ],
       "crop_size": [
-        1208,
-        966
+        1051,
+        874
       ],
       "layers": [
         {
           "name": "01_Superficial_cervical_plexus",
           "file": "overlay_01_Superficial_cervical_plexus.webp",
-          "coverage_pct": 12.5
+          "coverage_pct": 12.0
         }
       ]
     },

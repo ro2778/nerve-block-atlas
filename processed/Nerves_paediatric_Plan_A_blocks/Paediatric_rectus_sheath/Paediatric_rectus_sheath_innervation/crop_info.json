@@ -6,25 +6,25 @@
     1080
   ],
   "crop_bbox": [
-    608,
-    117,
-    1695,
-    1080
+    678,
+    176,
+    1625,
+    1054
   ],
   "crop_size": [
-    1087,
-    963
+    947,
+    878
   ],
   "layers": [
     {
       "name": "01_Rectus_sheath_contralateral",
       "file": "overlay_01_Rectus_sheath_contralateral.webp",
-      "coverage_pct": 1.0
+      "coverage_pct": 0.9
     },
     {
       "name": "02_Rectus_sheath",
       "file": "overlay_02_Rectus_sheath.webp",
-      "coverage_pct": 1.0
+      "coverage_pct": 0.9
     },
     {
       "name": "03_Subcostal_TAP",
@@ -34,12 +34,12 @@
     {
       "name": "04_Paravertebral_T6-11",
       "file": "overlay_04_Paravertebral_T6-11.webp",
-      "coverage_pct": 8.6
+      "coverage_pct": 8.2
     },
     {
       "name": "05_Epidural_T6-11",
       "file": "overlay_05_Epidural_T6-11.webp",
-      "coverage_pct": 13.6
+      "coverage_pct": 12.9
     }
   ]
 }

@@ -1,0 +1,219 @@
+============================================================
+Innervation Layer Recapture
+============================================================
+
+──────────────────────────────────────────────────
+Nerves: torso, head and neck (17 blocks)
+──────────────────────────────────────────────────
+  Erector spinae plane: already captured, skipping
+
+  Rectus sheath
+    Rectus sheath innervation
+    Home: Rectus sheath (deactivated)
+    [1] combine  Rectus sheath contralateral
+    [2] compare  Rectus sheath
+    [3] compare  Subcostal TAP
+    [4] compare  Paravertebral T8
+    [5] compare  Epidural T8
+    Done: 5 layers
+
+  Cervical plexus (intermediate)
+    Cervical plexus (intermediate) innervation
+    Home: Superficial cervical plexus (deactivated)
+    [1] compare  Superficial cervical plexus
+    Done: 1 layers
+
+  Paravertebral (transverse)
+    Paravertebral (transverse) innervation
+    Home: Paravertebral T4 (deactivated)
+    [1] compare  Paravertebral T4
+    [2] compare  Erector spinae T4
+    [3] compare  Superficial serratus anterior plane
+    [4] compare  Interpectoral plane
+    [5] compare  Interpectoral and pectoserratus pla
+    Done: 5 layers
+
+  Paravertebral (sagittal)
+    Paravertebral (sagittal) innervation
+    Home: Paravertebral T4 (deactivated)
+    [1] compare  Paravertebral T4
+    [2] compare  Erector spinae T4
+    [3] compare  Superficial serratus anterior plane
+    [4] compare  Interpectoral plane
+    [5] compare  Interpectoral and pectoserratus pla
+    Done: 5 layers
+
+  Superficial parasternal intercostal plane
+    Superficial parasternal intercostal plane innervation
+    Home: Superficial parasternal intercostal (deactivated)
+    [1] combine  Superficial serratus anterior plane
+    [2] compare  Superficial parasternal intercostal
+    Done: 2 layers
+
+  Deep parasternal intercostal plane
+    Deep parasternal intercostal plane innervation
+    Home: Deep parasternal intercostal plane (deactivated)
+    [1] combine  Superficial serratus anterior plane
+    [2] compare  Deep parasternal intercostal plane
+    Done: 2 layers
+  Interpectoral plane: already captured, skipping
+
+  Pectoserratus and interpectoral planes
+    Pectoserratus and interpectoral planes innervation
+    Home: Pectoserratus and interpectoral pla (deactivated)
+    [1] combine  Superficial parasternal intercostal
+    [2] compare  Pectoserratus and interpectoral pla
+    [3] compare  Interpectoral plane
+    [4] compare  Superficial serratus anterior plane
+    [5] compare  Erector spinae T4
+    [6] compare  Paravertebral T4
+    Done: 6 layers
+
+  Superficial serratus anterior plane
+    Superficial serratus anterior plane innervation
+    Home: Superficial serratus anterior plane (deactivated)
+    [1] combine  Superficial parasternal intercostal
+    [2] compare  Superficial serratus anterior plane
+    [3] compare  Interpectoral plane
+    [4] compare  Pectoserratus and interpectoral pla
+    [5] compare  Erector spinae plane T4
+    [6] compare  Paravertebral T4
+    Done: 6 layers
+
+  Subcostal TAP (upper)
+    Subcostal TAP (upper) innervation
+    Home: Subcostal TAP (upper) (deactivated)
+    [1] combine  Contralateral subcostal TAP (upper)
+    [2] combine  Subcostal TAP (lower)
+    [3] compare  Subcostal TAP (upper)
+    [4] compare  Rectus sheath
+    [5] compare  Paravertebral T8
+    [6] compare  Epidural T8
+    Done: 6 layers
+
+  Subcostal TAP (lower)
+    Subcostal TAP (lower) innervation
+    Home: Subcostal TAP (lower) (deactivated)
+    [1] combine  Subcostal TAP (lower) contralateral
+    [2] combine  Subcostal TAP (upper) bilateral
+    [3] combine  Midaxillary TAP contralateral
+    [4] compare  Subcostal TAP (lower)
+    [5] compare  Midaxillary TAP
+    [6] compare  Anterior quadratus lumborum
+    Done: 6 layers
+
+  Midaxillary TAP
+    Midaxillary TAP innervation
+    Home: Midaxillary TAP (deactivated)
+    [1] combine  Midaxillary TAP contralateral
+    [2] compare  Midaxillary TAP
+    [3] compare  Subcostal TAP (lower)
+    [4] compare  Anterior quadratus lumborum
+    [5] compare  Paravertebral T10
+    [6] compare  Epidural T11
+    Done: 6 layers
+
+  Ilioinguinal & iliohypogastric nerves
+    Ilioinguinal & iliohypogastric nerves innervation
+    Home: Ilioinguinal & iliohypogastric nerv (deactivated)
+    [1] combine  Contralateral ilioinguinal and ilio
+    [2] compare  Ilioinguinal & iliohypogastric nerv
+    [3] compare  Midaxillary TAP
+    [4] compare  Transversalis fascia
+    [5] compare  Anterior quadratus lumborum
+    [6] compare  Paravertebral T10
+    Done: 6 layers
+
+  Anterior quadratus lumborum
+    Anterior quadratus lumborum innervation
+    Home: Anterior quadratus lumborum (deactivated)
+    [1] combine  Contralateral anterior quadratus lu
+    [2] compare  Anterior quadratus lumborum
+    [3] compare  Midaxillary TAP
+    [4] compare  Subcostal TAP (lower)
+    [5] compare  Paravertebral T11
+    [6] compare  Epidural T9-L2
+    Done: 6 layers
+
+  Lateral quadratus lumborum
+    Lateral quadratus lumborum innervation
+    Home: Lateral quadratus lumborum (deactivated)
+    [1] combine  Contralateral, lateral quadratus lu
+    [2] compare  Lateral quadratus lumborum
+    Done: 2 layers
+
+  Transversalis fascia plane
+    Transversalis fascia plane innervation
+    Home: Transversalis fascia (deactivated)
+    [1] combine  Contralateral tranasversalis fascia
+    [2] combine  Midaxillary TAP
+    [3] compare  Transversalis fascia
+    Done: 3 layers
+
+──────────────────────────────────────────────────
+Nerves: paediatric Plan A blocks (7 blocks)
+──────────────────────────────────────────────────
+
+  Paediatric brachial plexus axillary
+    Paediatric brachial plexus axillary innervation
+    Home: Brachial plexus axillary (deactivated)
+    [1] combine  Intercostobrachial nerve
+    [2] compare  Brachial plexus axillary
+    [3] compare  Brachial plexus infraclavicular
+    [4] compare  Brachial plexus costoclavicular
+    [5] compare  Brachial plexus supraclavicular
+    Done: 5 layers
+
+  Paediatric rectus sheath
+    Paediatric rectus sheath innervation
+    Home: Rectus sheath (deactivated)
+    [1] combine  Rectus sheath contralateral
+    [2] compare  Rectus sheath
+    [3] compare  Subcostal TAP
+    [4] compare  Paravertebral T6-11
+    [5] compare  Epidural T6-11
+    Done: 5 layers
+
+  Paediatric quadratus lumborum
+    Paediatric quadratus lumborum innervation
+    Home: Quadratus lumborum lateral (deactivated)
+    [1] combine  Contralateral quadratus lumborum
+    [2] compare  Quadratus lumborum lateral
+    [3] compare  Midaxillary TAP
+    Done: 3 layers
+
+  Paediatric caudal
+    Paediatric caudal innervation
+    Done: 0 layers
+
+  Paediatric penile nerves
+    Paediatric penile nerves innervation
+    Home: Dorsal penile nerves (deactivated)
+    [1] combine  perineal nerve
+    [2] compare  Dorsal penile nerves
+    Done: 2 layers
+
+  Paediatric femoral nerve
+    Paediatric femoral nerve innervation
+    Home: Femoral nerve (deactivated)
+    [1] combine  Lateral femoral cutaneous nerve
+    [2] combine  Obturator nerve
+    [3] combine  Sacral plexus
+    [4] compare  Femoral nerve
+    [5] compare  Fascia iliaca
+    [6] compare  Lumbar plexus
+    Done: 6 layers
+
+  Paediatric sciatic nerve popliteal
+    Paediatric sciatic nerve popliteal innervation
+    Home: Sciatic nerve popliteal (deactivated)
+    [1] combine  Adductor canal
+    [2] combine  Distal femoral triangle
+    [3] combine  Femoral nerve
+    [4] compare  Sciatic nerve popliteal
+    [5] compare  Sciatic nerve subgluteal
+    Done: 5 layers
+
+============================================================
+Done! 22 blocks, captured all layers
+============================================================

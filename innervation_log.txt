@@ -1,0 +1,263 @@
+============================================================
+Innervation Layer Recapture
+============================================================
+
+──────────────────────────────────────────────────
+Nerves: upper limb (22 blocks)
+──────────────────────────────────────────────────
+  Axillary brachial plexus: already captured, skipping
+  Interscalene brachial plexus: already captured, skipping
+  Superior trunk: already captured, skipping
+  Supraclavicular brachial plexus: already captured, skipping
+  Infraclavicular brachial plexus (costoclavicular): already captured, skipping
+  Infraclavicular brachial plexus (coricoid) & (RAPTIR): already captured, skipping
+  Supraclavicular nerves: already captured, skipping
+  Suprascapular nerve (posterior): already captured, skipping
+  Suprascapular nerve (anterior): already captured, skipping
+  Axillary nerve: already captured, skipping
+
+  Intercostobrachial nerve
+    Intercostobrachial nerve innervation
+    Home: Intercostobrachial nerve (deactivated)
+    [1] combine  Infraclavicular brachial plexus(cos
+    [2] combine  Infraclavicular brachial plexus (co
+    [3] combine  Supraclavicular brachial plexus
+    [4] combine  Axillary brachial plexus
+    [5] compare  Intercostobrachial nerve
+    Done: 5 layers
+  Median nerve mid arm: already captured, skipping
+  Ulnar nerve mid arm: already captured, skipping
+  Radial nerve distal arm: already captured, skipping
+  Medial cutaneous nerve of forearm: already captured, skipping
+  Lateral cutaneous nerve of forearm: already captured, skipping
+  Posterior cutaneous nerve of forearm: already captured, skipping
+  Median nerve antecubital fossa: already captured, skipping
+  Radial nerve antecubital fossa: already captured, skipping
+  Radial nerve superficial branch: already captured, skipping
+  Ulnar nerve mid forearm: already captured, skipping
+  Median nerve mid forearm: already captured, skipping
+
+──────────────────────────────────────────────────
+Nerves: lower limb (27 blocks)
+──────────────────────────────────────────────────
+  Femoral nerve: already captured, skipping
+  Sciatic nerve (popliteal fossa): already captured, skipping
+  Adductor canal (saphenous nerve): already captured, skipping
+  Lumbar plexus (shamrock): already captured, skipping
+  Lumbar plexus (trident): already captured, skipping
+
+  Sacral plexus
+    Sacral plexus innervation
+    Home: Sacral plexus (deactivated)
+    [1] combine  Lumbar plexus
+    [2] combine  Fascia iliaca
+    [3] combine  Femoral nerve
+    [4] combine  Lateral femoral cutaneous nerve
+    [5] compare  Sacral plexus
+    [6] combine  Pericapsular nerve group (PENG)
+    Done: 6 layers
+  Fascia iliaca (suprainguinal): already captured, skipping
+  Fascia iliaca (infrainguinal): already captured, skipping
+  Pericapsular nerve group (PENG): already captured, skipping
+  Lateral femoral cutaneous nerve: already captured, skipping
+  Obturator nerve (subpectineal): already captured, skipping
+  Obturator nerve branches: already captured, skipping
+
+  Sciatic nerve (anterior)
+    Sciatic nerve (anterior) innervation
+    Home: Sciatic nerve (anterior) (deactivated)
+    [1] combine  Fascia iliaca
+    [2] combine  Femoral nerve
+    [3] combine  Obturator nerve
+    [4] combine  Femoral triangle distal
+    [5] compare  Sciatic nerve (anterior)
+    [6] compare  Sciatic nerve (popliteal fossa)
+    [7] combine  Adductor canal
+    Done: 7 layers
+
+  Sciatic nerve (transgluteal)
+    Sciatic nerve (transgluteal) innervation
+    Home: Sciatic nerve (transgluteal) (deactivated)
+    [1] combine  Femoral nerve
+    [2] combine  Obturator nerve
+    [3] combine  Femoral triangle distal
+    [4] combine  Fascia iliaca
+    [5] compare  Sciatic nerve (transgluteal)
+    [6] compare  Sciatic nerve (popliteal fossa)
+    [7] combine  Adductor canal
+    Done: 7 layers
+
+  Sciatic nerve (infragluteal)
+    Sciatic nerve (infragluteal) innervation
+    Home: Sciatic nerve (infragluteal) (deactivated)
+    [1] combine  Fascia iliaca
+    [2] combine  Femoral nerve
+    [3] combine  Lumbar plexus
+    [4] combine  Posterior cutaneous nerve of thigh
+    [5] compare  Sciatic nerve (infragluteal)
+    [6] compare  Sciatic nerve (popliteal fossa)
+    [7] compare  Sacral plexus
+    Done: 7 layers
+
+  Femoral triangle apex
+    Femoral triangle apex innervation
+    Home: Femoral triangle distal (deactivated)
+    [1] combine  iPACK
+    [2] combine  Intermediate femoral cutaneous nerv
+    [3] combine  Medial femoral cutaneous nerve
+    [4] combine  Obturator nerve
+    [5] compare  Femoral triangle distal
+    [6] compare  Femoral nerve
+    [7] combine  Geniculate nerves
+    Done: 7 layers
+
+  iPACK (supine)
+    iPACK (supine) innervation
+    Home: iPACK (deactivated)
+    [1] combine  Femoral triangle distal
+    [2] combine  Medial femoral cutaneous nerve
+    [3] combine  Intermediate femoral cutaneous nerv
+    [4] combine  Femoral nerve
+    [5] compare  iPACK
+    [6] combine  Geniculate nerves
+    Done: 6 layers
+
+  iPACK (lateral)
+    iPACK (lateral) innervation
+    Home: iPACK (deactivated)
+    [1] combine  Femoral nerve
+    [2] combine  Intermediate femoral cutaneous nerv
+    [3] combine  Medial femoral cutaneous nerve
+    [4] combine  Geniculate nerves
+    [5] compare  iPACK
+    [6] combine  Femoral triangle distal
+    Done: 6 layers
+
+  Superior medial geniculate nerves
+    Superior medial geniculate nerves innervation
+    Home: SM geniculate nerves (deactivated)
+    [1] combine  IL geniculate nerves
+    [2] combine  IM geniculate nerves
+    [3] combine  SL geniculate nerves
+    [4] combine  Femoral triangle apex
+    [5] compare  SM geniculate nerves
+    [6] combine  iPACK
+    [7] combine  Ant. fem. cut. nerves
+    Done: 7 layers
+
+  Superior lateral geniculate nerves
+    Superior lateral geniculate nerves innervation
+    Home: SL geniculate nerves (deactivated)
+    [1] combine  IL geniculate nerves
+    [2] combine  IM geniculate nerves
+    [3] combine  SM geniculate nerves
+    [4] combine  Femoral triangle apex
+    [5] compare  SL geniculate nerves
+    [6] combine  iPACK
+    [7] combine  Ant. fem. cut. nerves
+    Done: 7 layers
+
+  Inferior medial geniculate nerves
+    Inferior medial geniculate nerves innervation
+    Home: IM geniculate nerves (deactivated)
+    [1] combine  IL geniculate nerves
+    [2] combine  SL geniculate nerves
+    [3] combine  SM geniculate nerves
+    [4] combine  Femoral triangle apex
+    [5] compare  IM geniculate nerves
+    [6] combine  iPACK
+    [7] combine  Ant. fem. cut. nerves
+    Done: 7 layers
+
+  Inferior lateral geniculate nerves
+    Inferior lateral geniculate nerves innervation
+    Home: IL geniculate nerves (deactivated)
+    [1] combine  IM geniculate nerves
+    [2] combine  SL geniculate nerves
+    [3] combine  SM geniculate nerves
+    [4] combine  Femoral triangle apex
+    [5] compare  IL geniculate nerves
+    [6] combine  iPACK
+    [7] combine  Ant. fem. cut. nerves
+    Done: 7 layers
+
+  Tibial nerve (ankle)
+    Tibial nerve (ankle) innervation
+    Home: Tibial nerve (deactivated)
+    [1] combine  Deep peroneal nerve
+    [2] combine  Superficial peroneal nerve
+    [3] combine  Saphenous nerve
+    [4] combine  Sural nerve
+    [5] compare  Tibial nerve
+    [6] compare  Sciatic nerve
+    Done: 6 layers
+
+  Deep peroneal nerve
+    Deep peroneal nerve innervation
+    Home: Deep peroneal nerve (deactivated)
+    [1] combine  Tibial nerve
+    [2] combine  Superficial peroneal nerve
+    [3] combine  Saphenous nerve
+    [4] combine  Sural nerve
+    [5] compare  Deep peroneal nerve
+    [6] compare  Sciatic nerve
+    Done: 6 layers
+
+  Superficial peroneal nerve
+    Superficial peroneal nerve innervation
+    Home: Superficial peroneal nerve (deactivated)
+    [1] combine  Saphenous nerve
+    [2] combine  Sural nerve
+    [3] combine  Tibial nerve
+    [4] combine  Deep peroneal nerve
+    [5] compare  Superficial peroneal nerve
+    [6] compare  Sciatic nerve
+    Done: 6 layers
+
+  Saphenous nerve (ankle)
+    Saphenous nerve (ankle) innervation
+    Home: Saphenous nerve (deactivated)
+    [1] combine  Tibial nerve
+    [2] combine  Deep peroneal nerve
+    [3] combine  Superficial peroneal nerve
+    [4] combine  Sural nerve
+    [5] compare  Saphenous nerve
+    [6] compare  Sciatic nerve
+    Done: 6 layers
+
+  Sural nerve
+    Sural nerve innervation
+    Home: Sural nerve (deactivated)
+    [1] combine  Superficial peroneal nerve
+    [2] combine  Saphenous nerve
+    [3] combine  Tibial nerve
+    [4] combine  Deep peroneal nerve
+    [5] compare  Sural nerve
+    [6] compare  Sciatic nerve
+    Done: 6 layers
+
+──────────────────────────────────────────────────
+Nerves: torso, head and neck (17 blocks)
+──────────────────────────────────────────────────
+
+  Erector spinae plane
+    Erector spinae plane innervation
+    Home: Erector spinae T4 (deactivated)
+    [1] combine  Serratus anterior plane superficial
+    [2] compare  Erector spinae T4
+    [3] compare  Paravertebral T4
+    [4] compare  Interpectoral plane
+    [5] compare  Interpectoral and pectoserratus pla
+    Done: 5 layers
+
+  Rectus sheath
+    Rectus sheath innervation
+    Home: Rectus sheath (deactivated)
+    [1] combine  Rectus sheath contralateral
+    [2] compare  Rectus sheath
+    [3] compare  Subcostal TAP
+    [4] compare  Paravertebral T8
+    [5] compare  Epidural T8
+    Done: 5 layers
+
+  Cervical plexus (intermediate)

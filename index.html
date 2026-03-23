@@ -309,8 +309,8 @@ img {
 
 .image-wrap .base-img {
   display: block;
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
 }
 
@@ -418,6 +418,17 @@ img {
 
 .layer-header .show-all-btn:active {
   opacity: 0.75;
+}
+
+.layer-section-header {
+  padding: 6px 12px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-top: 1px solid var(--border);
+  margin-top: 4px;
 }
 
 .layer-row {
@@ -1501,7 +1512,7 @@ img {
       });
   }
 
-  var APP_VERSION = '1.1.9';
+  var APP_VERSION = '1.2.0';
 
   function checkForUpdate() {
     var versionEl = document.getElementById('splashVersion');
@@ -1738,6 +1749,9 @@ img {
       currentViewIdx = viewIdx;
       layerState = {};
       findInnervationSelfIdx(viewIdx);
+      if (innervationSelfIdx >= 0) {
+        layerState[innervationSelfIdx] = true;
+      }
       loadCurrentView();
     };
   }
@@ -1884,21 +1898,24 @@ img {
       return;
     }
 
-    /* Check if this view has a "Compare" sidebar text — if so, use it as header
-       and show ALL layers as individual toggles (no show-all button) */
+    /* Check if layers have section info (innervation combine/compare) */
+    var hasSections = layers.some(function(l) { return l.section; });
     var block = BLOCKS[currentBlockIdx];
     var sidebarText = (block && block.sidebar_texts && view.dir)
       ? block.sidebar_texts[view.dir] : '';
-    var isCompareView = /compare/i.test(sidebarText);
+    var isCompareView = !hasSections && /compare/i.test(sidebarText);
     var layerStartIdx = 1; /* normally skip first layer (show-all) */
 
-    if (isCompareView) {
+    if (hasSections) {
+      /* Innervation view with combine/compare sections — no header, section dividers added in loop */
+      layerStartIdx = 0;
+    } else if (isCompareView) {
       /* Compare header label — all layers are equal individual toggles */
       var compareDiv = document.createElement('div');
       compareDiv.className = 'layer-header compare-header';
       compareDiv.innerHTML = '<span class="compare-label">↔ ' + sidebarText + '</span>';
       dom.layerControls.appendChild(compareDiv);
-      layerStartIdx = 0; /* show ALL layers as individual toggles */
+      layerStartIdx = 0;
     } else {
       /* Show All / first layer — special toggle button */
       var headerDiv = document.createElement('div');
@@ -1938,13 +1955,23 @@ img {
       }
     }
 
-    /* Individual layer rows */
+    /* Individual layer rows — group by section (combine/compare) for innervation */
+    var lastSection = '';
     for (var i = layerStartIdx; i < layers.length; i++) {
       var layer = layers[i];
-      var isSelf = (i === innervationSelfIdx);
+      var section = layer.section || '';
+
+      /* Add section header when section changes */
+      if (section && section !== lastSection) {
+        var sectionDiv = document.createElement('div');
+        sectionDiv.className = 'layer-section-header';
+        sectionDiv.textContent = section === 'combine' ? '↔ Combine' : '↔ Compare';
+        dom.layerControls.appendChild(sectionDiv);
+        lastSection = section;
+      }
+
       var isOn = !!layerState[i];
-      /* Self layer is inverted: overlay OFF = innervation visible = dot colored */
-      var showOn = isSelf ? !isOn : isOn;
+      var showOn = isOn;
       var dotColor = layer.color || layerDotColor(i);
 
       var row = document.createElement('div');

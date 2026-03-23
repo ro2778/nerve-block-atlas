@@ -6,9 +6,9 @@
     1080
   ],
   "crop_bbox": [
-    540,
+    541,
     139,
-    1742,
+    1743,
     1038
   ],
   "crop_size": [
@@ -19,7 +19,7 @@
     {
       "name": "01_Superficial_peroneal_nerve",
       "file": "overlay_01_Superficial_peroneal_nerve.webp",
-      "coverage_pct": 2.6
+      "coverage_pct": 2.7
     },
     {
       "name": "02_Saphenous_nerve",
@@ -44,7 +44,7 @@
     {
       "name": "06_Sciatic_nerve",
       "file": "overlay_06_Sciatic_nerve.webp",
-      "coverage_pct": 23.5
+      "coverage_pct": 23.7
     }
   ]
 }

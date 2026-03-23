@@ -29,25 +29,25 @@
         1080
       ],
       "crop_bbox": [
-        491,
-        114,
-        1811,
-        1080
+        577,
+        177,
+        1726,
+        1054
       ],
       "crop_size": [
-        1320,
-        966
+        1149,
+        877
       ],
       "layers": [
         {
           "name": "01_Superficial_serratus_anterior_plane",
           "file": "overlay_01_Superficial_serratus_anterior_plane.webp",
-          "coverage_pct": 10.7
+          "coverage_pct": 17.5
         },
         {
           "name": "02_Deep_parasternal_intercostal_plane",
           "file": "overlay_02_Deep_parasternal_intercostal_plane.webp",
-          "coverage_pct": 11.1
+          "coverage_pct": 10.6
         }
       ]
     },

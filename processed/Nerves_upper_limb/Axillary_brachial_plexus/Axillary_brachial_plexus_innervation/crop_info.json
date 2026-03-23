@@ -6,14 +6,14 @@
     1080
   ],
   "crop_bbox": [
-    641,
-    115,
-    1662,
-    1080
+    707,
+    178,
+    1596,
+    1054
   ],
   "crop_size": [
-    1021,
-    965
+    889,
+    876
   ],
   "layers": [
     {
@@ -24,22 +24,22 @@
     {
       "name": "02_Axillary_brachial_plexus",
       "file": "overlay_02_Axillary_brachial_plexus.webp",
-      "coverage_pct": 8.1
+      "coverage_pct": 7.7
     },
     {
       "name": "03_Infraclavicular_brachial_plexus_(coracoid)",
       "file": "overlay_03_Infraclavicular_brachial_plexus_(coracoid).webp",
-      "coverage_pct": 9.4
+      "coverage_pct": 9.1
     },
     {
       "name": "04_Infraclavicular_brachial_plexus_(costoclavicular)",
       "file": "overlay_04_Infraclavicular_brachial_plexus_(costoclavicular).webp",
-      "coverage_pct": 10.2
+      "coverage_pct": 10.0
     },
     {
       "name": "05_Supraclavicular_brachial_plexus",
       "file": "overlay_05_Supraclavicular_brachial_plexus.webp",
-      "coverage_pct": 10.4
+      "coverage_pct": 10.0
     }
   ]
 }

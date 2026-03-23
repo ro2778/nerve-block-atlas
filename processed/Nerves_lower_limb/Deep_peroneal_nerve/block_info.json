@@ -42,7 +42,7 @@
         {
           "name": "01_Tibial_nerve",
           "file": "overlay_01_Tibial_nerve.webp",
-          "coverage_pct": 10.9
+          "coverage_pct": 11.0
         },
         {
           "name": "02_Superficial_peroneal_nerve",
@@ -67,7 +67,7 @@
         {
           "name": "06_Sciatic_nerve",
           "file": "overlay_06_Sciatic_nerve.webp",
-          "coverage_pct": 21.0
+          "coverage_pct": 21.1
         }
       ]
     },

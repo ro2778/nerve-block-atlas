@@ -1,5 +1,5 @@
 {
-  "source": "AnSo_Content/Nerves_sensory_innervation_guides/ASRA_upper_limb_osseous/ASRA_upper_limb_osseous_innervation",
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_sensory_innervation_guides/ASRA_upper_limb_osseous/ASRA_upper_limb_osseous_innervation",
   "view_type": "innervation",
   "original_size": [
     2424,
@@ -8,11 +8,11 @@
   "crop_bbox": [
     580,
     110,
-    2017,
+    1977,
     1080
   ],
   "crop_size": [
-    1437,
+    1397,
     970
   ],
   "layers": []

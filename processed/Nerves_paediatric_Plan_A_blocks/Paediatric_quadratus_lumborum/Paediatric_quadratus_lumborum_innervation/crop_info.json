@@ -19,17 +19,17 @@
     {
       "name": "01_Contralateral_quadratus_lumborum",
       "file": "overlay_01_Contralateral_quadratus_lumborum.webp",
-      "coverage_pct": 1.9
+      "coverage_pct": 56.8
     },
     {
       "name": "02_Quadratus_lumborum_lateral",
       "file": "overlay_02_Quadratus_lumborum_lateral.webp",
-      "coverage_pct": 1.9
+      "coverage_pct": 56.8
     },
     {
       "name": "03_Midaxillary_TAP",
       "file": "overlay_03_Midaxillary_TAP.webp",
-      "coverage_pct": 0.9
+      "coverage_pct": 56.7
     }
   ]
 }

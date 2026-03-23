@@ -6,35 +6,35 @@
     1080
   ],
   "crop_bbox": [
-    389,
-    115,
-    1914,
-    1080
+    488,
+    177,
+    1815,
+    1054
   ],
   "crop_size": [
-    1525,
-    965
+    1327,
+    877
   ],
   "layers": [
     {
       "name": "01_Femoral_nerve",
       "file": "overlay_01_Femoral_nerve.webp",
-      "coverage_pct": 9.2
+      "coverage_pct": 8.8
     },
     {
       "name": "02_iPACK",
       "file": "overlay_02_iPACK.webp",
-      "coverage_pct": 2.5
+      "coverage_pct": 2.4
     },
     {
       "name": "03_Femoral_triangle_distal",
       "file": "overlay_03_Femoral_triangle_distal.webp",
-      "coverage_pct": 3.6
+      "coverage_pct": 3.4
     },
     {
       "name": "04_Obturator_nerve",
       "file": "overlay_04_Obturator_nerve.webp",
-      "coverage_pct": 2.2
+      "coverage_pct": 2.1
     }
   ]
 }

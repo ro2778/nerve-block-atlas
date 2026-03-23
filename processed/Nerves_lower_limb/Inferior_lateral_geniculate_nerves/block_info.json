@@ -44,6 +44,16 @@
           "name": "05_IL_geniculate_nerves",
           "file": "overlay_05_IL_geniculate_nerves.webp",
           "coverage_pct": 0.5
+        },
+        {
+          "name": "06_iPACK",
+          "file": "overlay_06_iPACK.webp",
+          "coverage_pct": 2.6
+        },
+        {
+          "name": "07_Ant._fem._cut._nerves",
+          "file": "overlay_07_Ant._fem._cut._nerves.webp",
+          "coverage_pct": 1.2
         }
       ]
     },

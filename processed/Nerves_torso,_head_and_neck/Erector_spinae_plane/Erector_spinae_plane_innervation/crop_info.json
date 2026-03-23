@@ -6,40 +6,40 @@
     1080
   ],
   "crop_bbox": [
-    491,
-    114,
-    1811,
-    1080
+    577,
+    177,
+    1726,
+    1054
   ],
   "crop_size": [
-    1320,
-    966
+    1149,
+    877
   ],
   "layers": [
     {
       "name": "01_Serratus_anterior_plane_superficial",
       "file": "overlay_01_Serratus_anterior_plane_superficial.webp",
-      "coverage_pct": 10.7
+      "coverage_pct": 17.5
     },
     {
       "name": "02_Erector_spinae_T4",
       "file": "overlay_02_Erector_spinae_T4.webp",
-      "coverage_pct": 16.6
+      "coverage_pct": 15.9
     },
     {
       "name": "03_Paravertebral_T4",
       "file": "overlay_03_Paravertebral_T4.webp",
-      "coverage_pct": 11.8
+      "coverage_pct": 18.5
     },
     {
       "name": "04_Interpectoral_plane",
       "file": "overlay_04_Interpectoral_plane.webp",
-      "coverage_pct": 1.5
+      "coverage_pct": 9.2
     },
     {
       "name": "05_Interpectoral_and_pectoserratus_planes",
       "file": "overlay_05_Interpectoral_and_pectoserratus_planes.webp",
-      "coverage_pct": 11.9
+      "coverage_pct": 18.5
     }
   ]
 }

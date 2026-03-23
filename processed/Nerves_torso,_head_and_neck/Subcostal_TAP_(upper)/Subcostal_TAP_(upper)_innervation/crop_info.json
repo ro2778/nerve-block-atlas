@@ -6,14 +6,14 @@
     1080
   ],
   "crop_bbox": [
-    608,
-    117,
-    1695,
-    1080
+    678,
+    176,
+    1625,
+    1054
   ],
   "crop_size": [
-    1087,
-    963
+    947,
+    878
   ],
   "layers": [
     {
@@ -24,7 +24,7 @@
     {
       "name": "02_Subcostal_TAP_(lower)",
       "file": "overlay_02_Subcostal_TAP_(lower).webp",
-      "coverage_pct": 2.8
+      "coverage_pct": 2.7
     },
     {
       "name": "03_Subcostal_TAP_(upper)",
@@ -39,12 +39,12 @@
     {
       "name": "05_Paravertebral_T8",
       "file": "overlay_05_Paravertebral_T8.webp",
-      "coverage_pct": 12.7
+      "coverage_pct": 12.1
     },
     {
       "name": "06_Epidural_T8",
       "file": "overlay_06_Epidural_T8.webp",
-      "coverage_pct": 13.6
+      "coverage_pct": 12.9
     }
   ]
 }

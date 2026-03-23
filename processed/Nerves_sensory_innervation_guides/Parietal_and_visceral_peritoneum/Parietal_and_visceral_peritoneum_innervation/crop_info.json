@@ -1,35 +1,35 @@
 {
-  "source": "AnSo_Content/Nerves_sensory_innervation_guides/Parietal_and_visceral_peritoneum/Parietal_and_visceral_peritoneum_innervation",
+  "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_sensory_innervation_guides/Parietal_and_visceral_peritoneum/Parietal_and_visceral_peritoneum_innervation",
   "view_type": "innervation",
   "original_size": [
     2424,
     1080
   ],
   "crop_bbox": [
-    217,
+    310,
     155,
     1926,
     1065
   ],
   "crop_size": [
-    1709,
+    1616,
     910
   ],
   "layers": [
     {
       "name": "01_T_6-8_innervation",
       "file": "overlay_01_T_6-8_innervation.webp",
-      "coverage_pct": 8.7
+      "coverage_pct": 8.9
     },
     {
       "name": "02_T_9-12_innervation",
       "file": "overlay_02_T_9-12_innervation.webp",
-      "coverage_pct": 11.8
+      "coverage_pct": 12.4
     },
     {
       "name": "03_L_1-3_innervation",
       "file": "overlay_03_L_1-3_innervation.webp",
-      "coverage_pct": 5.3
+      "coverage_pct": 5.4
     }
   ]
 }

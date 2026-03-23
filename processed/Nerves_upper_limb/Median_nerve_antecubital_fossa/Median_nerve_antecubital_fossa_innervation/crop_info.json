@@ -6,14 +6,14 @@
     1080
   ],
   "crop_bbox": [
-    641,
-    116,
-    1662,
-    1080
+    707,
+    176,
+    1596,
+    1054
   ],
   "crop_size": [
-    1021,
-    964
+    889,
+    878
   ],
   "layers": [
     {
@@ -24,22 +24,22 @@
     {
       "name": "02_Ulnar_nerve_mid_arm",
       "file": "overlay_02_Ulnar_nerve_mid_arm.webp",
-      "coverage_pct": 1.8
+      "coverage_pct": 1.7
     },
     {
       "name": "03_Radial_nerve_ACF",
       "file": "overlay_03_Radial_nerve_ACF.webp",
-      "coverage_pct": 1.6
+      "coverage_pct": 1.5
     },
     {
       "name": "04_Median_nerve_ACF",
       "file": "overlay_04_Median_nerve_ACF.webp",
-      "coverage_pct": 1.6
+      "coverage_pct": 1.5
     },
     {
       "name": "05_Axillary_brachial_plexus",
       "file": "overlay_05_Axillary_brachial_plexus.webp",
-      "coverage_pct": 8.4
+      "coverage_pct": 8.1
     }
   ]
 }

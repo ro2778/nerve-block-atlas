@@ -38,12 +38,27 @@
         {
           "name": "04_Femoral_triangle_apex",
           "file": "overlay_04_Femoral_triangle_apex.webp",
-          "coverage_pct": 2.4
+          "coverage_pct": 2.7
+        },
+        {
+          "name": "04_SM_geniculate_nerves",
+          "file": "overlay_04_SM_geniculate_nerves.webp",
+          "coverage_pct": 48.3
         },
         {
           "name": "05_SM_geniculate_nerves",
           "file": "overlay_05_SM_geniculate_nerves.webp",
           "coverage_pct": 0.9
+        },
+        {
+          "name": "06_iPACK",
+          "file": "overlay_06_iPACK.webp",
+          "coverage_pct": 2.6
+        },
+        {
+          "name": "07_Ant._fem._cut._nerves",
+          "file": "overlay_07_Ant._fem._cut._nerves.webp",
+          "coverage_pct": 1.2
         }
       ]
     },

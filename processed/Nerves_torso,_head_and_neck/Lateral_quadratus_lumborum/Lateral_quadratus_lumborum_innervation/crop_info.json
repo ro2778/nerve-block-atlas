@@ -19,12 +19,12 @@
     {
       "name": "01_Contralateral,_lateral_quadratus_lumborum",
       "file": "overlay_01_Contralateral,_lateral_quadratus_lumborum.webp",
-      "coverage_pct": 1.9
+      "coverage_pct": 56.8
     },
     {
       "name": "02_Lateral_quadratus_lumborum",
       "file": "overlay_02_Lateral_quadratus_lumborum.webp",
-      "coverage_pct": 1.9
+      "coverage_pct": 56.8
     }
   ]
 }

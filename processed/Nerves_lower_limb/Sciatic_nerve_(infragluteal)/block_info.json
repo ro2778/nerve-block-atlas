@@ -42,17 +42,17 @@
         {
           "name": "01_Fascia_iliaca",
           "file": "overlay_01_Fascia_iliaca.webp",
-          "coverage_pct": 8.8
+          "coverage_pct": 8.9
         },
         {
           "name": "02_Femoral_nerve",
           "file": "overlay_02_Femoral_nerve.webp",
-          "coverage_pct": 6.8
+          "coverage_pct": 6.9
         },
         {
           "name": "03_Lumbar_plexus",
           "file": "overlay_03_Lumbar_plexus.webp",
-          "coverage_pct": 11.6
+          "coverage_pct": 11.7
         },
         {
           "name": "04_Posterior_cutaneous_nerve_of_thigh",
@@ -60,19 +60,39 @@
           "coverage_pct": 2.2
         },
         {
+          "name": "04_Sciatic_nerve_(infragluteal)",
+          "file": "overlay_04_Sciatic_nerve_(infragluteal).webp",
+          "coverage_pct": 41.2
+        },
+        {
           "name": "05_Sciatic_nerve_(infragluteal)",
           "file": "overlay_05_Sciatic_nerve_(infragluteal).webp",
           "coverage_pct": 9.9
         },
         {
+          "name": "05_Sciatic_nerve_(popliteal_fossa)",
+          "file": "overlay_05_Sciatic_nerve_(popliteal_fossa).webp",
+          "coverage_pct": 41.0
+        },
+        {
+          "name": "06_Sacral_plexus",
+          "file": "overlay_06_Sacral_plexus.webp",
+          "coverage_pct": 41.6
+        },
+        {
           "name": "06_Sciatic_nerve_(popliteal_fossa)",
           "file": "overlay_06_Sciatic_nerve_(popliteal_fossa).webp",
-          "coverage_pct": 8.0
+          "coverage_pct": 8.1
+        },
+        {
+          "name": "07_Posterior_cutaneous_nerve_of_thigh",
+          "file": "overlay_07_Posterior_cutaneous_nerve_of_thigh.webp",
+          "coverage_pct": 40.8
         },
         {
           "name": "07_Sacral_plexus",
           "file": "overlay_07_Sacral_plexus.webp",
-          "coverage_pct": 13.5
+          "coverage_pct": 13.9
         }
       ]
     },

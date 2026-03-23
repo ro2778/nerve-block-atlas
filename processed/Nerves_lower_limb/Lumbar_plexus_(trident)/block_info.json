@@ -29,35 +29,35 @@
         1080
       ],
       "crop_bbox": [
-        343,
-        115,
-        1960,
-        1080
+        448,
+        178,
+        1855,
+        1054
       ],
       "crop_size": [
-        1617,
-        965
+        1407,
+        876
       ],
       "layers": [
         {
           "name": "01_Sacral_plexus",
           "file": "overlay_01_Sacral_plexus.webp",
-          "coverage_pct": 18.4
+          "coverage_pct": 18.0
         },
         {
           "name": "02_Lumbar_plexus",
           "file": "overlay_02_Lumbar_plexus.webp",
-          "coverage_pct": 16.1
+          "coverage_pct": 15.4
         },
         {
           "name": "03_Fascia_iliaca",
           "file": "overlay_03_Fascia_iliaca.webp",
-          "coverage_pct": 9.6
+          "coverage_pct": 9.3
         },
         {
           "name": "04_Femoral_nerve",
           "file": "overlay_04_Femoral_nerve.webp",
-          "coverage_pct": 8.6
+          "coverage_pct": 8.4
         },
         {
           "name": "05_Pericapsular_nerve_group_(PENG)",

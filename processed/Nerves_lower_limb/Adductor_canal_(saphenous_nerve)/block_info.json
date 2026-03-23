@@ -29,14 +29,14 @@
         1080
       ],
       "crop_bbox": [
-        459,
-        114,
-        1844,
-        1080
+        549,
+        177,
+        1753,
+        1054
       ],
       "crop_size": [
-        1385,
-        966
+        1204,
+        877
       ],
       "layers": [
         {
@@ -47,17 +47,17 @@
         {
           "name": "02_Sciatic_nerve_(popliteal_fossa)",
           "file": "overlay_02_Sciatic_nerve_(popliteal_fossa).webp",
-          "coverage_pct": 8.7
+          "coverage_pct": 8.4
         },
         {
           "name": "03_Adductor_canal_(saphenous_nerve)",
           "file": "overlay_03_Adductor_canal_(saphenous_nerve).webp",
-          "coverage_pct": 1.9
+          "coverage_pct": 1.8
         },
         {
           "name": "04_Femoral_triangle_distal",
           "file": "overlay_04_Femoral_triangle_distal.webp",
-          "coverage_pct": 3.2
+          "coverage_pct": 3.1
         }
       ]
     },

@@ -1,0 +1,59 @@
+============================================================
+Innervation Layer Recapture
+============================================================
+  Deleted metadata for redo: Intercostobrachial nerve
+  Deleted metadata for redo: Sacral plexus
+  Deleted metadata for redo: Sciatic nerve (anterior)
+  Deleted metadata for redo: Sciatic nerve (transgluteal)
+  Deleted metadata for redo: Sciatic nerve (infragluteal)
+  Deleted metadata for redo: Femoral triangle apex
+  Deleted metadata for redo: iPACK (supine)
+
+──────────────────────────────────────────────────
+Nerves: upper limb (22 blocks)
+──────────────────────────────────────────────────
+  Axillary brachial plexus: already captured, skipping
+  Interscalene brachial plexus: already captured, skipping
+  Superior trunk: already captured, skipping
+  Supraclavicular brachial plexus: already captured, skipping
+  Infraclavicular brachial plexus (costoclavicular): already captured, skipping
+  Infraclavicular brachial plexus (coricoid) & (RAPTIR): already captured, skipping
+  Supraclavicular nerves: already captured, skipping
+  Suprascapular nerve (posterior): already captured, skipping
+  Suprascapular nerve (anterior): already captured, skipping
+  Axillary nerve: already captured, skipping
+
+  Intercostobrachial nerve
+    Intercostobrachial nerve innervation
+    Home: Intercostobrachial nerve (deactivated)
+    [1] combine  Infraclavicular brachial plexus(cos
+    [2] combine  Infraclavicular brachial plexus (co
+    [3] combine  Supraclavicular brachial plexus
+    [4] compare  Intercostobrachial nerve
+    [5] combine  Axillary brachial plexus
+    Done: 5 layers
+  Median nerve mid arm: already captured, skipping
+  Ulnar nerve mid arm: already captured, skipping
+  Radial nerve distal arm: already captured, skipping
+  Medial cutaneous nerve of forearm: already captured, skipping
+  Lateral cutaneous nerve of forearm: already captured, skipping
+  Posterior cutaneous nerve of forearm: already captured, skipping
+  Median nerve antecubital fossa: already captured, skipping
+  Radial nerve antecubital fossa: already captured, skipping
+  Radial nerve superficial branch: already captured, skipping
+  Ulnar nerve mid forearm: already captured, skipping
+  Median nerve mid forearm: already captured, skipping
+
+──────────────────────────────────────────────────
+Nerves: lower limb (27 blocks)
+──────────────────────────────────────────────────
+  ERROR: category not found
+
+──────────────────────────────────────────────────
+Nerves: torso, head and neck (17 blocks)
+──────────────────────────────────────────────────
+  ERROR: category not found
+
+──────────────────────────────────────────────────
+Nerves: paediatric Plan A blocks (7 blocks)
+──────────────────────────────────────────────────
