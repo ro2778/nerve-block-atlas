@@ -7,13 +7,13 @@
   ],
   "crop_bbox": [
     707,
-    176,
+    173,
     1596,
     1017
   ],
   "crop_size": [
     889,
-    841
+    844
   ],
   "layers": [
     {
@@ -34,7 +34,7 @@
     {
       "name": "04_Axillary_brachial_plexus",
       "file": "overlay_04_Axillary_brachial_plexus.webp",
-      "coverage_pct": 8.5
+      "coverage_pct": 8.4
     }
   ]
 }

@@ -30,19 +30,19 @@
       ],
       "crop_bbox": [
         577,
-        177,
+        173,
         1726,
         1017
       ],
       "crop_size": [
         1149,
-        840
+        844
       ],
       "layers": [
         {
           "name": "01_Superficial_serratus_anterior_plane",
           "file": "overlay_01_Superficial_serratus_anterior_plane.webp",
-          "coverage_pct": 18.3
+          "coverage_pct": 18.2
         },
         {
           "name": "02_Superficial_parasternal_intercostal_plane",

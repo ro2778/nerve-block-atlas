@@ -7,29 +7,29 @@
   ],
   "crop_bbox": [
     678,
-    176,
+    173,
     1625,
     1017
   ],
   "crop_size": [
     947,
-    841
+    844
   ],
   "layers": [
     {
       "name": "01_Contralateral_ilioinguinal_and_iliohypogastric_nerves",
       "file": "overlay_01_Contralateral_ilioinguinal_and_iliohypogastric_nerves.webp",
-      "coverage_pct": 7.7
+      "coverage_pct": 7.6
     },
     {
       "name": "02_Ilioinguinal_&_iliohypogastric_nerves",
       "file": "overlay_02_Ilioinguinal_&_iliohypogastric_nerves.webp",
-      "coverage_pct": 7.7
+      "coverage_pct": 7.6
     },
     {
       "name": "03_Midaxillary_TAP",
       "file": "overlay_03_Midaxillary_TAP.webp",
-      "coverage_pct": 8.3
+      "coverage_pct": 8.2
     },
     {
       "name": "04_Transversalis_fascia",
@@ -39,7 +39,7 @@
     {
       "name": "05_Anterior_quadratus_lumborum",
       "file": "overlay_05_Anterior_quadratus_lumborum.webp",
-      "coverage_pct": 11.6
+      "coverage_pct": 11.5
     },
     {
       "name": "06_Paravertebral_T10",

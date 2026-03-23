@@ -37,11 +37,6 @@
       "coverage_pct": 2.7
     },
     {
-      "name": "04_SM_geniculate_nerves",
-      "file": "overlay_04_SM_geniculate_nerves.webp",
-      "coverage_pct": 48.3
-    },
-    {
       "name": "05_SM_geniculate_nerves",
       "file": "overlay_05_SM_geniculate_nerves.webp",
       "coverage_pct": 0.9

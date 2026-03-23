@@ -41,6 +41,36 @@
       "layers": []
     },
     {
+      "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Lateral_quadratus_lumborum/Lateral_quadratus_lumborum_innervation",
+      "view_type": "innervation",
+      "original_size": [
+        2424,
+        1080
+      ],
+      "crop_bbox": [
+        692,
+        173,
+        1574,
+        1008
+      ],
+      "crop_size": [
+        882,
+        835
+      ],
+      "layers": [
+        {
+          "name": "01_Contralateral,_lateral_quadratus_lumborum",
+          "file": "overlay_01_Contralateral,_lateral_quadratus_lumborum.webp",
+          "coverage_pct": 2.1
+        },
+        {
+          "name": "02_Lateral_quadratus_lumborum",
+          "file": "overlay_02_Lateral_quadratus_lumborum.webp",
+          "coverage_pct": 2.0
+        }
+      ]
+    },
+    {
       "source": "/Users/richardobyrne/Documents/Claude Projects/AnSo capture/AnSo_Content/Nerves_torso,_head_and_neck/Lateral_quadratus_lumborum/Lateral_quadratus_lumborum_landmark_pattern",
       "view_type": "diagram",
       "original_size": [

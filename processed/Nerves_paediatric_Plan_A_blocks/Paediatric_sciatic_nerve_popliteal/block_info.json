@@ -30,13 +30,13 @@
       ],
       "crop_bbox": [
         549,
-        177,
+        173,
         1753,
         1017
       ],
       "crop_size": [
         1204,
-        840
+        844
       ],
       "layers": [
         {
@@ -57,12 +57,12 @@
         {
           "name": "04_Sciatic_nerve_popliteal",
           "file": "overlay_04_Sciatic_nerve_popliteal.webp",
-          "coverage_pct": 8.2
+          "coverage_pct": 8.1
         },
         {
           "name": "05_Sciatic_nerve_subgluteal",
           "file": "overlay_05_Sciatic_nerve_subgluteal.webp",
-          "coverage_pct": 10.6
+          "coverage_pct": 10.5
         }
       ]
     },

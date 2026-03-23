@@ -7,13 +7,13 @@
   ],
   "crop_bbox": [
     707,
-    176,
+    173,
     1596,
     1017
   ],
   "crop_size": [
     889,
-    841
+    844
   ],
   "layers": [
     {
@@ -24,12 +24,12 @@
     {
       "name": "02_Brachial_plexus_axillary",
       "file": "overlay_02_Brachial_plexus_axillary.webp",
-      "coverage_pct": 8.1
+      "coverage_pct": 8.0
     },
     {
       "name": "03_Brachial_plexus_infraclavicular",
       "file": "overlay_03_Brachial_plexus_infraclavicular.webp",
-      "coverage_pct": 9.5
+      "coverage_pct": 9.4
     },
     {
       "name": "04_Brachial_plexus_costoclavicular",

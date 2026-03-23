@@ -60,16 +60,6 @@
           "coverage_pct": 1.2
         },
         {
-          "name": "04_Sacral_plexus",
-          "file": "overlay_04_Sacral_plexus.webp",
-          "coverage_pct": 52.1
-        },
-        {
-          "name": "05_Lateral_femoral_cutaneous_nerve",
-          "file": "overlay_05_Lateral_femoral_cutaneous_nerve.webp",
-          "coverage_pct": 51.4
-        },
-        {
           "name": "05_Sacral_plexus",
           "file": "overlay_05_Sacral_plexus.webp",
           "coverage_pct": 16.4

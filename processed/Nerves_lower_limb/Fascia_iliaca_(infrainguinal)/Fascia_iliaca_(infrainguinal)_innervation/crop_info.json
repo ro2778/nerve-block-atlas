@@ -7,29 +7,29 @@
   ],
   "crop_bbox": [
     448,
-    178,
+    173,
     1855,
     1017
   ],
   "crop_size": [
     1407,
-    839
+    844
   ],
   "layers": [
     {
       "name": "01_Obturator_nerve",
       "file": "overlay_01_Obturator_nerve.webp",
-      "coverage_pct": 4.5
+      "coverage_pct": 4.4
     },
     {
       "name": "02_Sacral_plexus",
       "file": "overlay_02_Sacral_plexus.webp",
-      "coverage_pct": 18.8
+      "coverage_pct": 18.7
     },
     {
       "name": "03_Fascia_iliaca",
       "file": "overlay_03_Fascia_iliaca.webp",
-      "coverage_pct": 10.9
+      "coverage_pct": 10.8
     },
     {
       "name": "04_Femoral_nerve",
@@ -49,7 +49,7 @@
     {
       "name": "07_Lumbar_plexus",
       "file": "overlay_07_Lumbar_plexus.webp",
-      "coverage_pct": 15.8
+      "coverage_pct": 15.7
     }
   ]
 }

@@ -37,16 +37,6 @@
       "coverage_pct": 9.2
     },
     {
-      "name": "04_iPACK",
-      "file": "overlay_04_iPACK.webp",
-      "coverage_pct": 47.8
-    },
-    {
-      "name": "05_Femoral_nerve",
-      "file": "overlay_05_Femoral_nerve.webp",
-      "coverage_pct": 47.8
-    },
-    {
       "name": "05_iPACK",
       "file": "overlay_05_iPACK.webp",
       "coverage_pct": 2.6

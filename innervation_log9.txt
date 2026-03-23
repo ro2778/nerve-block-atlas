@@ -1,0 +1,134 @@
+============================================================
+Innervation Layer Recapture
+============================================================
+
+──────────────────────────────────────────────────
+Nerves: lower limb (27 blocks)
+──────────────────────────────────────────────────
+  Femoral nerve: already captured, skipping
+  Sciatic nerve (popliteal fossa): already captured, skipping
+  Adductor canal (saphenous nerve): already captured, skipping
+  Lumbar plexus (shamrock): already captured, skipping
+  Lumbar plexus (trident): already captured, skipping
+
+  Sacral plexus
+    Sacral plexus innervation
+    Home: Sacral plexus (deactivated)
+    [1] combine  Lumbar plexus
+    [2] combine  Fascia iliaca
+    [3] combine  Femoral nerve
+    [4] combine  Lateral femoral cutaneous nerve
+    [5] compare  Sacral plexus
+    [6] combine  Pericapsular nerve group (PENG)
+    Done: 6 layers
+  Fascia iliaca (suprainguinal): already captured, skipping
+  Fascia iliaca (infrainguinal): already captured, skipping
+  Pericapsular nerve group (PENG): already captured, skipping
+  Lateral femoral cutaneous nerve: already captured, skipping
+  Obturator nerve (subpectineal): already captured, skipping
+  Obturator nerve branches: already captured, skipping
+
+  Sciatic nerve (anterior)
+    Sciatic nerve (anterior) innervation
+    Home: Sciatic nerve (anterior) (deactivated)
+    [1] combine  Fascia iliaca
+    [2] combine  Femoral nerve
+    [3] combine  Obturator nerve
+    [4] combine  Femoral triangle distal
+    [5] compare  Sciatic nerve (anterior)
+    [6] compare  Sciatic nerve (popliteal fossa)
+    [7] combine  Adductor canal
+    Done: 7 layers
+
+  Sciatic nerve (transgluteal)
+    Sciatic nerve (transgluteal) innervation
+    Home: Sciatic nerve (transgluteal) (deactivated)
+    [1] combine  Femoral nerve
+    [2] combine  Obturator nerve
+    [3] combine  Femoral triangle distal
+    [4] combine  Fascia iliaca
+    [5] compare  Sciatic nerve (transgluteal)
+    [6] compare  Sciatic nerve (popliteal fossa)
+    [7] combine  Adductor canal
+    Done: 7 layers
+
+  Sciatic nerve (infragluteal)
+    Sciatic nerve (infragluteal) innervation
+    Home: Sciatic nerve (infragluteal) (deactivated)
+    [1] combine  Fascia iliaca
+    [2] combine  Femoral nerve
+    [3] combine  Lumbar plexus
+    [4] combine  Posterior cutaneous nerve of thigh
+    [5] compare  Sciatic nerve (infragluteal)
+    [6] compare  Sciatic nerve (popliteal fossa)
+    [7] compare  Sacral plexus
+    Done: 7 layers
+
+  Femoral triangle apex
+    Femoral triangle apex innervation
+    Home: Femoral triangle distal (deactivated)
+    [1] combine  iPACK
+    [2] combine  Intermediate femoral cutaneous nerv
+    [3] combine  Medial femoral cutaneous nerve
+    [4] combine  Obturator nerve
+    [5] compare  Femoral triangle distal
+    [6] compare  Femoral nerve
+    [7] combine  Geniculate nerves
+    Done: 7 layers
+
+  iPACK (supine)
+    iPACK (supine) innervation
+    Home: iPACK (deactivated)
+    [1] combine  Femoral triangle distal
+    [2] combine  Medial femoral cutaneous nerve
+    [3] combine  Intermediate femoral cutaneous nerv
+    [4] combine  Femoral nerve
+    [5] compare  iPACK
+    [6] combine  Geniculate nerves
+    Done: 6 layers
+  iPACK (lateral): already captured, skipping
+  Superior medial geniculate nerves: already captured, skipping
+  Superior lateral geniculate nerves: already captured, skipping
+  Inferior medial geniculate nerves: already captured, skipping
+  Inferior lateral geniculate nerves: already captured, skipping
+  Tibial nerve (ankle): already captured, skipping
+  Deep peroneal nerve: already captured, skipping
+  Superficial peroneal nerve: already captured, skipping
+  Saphenous nerve (ankle): already captured, skipping
+  Sural nerve: already captured, skipping
+
+──────────────────────────────────────────────────
+Nerves: torso, head and neck (17 blocks)
+──────────────────────────────────────────────────
+  Erector spinae plane: already captured, skipping
+  Rectus sheath: already captured, skipping
+  Cervical plexus (intermediate): already captured, skipping
+  Paravertebral (transverse): already captured, skipping
+  Paravertebral (sagittal): already captured, skipping
+  Superficial parasternal intercostal plane: already captured, skipping
+  Deep parasternal intercostal plane: already captured, skipping
+  Interpectoral plane: already captured, skipping
+  Pectoserratus and interpectoral planes: already captured, skipping
+  Superficial serratus anterior plane: already captured, skipping
+  Subcostal TAP (upper): already captured, skipping
+  Subcostal TAP (lower): already captured, skipping
+  Midaxillary TAP: already captured, skipping
+  Ilioinguinal & iliohypogastric nerves: already captured, skipping
+  Anterior quadratus lumborum: already captured, skipping
+  Lateral quadratus lumborum: already captured, skipping
+  Transversalis fascia plane: already captured, skipping
+
+──────────────────────────────────────────────────
+Nerves: paediatric Plan A blocks (7 blocks)
+──────────────────────────────────────────────────
+  Paediatric brachial plexus axillary: already captured, skipping
+  Paediatric rectus sheath: already captured, skipping
+  Paediatric quadratus lumborum: already captured, skipping
+  Paediatric caudal: already captured, skipping
+  Paediatric penile nerves: already captured, skipping
+  Paediatric femoral nerve: already captured, skipping
+  Paediatric sciatic nerve popliteal: already captured, skipping
+
+============================================================
+Done! 6 blocks, captured all layers
+============================================================

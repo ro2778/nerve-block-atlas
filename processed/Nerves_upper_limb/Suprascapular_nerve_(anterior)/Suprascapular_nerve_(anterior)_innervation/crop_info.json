@@ -7,13 +7,13 @@
   ],
   "crop_bbox": [
     683,
-    189,
+    173,
     1634,
     1017
   ],
   "crop_size": [
     951,
-    828
+    844
   ],
   "layers": [
     {
@@ -24,27 +24,27 @@
     {
       "name": "02_Supraclavicular_brachial_plexus",
       "file": "overlay_02_Supraclavicular_brachial_plexus.webp",
-      "coverage_pct": 9.7
+      "coverage_pct": 9.6
     },
     {
       "name": "03_Suprascapular_nerve_(anterior)",
       "file": "overlay_03_Suprascapular_nerve_(anterior).webp",
-      "coverage_pct": 3.0
+      "coverage_pct": 2.9
     },
     {
       "name": "04_Interscalene_brachial_plexus",
       "file": "overlay_04_Interscalene_brachial_plexus.webp",
-      "coverage_pct": 11.2
+      "coverage_pct": 10.9
     },
     {
       "name": "05_Infraclavicular_brachial_plexus(costoclavicular)",
       "file": "overlay_05_Infraclavicular_brachial_plexus(costoclavicular).webp",
-      "coverage_pct": 9.8
+      "coverage_pct": 9.6
     },
     {
       "name": "06_Infraclavicular_brachial_plexus_(coricoid)",
       "file": "overlay_06_Infraclavicular_brachial_plexus_(coricoid).webp",
-      "coverage_pct": 8.4
+      "coverage_pct": 8.3
     }
   ]
 }

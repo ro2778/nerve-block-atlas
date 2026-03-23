@@ -68,24 +68,24 @@
       ],
       "crop_bbox": [
         325,
-        238,
+        173,
         1977,
         952
       ],
       "crop_size": [
         1652,
-        714
+        779
       ],
       "layers": [
         {
           "name": "01_perineal_nerve",
           "file": "overlay_01_perineal_nerve.webp",
-          "coverage_pct": 3.7
+          "coverage_pct": 3.4
         },
         {
           "name": "02_Dorsal_penile_nerves",
           "file": "overlay_02_Dorsal_penile_nerves.webp",
-          "coverage_pct": 10.8
+          "coverage_pct": 9.9
         }
       ]
     },

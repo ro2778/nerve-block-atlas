@@ -32,19 +32,9 @@
       "coverage_pct": 0.4
     },
     {
-      "name": "04_Femoral_triangle_distal",
-      "file": "overlay_04_Femoral_triangle_distal.webp",
-      "coverage_pct": 47.7
-    },
-    {
       "name": "04_Obturator_nerve",
       "file": "overlay_04_Obturator_nerve.webp",
       "coverage_pct": 2.3
-    },
-    {
-      "name": "05_Femoral_nerve",
-      "file": "overlay_05_Femoral_nerve.webp",
-      "coverage_pct": 47.8
     },
     {
       "name": "05_Femoral_triangle_distal",
@@ -55,11 +45,6 @@
       "name": "06_Femoral_nerve",
       "file": "overlay_06_Femoral_nerve.webp",
       "coverage_pct": 9.1
-    },
-    {
-      "name": "06_Obturator_nerve",
-      "file": "overlay_06_Obturator_nerve.webp",
-      "coverage_pct": 47.8
     },
     {
       "name": "07_Geniculate_nerves",

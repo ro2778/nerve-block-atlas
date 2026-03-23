@@ -6,25 +6,25 @@
     1080
   ],
   "crop_bbox": [
-    607,
-    110,
-    1696,
-    1070
+    692,
+    173,
+    1574,
+    1008
   ],
   "crop_size": [
-    1089,
-    960
+    882,
+    835
   ],
   "layers": [
     {
       "name": "01_Contralateral,_lateral_quadratus_lumborum",
       "file": "overlay_01_Contralateral,_lateral_quadratus_lumborum.webp",
-      "coverage_pct": 56.8
+      "coverage_pct": 2.1
     },
     {
       "name": "02_Lateral_quadratus_lumborum",
       "file": "overlay_02_Lateral_quadratus_lumborum.webp",
-      "coverage_pct": 56.8
+      "coverage_pct": 2.0
     }
   ]
 }

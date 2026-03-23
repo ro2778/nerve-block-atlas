@@ -30,13 +30,13 @@
       ],
       "crop_bbox": [
         678,
-        176,
+        173,
         1625,
         1017
       ],
       "crop_size": [
         947,
-        841
+        844
       ],
       "layers": [
         {
@@ -57,7 +57,7 @@
         {
           "name": "04_Anterior_quadratus_lumborum",
           "file": "overlay_04_Anterior_quadratus_lumborum.webp",
-          "coverage_pct": 11.6
+          "coverage_pct": 11.5
         },
         {
           "name": "05_Paravertebral_T10",

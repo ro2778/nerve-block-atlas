@@ -7,13 +7,13 @@
   ],
   "crop_bbox": [
     488,
-    177,
+    173,
     1815,
     1017
   ],
   "crop_size": [
     1327,
-    840
+    844
   ],
   "layers": [
     {
@@ -24,7 +24,7 @@
     {
       "name": "02_Femoral_triangle_distal",
       "file": "overlay_02_Femoral_triangle_distal.webp",
-      "coverage_pct": 3.6
+      "coverage_pct": 3.5
     },
     {
       "name": "03_iPACK",

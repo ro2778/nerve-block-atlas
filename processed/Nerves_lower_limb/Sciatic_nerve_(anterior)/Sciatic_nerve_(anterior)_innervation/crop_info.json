@@ -37,24 +37,9 @@
       "coverage_pct": 2.9
     },
     {
-      "name": "04_Sciatic_nerve_(anterior)",
-      "file": "overlay_04_Sciatic_nerve_(anterior).webp",
-      "coverage_pct": 41.2
-    },
-    {
       "name": "05_Sciatic_nerve_(anterior)",
       "file": "overlay_05_Sciatic_nerve_(anterior).webp",
       "coverage_pct": 9.9
-    },
-    {
-      "name": "05_Sciatic_nerve_(popliteal_fossa)",
-      "file": "overlay_05_Sciatic_nerve_(popliteal_fossa).webp",
-      "coverage_pct": 41.0
-    },
-    {
-      "name": "06_Femoral_triangle_distal",
-      "file": "overlay_06_Femoral_triangle_distal.webp",
-      "coverage_pct": 40.6
     },
     {
       "name": "06_Sciatic_nerve_(popliteal_fossa)",

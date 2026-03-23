@@ -1349,6 +1349,7 @@
                   "name": "Axillary brachial plexus",
                   "file": "overlay_02_Axillary_brachial_plexus.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#72aba3"
                 },
                 {
@@ -1804,6 +1805,7 @@
                   "name": "Interscalene brachial plexus",
                   "file": "overlay_02_Interscalene_brachial_plexus.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#79b2a8"
                 },
                 {
@@ -2319,19 +2321,8 @@
                   "name": "Superior trunk",
                   "file": "overlay_02_Superior_trunk.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#7ab4aa"
-                },
-                {
-                  "name": "Supraclavicular brachial plexus",
-                  "file": "overlay_02_Supraclavicular_brachial_plexus.webp",
-                  "section": "compare",
-                  "color": "#79b2a8"
-                },
-                {
-                  "name": "Infraclavicular brachial plexus (costoclavicular)",
-                  "file": "overlay_03_Infraclavicular_brachial_plexus_(costoclavicular).webp",
-                  "section": "compare",
-                  "color": "#8fbd9e"
                 },
                 {
                   "name": "Interscalene brachial plexus",
@@ -2346,27 +2337,10 @@
                   "color": "#bfab4f"
                 },
                 {
-                  "name": "Suprascapular nerve",
-                  "file": "overlay_04_Suprascapular_nerve.webp",
-                  "section": "compare",
-                  "color": "#87bc93"
-                },
-                {
-                  "name": "Axillary nerve",
-                  "file": "overlay_05_Axillary_nerve.webp",
-                  "section": "compare",
-                  "color": "#8dc28f"
-                },
-                {
                   "name": "Infraclavicular brachial plexus (costoclavicular)",
                   "file": "overlay_05_Infraclavicular_brachial_plexus_(costoclavicular).webp",
                   "section": "compare",
                   "color": "#ad578e"
-                },
-                {
-                  "name": "Infraclavicular brachial plexus (coracoid)",
-                  "file": "overlay_06_Infraclavicular_brachial_plexus_(coracoid).webp",
-                  "color": "#82cc8f"
                 },
                 {
                   "name": "Infraclavicular brachial plexus (coricoid)",
@@ -2749,20 +2723,10 @@
                   "color": "#43378f"
                 },
                 {
-                  "name": "Axillary brachial plexus",
-                  "file": "overlay_02_Axillary_brachial_plexus.webp",
-                  "color": "#aa885c"
-                },
-                {
                   "name": "Suprascapular nerve",
                   "file": "overlay_02_Suprascapular_nerve.webp",
                   "section": "combine",
                   "color": "#ae8ba1"
-                },
-                {
-                  "name": "Infraclavicular brachial plexus (coracoid)",
-                  "file": "overlay_03_Infraclavicular_brachial_plexus_(coracoid).webp",
-                  "color": "#988772"
                 },
                 {
                   "name": "Supraclavicular nerves",
@@ -2771,15 +2735,10 @@
                   "color": "#76629f"
                 },
                 {
-                  "name": "Infraclavicular brachial plexus (costoclavicular)",
-                  "file": "overlay_04_Infraclavicular_brachial_plexus_(costoclavicular).webp",
-                  "section": "compare",
-                  "color": "#8d8c6e"
-                },
-                {
                   "name": "Supraclavicular brachial plexus",
                   "file": "overlay_04_Supraclavicular_brachial_plexus.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#72a9a0"
                 },
                 {
@@ -2787,12 +2746,6 @@
                   "file": "overlay_05_Interscalene_brachial_plexus.webp",
                   "section": "compare",
                   "color": "#cfbc89"
-                },
-                {
-                  "name": "Supraclavicular brachial plexus",
-                  "file": "overlay_05_Supraclavicular_brachial_plexus.webp",
-                  "section": "compare",
-                  "color": "#958471"
                 },
                 {
                   "name": "Superior trunk",
@@ -3211,6 +3164,7 @@
                   "name": "Infraclavicular brachial plexus (costoclavicular)",
                   "file": "overlay_04_Infraclavicular_brachial_plexus_(costoclavicular).webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#73aaa1"
                 },
                 {
@@ -3621,6 +3575,7 @@
                   "name": "Infraclavicular brachial plexus (coricoid)",
                   "file": "overlay_04_Infraclavicular_brachial_plexus_(coricoid).webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#74aca3"
                 },
                 {
@@ -3950,6 +3905,7 @@
                   "name": "Supraclavicular nerves",
                   "file": "overlay_03_Supraclavicular_nerves.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#7dbfb7"
                 }
               ]
@@ -4313,6 +4269,7 @@
                   "name": "Suprascapular nerve",
                   "file": "overlay_02_Suprascapular_nerve.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#89cbc3"
                 },
                 {
@@ -4591,6 +4548,7 @@
                   "name": "Suprascapular nerve (anterior)",
                   "file": "overlay_03_Suprascapular_nerve_(anterior).webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#89cbc3"
                 },
                 {
@@ -4962,6 +4920,7 @@
                   "name": "Axillary nerve",
                   "file": "overlay_02_Axillary_nerve.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#78ada0"
                 },
                 {
@@ -5264,15 +5223,10 @@
                   "color": "#c3ad50"
                 },
                 {
-                  "name": "Axillary brachial plexus",
-                  "file": "overlay_04_Axillary_brachial_plexus.webp",
-                  "section": "combine",
-                  "color": "#9d8969"
-                },
-                {
                   "name": "Intercostobrachial nerve",
                   "file": "overlay_04_Intercostobrachial_nerve.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#5e9a96"
                 },
                 {
@@ -5280,12 +5234,6 @@
                   "file": "overlay_05_Axillary_brachial_plexus.webp",
                   "section": "combine",
                   "color": "#8bab6a"
-                },
-                {
-                  "name": "Intercostobrachial nerve",
-                  "file": "overlay_05_Intercostobrachial_nerve.webp",
-                  "section": "compare",
-                  "color": "#a37d6a"
                 }
               ]
             },
@@ -5435,6 +5383,7 @@
                   "name": "Median nerve mid arm",
                   "file": "overlay_03_Median_nerve_mid_arm.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#6bc0bd"
                 },
                 {
@@ -5721,6 +5670,7 @@
                   "name": "Ulnar nerve mid arm",
                   "file": "overlay_03_Ulnar_nerve_mid_arm.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#63bbb8"
                 },
                 {
@@ -6007,6 +5957,7 @@
                   "name": "Radial nerve distal arm",
                   "file": "overlay_03_Radial_nerve_distal_arm.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#6ec8c2"
                 },
                 {
@@ -6277,6 +6228,7 @@
                   "name": "Medial cutaneous nerve of forearm",
                   "file": "overlay_03_Medial_cutaneous_nerve_of_forearm.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#639f9a"
                 },
                 {
@@ -6500,6 +6452,7 @@
                   "name": "Lateral cutaneous nerve of forearm",
                   "file": "overlay_03_Lateral_cutaneous_nerve_of_forearm.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#71bfb7"
                 },
                 {
@@ -6718,6 +6671,7 @@
                   "name": "Posterior cutaneous nerve of forearm",
                   "file": "overlay_03_Posterior_cutaneous_nerve_of_forearm.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#65b1aa"
                 },
                 {
@@ -6927,6 +6881,7 @@
                   "name": "Median nerve ACF",
                   "file": "overlay_04_Median_nerve_ACF.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#75aaa4"
                 },
                 {
@@ -7222,6 +7177,7 @@
                   "name": "Radial nerve ACF",
                   "file": "overlay_03_Radial_nerve_ACF.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#7ab2a7"
                 },
                 {
@@ -7522,6 +7478,7 @@
                   "name": "Radial nerve superficial branch",
                   "file": "overlay_03_Radial_nerve_superficial_branch.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#70a9a0"
                 },
                 {
@@ -7854,6 +7811,7 @@
                   "name": "Ulnar nerve mid forearm",
                   "file": "overlay_03_Ulnar_nerve_mid_forearm.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#649792"
                 },
                 {
@@ -8149,6 +8107,7 @@
                   "name": "Median nerve mid forearm",
                   "file": "overlay_03_Median_nerve_mid_forearm.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#6a948e"
                 },
                 {
@@ -8521,6 +8480,7 @@
                   "name": "Femoral nerve",
                   "file": "overlay_04_Femoral_nerve.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#74a9a0"
                 },
                 {
@@ -8849,6 +8809,7 @@
                   "name": "Sciatic nerve (popliteal fossa)",
                   "file": "overlay_04_Sciatic_nerve_(popliteal_fossa).webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#7ab1a7"
                 },
                 {
@@ -9139,6 +9100,7 @@
                   "name": "Adductor canal (saphenous nerve)",
                   "file": "overlay_03_Adductor_canal_(saphenous_nerve).webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#6aa298"
                 },
                 {
@@ -9356,6 +9318,7 @@
                   "name": "Lumbar plexus",
                   "file": "overlay_02_Lumbar_plexus.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#6fa59d"
                 },
                 {
@@ -9734,6 +9697,7 @@
                   "name": "Lumbar plexus",
                   "file": "overlay_02_Lumbar_plexus.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#6fa59d"
                 },
                 {
@@ -9871,41 +9835,38 @@
                 {
                   "name": "Lumbar plexus",
                   "file": "overlay_01_Lumbar_plexus.webp",
+                  "section": "combine",
                   "color": "#b04c98"
                 },
                 {
                   "name": "Fascia iliaca",
                   "file": "overlay_02_Fascia_iliaca.webp",
+                  "section": "combine",
                   "color": "#c3ac52"
                 },
                 {
                   "name": "Femoral nerve",
                   "file": "overlay_03_Femoral_nerve.webp",
+                  "section": "combine",
                   "color": "#60499a"
                 },
                 {
                   "name": "Lateral femoral cutaneous nerve",
                   "file": "overlay_04_Lateral_femoral_cutaneous_nerve.webp",
+                  "section": "combine",
                   "color": "#be57a3"
                 },
                 {
                   "name": "Sacral plexus",
-                  "file": "overlay_04_Sacral_plexus.webp",
-                  "color": "#84998c"
-                },
-                {
-                  "name": "Lateral femoral cutaneous nerve",
-                  "file": "overlay_05_Lateral_femoral_cutaneous_nerve.webp",
-                  "color": "#a07f71"
-                },
-                {
-                  "name": "Sacral plexus",
                   "file": "overlay_05_Sacral_plexus.webp",
+                  "section": "compare",
+                  "is_home": true,
                   "color": "#75ada3"
                 },
                 {
                   "name": "Pericapsular nerve group (PENG)",
                   "file": "overlay_06_Pericapsular_nerve_group_(PENG).webp",
+                  "section": "combine",
                   "color": "#b45c51"
                 }
               ]
@@ -10195,6 +10156,7 @@
                   "name": "Fascia iliaca",
                   "file": "overlay_03_Fascia_iliaca.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#74a9a0"
                 },
                 {
@@ -10504,6 +10466,7 @@
                   "name": "Fascia iliaca",
                   "file": "overlay_03_Fascia_iliaca.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#74a9a0"
                 },
                 {
@@ -10715,6 +10678,7 @@
                   "name": "Pericapsular nerve group (PENG)",
                   "file": "overlay_03_Pericapsular_nerve_group_(PENG).webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#6fc0ba"
                 },
                 {
@@ -11012,6 +10976,7 @@
                   "name": "Lateral femoral cutaneous nerve",
                   "file": "overlay_03_Lateral_femoral_cutaneous_nerve.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#73bdb6"
                 },
                 {
@@ -11321,6 +11286,7 @@
                   "name": "Obturator nerve",
                   "file": "overlay_04_Obturator_nerve.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#64a099"
                 }
               ]
@@ -11596,6 +11562,7 @@
                   "name": "Obturator nerve",
                   "file": "overlay_04_Obturator_nerve.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#64a099"
                 }
               ]
@@ -11755,51 +11722,44 @@
                 {
                   "name": "Fascia iliaca",
                   "file": "overlay_01_Fascia_iliaca.webp",
+                  "section": "combine",
                   "color": "#b74f41"
                 },
                 {
                   "name": "Femoral nerve",
                   "file": "overlay_02_Femoral_nerve.webp",
+                  "section": "combine",
                   "color": "#69825c"
                 },
                 {
                   "name": "Obturator nerve",
                   "file": "overlay_03_Obturator_nerve.webp",
+                  "section": "combine",
                   "color": "#b19f40"
                 },
                 {
                   "name": "Femoral triangle distal",
                   "file": "overlay_04_Femoral_triangle_distal.webp",
+                  "section": "combine",
                   "color": "#699f44"
                 },
                 {
                   "name": "Sciatic nerve (anterior)",
-                  "file": "overlay_04_Sciatic_nerve_(anterior).webp",
-                  "color": "#8c8877"
-                },
-                {
-                  "name": "Sciatic nerve (anterior)",
                   "file": "overlay_05_Sciatic_nerve_(anterior).webp",
+                  "section": "compare",
+                  "is_home": true,
                   "color": "#78afa5"
                 },
                 {
                   "name": "Sciatic nerve (popliteal fossa)",
-                  "file": "overlay_05_Sciatic_nerve_(popliteal_fossa).webp",
-                  "color": "#8e6a70"
-                },
-                {
-                  "name": "Femoral triangle distal",
-                  "file": "overlay_06_Femoral_triangle_distal.webp",
-                  "color": "#9d8064"
-                },
-                {
-                  "name": "Sciatic nerve (popliteal fossa)",
                   "file": "overlay_06_Sciatic_nerve_(popliteal_fossa).webp",
+                  "section": "compare",
                   "color": "#6551a0"
                 },
                 {
                   "name": "Adductor canal",
                   "file": "overlay_07_Adductor_canal.webp",
+                  "section": "combine",
                   "color": "#ad4894"
                 }
               ]
@@ -12074,51 +12034,44 @@
                 {
                   "name": "Femoral nerve",
                   "file": "overlay_01_Femoral_nerve.webp",
+                  "section": "combine",
                   "color": "#69825c"
                 },
                 {
                   "name": "Obturator nerve",
                   "file": "overlay_02_Obturator_nerve.webp",
+                  "section": "combine",
                   "color": "#b19f40"
                 },
                 {
                   "name": "Femoral triangle distal",
                   "file": "overlay_03_Femoral_triangle_distal.webp",
+                  "section": "combine",
                   "color": "#699f44"
                 },
                 {
                   "name": "Fascia iliaca",
                   "file": "overlay_04_Fascia_iliaca.webp",
+                  "section": "combine",
                   "color": "#b74f41"
                 },
                 {
                   "name": "Sciatic nerve (transgluteal)",
-                  "file": "overlay_04_Sciatic_nerve_(transgluteal).webp",
-                  "color": "#8d8366"
-                },
-                {
-                  "name": "Sciatic nerve (popliteal fossa)",
-                  "file": "overlay_05_Sciatic_nerve_(popliteal_fossa).webp",
-                  "color": "#906362"
-                },
-                {
-                  "name": "Sciatic nerve (transgluteal)",
                   "file": "overlay_05_Sciatic_nerve_(transgluteal).webp",
+                  "section": "compare",
+                  "is_home": true,
                   "color": "#79afa5"
-                },
-                {
-                  "name": "Fascia iliaca",
-                  "file": "overlay_06_Fascia_iliaca.webp",
-                  "color": "#a86d5b"
                 },
                 {
                   "name": "Sciatic nerve (popliteal fossa)",
                   "file": "overlay_06_Sciatic_nerve_(popliteal_fossa).webp",
+                  "section": "compare",
                   "color": "#6551a0"
                 },
                 {
                   "name": "Adductor canal",
                   "file": "overlay_07_Adductor_canal.webp",
+                  "section": "combine",
                   "color": "#ad4894"
                 }
               ]
@@ -12391,56 +12344,44 @@
                 {
                   "name": "Fascia iliaca",
                   "file": "overlay_01_Fascia_iliaca.webp",
+                  "section": "combine",
                   "color": "#b74f41"
                 },
                 {
                   "name": "Femoral nerve",
                   "file": "overlay_02_Femoral_nerve.webp",
+                  "section": "combine",
                   "color": "#69825c"
                 },
                 {
                   "name": "Lumbar plexus",
                   "file": "overlay_03_Lumbar_plexus.webp",
+                  "section": "combine",
                   "color": "#b66e4c"
                 },
                 {
                   "name": "Posterior cutaneous nerve of thigh",
                   "file": "overlay_04_Posterior_cutaneous_nerve_of_thigh.webp",
+                  "section": "combine",
                   "color": "#b05749"
                 },
                 {
                   "name": "Sciatic nerve (infragluteal)",
-                  "file": "overlay_04_Sciatic_nerve_(infragluteal).webp",
-                  "color": "#8c8877"
-                },
-                {
-                  "name": "Sciatic nerve (infragluteal)",
                   "file": "overlay_05_Sciatic_nerve_(infragluteal).webp",
+                  "section": "compare",
+                  "is_home": true,
                   "color": "#79afa5"
                 },
                 {
                   "name": "Sciatic nerve (popliteal fossa)",
-                  "file": "overlay_05_Sciatic_nerve_(popliteal_fossa).webp",
-                  "color": "#8d6972"
-                },
-                {
-                  "name": "Sacral plexus",
-                  "file": "overlay_06_Sacral_plexus.webp",
-                  "color": "#7e8362"
-                },
-                {
-                  "name": "Sciatic nerve (popliteal fossa)",
                   "file": "overlay_06_Sciatic_nerve_(popliteal_fossa).webp",
+                  "section": "compare",
                   "color": "#6350a0"
-                },
-                {
-                  "name": "Posterior cutaneous nerve of thigh",
-                  "file": "overlay_07_Posterior_cutaneous_nerve_of_thigh.webp",
-                  "color": "#a27763"
                 },
                 {
                   "name": "Sacral plexus",
                   "file": "overlay_07_Sacral_plexus.webp",
+                  "section": "compare",
                   "color": "#6d8860"
                 }
               ]
@@ -12645,51 +12586,44 @@
                 {
                   "name": "iPACK",
                   "file": "overlay_01_iPACK.webp",
+                  "section": "combine",
                   "color": "#b960b0"
                 },
                 {
                   "name": "Intermediate femoral cutaneous nerve",
                   "file": "overlay_02_Intermediate_femoral_cutaneous_nerve.webp",
+                  "section": "combine",
                   "color": "#897892"
                 },
                 {
                   "name": "Medial femoral cutaneous nerve",
                   "file": "overlay_03_Medial_femoral_cutaneous_nerve.webp",
+                  "section": "combine",
                   "color": "#ac7880"
-                },
-                {
-                  "name": "Femoral triangle distal",
-                  "file": "overlay_04_Femoral_triangle_distal.webp",
-                  "color": "#9e8573"
                 },
                 {
                   "name": "Obturator nerve",
                   "file": "overlay_04_Obturator_nerve.webp",
+                  "section": "combine",
                   "color": "#b6a746"
-                },
-                {
-                  "name": "Femoral nerve",
-                  "file": "overlay_05_Femoral_nerve.webp",
-                  "color": "#958e64"
                 },
                 {
                   "name": "Femoral triangle distal",
                   "file": "overlay_05_Femoral_triangle_distal.webp",
+                  "section": "compare",
+                  "is_home": true,
                   "color": "#6aa59d"
                 },
                 {
                   "name": "Femoral nerve",
                   "file": "overlay_06_Femoral_nerve.webp",
+                  "section": "compare",
                   "color": "#73a84d"
-                },
-                {
-                  "name": "Obturator nerve",
-                  "file": "overlay_06_Obturator_nerve.webp",
-                  "color": "#a3826b"
                 },
                 {
                   "name": "Geniculate nerves",
                   "file": "overlay_07_Geniculate_nerves.webp",
+                  "section": "combine",
                   "color": "#ab614f"
                 }
               ]
@@ -12884,41 +12818,38 @@
                 {
                   "name": "Femoral triangle distal",
                   "file": "overlay_01_Femoral_triangle_distal.webp",
+                  "section": "combine",
                   "color": "#6aa44a"
                 },
                 {
                   "name": "Medial femoral cutaneous nerve",
                   "file": "overlay_02_Medial_femoral_cutaneous_nerve.webp",
+                  "section": "combine",
                   "color": "#ac7880"
                 },
                 {
                   "name": "Intermediate femoral cutaneous nerve",
                   "file": "overlay_03_Intermediate_femoral_cutaneous_nerve.webp",
+                  "section": "combine",
                   "color": "#897892"
                 },
                 {
                   "name": "Femoral nerve",
                   "file": "overlay_04_Femoral_nerve.webp",
+                  "section": "combine",
                   "color": "#5d499b"
                 },
                 {
                   "name": "iPACK",
-                  "file": "overlay_04_iPACK.webp",
-                  "color": "#9e816f"
-                },
-                {
-                  "name": "Femoral nerve",
-                  "file": "overlay_05_Femoral_nerve.webp",
-                  "color": "#93737e"
-                },
-                {
-                  "name": "iPACK",
                   "file": "overlay_05_iPACK.webp",
+                  "section": "compare",
+                  "is_home": true,
                   "color": "#7bbbb3"
                 },
                 {
                   "name": "Geniculate nerves",
                   "file": "overlay_06_Geniculate_nerves.webp",
+                  "section": "combine",
                   "color": "#ab614f"
                 }
               ]
@@ -13188,14 +13119,9 @@
                 },
                 {
                   "name": "iPACK",
-                  "file": "overlay_04_iPACK.webp",
-                  "section": "compare",
-                  "color": "#9e816f"
-                },
-                {
-                  "name": "iPACK",
                   "file": "overlay_05_iPACK.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#7bbbb3"
                 },
                 {
@@ -13408,14 +13334,9 @@
                 },
                 {
                   "name": "SM geniculate nerves",
-                  "file": "overlay_04_SM_geniculate_nerves.webp",
-                  "section": "compare",
-                  "color": "#9f7f6c"
-                },
-                {
-                  "name": "SM geniculate nerves",
                   "file": "overlay_05_SM_geniculate_nerves.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#6cd7d5"
                 },
                 {
@@ -13638,6 +13559,7 @@
                   "name": "SL geniculate nerves",
                   "file": "overlay_05_SL_geniculate_nerves.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#73d9d5"
                 },
                 {
@@ -13875,6 +13797,7 @@
                   "name": "IM geniculate nerves",
                   "file": "overlay_05_IM_geniculate_nerves.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#69d8d6"
                 },
                 {
@@ -14087,6 +14010,7 @@
                   "name": "IL geniculate nerves",
                   "file": "overlay_05_IL_geniculate_nerves.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#70e1de"
                 },
                 {
@@ -14221,6 +14145,7 @@
                   "name": "Tibial nerve",
                   "file": "overlay_05_Tibial_nerve.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#83b9ab"
                 },
                 {
@@ -14538,6 +14463,7 @@
                   "name": "Deep peroneal nerve",
                   "file": "overlay_05_Deep_peroneal_nerve.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#79b4ab"
                 },
                 {
@@ -14845,6 +14771,7 @@
                   "name": "Superficial peroneal nerve",
                   "file": "overlay_05_Superficial_peroneal_nerve.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#7eb5aa"
                 },
                 {
@@ -15152,6 +15079,7 @@
                   "name": "Saphenous nerve",
                   "file": "overlay_05_Saphenous_nerve.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#83beb1"
                 },
                 {
@@ -15387,6 +15315,7 @@
                   "name": "Sural nerve",
                   "file": "overlay_05_Sural_nerve.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#90ada0"
                 },
                 {
@@ -15663,6 +15592,7 @@
                   "name": "Erector spinae T4",
                   "file": "overlay_02_Erector_spinae_T4.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#9fb9a4"
                 },
                 {
@@ -15985,6 +15915,7 @@
                   "name": "Rectus sheath",
                   "file": "overlay_02_Rectus_sheath.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#75a69a"
                 },
                 {
@@ -16275,6 +16206,7 @@
                   "name": "Superficial cervical plexus",
                   "file": "overlay_01_Superficial_cervical_plexus.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#7ba396"
                 }
               ]
@@ -16607,6 +16539,7 @@
                   "name": "Paravertebral T4",
                   "file": "overlay_01_Paravertebral_T4.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#9cbca8"
                 },
                 {
@@ -16848,6 +16781,7 @@
                   "name": "Paravertebral T4",
                   "file": "overlay_01_Paravertebral_T4.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#9cbca8"
                 },
                 {
@@ -17195,6 +17129,7 @@
                   "name": "Superficial parasternal intercostal plane",
                   "file": "overlay_02_Superficial_parasternal_intercostal_plane.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#a3a189"
                 }
               ]
@@ -17404,6 +17339,7 @@
                   "name": "Deep parasternal intercostal plane",
                   "file": "overlay_02_Deep_parasternal_intercostal_plane.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#a3a189"
                 }
               ]
@@ -17644,68 +17580,41 @@
               "type": "innervation",
               "layers": [
                 {
-                  "name": "Serratus anterior plane superficial",
-                  "file": "overlay_01_Serratus_anterior_plane_superficial.webp",
-                  "section": "combine",
-                  "color": "#92ab58"
-                },
-                {
                   "name": "Superficial parasternal intercostal plane",
                   "file": "overlay_01_Superficial_parasternal_intercostal_plane.webp",
-                  "color": "#b78c78"
-                },
-                {
-                  "name": "Erector spinae T4",
-                  "file": "overlay_02_Erector_spinae_T4.webp",
-                  "section": "compare",
-                  "color": "#9fb9a4"
+                  "section": "combine",
+                  "color": "#947488"
                 },
                 {
                   "name": "Interpectoral plane",
                   "file": "overlay_02_Interpectoral_plane.webp",
                   "section": "compare",
-                  "color": "#c09075"
+                  "is_home": true,
+                  "color": "#9f927b"
                 },
                 {
                   "name": "Interpectoral and pectoserratus planes",
                   "file": "overlay_03_Interpectoral_and_pectoserratus_planes.webp",
                   "section": "compare",
-                  "color": "#c18781"
-                },
-                {
-                  "name": "Paravertebral T4",
-                  "file": "overlay_03_Paravertebral_T4.webp",
-                  "section": "compare",
-                  "color": "#dec65f"
-                },
-                {
-                  "name": "Interpectoral plane",
-                  "file": "overlay_04_Interpectoral_plane.webp",
-                  "section": "compare",
-                  "color": "#bd765f"
+                  "color": "#c8708d"
                 },
                 {
                   "name": "Superficial serratus anterior plane",
                   "file": "overlay_04_Superficial_serratus_anterior_plane.webp",
-                  "color": "#a8a06c"
+                  "section": "compare",
+                  "color": "#92ab58"
                 },
                 {
                   "name": "Erector spinae T4",
                   "file": "overlay_05_Erector_spinae_T4.webp",
                   "section": "compare",
-                  "color": "#b39b7a"
-                },
-                {
-                  "name": "Interpectoral and pectoserratus planes",
-                  "file": "overlay_05_Interpectoral_and_pectoserratus_planes.webp",
-                  "section": "compare",
-                  "color": "#c8708d"
+                  "color": "#a9ba87"
                 },
                 {
                   "name": "Paravertebral T4",
                   "file": "overlay_06_Paravertebral_T4.webp",
                   "section": "compare",
-                  "color": "#c59f6a"
+                  "color": "#dac064"
                 }
               ]
             },
@@ -17907,6 +17816,7 @@
                   "name": "Pectoserratus and interpectoral planes",
                   "file": "overlay_02_Pectoserratus_and_interpectoral_planes.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#94ae9d"
                 },
                 {
@@ -18200,6 +18110,7 @@
                   "name": "Superficial serratus anterior plane",
                   "file": "overlay_02_Superficial_serratus_anterior_plane.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#93ab9b"
                 },
                 {
@@ -18489,6 +18400,7 @@
                   "name": "Subcostal TAP (upper)",
                   "file": "overlay_03_Subcostal_TAP_(upper).webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#77a69a"
                 },
                 {
@@ -18738,6 +18650,7 @@
                   "name": "Subcostal TAP (lower)",
                   "file": "overlay_04_Subcostal_TAP_(lower).webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#6eb2a8"
                 },
                 {
@@ -18934,6 +18847,7 @@
                   "name": "Midaxillary TAP",
                   "file": "overlay_02_Midaxillary_TAP.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#8d836f"
                 },
                 {
@@ -19157,6 +19071,7 @@
                   "name": "Ilioinguinal & iliohypogastric nerves",
                   "file": "overlay_02_Ilioinguinal_&_iliohypogastric_nerves.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#957866"
                 },
                 {
@@ -19444,6 +19359,7 @@
                   "name": "Anterior quadratus lumborum",
                   "file": "overlay_02_Anterior_quadratus_lumborum.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#819e91"
                 },
                 {
@@ -19833,6 +19749,26 @@
               "layers": []
             },
             {
+              "dir": "Lateral_quadratus_lumborum_innervation",
+              "name": "Innervation",
+              "type": "innervation",
+              "layers": [
+                {
+                  "name": "Contralateral, lateral quadratus lumborum",
+                  "file": "overlay_01_Contralateral,_lateral_quadratus_lumborum.webp",
+                  "section": "combine",
+                  "color": "#5d4192"
+                },
+                {
+                  "name": "Lateral quadratus lumborum",
+                  "file": "overlay_02_Lateral_quadratus_lumborum.webp",
+                  "section": "compare",
+                  "is_home": true,
+                  "color": "#73a196"
+                }
+              ]
+            },
+            {
               "dir": "Lateral_quadratus_lumborum_landmark_pattern",
               "name": "Landmark",
               "type": "diagram",
@@ -20096,6 +20032,32 @@
           "category": "Nerves: torso, head and neck",
           "views": [
             {
+              "dir": "Transversalis_fascia_plane_innervation",
+              "name": "Innervation",
+              "type": "innervation",
+              "layers": [
+                {
+                  "name": "Contralateral tranasversalis fascia",
+                  "file": "overlay_01_Contralateral_tranasversalis_fascia.webp",
+                  "section": "combine",
+                  "color": "#4b339d"
+                },
+                {
+                  "name": "Midaxillary TAP",
+                  "file": "overlay_02_Midaxillary_TAP.webp",
+                  "section": "combine",
+                  "color": "#bb4a3a"
+                },
+                {
+                  "name": "Transversalis fascia",
+                  "file": "overlay_03_Transversalis_fascia.webp",
+                  "section": "compare",
+                  "is_home": true,
+                  "color": "#62a49c"
+                }
+              ]
+            },
+            {
               "dir": "Transversalis_fascia_plane_landmark_pattern",
               "name": "Landmark",
               "type": "diagram",
@@ -20318,6 +20280,7 @@
                   "name": "Brachial plexus axillary",
                   "file": "overlay_02_Brachial_plexus_axillary.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#73aba3"
                 },
                 {
@@ -20480,6 +20443,7 @@
                   "name": "Rectus sheath",
                   "file": "overlay_02_Rectus_sheath.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#75a69a"
                 },
                 {
@@ -20597,6 +20561,32 @@
               "name": "Ergonomics",
               "type": "ergonomics",
               "layers": []
+            },
+            {
+              "dir": "Paediatric_quadratus_lumborum_innervation",
+              "name": "Innervation",
+              "type": "innervation",
+              "layers": [
+                {
+                  "name": "Contralateral quadratus lumborum",
+                  "file": "overlay_01_Contralateral_quadratus_lumborum.webp",
+                  "section": "combine",
+                  "color": "#5d4192"
+                },
+                {
+                  "name": "Quadratus lumborum lateral",
+                  "file": "overlay_02_Quadratus_lumborum_lateral.webp",
+                  "section": "compare",
+                  "is_home": true,
+                  "color": "#73a297"
+                },
+                {
+                  "name": "Midaxillary TAP",
+                  "file": "overlay_03_Midaxillary_TAP.webp",
+                  "section": "compare",
+                  "color": "#c14a39"
+                }
+              ]
             },
             {
               "dir": "Paediatric_quadratus_lumborum_landmark_pattern",
@@ -21005,6 +20995,7 @@
                   "name": "Dorsal penile nerves",
                   "file": "overlay_02_Dorsal_penile_nerves.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#8cf5f5"
                 }
               ]
@@ -21495,6 +21486,7 @@
                   "name": "Femoral nerve",
                   "file": "overlay_04_Femoral_nerve.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#74a9a0"
                 },
                 {
@@ -21761,6 +21753,7 @@
                   "name": "Sciatic nerve popliteal",
                   "file": "overlay_04_Sciatic_nerve_popliteal.webp",
                   "section": "compare",
+                  "is_home": true,
                   "color": "#7ab1a7"
                 },
                 {
@@ -27304,5 +27297,5 @@
       ]
     }
   ],
-  "generated": "2026-03-23T13:26:57.628960+00:00"
+  "generated": "2026-03-23T16:30:13.071562+00:00"
 }

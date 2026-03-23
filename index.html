@@ -1512,7 +1512,7 @@ img {
       });
   }
 
-  var APP_VERSION = '1.2.1';
+  var APP_VERSION = '1.2.0';
 
   function checkForUpdate() {
     var versionEl = document.getElementById('splashVersion');
@@ -1769,13 +1769,38 @@ img {
     if (!view || view.type !== 'innervation') return;
     var layers = view.layers || [];
     var blockName = block.name.toLowerCase().trim();
+
+    /* 1. Check is_home flag from metadata */
     for (var i = 0; i < layers.length; i++) {
-      var layerName = layers[i].name.toLowerCase().trim();
-      if (blockName.indexOf(layerName) >= 0 || layerName.indexOf(blockName) >= 0) {
-        innervationSelfIdx = i;
-        return;
+      if (layers[i].is_home) { innervationSelfIdx = i; return; }
+    }
+
+    /* 2. Check section=compare for first compare layer (home is always first compare) */
+    for (var i = 0; i < layers.length; i++) {
+      if (layers[i].section === 'compare') { innervationSelfIdx = i; return; }
+    }
+
+    /* 3. Exact substring match */
+    for (var i = 0; i < layers.length; i++) {
+      var ln = layers[i].name.toLowerCase().trim();
+      if (blockName.indexOf(ln) >= 0 || ln.indexOf(blockName) >= 0) {
+        innervationSelfIdx = i; return;
       }
     }
+
+    /* 4. Word overlap match — find layer with most words in common */
+    var blockWords = blockName.replace(/[()]/g, '').split(/\s+/);
+    var bestScore = 0, bestIdx = -1;
+    for (var i = 0; i < layers.length; i++) {
+      var ln = layers[i].name.toLowerCase().trim().replace(/[()]/g, '');
+      var layerWords = ln.split(/\s+/);
+      var score = 0;
+      for (var w = 0; w < blockWords.length; w++) {
+        if (blockWords[w].length > 2 && ln.indexOf(blockWords[w]) >= 0) score++;
+      }
+      if (score > bestScore) { bestScore = score; bestIdx = i; }
+    }
+    if (bestScore >= 2) innervationSelfIdx = bestIdx;
   }
 
   /* ──────────────────────────────────────────────────────────
@@ -1956,8 +1981,19 @@ img {
     }
 
     /* Individual layer rows — group by section (combine/compare) for innervation */
+    /* Sort layer indices: all combine first, then compare, preserving order within each */
+    var sortedLayerIndices = [];
+    for (var i = layerStartIdx; i < layers.length; i++) sortedLayerIndices.push(i);
+    if (hasSections) {
+      sortedLayerIndices.sort(function(a, b) {
+        var sa = (layers[a].section || '') === 'combine' ? 0 : 1;
+        var sb = (layers[b].section || '') === 'combine' ? 0 : 1;
+        return sa - sb || a - b;
+      });
+    }
     var lastSection = '';
-    for (var i = layerStartIdx; i < layers.length; i++) {
+    for (var si = 0; si < sortedLayerIndices.length; si++) {
+      var i = sortedLayerIndices[si];
       var layer = layers[i];
       var section = layer.section || '';
 

@@ -7,13 +7,13 @@
   ],
   "crop_bbox": [
     683,
-    189,
+    173,
     1634,
     1017
   ],
   "crop_size": [
     951,
-    828
+    844
   ],
   "layers": [
     {
@@ -24,57 +24,32 @@
     {
       "name": "02_Superior_trunk",
       "file": "overlay_02_Superior_trunk.webp",
-      "coverage_pct": 11.1
-    },
-    {
-      "name": "02_Supraclavicular_brachial_plexus",
-      "file": "overlay_02_Supraclavicular_brachial_plexus.webp",
-      "coverage_pct": 11.6
-    },
-    {
-      "name": "03_Infraclavicular_brachial_plexus_(costoclavicular)",
-      "file": "overlay_03_Infraclavicular_brachial_plexus_(costoclavicular).webp",
-      "coverage_pct": 13.7
+      "coverage_pct": 10.8
     },
     {
       "name": "03_Interscalene_brachial_plexus",
       "file": "overlay_03_Interscalene_brachial_plexus.webp",
-      "coverage_pct": 11.2
+      "coverage_pct": 10.9
     },
     {
       "name": "04_Supraclavicular_brachial_plexus",
       "file": "overlay_04_Supraclavicular_brachial_plexus.webp",
-      "coverage_pct": 9.7
-    },
-    {
-      "name": "04_Suprascapular_nerve",
-      "file": "overlay_04_Suprascapular_nerve.webp",
-      "coverage_pct": 13.7
-    },
-    {
-      "name": "05_Axillary_nerve",
-      "file": "overlay_05_Axillary_nerve.webp",
-      "coverage_pct": 13.7
+      "coverage_pct": 9.6
     },
     {
       "name": "05_Infraclavicular_brachial_plexus_(costoclavicular)",
       "file": "overlay_05_Infraclavicular_brachial_plexus_(costoclavicular).webp",
-      "coverage_pct": 9.8
-    },
-    {
-      "name": "06_Infraclavicular_brachial_plexus_(coracoid)",
-      "file": "overlay_06_Infraclavicular_brachial_plexus_(coracoid).webp",
-      "coverage_pct": 13.9
+      "coverage_pct": 9.6
     },
     {
       "name": "06_Infraclavicular_brachial_plexus_(coricoid)",
       "file": "overlay_06_Infraclavicular_brachial_plexus_(coricoid).webp",
-      "coverage_pct": 8.4
+      "coverage_pct": 8.3
     },
     {
       "name": "07_Suprascapular_nerve",
       "file": "overlay_07_Suprascapular_nerve.webp",
-      "coverage_pct": 3.1
+      "coverage_pct": 3.0
     },
     {
       "name": "08_Axillary_nerve",

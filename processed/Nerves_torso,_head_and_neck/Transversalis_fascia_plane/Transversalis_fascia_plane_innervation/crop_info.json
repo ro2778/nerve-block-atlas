@@ -6,30 +6,30 @@
     1080
   ],
   "crop_bbox": [
-    607,
-    110,
-    1696,
-    1070
+    692,
+    173,
+    1574,
+    1008
   ],
   "crop_size": [
-    1089,
-    960
+    882,
+    835
   ],
   "layers": [
     {
       "name": "01_Contralateral_tranasversalis_fascia",
       "file": "overlay_01_Contralateral_tranasversalis_fascia.webp",
-      "coverage_pct": 56.6
+      "coverage_pct": 0.9
     },
     {
       "name": "02_Midaxillary_TAP",
       "file": "overlay_02_Midaxillary_TAP.webp",
-      "coverage_pct": 56.7
+      "coverage_pct": 1.3
     },
     {
       "name": "03_Transversalis_fascia",
       "file": "overlay_03_Transversalis_fascia.webp",
-      "coverage_pct": 56.6
+      "coverage_pct": 0.9
     }
   ]
 }

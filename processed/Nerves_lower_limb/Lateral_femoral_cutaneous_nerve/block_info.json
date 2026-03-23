@@ -30,13 +30,13 @@
       ],
       "crop_bbox": [
         448,
-        178,
+        173,
         1855,
         1017
       ],
       "crop_size": [
         1407,
-        839
+        844
       ],
       "layers": [
         {
@@ -62,7 +62,7 @@
         {
           "name": "05_Lumbar_plexus",
           "file": "overlay_05_Lumbar_plexus.webp",
-          "coverage_pct": 15.8
+          "coverage_pct": 15.7
         }
       ]
     },
