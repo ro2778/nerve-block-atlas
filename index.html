@@ -1624,52 +1624,26 @@ img {
         if (loadText) loadText.style.display = 'none';
 
         var isStandalone = window.matchMedia('(display-mode: standalone)').matches || navigator.standalone;
-        var fromNDAnae = location.search.indexOf('from=ndanae') >= 0;
-        var isInstalled = localStorage.getItem('ra-atlas-installed') === 'true';
 
-        /* If running as installed PWA (not from NDAnae CCT), set the installed flag */
-        if (isStandalone && !fromNDAnae) {
+        /* Track installation state for NDAnae status check */
+        if (isStandalone) {
           localStorage.setItem('ra-atlas-installed', 'true');
-          isInstalled = true;
         }
-
-        /* Always store the current version so NDAnae can check for updates */
         localStorage.setItem('ra-atlas-version', APP_VERSION);
 
-        if (isInstalled) {
-          /* RA Atlas is installed — show 1.5s splash with version then auto-enter */
-          var splashVer = document.getElementById('splashVersion');
-          if (splashVer) splashVer.style.display = '';
-          checkForUpdate();
-          setTimeout(function() { enterApp(); }, 1500);
-        } else if (fromNDAnae) {
-          /* Came from NDAnae, RA Atlas NOT installed — recommend install */
-          var btnInstall = document.getElementById('btnInstall');
-          var recommend = document.getElementById('installRecommend');
-          var btnContinue = document.getElementById('btnContinue');
-          var androidHint = document.getElementById('androidHint');
-          var iosHint = document.getElementById('iosHint');
-          if (btnInstall) btnInstall.style.display = '';
-          if (recommend) recommend.style.display = '';
-          if (btnContinue) {
-            btnContinue.style.display = '';
-            btnContinue.addEventListener('click', function() { enterApp(); });
-          }
-          if (/android/i.test(navigator.userAgent) && androidHint) {
-            androidHint.style.display = '';
-          }
-          if (/iphone|ipad/i.test(navigator.userAgent) && iosHint) {
-            iosHint.style.display = '';
-          }
-          checkForUpdate();
-        } else {
-          /* Direct browser visit, not installed — show Open + Install */
-          var btnEnter = document.getElementById('btnEnter');
-          var btnInstall = document.getElementById('btnInstall');
-          var recommend = document.getElementById('installRecommend');
-          var androidHint = document.getElementById('androidHint');
-          var iosHint = document.getElementById('iosHint');
-          if (btnEnter) btnEnter.style.display = '';
+        /* Always show splash — user manually progresses.
+           Show appropriate buttons based on install state. */
+        var btnEnter = document.getElementById('btnEnter');
+        var btnInstall = document.getElementById('btnInstall');
+        var recommend = document.getElementById('installRecommend');
+        var androidHint = document.getElementById('androidHint');
+        var iosHint = document.getElementById('iosHint');
+
+        /* Always show Open Atlas button */
+        if (btnEnter) btnEnter.style.display = '';
+
+        /* Show install options if not running as installed PWA */
+        if (!isStandalone) {
           if (btnInstall) btnInstall.style.display = '';
           if (recommend) recommend.style.display = '';
           if (/android/i.test(navigator.userAgent) && androidHint) {
@@ -1678,8 +1652,9 @@ img {
           if (/iphone|ipad/i.test(navigator.userAgent) && iosHint) {
             iosHint.style.display = '';
           }
-          checkForUpdate();
         }
+
+        checkForUpdate();
       })
       .catch(function (err) {
         dom.loadingScreen.style.display = 'none';
@@ -1688,7 +1663,7 @@ img {
       });
   }
 
-  var APP_VERSION = '1.2.13';
+  var APP_VERSION = '1.2.14';
 
   function checkForUpdate() {
     var versionEl = document.getElementById('splashVersion');
