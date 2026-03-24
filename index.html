@@ -1639,11 +1639,15 @@ img {
         var androidHint = document.getElementById('androidHint');
         var iosHint = document.getElementById('iosHint');
 
+        var fromNDAnae = location.search.indexOf('from=ndanae') >= 0;
+        /* True standalone = running as RA Atlas PWA (not CCT from NDAnae) */
+        var isRealPWA = isStandalone && !fromNDAnae;
+
         /* Always show Open Atlas button */
         if (btnEnter) btnEnter.style.display = '';
 
-        /* Show install options if not running as installed PWA */
-        if (!isStandalone) {
+        /* Show install options unless running as the actual RA Atlas PWA */
+        if (!isRealPWA) {
           if (btnInstall) btnInstall.style.display = '';
           if (recommend) recommend.style.display = '';
           if (/android/i.test(navigator.userAgent) && androidHint) {
@@ -1663,7 +1667,7 @@ img {
       });
   }
 
-  var APP_VERSION = '1.2.14';
+  var APP_VERSION = '1.2.15';
 
   function checkForUpdate() {
     var versionEl = document.getElementById('splashVersion');
