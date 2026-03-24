@@ -1510,10 +1510,6 @@ img {
       });
     }
 
-    /* Auto-enter when launched from NDAnae (skip splash) */
-    if (location.search.indexOf('from=ndanae') >= 0) {
-      enterApp();
-    }
   }
 
   /* ──────────────────────────────────────────────────────────
@@ -1631,6 +1627,11 @@ img {
         if (btnEnter) btnEnter.style.display = '';
         /* Check for updates */
         checkForUpdate();
+
+        /* Auto-enter when launched from NDAnae (skip splash) */
+        if (location.search.indexOf('from=ndanae') >= 0) {
+          enterApp();
+        }
       })
       .catch(function (err) {
         dom.loadingScreen.style.display = 'none';
@@ -1639,7 +1640,7 @@ img {
       });
   }
 
-  var APP_VERSION = '1.2.6';
+  var APP_VERSION = '1.2.7';
 
   function checkForUpdate() {
     var versionEl = document.getElementById('splashVersion');
