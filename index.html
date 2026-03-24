@@ -1623,20 +1623,18 @@ img {
         if (spinner) spinner.style.display = 'none';
         if (loadText) loadText.style.display = 'none';
 
+        var isStandalone = window.matchMedia('(display-mode: standalone)').matches || navigator.standalone;
         var fromNDAnae = location.search.indexOf('from=ndanae') >= 0;
-        /* Chrome Custom Tabs (from PWA navigation) still report standalone,
-           so check fromNDAnae to override — if we came from NDAnae, we're NOT
-           in the RA Atlas PWA even if standalone reports true */
-        var isStandalone = (window.matchMedia('(display-mode: standalone)').matches || navigator.standalone) && !fromNDAnae;
 
         if (isStandalone) {
-          /* Running as installed RA Atlas PWA — show version briefly then auto-enter */
+          /* Running in standalone mode (installed PWA or Chrome Custom Tab from PWA)
+             Either way, the user has a good viewing experience — auto-enter */
           var splashVer = document.getElementById('splashVersion');
           if (splashVer) splashVer.style.display = '';
           checkForUpdate();
           setTimeout(function() { enterApp(); }, 1500);
         } else if (fromNDAnae) {
-          /* Came from NDAnae — show install recommendation + Android hint */
+          /* Came from NDAnae in regular Chrome — not installed, recommend install */
           var btnInstall = document.getElementById('btnInstall');
           var recommend = document.getElementById('installRecommend');
           var btnContinue = document.getElementById('btnContinue');
@@ -1647,7 +1645,6 @@ img {
             btnContinue.style.display = '';
             btnContinue.addEventListener('click', function() { enterApp(); });
           }
-          /* Show Android install hint since beforeinstallprompt may not fire in Custom Tabs */
           if (/android/i.test(navigator.userAgent) && androidHint) {
             androidHint.style.display = '';
           }
@@ -1666,7 +1663,7 @@ img {
       });
   }
 
-  var APP_VERSION = '1.2.10';
+  var APP_VERSION = '1.2.11';
 
   function checkForUpdate() {
     var versionEl = document.getElementById('splashVersion');
