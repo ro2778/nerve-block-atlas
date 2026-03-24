@@ -1509,6 +1509,11 @@ img {
         enterApp();
       });
     }
+
+    /* Auto-enter when launched from NDAnae (skip splash) */
+    if (location.search.indexOf('from=ndanae') >= 0) {
+      enterApp();
+    }
   }
 
   /* ──────────────────────────────────────────────────────────
@@ -1634,7 +1639,7 @@ img {
       });
   }
 
-  var APP_VERSION = '1.2.5';
+  var APP_VERSION = '1.2.6';
 
   function checkForUpdate() {
     var versionEl = document.getElementById('splashVersion');
