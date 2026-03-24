@@ -60,6 +60,18 @@
 html {
   background: #000000;
 }
+/* Cover Android status bar / camera cutout area with black */
+html::before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: -50px;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background: #000000;
+  z-index: 999999;
+}
 html, body {
   height: 100vh;
   height: 100dvh;
@@ -1666,7 +1678,7 @@ img {
       });
   }
 
-  var APP_VERSION = '1.2.17';
+  var APP_VERSION = '1.2.18';
 
   function checkForUpdate() {
     var versionEl = document.getElementById('splashVersion');
