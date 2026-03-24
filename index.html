@@ -1627,8 +1627,11 @@ img {
         var fromNDAnae = location.search.indexOf('from=ndanae') >= 0;
 
         if (isStandalone) {
-          /* Running as installed PWA — skip splash entirely */
-          enterApp();
+          /* Running as installed PWA — show version briefly then auto-enter */
+          var splashVer = document.getElementById('splashVersion');
+          if (splashVer) splashVer.style.display = '';
+          checkForUpdate();
+          setTimeout(function() { enterApp(); }, 1500);
         } else if (fromNDAnae) {
           /* Came from NDAnae but not installed — show install recommendation */
           var btnInstall = document.getElementById('btnInstall');
@@ -1655,7 +1658,7 @@ img {
       });
   }
 
-  var APP_VERSION = '1.2.8';
+  var APP_VERSION = '1.2.9';
 
   function checkForUpdate() {
     var versionEl = document.getElementById('splashVersion');
