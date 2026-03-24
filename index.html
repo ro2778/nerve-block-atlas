@@ -1623,7 +1623,7 @@ img {
         if (spinner) spinner.style.display = 'none';
         if (loadText) loadText.style.display = 'none';
 
-        var isStandalone = window.matchMedia('(display-mode: standalone)').matches || navigator.standalone;
+        var isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.matchMedia('(display-mode: fullscreen)').matches || navigator.standalone;
 
         /* Track installation state for NDAnae status check */
         if (isStandalone) {
@@ -1667,7 +1667,7 @@ img {
       });
   }
 
-  var APP_VERSION = '1.2.15';
+  var APP_VERSION = '1.2.16';
 
   function checkForUpdate() {
     var versionEl = document.getElementById('splashVersion');
