@@ -1151,6 +1151,8 @@ img {
   <div class="splash-subtitle">Ultrasound-Guided Nerve Blocks</div>
   <button class="splash-enter-btn" id="btnEnter" style="display:none">Open Atlas</button>
   <button class="splash-install-btn" id="btnInstall">Install Atlas</button>
+  <div class="splash-recommend" id="installRecommend" style="display:none; color:#888; font-size:12px; margin-top:4px; font-style:italic;">Install for the best viewing experience</div>
+  <button class="splash-enter-btn" id="btnContinue" style="display:none; opacity:0.7; font-size:14px;">Continue in browser</button>
   <button class="splash-enter-btn" id="btnUpdate" style="display:none">Update Available — Tap to Update</button>
   <div class="splash-ios-hint" id="iosHint" style="display:none">To install: tap <svg viewBox="0 0 24 24" style="width:18px;height:18px;vertical-align:middle;fill:var(--accent)"><path d="M16 5l-1.42 1.42-1.59-1.59V16h-1.98V4.83L9.42 6.42 8 5l4-4 4 4zm4 5v11c0 1.1-.9 2-2 2H6c-1.1 0-2-.9-2-2V10c0-1.1.9-2 2-2h3v2H6v11h12V10h-3V8h3c1.1 0 2 .9 2 2z"/></svg> then "Add to Home Screen"</div>
   <div class="splash-ios-hint" id="androidHint" style="display:none">To install: tap <svg viewBox="0 0 24 24" style="width:18px;height:18px;vertical-align:middle;fill:var(--accent)"><circle cx="12" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="19" r="2"/></svg> then "Add to Home screen"</div>
@@ -1616,21 +1618,34 @@ img {
       .then(function (data) {
         processManifest(data);
 
-        /* Always show splash (for version check / update prompt) */
-
-        /* Browser: show splash with enter button */
         var spinner = document.getElementById('splashSpinner');
         var loadText = document.getElementById('splashLoadingText');
-        var btnEnter = document.getElementById('btnEnter');
         if (spinner) spinner.style.display = 'none';
         if (loadText) loadText.style.display = 'none';
-        if (btnEnter) btnEnter.style.display = '';
-        /* Check for updates */
-        checkForUpdate();
 
-        /* Auto-enter when launched from NDAnae (skip splash) */
-        if (location.search.indexOf('from=ndanae') >= 0) {
+        var isStandalone = window.matchMedia('(display-mode: standalone)').matches || navigator.standalone;
+        var fromNDAnae = location.search.indexOf('from=ndanae') >= 0;
+
+        if (isStandalone) {
+          /* Running as installed PWA — skip splash entirely */
           enterApp();
+        } else if (fromNDAnae) {
+          /* Came from NDAnae but not installed — show install recommendation */
+          var btnInstall = document.getElementById('btnInstall');
+          var recommend = document.getElementById('installRecommend');
+          var btnContinue = document.getElementById('btnContinue');
+          if (btnInstall) btnInstall.style.display = '';
+          if (recommend) recommend.style.display = '';
+          if (btnContinue) {
+            btnContinue.style.display = '';
+            btnContinue.addEventListener('click', function() { enterApp(); });
+          }
+          checkForUpdate();
+        } else {
+          /* Direct browser visit — normal splash */
+          var btnEnter = document.getElementById('btnEnter');
+          if (btnEnter) btnEnter.style.display = '';
+          checkForUpdate();
         }
       })
       .catch(function (err) {
@@ -1640,7 +1655,7 @@ img {
       });
   }
 
-  var APP_VERSION = '1.2.7';
+  var APP_VERSION = '1.2.8';
 
   function checkForUpdate() {
     var versionEl = document.getElementById('splashVersion');
