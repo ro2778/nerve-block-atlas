@@ -1625,20 +1625,27 @@ img {
 
         var isStandalone = window.matchMedia('(display-mode: standalone)').matches || navigator.standalone;
         var fromNDAnae = location.search.indexOf('from=ndanae') >= 0;
+        var isInstalled = localStorage.getItem('ra-atlas-installed') === 'true';
 
-        if (isStandalone) {
-          /* Running in standalone mode (installed PWA or Chrome Custom Tab from PWA)
-             Either way, the user has a good viewing experience — auto-enter */
+        /* If running as installed PWA (not from NDAnae CCT), set the installed flag */
+        if (isStandalone && !fromNDAnae) {
+          localStorage.setItem('ra-atlas-installed', 'true');
+          isInstalled = true;
+        }
+
+        if (isInstalled) {
+          /* RA Atlas is installed — show 1.5s splash with version then auto-enter */
           var splashVer = document.getElementById('splashVersion');
           if (splashVer) splashVer.style.display = '';
           checkForUpdate();
           setTimeout(function() { enterApp(); }, 1500);
         } else if (fromNDAnae) {
-          /* Came from NDAnae in regular Chrome — not installed, recommend install */
+          /* Came from NDAnae, RA Atlas NOT installed — recommend install */
           var btnInstall = document.getElementById('btnInstall');
           var recommend = document.getElementById('installRecommend');
           var btnContinue = document.getElementById('btnContinue');
           var androidHint = document.getElementById('androidHint');
+          var iosHint = document.getElementById('iosHint');
           if (btnInstall) btnInstall.style.display = '';
           if (recommend) recommend.style.display = '';
           if (btnContinue) {
@@ -1648,11 +1655,26 @@ img {
           if (/android/i.test(navigator.userAgent) && androidHint) {
             androidHint.style.display = '';
           }
+          if (/iphone|ipad/i.test(navigator.userAgent) && iosHint) {
+            iosHint.style.display = '';
+          }
           checkForUpdate();
         } else {
-          /* Direct browser visit — normal splash */
+          /* Direct browser visit, not installed — show Open + Install */
           var btnEnter = document.getElementById('btnEnter');
+          var btnInstall = document.getElementById('btnInstall');
+          var recommend = document.getElementById('installRecommend');
+          var androidHint = document.getElementById('androidHint');
+          var iosHint = document.getElementById('iosHint');
           if (btnEnter) btnEnter.style.display = '';
+          if (btnInstall) btnInstall.style.display = '';
+          if (recommend) recommend.style.display = '';
+          if (/android/i.test(navigator.userAgent) && androidHint) {
+            androidHint.style.display = '';
+          }
+          if (/iphone|ipad/i.test(navigator.userAgent) && iosHint) {
+            iosHint.style.display = '';
+          }
           checkForUpdate();
         }
       })
@@ -1663,7 +1685,7 @@ img {
       });
   }
 
-  var APP_VERSION = '1.2.11';
+  var APP_VERSION = '1.2.12';
 
   function checkForUpdate() {
     var versionEl = document.getElementById('splashVersion');
