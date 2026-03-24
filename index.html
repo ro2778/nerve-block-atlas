@@ -1633,6 +1633,9 @@ img {
           isInstalled = true;
         }
 
+        /* Always store the current version so NDAnae can check for updates */
+        localStorage.setItem('ra-atlas-version', APP_VERSION);
+
         if (isInstalled) {
           /* RA Atlas is installed — show 1.5s splash with version then auto-enter */
           var splashVer = document.getElementById('splashVersion');
@@ -1685,7 +1688,7 @@ img {
       });
   }
 
-  var APP_VERSION = '1.2.12';
+  var APP_VERSION = '1.2.13';
 
   function checkForUpdate() {
     var versionEl = document.getElementById('splashVersion');
