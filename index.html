@@ -1678,7 +1678,7 @@ img {
       });
   }
 
-  var APP_VERSION = '1.2.19';
+  var APP_VERSION = '1.2.20';
 
   function checkForUpdate() {
     var versionEl = document.getElementById('splashVersion');
@@ -2409,7 +2409,12 @@ img {
       ndItem.style.cssText = 'display:flex;align-items:center;gap:10px;padding:14px 16px;cursor:pointer;border-bottom:1px solid rgba(128,128,128,0.2);background:rgba(122,181,232,0.1);';
       ndItem.innerHTML = '<svg viewBox="0 0 24 24" style="width:20px;height:20px;fill:var(--accent);flex-shrink:0"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg><span style="color:var(--accent);font-weight:600;">← ND Anaesthetics</span>';
       ndItem.onclick = function() {
-        window.location.href = 'https://ro2778.github.io/NDAnae/';
+        /* Try to close this tab (works if opened via window.open from NDAnae) */
+        window.close();
+        /* Fallback: if close didn't work (after 500ms we're still here), navigate */
+        setTimeout(function() {
+          window.location.href = 'https://ro2778.github.io/NDAnae/';
+        }, 500);
       };
       dom.navList.appendChild(ndItem);
     }
